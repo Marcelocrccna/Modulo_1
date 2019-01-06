@@ -1,0 +1,9 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+.liner {line-height:2px !important;height: 0px !important; margin:0px; padding:1.5px 0 1.5px 0;}
+#ID_table{
+font-size: 11px !important;
+}

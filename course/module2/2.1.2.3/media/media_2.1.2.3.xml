@@ -1,0 +1,120 @@
+<textcomponents>
+    <!-- instructions -->
+
+      <component id="ID_title">
+        <text>
+            <![CDATA[<b>Actividad: Métodos de acceso</b>]]></text>
+    </component>
+     <component id="id_instr_title">
+        <text>
+            <![CDATA[Instructions]]>
+        </text>
+    </component>
+    <component id="id_instr_body">
+        <text>
+            <![CDATA[Seleccione el método de acceso más adecuado para cada situación.]]></text>
+    </component>
+    <component id="MCTable_title">
+        <text>
+            <![CDATA[]]>
+        </text>
+    </component>
+    <!-- buttons -->
+    <component id="ID_Button01">
+        <text>
+            <![CDATA[Verificar]]></text>
+    </component>
+    <component id="ID_Button02">
+        <text>
+            <![CDATA[Restablecer]]></text>
+    </component>
+    <!--Number of rows in the table-->
+    <component id="txt_numrows">
+        <text>
+            <![CDATA[4]]>
+        </text>
+    </component>
+    <!--Number of columns for the answers in the table. Do not count the question column-->
+    <component id="txt_a4">
+        <text>
+            <![CDATA[3]]>
+        </text>
+    </component>
+    <!--Answer column headers-->
+    <component id="txt_col1">
+        <text>
+            <![CDATA[<b>Consola</b>]]></text>
+    </component>
+    <component id="txt_col2">
+        <text>
+            <![CDATA[<b>Telnet/SSH</b>]]></text>
+    </component>
+    <component id="txt_col3">
+        <text>
+            <![CDATA[<b>AUX</b>]]></text>
+    </component>
+    <!--Question text - blockindent code moves the text away from the left edge a bit-->
+    <!--Question text - If questions are numbered, use blockindent for hanging indents-->
+    <component id="txt_q1">
+        <text>
+            <![CDATA[1. <textformat blockindent='13'>Se encuentra en la sala de equipos con un switch nuevo que se debe configurar.</textformat>]]>
+        </text>
+    </component>
+    <component id="txt_q2">
+        <text>
+            <![CDATA[2. <textformat blockindent='13'>Su gerente le entrega un cable especial y le indica que lo utilice para configurar el <br/><span class="aligning">switch.</span></textformat>]]>
+        </text>
+    </component>
+    <component id="txt_q3">
+        <text>
+            <![CDATA[3. <textformat blockindent='13'>Accede al IOS a través de una <br/><span class="aligning">conexión </span>de red utilizando otro dispositivo intermediario.</textformat>]]>
+        </text>
+    </component>
+    <component id="txt_q4">
+        <text>
+            <![CDATA[4. <textformat blockindent='13'>Llama a su gerente para informarle que no puede acceder al router por Internet desde <span class="aligning">otra ciudad. El gerente le proporciona la información para acceder al switch a través </span><span class="aligning">de una conexión telefónica.</span></textformat>]]>
+        </text>
+    </component>
+    <!--Answers - Give the column number(s), column numbering start with 1 not 0-->
+    <!--Answers - For MCMA separate the correct answers with commas [2, 4, 5] -->
+    <component id="txt_a2">
+        <text>
+            <![CDATA[1]]>
+        </text>
+    </component>
+    <component id="txt_a1">
+        <text>
+            <![CDATA[1]]>
+        </text>
+    </component>
+    <component id="txt_a3">
+        <text>
+            <![CDATA[2]]>
+        </text>
+    </component>
+    <component id="txt_numcols">
+        <text>
+            <![CDATA[3]]>
+        </text>
+    </component>
+    <!-- Correct Feedback -->
+    <component id="ID_titleCorrect">
+        <text>
+            <![CDATA[<b>Correcto</b>]]></text>
+    </component>
+    <component id="ID_correctText">
+        <text>
+            <![CDATA[Unió correctamente el método de acceso más adecuado con cada situación.]]>
+        </text>
+    </component>
+    <!-- Incorrect Feedback -->
+    <component id="ID_titleIncorrect">
+        <text>
+            <![CDATA[<b>Incorrecto</b>]]></text>
+    </component>
+    <component id="ID_IncorrectText">
+        <text>
+            <![CDATA[No unió correctamente el método de acceso más adecuado con cada situación. Haga clic en Restablecer y vuelva a intentarlo.]]>
+        </text>
+    </component>
+</textcomponents>

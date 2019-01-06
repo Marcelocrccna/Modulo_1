@@ -1,0 +1,561 @@
+@charset "utf-8";
+/* TEMPORARY RULES FOR TESTING - THESE RULES ARE TO BE REMOVED OR COMMENTED OUT WHEN THE SPECIFIC PROBLEM IS SOLVED */
+
+/*PERMANENT RULES*/
+
+@font-face {
+  font-family: "CiscoSansTTBold";
+  src: url("../../common-ext/styles/fonts/CiscoSansTTBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "CiscoSansTTLight";
+  src: url("../../common-ext/styles/fonts/CiscoSansTTLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "CiscoSansTTRegular";
+  src: url("../../common-ext/styles/fonts/CiscoSansTTRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "CiscoSansTTThin";
+  src: url("../../common-ext/styles/fonts/CiscoSansTTThin.woff") format("woff");
+}
+html,body{
+	/*position:absolute;
+	top:0px;
+	left:0px;
+	margin:0;
+	min-height: 490px;
+	min-width:680px;
+	height:97% !important;
+	width:97%;
+	color:#393536;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:12px;
+	text-align:left;
+	border:none;
+	padding-left:10px;
+	/*font: 300 normal 12px/14px "FB Armada", sans-serif;
+	*/
+	top:0px;
+	left:0px;
+	padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family:"CiscoSansTTRegular",Helvetica, Arial, sans-serif;
+	font-size:12px;
+	line-height:1.3;
+}
+@media only screen and (device-width: 768px) {
+::-webkit-scrollbar {
+    width: 4px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color:rgba(255,255,255,.4);
+ }
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	border-radius: 3px;
+}
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: rgba(255,255,255,.4);
+    box-shadow: 0 0 1px rgba(255,255,255,.4);
+}
+/* Start "Code & Pre tag" css */
+/* to align xml text content in Router output & Syntax Checker */
+code{
+	white-space:pre;
+}
+pre{
+	margin:0;
+	padding:0;
+}
+/*End Code & Pre tag" css*/
+/*-------------------------------Start Common Table Css for all--------------------------------*/
+.mtable {overflow: auto; -moz-box-shadow:0.1px 0.1px 2px 2px #a0a0a0;
+		 -webkit-box-shadow:0.1px 0.1px 2px 2px #a0a0a0;
+		 box-shadow:0.1px 0.1px 2px 2px #a0a0a0;
+		 -webkit-border-radius:4px;
+		-moz-border-radius:4px;
+		-ms-border-radius:4px;
+		-o-border-radius:4px;
+		 border-radius:4px;
+		 border-collapse: collapse;
+		 text-align: left !important;
+		 font-size: 12px;}
+.mtable table{ border-collapse: collapse; width:100%;}
+.mtable .title font{ font-size:14px; color:#3a3637;}
+.mtable .mtitle { font-size:14px; color:#000;}
+.mtable .msubtitle { font-size:11px;}
+.mtable tr td { border:3px solid #ffffff; padding:0px 3px;margin:0px; vertical-align:top !important;}
+.mtable .mtable_top, .mtable_top font {line-height:2px; padding:0px; background-color:#FFFFF !important; color:#fff !important;}
+.mtable .mtable_title{background-color:#FFFFFF !important; color:#000;}
+.mtable tr:nth-child(2n+1) { background-color:#F2F2F2;}
+.mtable tr:nth-child(2n) { background-color:#E9E7E8;}
+.mtable font[size="14"] { font-size:14px;}
+.mtable font[size="12"] { font-size:12px;}
+.mtable font[size="11"] { font-size:11px;}
+.mtable font[size="10"] { font-size:10px;}
+/*-------------------------------- End Common Table Css for all ----------------------------------*/
+
+/* Router outputs bullets and highlights style  */
+/* for best use "span tag"*/
+/*******************************************************/
+.orange { background-color:#FACCA8; display:inline-block; width:auto;}
+.purple{background-color:#C1ABD1; display:inline-block; width:auto;}
+.yellow{background-color:#FFF3B9; display:inline-block; width:auto;}
+.lgreen {background-color:#E6EBA8; display:inline-block; width:auto;}
+.green {background-color:#B5D9B3; display:inline-block; width:auto;}
+.pink {background-color:#E8A0AC; display:inline-block; width:auto;}
+.lpink {background-color:#F4A4A7; display:inline-block; width:auto;}
+
+.orange_block{background-color:#FACCA8; display:block;}
+
+number {background: url("../images/numbers.png") no-repeat scroll 0px 0px transparent; padding:10px 15px; position:relative; left:-12px;}
+number[value="1"] {background-position:0px 2px;}
+number[value="2"] {background-position:0px -31px;}
+number[value="3"] {background-position:0px -67px;}
+number[value="4"] {background-position:0px -107px;}
+number[value="5"] {background-position:0px -149px;}
+number[value="6"] {background-position:0px -178px;}
+number[value="7"] {background-position:0px -212px;}
+number[value="8"] {background-position:0px -241px;}
+number[value="9"] {background-position:0px -278px;}
+
+
+.orangeCallOut{
+border:2px solid #F68026;
+border-radius:5px;
+-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+padding:2px 0 3px 3px;
+background:#FDE6D4;
+}
+
+.animTooltip{
+border:1px solid #000000;
+border-radius:5px;
+-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+padding:7px 5px;
+background:#FFFFFF;
+
+}
+
+.seagreenCallOut{
+border:2px solid #00918E;
+border-radius:5px;
+-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+padding:3px 0 3px 3px;
+background:#CCE9E7;
+}
+
+.seagreen2CallOut{
+	border:2px solid #00918E;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	padding:3px 0 3px 3px;
+	background:#CCE9E7;
+	margin-left:-6px;
+	margin-top:-4px;
+}
+
+.grayCallOut{
+border:2px solid #918F90;
+border-radius:5px;
+-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+padding:2px 0 3px 3px;
+background:#F3F3F3;
+}
+.greenCallOut{
+border:2px solid #3F863A;
+border-radius:5px;
+-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+padding:2px 0 3px 3px;
+background:#DBECDA;
+}
+.purpleCallOut{
+border:2px solid #652C8A;
+border-radius:5px;
+-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+padding:2px 0 3px 3px;
+background:#E0D5E6;
+}
+
+/* Start <ul><li> css */
+/* Custom bullet styling with dot image */
+ul{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style-image:url(../images/bullet_dot.png) !important;
+	margin-left:20px;
+}
+td ul li{
+	margin-left:0 !important;
+}
+.mtable td ul li{
+	margin-left:20px !important;
+}
+.bubbleBullets li{
+	margin-left:29px !important;
+}
+
+.lazyTextBullets li{
+	margin-left:29px !important;
+}
+.bulletIndent20 li{
+	margin-left:20px !important;
+}
+.bulletIndent15 li{
+	margin-left:15px !important;
+} 
+/* End <ul><li> css */
+
+/* Start css for Lab-Packet Title */
+.lab-pt-title{
+	/*font-weight:bold;*/
+	font-size: 16px !important;
+	font-family:Arial, Helvetica, sans-serif !important;
+}
+/* End Lab-Packet Title css */
+
+
+/*Font style for Syntax checker font size Start */
+.font8px{
+	font-size:8px !important;
+}
+.font9px{
+	font-size:9px !important;
+}
+.font10px{
+	font-size:10px !important;
+}
+.syntaxBottomLine{
+	padding-bottom:6px !important;
+}
+.syntaxChecker{ padding-top:2px !important;
+-webkit-user-select: text;  /* Chrome all / Safari all */
+  -moz-user-select: text;     /* Firefox all */
+  -ms-user-select: text;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: text;
+  user-select: text;  
+  spellcheck: disabled; 
+
+}
+.syntaxChecker ul li, .syntaxChecker li{margin-left:30px;list-style-image:url(../images/bullet_dot_white.png) !important;	margin-left:20px;}
+.syntaxChecker font[size="6"], .syntaxChecker font[size="6"] b {font-size:6px;}
+.syntaxChecker font[size="7"], .syntaxChecker font[size="7"] b {font-size:7px;}
+.syntaxChecker font[size="8"], .syntaxChecker font[size="8"] b {font-size:8px;}
+.syntaxChecker font[size="9"], .syntaxChecker font[size="9"] b {font-size:9px;}
+.syntaxChecker font[size="10"], .syntaxChecker font[size="10"] b {font-size:10px;}
+.syntaxChecker font[size="11"], .syntaxChecker font[size="11"] b {font-size:11px;}
+
+.syntaxChecker font[face="Arial"] {font-family:"arial";}
+.syntaxChecker font[face="Courier New"] {font-family:"Courier New";}
+
+.syntaxChecker input[type="text"]:disabled, .syntaxChecker input[disabled], .syntaxChecker input[readonly], .syntaxChecker .promptText
+{
+font-family:Courier New;
+color:#fff !important;
+opacity: 1;
+-webkit-text-fill-color: white;
+}
+/*Font style for Syntax checker font size End */
+
+/* Glow Text */
+/***********************/
+.glow{ text-shadow:
+    0px 0px 3px #FFF,
+    /* Simulated effect for Firefox and Opera
+       and nice enhancement for WebKit */
+   -1px -1px 0 #FFF,  
+    1px -1px 0 #FFF,
+   -1px  1px 0 #FFF,
+    1px  1px 0 #FFF;}
+	
+/* Font replace for _typewriter*/
+font[face="_typewriter"]{
+	font-family:courier new !important;
+}
+font[face="_sans"]{
+	font-family:Arial !important;
+}
+/* Font Replace font size*/
+font[size="11"]{
+	font-size:11px;
+}
+font[size="12"]{
+	font-size:12px;
+}
+font[size="13"]{
+	font-size:13px;
+}
+font[size="14"]{
+	font-size:14px;
+}
+font[size="15"]{
+	font-size:15px;
+}
+font[size="16"]{
+	font-size:16px;
+}
+font[size="17"]{
+	font-size:17px;
+}
+
+
+  .custom-radio{
+
+        width: 20px;
+
+        height: 20px;
+
+        display: inline-block;
+
+        position: relative;
+
+        z-index: 1;
+
+        top: 0px;
+		
+
+        background: url("../../common/images/radio.png") no-repeat;
+
+    }
+
+    .custom-radio:hover{            
+
+        background: url("../../common/images/radio-hover.png") no-repeat;
+
+    }
+
+    .custom-radio.selected{
+
+        background: url("../../common/images/radio-selected.png") no-repeat;
+
+    }
+
+    .custom-radio input[type="radio"]{
+
+        margin: 1px;
+
+        position: absolute;
+
+        z-index: 2;            
+
+        cursor: pointer;
+
+        outline: none;
+
+        opacity: 0;
+
+        /* CSS hacks for older browsers */
+
+        _noFocusLine: expression(this.hideFocus=true); 
+
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
+        filter: alpha(opacity=0);
+
+        -khtml-opacity: 0;
+
+        -moz-opacity: 0;
+
+    }
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #393536;
+	font-size:20px;
+  text-align:center;
+	
+	
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #393536;
+ font-size:20px;
+  text-align:center;
+   
+}
+
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #393536;
+   font-size:20px;
+  text-align:center;
+   
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #393536;
+   font-size:20px;
+  text-align:center;
+}
+
+#bitInput::-moz-placeholder  { /* Mozilla Firefox 19+ */
+   color:#000!important;
+   font-size:20px;
+  text-align:center;
+   
+}
+
+.labelradio{	
+	background: #cccccc;
+	background: -moz-linear-gradient(left, #f5f5f5 0%, #ffffff 100%); 
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f5f5f5), color-stop(100%,#ffffff)); 
+	background: -webkit-linear-gradient(left, #f5f5f5 0%,#ffffff 100%);
+	background: -o-linear-gradient(left, #f5f5f5 0%,#ffffff 100%); 
+	background: -ms-linear-gradient(left, #f5f5f5 0%,#ffffff 100%); 
+	background: linear-gradient(to right, #f5f5f5 0%,#ffffff 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#ffffff',GradientType=1);
+	height:20px; 
+	
+
+}
+.customtext{
+	position:absolute;
+	padding:4px;
+}
+
+
+option{
+border-top: 1px solid #9da1a3;
+border-bottom: 1px solid #9da1a3;
+padding-left:5px; 
+font-size:10px !important;
+
+}
+
+.select-wrapper{
+height:22px;
+width: 100%;
+float: left;
+display: inline-block;
+border: 1px solid #9da1a3;            
+background: url("../../common/images/dropdown.png") no-repeat right center;
+cursor: pointer;
+z-index:99;
+
+}
+.select-wrapper, .select-wrapper select{
+width: 200px;
+height: 100%px;
+line-height: 26px;
+
+}
+.select-wrapper:hover{
+background: url("../../common/images/dropdown.png") no-repeat right center;
+border-color: #239fdb;
+}
+.select-wrapper .holder{
+display: block;
+margin: 0 35px 0 0px;
+white-space: nowrap;            
+overflow: hidden;
+cursor: pointer;
+position: relative;
+z-index: -1;
+height:100%;
+width:97%;
+background: -moz-linear-gradient(top, rgba(200,229,239,1) 0%, rgba(175,215,226,1) 41%, rgba(141,197,214,1) 100%);
+background: -webkit-linear-gradient(top, rgba(200,229,239,1) 0%, rgba(175,215,226,1) 41%, rgba(141,197,214,1) 100%);
+padding-left:5px; 
+}
+.select-wrapper select{
+margin: 0;
+position: absolute;
+z-index: 2;            
+cursor: pointer;
+outline: none;
+opacity: 0;
+/* CSS hacks for older browsers */
+_noFocusLine: expression(this.hideFocus=true); 
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+filter: alpha(opacity=0);
+-khtml-opacity: 0;
+-moz-opacity: 0;
+}
+
+.select {
+   background: url(" ../images/dropdown-plate.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 solid #c1c1c1;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 3px;
+    height: 22px;
+	font-size:10px;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .select {padding-right:18px}
+}
+
+label {position:relative}
+label:after {
+     background: url(" ../images/dropdown.jpg") no-repeat scroll right top rgba(0, 0, 0, 0);
+    border-bottom: 0 solid #ddd;
+    content: "";
+    height: 21px;
+    left: -17px;
+    padding: 0 0 2px;
+    pointer-events: none;
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    width: 23px;
+}
+label:before {
+     content: "";
+    display: block;
+    height: 24px;
+    left: -17px;
+    pointer-events: none;
+    position: absolute;
+    right: 6px;
+    top: 10px;
+    width: 23px;
+}
+
+
+@media only screen and (device-width: 768px) {
+#bitInput{ /* FlashCards Activity in safari */
+   color:#000!important;
+   font-size:20px;
+  text-align:center;
+   
+}
+label:after {
+	position:absolute;
+	top:0px;
+	}
+} 

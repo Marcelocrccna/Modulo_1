@@ -1,0 +1,1 @@
+Figure 1 shows the formula for calculating the number of valid hosts, which is 2 to power of 9 minus 2, or 510 valid hosts. Figure 2 shows the network address, first host address, last host address, and broadcast address. The last two octets are shown in binary

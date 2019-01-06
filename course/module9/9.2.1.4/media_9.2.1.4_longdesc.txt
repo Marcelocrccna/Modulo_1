@@ -1,0 +1,1 @@
+Figure shows the TCP header. Clicking on the Control Bits field opens a text box listing the six different control bits.

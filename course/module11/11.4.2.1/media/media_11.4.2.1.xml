@@ -1,0 +1,9 @@
+<textcomponents><!-- slide 1 --><component id="ID_title">
+		<text><![CDATA[<b>Autonegociación dúplex completo satisfactoria</b>]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[Dúplex completo]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[Dúplex completo]]></text>
+	</component><!-- end slide 1 --></textcomponents>

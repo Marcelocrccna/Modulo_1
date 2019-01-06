@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.4.3.2 Problemas de asignación de direcciones IP en terminales</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.4.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Problemas de asignación de direcciones IP en terminales</h1>
+        <div>
+          <p>En las máquinas con Windows, cuando el dispositivo no puede comunicarse con un servidor DHCP, Windows asigna automáticamente una dirección que pertenezca al rango 169.254.0.0/16. Este proceso se diseñó para facilitar la comunicación dentro de la red local. Piense que Windows dice: “Utilizaré esta dirección del rango 169.254.0.0/16 porque no pude obtener ninguna otra dirección”. A menudo, una computadora con rango 169.254.0.0/16 no podrá comunicarse con otros dispositivos en la red porque es probable que dichos dispositivos no pertenezcan a la red 169.254.0.0/16. Esta situación indica un problema de asignación automática de direcciones IPv4 que debe solucionarse.</p>
+          <p></p>
+          <p>
+            <b>Nota</b>: Otros sistemas operativos, como Linux y OS X, no asignarán una dirección IPv4 a la interfaz de red si falla la comunicación con un servidor DHCP.</p>
+          <p></p>
+          <p>La mayoría de los terminales se configuran para confiar en un servidor DHCP para la asignación automática de direcciones IPv4. Si el dispositivo no puede comunicarse con el servidor DHCP, el servidor no puede asignar una dirección IPv4 para la red específica y el dispositivo no podrá comunicarse.</p>
+          <p></p>
+          <p>Para comprobar las direcciones IP asignadas a una computadora con Windows, utilice el comando <b>ipconfig</b>, como se muestra en la ilustración.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a topology with a PC, a switch, and three routers. The PC is connected to the switch, which is connected to router R1, which is connected to router R2, which is connected to router R3. Below the topology is the command output for ‘ipconfig’ with the IP address highlighted.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

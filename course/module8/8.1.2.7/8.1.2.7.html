@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.7 Creación de dos subredes</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.7_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Creación de dos subredes</h1>
+        <div>
+          <p>Para ver cómo se aplica una subred /25 en una red, tenga en cuenta la topología que se muestra en la figura 1. El R1 tiene dos segmentos LAN conectados a sus interfaces GigabitEthernet. Cada LAN tiene asignada una de las subredes.</p>
+          <p>En la figura 2, se muestran las direcciones importantes de la primera subred, es decir, 192.168.1.0/25. Observe lo siguiente: </p>
+          <p>
+            <ul>
+              <li>
+                <b>La dirección de red IPv4</b> es 192.168.1.0, y tiene todos bits 0 en la porción de host de la dirección.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>La primera dirección de host IPv4</b> es 192.168.1.1, y tiene todos bits 0 más un bit 1 (en la posición máxima a la derecha) en la porción de host de la dirección. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>La última dirección de host IPv4</b> es 192.168.1.126, y tiene todos bits 1 más un bit 0 (en la posición máxima a la derecha) en la porción de host de la dirección.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>La dirección de difusión IPv4</b> es 192.168.1.127, y tiene todos bits 1 en la porción de host de la dirección.</li>
+            </ul>
+          </p>
+          <p>En la figura 3, se muestran las direcciones importantes de la segunda subred, es decir, 192.168.1.128/25.</p>
+          <p>Las interfaces de router deben tener asignada una dirección IP dentro del rango de host válido para la subred correspondiente. Esta es la dirección que usarán los hosts en esa red como su gateway predeterminado. Es habitual utilizar la primera o la última dirección disponible en un rango de red para la dirección de la interfaz de router. En la Figura 4, se muestra la configuración para las interfaces del R1 con la primera dirección IPv4 para las respectivas subredes mediante el comando de configuración de interfaz <b>ip address</b>.</p>
+          <p>Los hosts de cada subred deben estar configurados con una dirección IPv4 y un gateway predeterminado.  En la Figura 5, se muestra la configuración IPv4 para el host de la PC2 en la red 192.168.1.128/25. Observe que la dirección IPv4 del gateway predeterminado es la dirección configurada en la interfaz G0/1 del R1, 192.168.1.129, y que la máscara de subred es 255.255.255.128. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a topology with one router connected to two switches to create two LANs. The subnets 192.168.1.0/25 and 192.168.1.128/25 are assigned to the two LANs. Figure 2 shows the network address, first host address, last host address, and broadcast address for the 192.168.1.0/25 subnet. The last octet is in binary to show that a network address is all zeros in the host portion. The first host address is all zeros except the least significant bit in the host portion. The last host address is all ones except for the least significant bit in the host portion. And the broadcast address is all ones in the host portion. Similar to Figure 2, Figure 3 shows the network address, first host address, last host address, and broadcast address for the 192.168.1.128/25 subnet with the last octet shown in binary. Figure 4 shows the topology from Figure 1 with IP addresses assigned to the devices from the appropriate subnets. Figure 5 shows the TCP/IP Properties settings for Windows with static IP addressing assigned to one of the PCs from the second subnet.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

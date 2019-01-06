@@ -1,0 +1,1 @@
+The figure shows the six types of IPv6 unicast addresses including: Global Unicast; link-local; the loopback addreress, which is ::1/128; the unspecified address, which is ::/128; unique local with a range from FC00::/7 to FDFF::/7; and embedded IPv4.

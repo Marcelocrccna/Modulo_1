@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.3.1.1 La capa de enlace de datos</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.3.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>La capa de enlace de datos</h1>
+        <div>
+          <p>La capa de enlace de datos del modelo OSI (Capa 2), como se muestra en la figura 1, es responsable de lo siguiente:</p>
+          <p>
+            <ul>
+              <li>Permite a las capas superiores acceder a los medios. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Acepta paquetes de la capa 3 y los empaqueta en tramas.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Prepara los datos de red para la red física.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Controla la forma en que los datos se colocan y reciben en los medios.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Intercambia tramas entre los nodos en un medio de red físico, como UTP o fibra óptica.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Recibe y dirige paquetes a un protocolo de capa superior.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Lleva a cabo la detección de errores.</li>
+            </ul>
+          </p>
+          <p>La notación de la capa 2 para los dispositivos de red conectados a un medio común se denomina “nodo”. Los nodos crean y reenvían tramas. Como se muestra en la figura 2, la capa de enlace de datos OSI es responsable del intercambio de tramas Ethernet entre los nodos de origen y de destino a través de un medio de red físico. </p>
+          <p>La capa de enlace de datos separa de manera eficaz las transiciones de medios que ocurren a medida que el paquete se reenvía desde los procesos de comunicación de las capas superiores. La capa de enlace de datos recibe paquetes de un protocolo de capa superior y los dirige a un protocolo de las mismas características, en este caso, IPv4 o IPv6. Este protocolo de capa superior no necesita saber qué medios utiliza la comunicación. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a user at a computer.  Below is the OSI model with layer two highlighted.  There is a line, representing a connection, going from the user to a router connected to the Internet. Figure 2 shows a PC adding layer 2 source and destination addresses to a frame.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

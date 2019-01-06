@@ -1,0 +1,104 @@
+<textcomponents>
+   
+
+    <component id='ID_title'>
+        <text>
+            <![CDATA[<b>Actividad: Comandos <font face="_typewriter">show</font></b>]]></text>
+    </component>
+    <component id='ID_s1_instr_title'>
+        <text>
+            <![CDATA[Instructions]]>
+        </text>
+    </component>
+    <component id='ID_s1_instr_body'>
+        <text>
+            <![CDATA[Lea las situaciones de comandos<b> <font face="_typewriter">show</font>.</b> Arrastre cada comando <b><font face="_typewriter">show</font> </b>al campo que se encuentra junto a la situación correspondiente.]]></text>
+    </component>
+    <component id='ID_txt01'>
+        <text>
+            <![CDATA[<b>Situaciones de comandos <font face="_typewriter">show</font></b>]]></text>
+    </component>
+    <component id='ID_txt02'>
+        <text>
+            <![CDATA[<b>Comando <font face="_typewriter">show</font></b>]]></text>
+    </component>
+    <component id='ID_txt03'>
+        <text>
+            <![CDATA[Sospecha que hay un problema con la configuración actual del switch. Desea ver la configuración guardada, a fin de poder compararla con la que está en ejecución en ese momento.]]>
+        </text>
+    </component>
+    <component id='ID_txt04'>
+        <text>
+            <![CDATA[Está hablando por teléfono con el personal de asistencia de Cisco. Le solicitan el nombre del IOS y la RAM, la NVRAM y la memoria flash disponible del switch. También le solicitan la ubicación de arranque en sistema hexadecimal.]]>
+        </text>
+    </component>
+    <component id='ID_txt05'>
+        <text>
+            <![CDATA[Está ejecutando el protocolo de routing EIGRP y necesita saber los intervalos de actualización y qué redes e interfaces activas anuncia el router.]]>
+        </text>
+    </component>
+    <component id='ID_txt06'>
+        <text>
+            <![CDATA[No puede conectarse a Internet. Necesita saber si el router tiene una ruta a Internet y qué protocolos se utilizan para proporcionar las rutas.]]>
+        </text>
+    </component>
+    <component id='ID_txt07'>
+        <text>
+            <![CDATA[Debe actualizar la documentación de red. Una enumeración rápida de las direcciones IP de los routers en relación con las direcciones MAC ayudaría a terminar la tarea para fines de registro.]]>
+        </text>
+    </component>
+    <component id='ID_txt08'>
+        <text>
+            <![CDATA[El dispositivo intermediario más cercano es un switch. Tiene 24 puertos. Desea ver una lista simple de los puertos utilizados, el estado de estos y la dirección IP de la VLAN del switch.]]>
+        </text>
+    </component>
+    <!--Drag and Drop-->
+    <component id='ID_drag01'>
+        <text>
+            <![CDATA[<b><font face="_typewriter" color="#393536">show version</font></b>]]></text>
+    </component>
+    <component id='ID_drag02'>
+        <text>
+            <![CDATA[<b><font face="_typewriter" color="#393536">show <br>startup-config</font></b>]]></text>
+    </component>
+    <component id='ID_drag03'>
+        <text>
+            <![CDATA[<b><font face="_typewriter" color="#393536">show ip <br>protocols</font></b>]]></text>
+    </component>
+    <component id='ID_drag04'>
+        <text>
+            <![CDATA[<b><font face="_typewriter" color="#393536">show ip route</font></b>]]></text>
+    </component>
+    <component id='ID_drag05'>
+        <text>
+            <![CDATA[<b><font face="_typewriter" color="#393536">show arp</font></b>]]></text>
+    </component>
+    <component id='ID_drag06'>
+        <text>
+            <![CDATA[<b><font face="_typewriter" color="#393536">show ip int <br>brief</font></b>]]></text>
+    </component>
+    <component id='ID_s1_CORRECT_TITLE'>
+        <text>
+            <![CDATA[<b>Correcto]]></text>
+    </component>
+    <component id='ID_s1_CORRECT_BODY'>
+        <text>
+            <![CDATA[Unió satisfactoriamente cada comando <b><font face="_typewriter">show</font></b> con la situación.]]></text>
+    </component>
+    <component id='ID_s1_INCORRECT_TITLE'>
+        <text>
+            <![CDATA[<b>Incorrecto]]></text>
+    </component>
+    <component id='ID_s1_INCORRECT_BODY'>
+        <text>
+            <![CDATA[No unió correctamente cada comando <b><font face="_typewriter">show</font></b> con la situación. Haga clic en Restablecer y vuelva a intentarlo.]]></text>
+    </component>
+    <component id='ID_CHECK'>
+        <text>
+            <![CDATA[Verificar]]></text>
+    </component>
+    <component id='ID_RESET'>
+        <text>
+            <![CDATA[Restablecer]]></text>
+    </component>
+</textcomponents>

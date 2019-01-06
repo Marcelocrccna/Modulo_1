@@ -1,0 +1,104 @@
+<textcomponents>
+    
+    <component id="ID_s1_title">
+<text><![CDATA[<b>Actividad: Diagramas de pines de los cables</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+    <text><![CDATA[Instructions]]></text>
+  </component>
+
+  <component id='ID_s1_instr_body'>
+    <text><![CDATA[Correctly align the wire colors to build a TIA/EIA-568A cable pinout. Drag each wire color to its correct placement on the RJ-45 image in the graphic.]]></text>
+  </component>
+    <component id="ID_s2_fig_title">
+        <text>
+            <![CDATA[Vista de la base de un conector RJ-45]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt01">
+        <text>
+            <![CDATA[Diagrama de pines T568A]]>
+        </text>
+    </component>
+    <component id="ID_s2_CORRECT_TITLE">
+        <text>
+            <![CDATA[Correcto]]></text>
+    </component>
+    <component id="ID_s1_CORRECT_BODY">
+        <text>
+            <![CDATA[Ha seleccionado correctamente el diagrama de pines de los cables T-568A.]]>
+        </text>
+    </component>
+    <component id="ID_s2_INCORRECT_TITLE">
+        <text>
+            <![CDATA[Incorrecto]]></text>
+    </component>
+    <component id="ID_s1_INCORRECT_BODY">
+        <text>
+            <![CDATA[No ha seleccionado correctamente el diagrama de pines de los cables T-568A.]]>
+        </text>
+    </component>
+    <component id="ID_s2_CHECK">
+        <text>
+            <![CDATA[Verificar]]>
+        </text>
+    </component>
+    <component id="ID_s2_RESET">
+        <text>
+            <![CDATA[Restablecer]]>
+        </text>
+    </component>
+   
+
+    <component id="ID_s2_title">
+<text><![CDATA[<b>Actividad: Diagramas de pines de los cables</b>]]></text>
+</component>
+
+<component id='ID_s2_instr_title'>
+    <text><![CDATA[Instructions]]></text>
+  </component>
+
+  <component id='ID_s2_instr_body'>
+    <text><![CDATA[Alinee correctamente los colores de los hilos para armar el diagrama de pines de TIA/EIA-568B.Arrastre cada color de hilo a la ubicación correcta en la imagen del conector RJ-45 del gráfico.]]></text>
+  </component>
+
+    <component id="ID_s1_fig_title">
+        <text>
+            <![CDATA[Vista de la base de un conector RJ-45]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt01">
+        <text>
+            <![CDATA[Diagrama de pines T568B]]>
+        </text>
+    </component>
+    <component id="ID_s1_CORRECT_TITLE">
+        <text>
+            <![CDATA[Correcto]]></text>
+    </component>
+    <component id="ID_s2_CORRECT_BODY">
+        <text>
+            <![CDATA[Ha seleccionado correctamente el diagrama de pines de los cables T-568B.]]>
+        </text>
+    </component>
+    <component id="ID_s1_INCORRECT_TITLE">
+        <text>
+            <![CDATA[Incorrecto]]></text>
+    </component>
+    <component id="ID_s2_INCORRECT_BODY">
+        <text>
+            <![CDATA[No ha seleccionado correctamente el diagrama de pines de los cables T-568B.]]>
+        </text>
+    </component>
+    <component id="ID_s1_CHECK">
+        <text>
+            <![CDATA[Verificar]]>
+        </text>
+    </component>
+    <component id="ID_s1_RESET">
+        <text>
+            <![CDATA[Restablecer]]>
+        </text>
+    </component>
+</textcomponents>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide type="MBAR">
+<element type="IMAGE" src="../../../common/images/page_backgrounds/bg_tables.jpg" x="0" y="0" width="680" height="490" />
+	<slide>
+		<element type="ROUTER" textId="ID_router_txt1" x="40" y="140" width="600" height="60" />
+		<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF" />
+		<text id="ID_router_txt1"><![CDATA[<pre>Switch# <b>configure terminal</b>
+Switch(config)# <b>hostname SW-Floor-1</b>
+Sw-Floor-1(config)#</pre>]]></text>
+	</slide>
+
+	<slide>
+		<element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#FFFFFF" />
+		<element type="ACTIVITY" subType="SYNTAX" compId="ID_s2_SC" x="20" y="45" width="630" height="400" resetId="ID_s2_reset" showMeId="ID_s2_showme" showAllId="ID_s2_showall" />
+	</slide>
+
+</slide>
+</data>
+
+

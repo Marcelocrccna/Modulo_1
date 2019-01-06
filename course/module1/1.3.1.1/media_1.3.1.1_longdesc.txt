@@ -1,0 +1,1 @@
+Figure shows three independent networks, each running a different service.  The first one is running a computer data network.  The second network is running a telephone network and the third is running a broadcast media network.

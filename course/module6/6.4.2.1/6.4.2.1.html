@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.4.2.1 Configurar interfaces de routers</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.4.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configurar interfaces de routers</h1>
+        <div>
+          <p>Para que se pueda llegar a los routers, se deben configurar las interfaces de router en banda. Existen muchos tipos diferentes de interfaces para los routers Cisco. En este ejemplo, el router Cisco de la serie 1941 tiene las siguientes características:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Dos interfaces Gigabit Ethernet:</b> GigabitEthernet 0/0 (G0/0) y GigabitEthernet 0/1 (G0/1)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Una tarjeta de interfaz serial WAN (WIC) que consta de dos interfaces:</b> serial 0/0/0 (S0/0/0) y serial 0/0/1 (S0/0/1)</li>
+            </ul>
+          </p>
+          <p>
+            <b>Nota:</b> Haga clic <a href="http://www.cisco.com/c/en/us/td/docs/routers/access/2900/hardware/installation/guide/Hardware_Installation_Guide/Overview.html" target="_blank">aquí</a> para obtener más información sobre la abreviatura y la numeración de interfaces.</p>
+          <p>Las tareas para configurar una interfaz de router se indican en la figura 1. Observe cómo se asemeja a configurar una SVI de administración en un switch. </p>
+          <p>Si bien no es necesario, es aconsejable configurar una descripción en cada interfaz para ayudar a registrar la información de la red. El texto de la descripción tiene un límite de 240 caracteres. En las redes de producción, una descripción puede ser útil para la solución de problemas, dado que proporciona información con respecto al tipo de red a la que está conectada la interfaz y con respecto a otros routers que pueda haber en esa red. Si la interfaz se conecta a un ISP o a un proveedor de servicios de telefonía móvil, resulta útil introducir la información de contacto y de conexión de dichos terceros.</p>
+          <p>Al usar el comando <b>no shutdown</b>, se activa la interfaz y es similar a darle energía. La interfaz también debe estar conectada a otro dispositivo , como un switch o un router, para que la capa física se active.</p>
+          <p>En la figura 2, se muestra la configuración de las interfaces de la red LAN conectadas al R1. </p>
+          <p>Utilice el verificador de sintaxis de la figura 3 para practicar la configuración de una interfaz de la red LAN.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the commands to configure a router interface including: interface type and number; ip address; description; and the no shutdown command. Figure 2 show an example of configuring these commands. Figure 3 is a Syntax Checker allowing the learner to practice configuring router interfaces.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

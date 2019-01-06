@@ -1,0 +1,1 @@
+Figures 1 through 7 show examples of Rule 2 which replaces a single, continuous string of one or more all zero hextets with a double colon. For example, the IPv6 address 2001:DB8:0:1111:0:0:0:200 that has already had Rule 1 applied to it becomes 2001:DB8:0:1111::200

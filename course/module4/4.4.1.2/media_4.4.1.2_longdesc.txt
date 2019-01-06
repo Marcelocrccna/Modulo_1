@@ -1,0 +1,1 @@
+Figure 1 shows a floor plan with the location of each network drop and where it is on the floor plan.  This is called a physical topology. Figure 2 shows a router that has two interfaces each connected to a LAN.  Each LAN has a network address. Intermediary devices are labelled with port numbers. LANs are labelled with the network address. This is called a logical topology.

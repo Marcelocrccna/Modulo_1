@@ -1,0 +1,1 @@
+Figures 1 through 8 show examples Rule 1, which takes the preferred format of an IPv6 address and omitting the leading zeros. For example, the address 2001:0DB8:0000:1111:0000:0000:0000:0200 becomes 2001:DB8:0:1111:0:0:0:200.

@@ -1,0 +1,78 @@
+<textcomponents>
+    <!-- text on page -->
+    
+    <component id="ID_s1_txt01">
+        <text>
+            <![CDATA[Envoltura]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt02">
+        <text>
+            <![CDATA[Material de refuerzo]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt03">
+        <text>
+            <![CDATA[Búfer]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt04">
+        <text>
+            <![CDATA[Cubierta]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt05">
+        <text>
+            <![CDATA[Núcleo]]>
+        </text>
+    </component>
+   
+    <!-- textbox  -->
+    <component id="ID_PopTitle01">
+        <text>
+            <![CDATA[Envoltura]]></text>
+    </component>
+    <component id="ID_PopBody01">
+        <text>
+            <![CDATA[Generalmente, una envoltura de PVC que protege la fibra de la abrasión, los solventes y otros contaminantes. La composición de esta envoltura externa puede variar en función del uso del cable.]]>
+        </text>
+    </component>
+    <component id="ID_PopTitle02">
+        <text>
+            <![CDATA[Material de refuerzo]]></text>
+    </component>
+    <component id="ID_PopBody02">
+        <text>
+            <![CDATA[Rodea el búfer, evita que el cable de fibra se estire cuando tiran de él. El material utilizado es, en general, el mismo material que se utiliza para fabricar los chalecos a prueba de balas.]]>
+        </text>
+    </component>
+    <component id="ID_PopTitle03">
+        <text>
+            <![CDATA[Búfer]]></text>
+    </component>
+    <component id="ID_PopBody03">
+        <text>
+            <![CDATA[Se utiliza para ayudar a proteger el núcleo y el revestimiento contra cualquier daño.]]>
+        </text>
+    </component>
+    <component id="ID_PopTitle04">
+        <text>
+            <![CDATA[Cubierta]]></text>
+    </component>
+    <component id="ID_PopBody04">
+        <text>
+            <![CDATA[Hecho de productos químicos levemente diferentes de los que se utilizan para crear el núcleo. Tiende a actuar como un espejo que refleja la luz hacia el núcleo de la fibra. Así, la luz permanece dentro del núcleo mientras viaja por la fibra.]]>
+        </text>
+    </component>
+    <component id="ID_PopTitle05">
+        <text>
+            <![CDATA[Núcleo]]></text>
+    </component>
+    <component id="ID_PopBody05">
+        <text>
+            <![CDATA[El núcleo es el elemento que transmite la luz y se encuentra en el centro de la fibra óptica. Normalmente el núcleo está hecho de silicio o vidrio. Los pulsos de luz se transmiten a través del núcleo de la fibra.]]>
+        </text>
+    </component>
+    <!-- controller -->
+   
+</textcomponents>

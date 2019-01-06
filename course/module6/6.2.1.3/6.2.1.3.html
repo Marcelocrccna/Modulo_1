@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.2.1.3 Uso del gateway predeterminado</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.2.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Uso del gateway predeterminado</h1>
+        <div>
+          <p>La tabla de routing de un host incluye, por lo general, un gateway predeterminado. El host recibe la dirección IPv4 del gateway predeterminado ya sea de manera dinámica del protocolo DHCP o si se la configura manualmente. En la ilustración, la PC1 y la PC2 están configuradas con la dirección IPv4 de gateway predeterminado 192.168.10.1. La configuración de un gateway predeterminado genera una ruta predeterminada en la tabla de routing de la PC. Una ruta predeterminada es la ruta o camino que la PC utiliza cuando intenta conectarse a la red remota. </p>
+          <p>La ruta predeterminada se desprende de la configuración del gateway predeterminado y se ubica en la tabla de routing del servidor. Tanto la PC1 como la PC2 tendrán una ruta predeterminada para enviar todo el tráfico destinado a las redes remotas al R1.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a router connected to a LAN with two hosts and the Internet with a remote server.  There is a note pointing to the router showing that the IP address of the router's LAN interface is the default gateway address for the hosts on that LAN.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

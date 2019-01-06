@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+
+		
+<slide>
+	<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_conceptual.jpg" />
+	
+<element type="IMAGE" x="0" y="0" width="680" height="490"  src="1_3_2_1.png" />
+
+<element type="TEXT" compId="ID_txt01" x="284" y="107" width="104.5" expand="up+down" align="center" size="12" />
+<element type="TEXT" compId="ID_txt03" x="145" y="243" width="104.5" expand="up+down" align="center" size="12" />
+<element type="TEXT" compId="ID_txt02" x="426" y="243" width="104.5" expand="up+down" align="center" size="12" />
+<element type="TEXT" compId="ID_txt04" x="284" y="387" width="104.5" expand="up+down" align="center" size="12" />
+<element type="TEXT" subType="TITLE" compId="ID_title" color="#000" />
+<element type="TEXT" compId="ID_txt05" x="265" y="242" width="143.75" expand="up+down" align="center" size="12" color="#ffffff" />
+</slide>
+	
+		
+</data>

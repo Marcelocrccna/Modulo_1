@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.1.1.2 Subcapa MAC</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.1.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Subcapa MAC</h1>
+        <div>
+          <p>Como se muestra en la ilustración, la subcapa MAC de Ethernet tiene dos tareas principales:</p>
+          <p>
+            <ul>
+              <li>Encapsulamiento de datos</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Control de acceso al medio</li>
+            </ul>
+          </p>
+          <p>
+            <b>Encapsulamiento de datos</b>
+          </p>
+          <p>El proceso de encapsulamiento de datos incluye el armado de tramas antes de la transmisión y el desarmado de tramas en el momento de la recepción. Para armar la trama, la capa MAC agrega un encabezado y un tráiler a la PDU de la capa de red. </p>
+          <p>El encapsulamiento de datos proporciona tres funciones principales:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Delimitación de tramas:</b> el proceso de entramado proporciona delimitadores importantes que se utilizan para identificar un grupo de bits que componen una trama. Estos bits delimitadores proporcionan sincronización entre los nodos de transmisión y de recepción.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Direccionamiento:</b> el proceso de encapsulamiento contiene la PDU de capa 3 y también proporciona direccionamiento de la capa de enlace de datos. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Detección de errores:</b> cada trama contiene un tráiler utilizado para detectar errores de transmisión.</li>
+            </ul>
+          </p>
+          <p>La utilización de tramas facilita la transmisión de bits a medida que se colocan en los medios y en la agrupación de bits en el nodo receptor.</p>
+          <p>
+            <b>Control de acceso al medio</b>
+          </p>
+          <p>La segunda tarea de la subcapa MAC es el control de acceso al medio. El control de acceso al medio es responsable de colocar las tramas en los medios y de quitarlas de ellos. Como su nombre lo indica, controla el acceso a los medios. Esta subcapa se comunica directamente con la capa física.</p>
+          <p>La topología lógica subyacente de Ethernet es un bus de acceso múltiple, por lo que todos los nodos (dispositivos) de un único segmento de red comparten el medio. Ethernet es un método de red de contienda. En un método de contienda, cualquier dispositivo puede intentar transmitir datos a través del medio compartido siempre que tenga datos que enviar.  Para detectar y resolver colisiones, se utiliza el proceso de acceso múltiple por detección de portadora con detección de colisiones (CSMA/CD) en las LAN Ethernet de dúplex medio. Las LAN Ethernet actuales utilizan switches de dúplex completo, que permiten que varios dispositivos envíen y reciban datos en simultáneo y sin colisiones.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the physical layer and how it connects to the MAC sublayer of layer 2.  This figure also shows how the MAC sublayer is split into Signaling standards as well as physical media standards.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

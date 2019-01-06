@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.4.1.2 Capítulo 5: Ethernet</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.4.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Capítulo 5: Ethernet</h1>
+        <div>
+          <p>Ethernet es la tecnología LAN más utilizada hoy en día. Es una familia de tecnologías de red que se definen en los estándares IEEE 802.2 y 802.3. Los estándares de Ethernet definen los protocolos de capa 2 y las tecnologías de capa 1. Para los protocolos de capa 2, como con todos los estándares IEEE 802, Ethernet depende de ambas subcapas individuales de la capa de enlace de datos para funcionar: la subcapa de control de enlace lógico (LLC) y la subcapa MAC.</p>
+          <p></p>
+          <p>En la capa de enlace de datos, la estructura de la trama es casi idéntica para todos los anchos de banda de Ethernet. La estructura de la trama de Ethernet agrega encabezados y tráilers a la PDU de capa 3 para encapsular el mensaje que se envía. </p>
+          <p></p>
+          <p>Existen dos estilos de entramado de Ethernet: el estándar Ethernet IEEE 802.3 y el estándar Ethernet DIX, que hoy se conoce como “Ethernet II”. La diferencia más significativa entre ambos estándares es el agregado de un delimitador de inicio de trama (SFD) y el cambio del campo “Tipo” al campo “Longitud” en el estándar 802.3. Ethernet II es el formato de trama de Ethernet utilizado en las redes TCP/IP. Como implementación de los estándares IEEE 802.2/3, la trama de Ethernet proporciona direccionamiento MAC y verificación de errores. </p>
+          <p></p>
+          <p>El direccionamiento de capa 2 proporcionado por Ethernet admite comunicaciones de unidifusión, multidifusión y difusión. Ethernet utiliza el protocolo de resolución de direcciones para determinar las direcciones MAC de los destinos y asignarlas a direcciones IPv4 conocidas.</p>
+          <p></p>
+          <p>Cada nodo de una red IPv4 tiene una dirección MAC y una dirección IPv4. Las direcciones IP se utilizan para identificar el origen inicial y el destino final del paquete. Las direcciones MAC Ethernet se utilizan para enviar el paquete de una NIC Ethernet a otra NIC Ethernet en la misma red IP. El ARP se utiliza para asignar una dirección IPv4 conocida a una dirección MAC, de manera que el paquete se pueda encapsular en una trama de Ethernet con la dirección de capa 2 correcta.</p>
+          <p></p>
+          <p>El ARP depende de ciertos tipos de mensajes de difusión y de unidifusión Ethernet, llamados “solicitudes de ARP” y “respuestas de ARP”. El protocolo ARP resuelve las direcciones IPv4 en direcciones MAC y mantiene una tabla de asignaciones.</p>
+          <p></p>
+          <p>En la mayoría de las redes Ethernet, generalmente, las terminales están conectadas punto a punto a un switch de dúplex completo de capa 2. Un switch LAN de capa 2 realiza el switching y el filtrado solamente según la dirección MAC de la capa de enlace de datos OSI (capa 2). Un switch de capa 2 arma una tabla de direcciones MAC, que utiliza para tomar decisiones de reenvío. Los switches de capa 2 dependen de los routers para transferir datos entre subredes IP independientes.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a standard graphic for the introduction and conclusion pages.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.4.6 Direcciones link-local dinámicas</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.4.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Direcciones link-local dinámicas</h1>
+        <div>
+          <p>Todos los dispositivos IPv6 deben tener direcciones IPv6 link-local. Las direcciones link-local se pueden establecer dinámicamente o se pueden configurar de forma manual como direcciones link-local estáticas. </p>
+          <p>En la figura 1, se muestra que la dirección link-local fue creada de manera dinámica con el prefijo FE80::/10 y la ID de interfaz mediante el proceso EUI-64 o un número de 64 bits de generación aleatoria. En general, los sistemas operativos usan el mismo método, tanto para una dirección de unidifusión global creada por SLAAC como para una dirección link-local asignada de manera dinámica, como se muestra en la figura 2.</p>
+          <p>Los routers Cisco crean automáticamente una dirección IPv6 link-local cada vez que se asigna una dirección de unidifusión global a la interfaz. De manera predeterminada, los routers con Cisco IOS utilizan EUI-64 para generar la ID de interfaz para todas las direcciones link-local en las interfaces IPv6. Para las interfaces seriales, el router utiliza la dirección MAC de una interfaz Ethernet. Recuerde que una dirección link-local debe ser única solo en ese enlace o red. Sin embargo, una desventaja de utilizar direcciones de enlace local asignadas dinámicamente es su ID de interfaz larga, que dificulta identificar y recordar las direcciones asignadas. En la figura 3, se muestra la dirección MAC en la interfaz GigabitEthernet 0/0 del router R1. Esta dirección se usa para crear de manera dinámica las direcciones link-local en la misma interfaz.</p>
+          <p>Para que sea más fácil reconocer y recordar estas direcciones en los routers, es habitual configurar las direcciones IPv6 link-local de manera estática en ellos.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the format of an IPv6 link-local address.  The figure highlights the first ten binary bits set to 1111111010, which is FE80::/10 ten. The remaining 54 bits in the prefix are normally set to zero. The 64 bit interface ID can be derived either through EUI-64 or a randomly generated 64-bit number. Figure 2 shows two Windows command line windows. Both windows show the “ipconfig” command output. In the top window, the link-local address was generated using EUI-64. In the bottom window, the link-local address was created using a randomly generated 64-bit number for the interface ID. Figure 3 shows the output on a router for the “show interface gigabitethernet 0/0” command. The MAC address, fc99.4775.c3e0, is highlighted. The second command entered is “show ipv6 interface brief”. Output from this command verifies that the router is using the same link-local address on all three active IPv6 interfaces. The link-local address was generated using EUI-64.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

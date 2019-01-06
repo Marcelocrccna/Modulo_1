@@ -1,0 +1,34 @@
+<textcomponents>
+  <component id="ID_title">
+		<text><![CDATA[<b>Redes entre pares </b>]]></text> 
+	</component>
+	
+	<component id="ID_bubble_txt01">
+		<text><![CDATA[<p id="ID_bubble_txt01">Algunos archivos en mi disco duro se están compartiendo con Peer2. También tengo que imprimir una página a través de Peer2.</p>]]></text>
+	</component>
+	
+	<component id="ID_bubble_txt02">
+	  <text><![CDATA[<p id="ID_bubble_txt02" >Debo acceder a un archivo desde el disco duro de Peer1. También debo imprimir un archivo que recibí de Peer1, con una solicitud de impresión.</p>]]></text> 
+	</component>
+	
+	<component id="ID_txt01">
+	  <text><![CDATA[Peer1<br/><br/>Cliente de impresión<br/>Servidor de archivos]]></text> 
+	</component>
+	
+	<component id="ID_txt02">
+	  <text><![CDATA[Peer2<br/><br/>Servidor de impresión<br/>Cliente de archivos]]></text> 
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Impresora]]></text>
+	</component>
+		
+	<component id="ID_txt04">
+		<text><![CDATA[Impresora <br/>conectada en forma directa]]></text>
+	</component>
+		
+	<component id="ID_txt05">
+		<text><![CDATA[En un intercambio entre pares, ambos dispositivos se consideran iguales en el proceso de comunicación.]]></text>
+	</component>
+	
+</textcomponents>

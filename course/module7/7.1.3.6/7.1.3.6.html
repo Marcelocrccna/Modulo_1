@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.3.6 Transmisión de multidifusión</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.3.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Transmisión de multidifusión</h1>
+        <div>
+          <p>La transmisión de multidifusión reduce el tráfico al permitir que un host envíe un único paquete a un grupo seleccionado de hosts que estén suscritos a un grupo de multidifusión. </p>
+          <p>IPv4 reservó las direcciones de 224.0.0.0 a 239.255.255.255 como rango de multidifusión. Las direcciones IPv4 de multidifusión de 224.0.0.0 a 224.0.0.255 están reservadas para la multidifusión solo en la red local. Estas direcciones se utilizan con grupos de multidifusión en una red local. Un router conectado a la red local reconoce que estos paquetes están dirigidos a un grupo de multidifusión de una red local y no los sigue reenviando. Un uso típico de una dirección de multidifusión de una red local reservada son los Routing Protocols que usan la transmisión de multidifusión para intercambiar información de routing. Por ejemplo, 224.0.0.9 es la dirección de multidifusión que usa el protocolo de información de routing (RIP) versión 2 para comunicarse con otros routers RIPv2.</p>
+          <p>Los hosts que reciben datos de multidifusión específicos se denominan “clientes de multidifusión”. Los clientes de multidifusión utilizan servicios solicitados por un programa cliente para subscribirse al grupo de multidifusión. </p>
+          <p>Cada grupo de multidifusión está representado por una sola dirección IPv4 de destino de multidifusión. Cuando un host IPv4 se suscribe a un grupo de multidifusión, el host procesa los paquetes dirigidos a esta dirección de multidifusión y los paquetes dirigidos a la dirección de unidifusión asignada exclusivamente. </p>
+          <p>En la animación, se muestran clientes que aceptan paquetes de multidifusión.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure is an animation of a multicast transmission.  A PC with the IP address 172.16.4.1 is sending a multicast message to the multicast address of 224.10.10.5.  Two of the devices on the network are members of this multicast group and they each receive a copy of the frame.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+Figure 1 shows three computers connected to the same media.  Each has a call out displaying "I try to send when I am ready". Figure 2 shows four computers connected to a ring topology. One says "My turn to send". All the others say “Not my turn yet".

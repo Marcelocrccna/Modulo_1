@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide type="MBAR">	
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<element type="TEXTBOX" titleId="ID_title_01" bodyId="ID_body01" x="90" y="93" width="500" height="300" animated="0" subType="ROLLOVER" />
+<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+</slide>
+
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+<element type="IMAGE" x="130" y="107" width="420" height="279.25" subType="STD" src="media_3.2.3.3.jpg" />
+<element type="BUBBLE" compId="ID_bubble" x="256" y="171" width="129" height="86" align="center" tailPosition="7" tailFlip="0" />
+<element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#FFFFFF" />
+</slide>
+</slide>
+	
+</data>
+
+

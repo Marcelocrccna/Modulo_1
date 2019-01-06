@@ -1,0 +1,14 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_txt05{
+	background-color: #FFFFFF;
+	height: 25px;
+	padding-top: 4px;
+	padding-left: 4px;
+	border-radius: 5px !important;
+	line-height: 20px;
+
+}

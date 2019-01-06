@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide type="MBAR">
+		
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<element type="TEXT" compId="ID_txt04" x="508" y="308" width="109.6" expand="left+right" align="center" />
+<element type="TEXT" compId="ID_txt02" x="51" y="308" width="109.6" expand="left+right" align="center" />
+<element type="TEXT" compId="ID_txt01" x="293" y="202" width="88.65" expand="up+down" align="center" />
+<element type="TEXTBOX" titleId="" bodyId="ID_txt03" x="50" y="340" width="180" height="120" animated="1" subType="ROLLOVER" />
+<element type="TEXTBOX" titleId="" bodyId="ID_txt05" x="437" y="340" width="180" height="120" animated="1" subType="ROLLOVER" />
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="10.1.2.1_A.png" />
+<element type="TEXT" compId="ID_s1_txt01" x="209" y="106" width="251.15" expand="up" align="left" />
+<element type="TEXT" compId="ID_s1_txt02" x="287" y="144" width="141.6" expand="left+right" align="center" />
+<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+</slide>
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="10.1.2.1_B.png" />
+<element type="TEXT" compId="ID_s2_txt01" x="205" y="289" width="271.25" expand="down" align="left" />
+<element type="TEXT" compId="ID_s2_txt02" x="247" y="259" width="142.5" expand="left+right" align="center" />
+<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+</slide>
+
+
+
+
+
+</slide>
+</data>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.2.1.2 Establecimiento de conexiones TCP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.2.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Establecimiento de conexiones TCP</h1>
+        <div>
+          <p>En algunas culturas, cuando dos personas se conocen, generalmente se saludan dándose la mano. Ambas culturas entienden el acto de darse la mano como señal de un saludo amigable. Las conexiones en la red son similares. En las conexiones TCP, el cliente del host establece la conexión con el servidor. </p>
+          <p>Una conexión TCP se establece en tres pasos:</p>
+          <p>
+            <b>Paso 1</b>: el cliente de origen solicita una sesión de comunicación de cliente a servidor con el servidor.</p>
+          <p>
+            <b>Paso 2</b>: el servidor reconoce la sesión de comunicación de cliente a servidor y solicita una sesión de comunicación de servidor a cliente. </p>
+          <p>
+            <b>Paso 3</b>: el cliente de origen reconoce la sesión de comunicación de servidor a cliente.</p>
+          <p>En la figura, haga clic en los botones 1 a 3 para observar el establecimiento de la conexión TCP.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the steps involved in the three-way handshake during a TCP connection establishment.  Step one shows the initiating client forming a SYN packet with a sequence number of 100 and sends the SYN request to client B.  Step two shows client B receiving the SYN and setting the sequence number to 300 and sending the SYN along with an ACK packet back to client A.  Step three shows client A receiving the SYN and ACK sent by client B, this establishes the connection.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<textcomponents>
+    <component id="ID_title">
+        <text>
+            <![CDATA[Reflectómetro óptico de dominio de tiempo (OTDR)]]>
+        </text>
+    </component>
+    <component id="transcript">
+        <text>
+            <![CDATA[<b>la transcripción va aquí</b>]]></text>
+    </component>
+</textcomponents>

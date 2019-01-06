@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.2.1.4 Análisis del enlace de tres vías de TCP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.2.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Análisis del enlace de tres vías de TCP</h1>
+        <div>
+          <p>Los hosts hacen un seguimiento de cada segmento de datos dentro de una sesión e intercambian información sobre qué datos se reciben mediante la información del encabezado TCP. TCP es un protocolo dúplex completo, en el que cada conexión representa dos transmisiones de comunicación unidireccionales o sesiones. Para establecer la conexión, los hosts realizan un enlace de tres vías. Los bits de control en el encabezado TCP indican el progreso y estado de la conexión. </p>
+          <p>Enlace de tres vías:</p>
+          <p>
+            <ul>
+              <li>Establece que el dispositivo de destino se presente en la red</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Verifica que el dispositivo de destino tenga un servicio activo y que acepte solicitudes en el número de puerto de destino que el cliente de origen intenta utilizar.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Informa al dispositivo de destino que el cliente de origen intenta establecer una sesión de comunicación en dicho número de puerto.</li>
+            </ul>
+          </p>
+          <p>Una vez que se completa la comunicación, se cierran las sesiones y se finaliza la conexión. Los mecanismos de conexión y sesión habilitan la función de confiabilidad de TCP.</p>
+          <p>Los seis bits del campo de bits de control del encabezado del segmento TCP también se conocen como marcadores. Un marcador es un bit que se establece como activado o desactivado. Haga clic en el campo de bits de control en la figura para ver los seis marcadores. Ya hemos hablado de SYN, ACK y FIN. El marcador RST se utiliza para restablecer una conexión cuando ocurre un error o se agota el tiempo de espera. Haga clic <a href="http://packetlife.net/blog/2011/mar/2/tcp-flags-psh-and-urg/" target="_blank">aquí</a> para obtener más información sobre los marcadores PSH y URG.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the TCP header. Clicking on the Control Bits field opens a text box listing the six different control bits.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

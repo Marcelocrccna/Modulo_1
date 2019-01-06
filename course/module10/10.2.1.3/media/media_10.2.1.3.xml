@@ -1,0 +1,57 @@
+<textcomponents><!-- Slide1 --><component id="ID_s1_txt01">
+		<text><![CDATA[<b>Cliente</b>]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Recibir correo electrónico con POP]]></text>
+	</component>
+	<component id="ID_s1_txt04">
+		<text><![CDATA[<b>Servidor<br/>SMTP/POP3</b>]]></text>
+	</component>
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Enviar correo electrónico con SMTP]]></text>
+	</component>
+	<component id="ID_s1_txt07">
+		<text><![CDATA[<b>Agente de usuario de correo<br/>(MUA)</b>]]></text>
+	</component>
+	<component id="ID_s1_txt08">
+		<text><![CDATA[Cliente de correo electrónico (MUA)]]></text>
+	</component>
+	<component id="ID_s1_txt09">
+		<text><![CDATA[Los clientes envían mensajes de correo electrónico a un servidor mediante SMTP y los reciben mediante POP3.]]></text>
+	</component><!-- Slide2 --><component id="ID_txt01">
+		<text><![CDATA[Emisor]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[Destinatario]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[Internet]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[Servidor de correo]]></text>
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[Servidor de correo]]></text>
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[SMTP]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[IMAP o POP3]]></text>
+	</component>
+	<component id="ID_txt08">
+		<text><![CDATA[SMTP]]></text>
+	</component>
+	<component id="ID_txt09">
+		<text><![CDATA[<b>ISP A</b>]]></text>
+	</component>
+	<component id="ID_txt10">
+		<text><![CDATA[<b>ISP B</b>]]></text>
+	</component>
+	<component id="ID_txt11">
+		<text><![CDATA[<p class="ID_s2_txt11">Enviar a destinatario@cisco.<span>com</span></p>]]></text>
+	</component>
+	<component id="ID_txt12">
+		<text><![CDATA[SMTP]]></text>
+	</component>
+</textcomponents>

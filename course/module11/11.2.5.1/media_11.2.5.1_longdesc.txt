@@ -1,0 +1,1 @@
+Figure 1 shows the output of show file systems command on a router. Figure 1 shows the output of dir command on a router.  The output displays the contents of flash. Figure 3 shows the output of cd nvram: command followed by pwd command.  The pwd command "prints working directory".  Then the dir command is issued listing the contents of NVRAM.

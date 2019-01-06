@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+	
+		<slide>
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_11.2.2.4_A.png" />
+		<element type="TEXT" compId="ID_s1_txt01" x="66" y="442" width="550" expand="up" align="left" />
+		<element type="TEXT" compId="ID_s1_table" x="40" y="55" width="600" height="109" />
+		<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+		</slide>
+
+
+		<slide>
+			<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+			<element type="TEXT" compId="ID_s2_txt02" x="112" y="150" width="133.9" expand="left+right" align="center" />
+	        <element type="ACTIVITY" subType="ANIMATION" movieClipId="anim01" totalFrames="165"/>
+			<element type="TEXT" compId="ID_s2_txt01" x="304.9" y="122.20" width="79.9" expand="up+down" align="center" />
+		</slide>
+
+
+		<slide>
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_11.2.2.4_C.png" />
+		<element type="TEXT" subType="TITLE" compId="ID_s3_title"/>
+		<element type="TEXT" compId="ID_s3_txt01" x="13" y="93" width="135" expand="up+down" align="right" color="#1c3643" />
+		<element type="TEXT" compId="ID_s3_txt04" x="7" y="354" width="149" expand="up+down" align="right" color="#1c3643" />
+		<element type="TEXT" compId="ID_s3_txt06" x="417" y="169" width="57" expand="down" align="center" color="#0" />
+		<element type="TEXT" compId="ID_s3_txt07" x="417" y="274" width="57" expand="down" align="center" color="#0" />
+		<element type="TEXT" compId="ID_s3_txt08" x="417" y="431" width="58" expand="down" align="center" color="#0" />
+		<element type="TEXT" compId="ID_s3_txt02" x="470" y="129" width="191" expand="up+down" align="left" color="#1c3643" />
+		<element type="TEXT" compId="ID_s3_txt03" x="470" y="234" width="191" expand="up+down" align="left" color="#1c3643" />
+		<element type="TEXT" compId="ID_s3_txt05" x="470" y="391" width="191" expand="up+down" align="left" color="#1c3643" />
+		</slide>
+
+
+		<slide>
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_11.2.2.4_D.png" />
+		<element type="TEXT" subType="TITLE" compId="ID_s4_title"/>
+		<element type="TEXT" compId="ID_s4_txt01" x="360" y="60" width="105" expand="up+down" align="left" />
+		<element type="TEXT" compId="ID_s4_txt03" x="601" y="282" width="72" expand="up+down" align="left" />
+		<element type="TEXT" compId="ID_s4_txt02" x="562" y="171" width="90" expand="up+down" align="left" />
+		<element type="TEXT" compId="ID_s4_txt05" x="283" y="450" width="105" expand="left+right" align="center" />
+		<element type="TEXT" compId="ID_s4_txt04" x="285" y="424" width="105" expand="left+right" align="center" />
+		</slide>
+
+
+		<slide>
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_11.2.2.4_E.png" />
+		<element type="TEXT" id="ID_static_1" text="ICMP REQ D=172.18.255.255 S=209.165.200.225 " x="203" y="427" width="357" align="left" size="10" color="#ffffff" />
+		<element type="TEXT" compId="ID_s5_txt02" x="517" y="205" width="67" expand="down" align="left" />
+		<element type="TEXT" id="ID_static_2" text="209.165.200.225 " x="456" y="240" width="122" align="left" />
+		<element type="TEXT" compId="ID_s5_txt03" x="178" y="344" width="144" expand="up" align="center" />
+		<element type="TEXT" compId="ID_s5_txt04" x="456" y="105" width="120" expand="down" align="left" />
+		<element type="TEXT" compId="ID_s5_txt01" x="73" y="59" width="76" expand="up" align="left" />
+		<element type="TEXT" id="ID_static_3" text="ICMP REPLY D=209.165.200.225 S=172.18.1.2 " x="177" y="107" width="323" align="left" size="10" color="#ffffff" />
+		<element type="TEXT" id="ID_static_4" text="ICMP REPLY D=209.165.200.225 S=172.18.1.3 " x="177" y="147" width="326" align="left" size="10" color="#ffffff" />
+		<element type="TEXT" id="ID_static_5" text="ICMP REPLY D=209.165.200.225 S=172.18.1.4 " x="177" y="188" width="335" align="left" size="10" color="#ffffff" />
+		<element type="TEXT" id="ID_static_6" text="ICMP REPLY D=209.165.200.225 S=172.18.1.5 " x="177" y="230" width="331" align="left" size="10" color="#ffffff" />
+		<element type="TEXT" id="ID_static_7" text="ICMP REPLY D=209.165.200.225 S=172.18.1.6 " x="177" y="271" width="328" align="left" size="10" color="#ffffff" />
+		<element type="TEXT" id="ID_static_8" text="ICMP REPLY D=209.165.200.225 S=172.18.1.7 " x="177" y="308" width="274" align="left" size="10" color="#ffffff" />
+		<element type="TEXT" subType="TITLE" compId="ID_s5_title"/>
+		</slide>
+	
+	</slide>
+
+</data>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide type="MBAR">
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<slide>
+<element type="IMAGE" src="media_7.2.4.5_s1.png" x="0" y="0" width="680" height="490"/>
+<element type="TEXT" compId="ID_s1_txt01" x="167" y="127" width="100" expand="down" align="center" />
+<element type="TEXT" compId="ID_s1_txt03" x="375" y="317" width="151" expand="up" align="center" />
+<element type="TEXT" compId="ID_s1_txt02" x="171" y="317" width="121" expand="up" align="center" />
+<element type="TEXT" compId="ID_s1_txt04" x="143" y="369" width="190" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt05" x="350" y="369" width="193" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt06" x="345" y="411" width="201" expand="down" align="center" />
+<element type="TEXT" compId="ID_s1_txt07" x="319" y="317" width="45" expand="up" align="center" />
+<element type="BUBBLE" compId="ID_bubble01" x="364" y="148" width="180" height="40" align="center" tailPosition="9" tailFlip="1" />
+<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+</slide>
+
+
+
+<slide>
+<element type="IMAGE" src="media_7.2.4.5_s2.png" x="0" y="0" width="680" height="490"/>
+<element type="TEXT" compId="ID_s2_txt01" x="257" y="54" width="124" expand="up" align="center" />
+<element type="TEXT" compId="ID_s2_txt02" x="418" y="54" width="124" expand="up" align="center" />
+<element type="TEXT" compId="ID_s2_txt03" x="102" y="118" width="132" expand="up" align="right" />
+<element type="TEXT" compId="ID_s2_txt04" x="96" y="196" width="82" expand="up+down" align="right" />
+<element type="TEXT" compId="ID_s2_txt05" x="96" y="267" width="82" expand="up+down" align="right" />
+<element type="TEXT" compId="ID_s2_txt06" x="96" y="337" width="82" expand="up+down" align="right" />
+<element type="TEXT" compId="ID_s2_txt07" x="96" y="407" width="82" expand="up+down" align="right" />
+<element type="TEXT" compId="ID_s2_txt08" x="65" y="159" width="505" expand="up+down" align="left" />
+<element type="TEXT" compId="ID_s2_txt09" x="65" y="233" width="505" expand="up+down" align="left" />
+<element type="TEXT" compId="ID_s2_txt10" x="65" y="303" width="505" expand="up+down" align="left" />
+<element type="TEXT" compId="ID_s2_txt11" x="65" y="373" width="505" expand="up+down" align="left" />
+<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+</slide>
+
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+<element type="ROUTER" textId="ID_router_txt1" x="50" y="122" width="580" height="219.95" />
+<element type="IMAGE" src="media_7.2.4.5_s3.png" x="-18" y="0" width="680" height="490"/>
+
+<element type="TEXT" compId="ID_s3_txt01" x="285" y="168" width="87" expand="up" align="center" color="#46a040" />
+<element type="TEXT" compId="ID_s3_txt02" x="380" y="168" width="111" expand="up" align="center" color="#f68026" />
+<element type="TEXT" subType="TITLE" compId="ID_s3_title"/>
+</slide>
+
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+<element type="ROUTER" textId="ID_router_txt2" x="50" y="122" width="580" height="219.95" />
+<element type="IMAGE" src="media_7.2.4.5_s4.png" x="-18" y="0" width="680" height="490"/>
+
+<element type="TEXT" compId="ID_s4_txt01" x="290" y="168" width="87" expand="up" align="center" color="#46a040" />
+<element type="TEXT" compId="ID_s4_txt02" x="385" y="168" width="111" expand="up" align="center" color="#f68026" />
+<element type="TEXT" subType="TITLE" compId="ID_s3_title"/>
+</slide>
+</slide>
+    <text id="ID_router_txt1"><![CDATA[<pre>PCA> <b>ipconfig</b>
+Windows IP Configuration
+Ethernet adapter Local Area Connection:
+   Connection-specific DNS Suffix  :
+   IPv6 Address. . . . . . . . . . : <span class='blueColor'>2001:db8:acad:1:</span><span class='orangeColor'>fc99:47ff:Ffe75:cee0</span>
+   Link-local IPv6 Address . . . . : fe80::fc99:47FF:FE75:CEE0
+   Default Gateway   . . . . . . . : fe80::1</pre>]]>
+		</text>
+    <text id="ID_router_txt2"><![CDATA[<pre>PCB> <b>ipconfig</b>
+Windows IP Configuration
+Ethernet adapter Local Area Connection:
+   Connection-specific DNS Suffix  :
+   IPv6 Address. . . . . . . . . . : <span class='blueColor'>2001:db8:acad:1:</span><span class='orangeColor'>50a5:8a35:a5bb:66e1</span>
+   Link-local IPv6 Address . . . . : fe80::50a5:8a35:a5bb:66e1
+   Default Gateway   . . . . . . . : fe80::1</pre>]]>
+		</text>
+</data>

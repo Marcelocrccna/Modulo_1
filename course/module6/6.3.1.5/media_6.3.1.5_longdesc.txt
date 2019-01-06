@@ -1,0 +1,1 @@
+Figure shows the backplane of a 1941 router. Connections and ports highlighted include: HWICs, flash, Console, Auxiliary, USB, and Gigabit Ethernet interfaces. Clicking each provides more information

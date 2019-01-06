@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide type="MBAR">
+	<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+<slide>
+<element type="TEXT" subType="TABLE" compId="ID_s1_table01" x="43" y="55" width="600" height="400" />
+<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#ffffff" />
+</slide>
+
+
+
+<slide>
+<element type="TEXT" subType="TABLE" compId="ID_s2_table01" x="43" y="55" width="600" height="400" />
+<element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#ffffff" />
+</slide>
+	
+	
+</slide>/
+</data>

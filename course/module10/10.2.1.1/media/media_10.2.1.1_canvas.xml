@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide type="MBAR">
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+
+<element type="TEXT" compId="ID_txt01" x="53" y="106" width="85" expand="up+down" align="right" />
+<element type="TEXT" compId="ID_txt03" x="534" y="106" width="83" expand="up+down" align="left" />
+<element type="TEXT" compId="ID_txt02" x="285" y="107" width="100" expand="up+down" align="center" />
+<slide>
+<element type="TEXT" id="ID_static_1" text="http://www.cisco.com " x="262" y="159" width="139" align="center" color="#0000FF" bold="1"/>
+</slide>
+
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="10.2.1.1_B.png" />
+<element type="IMAGE" x="375" y="219" width="261" height="98" subType="STD" src="10.2.1.1A.jpg" />
+<element type="TEXT" compId="ID_s1_txt01" x="388" y="84" width="100" expand="up" align="right" color="#9f5824" />
+<element type="TEXTBOX" bodyId="ID_s1_txt02" x="120" y="435" width="432" height="40" />
+<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+</slide>
+
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="10.2.1.1_C.png" />
+<element type="ROUTER" textId="ID_router_txt1" x="29" y="171" width="334" height="250" />
+
+<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+<element type="TEXT" compId="ID_s2_txt01" x="187" y="85" width="100" expand="up" align="left" color="#9f5824" />
+<element type="TEXT" compId="ID_s2_txt03" x="377" y="278" width="100" expand="up+down" align="left" />
+<element type="TEXTBOX" bodyId="ID_s2_txt04" x="120" y="435" width="432" height="40"  />
+</slide>
+
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="10.2.1.1_D.png" />
+<element type="TEXT" subType="TITLE" compId="ID_s3_title"/>
+<element type="TEXT" compId="ID_s3_txt01" x="236" y="284" width="123" expand="up+down" align="right" />
+<element type="IMAGE" x="372" y="167" width="278" height="243" subType="STD" src="10.2.1.1B.jpg" />
+<element type="TEXTBOX" bodyId="ID_s3_txt02" x="120" y="435" width="432" height="40" />
+</slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="10.2.1.1_A.png" />
+</slide>
+
+<!-- <text id="ID_table01"><![CDATA[<a href="http://www.cisco.com/index.html" target="_blank">http://www.cisco.com/index.html</a>]]></text> -->
+<text id="ID_router_txt1"><![CDATA[<pre>HTTP/1.1 200 OK
+Date: Mon, 23 May 2005 22:38:34 GMT
+Server: Apache/1.3.27 (unix) (Red-Hat/Linux)
+Last-Modified: wed, 08 Jan 2003 23:11:55 GMT
+Etag: "3f80f-1b6-3elcb03b"
+Accept-Ranges: bytes
+Content-Length: 438
+connection: close
+content-Type: text/html; charset-UTF-8
+&lthtml&gt
+&lthead&gt
+&lttitle&gtCisco Systems Inc, Home Page&lt/title&gt
+&lt/head&gt
+&ltbody&gt
+...CONTENTS OF HTML PAGE...
+&lt/body&gt</pre>]]></text>
+
+
+
+</data>

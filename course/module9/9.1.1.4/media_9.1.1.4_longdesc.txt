@@ -1,0 +1,1 @@
+The figure shows the four layers of the TCP/IP model and lists protocols that work at each of the layers.  At the Application layer there is FTP, HTTP, SMTP, DNS, and TFTP.  At the Transport layer there is both TCP and UDP.  The Internet layer has IP and the Network Access layer has LAN and WAN connections.

@@ -1,0 +1,22 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#alignment{
+	color:#F68026 !important;
+	}
+
+#alignment1{
+	color:#652C8A !important;
+	}
+
+#txt1, #txt2, #txt3, #txt4, #txt5, #txt6, #txt7, #txt8, #txt9, #txt10, #txt11, #txt12, #txt13, #txt14, #txt15, #txt16, #txt17, #txt18{
+	letter-spacing:-0.2px !important;
+	}
+	
+@media only screen and (device-width: 768px) {
+#txt1, #txt2, #txt3, #txt4, #txt5, #txt6, #txt7, #txt8, #txt9, #txt10, #txt11, #txt12, #txt13, #txt14, #txt15, #txt16, #txt17, #txt18{
+	margin-left:4px !important;
+	}
+}

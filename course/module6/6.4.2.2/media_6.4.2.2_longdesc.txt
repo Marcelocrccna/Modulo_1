@@ -1,0 +1,1 @@
+Figure 1 shows output from the “show ip interface brief” command and a successful ping. Figure 2 shows the output from the “show ip route” command verifying that the router has a entries in the routing table for all directly connected networks.

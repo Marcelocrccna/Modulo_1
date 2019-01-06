@@ -1,0 +1,1 @@
+Figure shows the OSI model.  Layer 7 to the upper sub-layer of layer 2 are implemented in software and governed by the IETF.  The lower sub-layer of layer 2 and layer 1 are implemented in hardware and governed by several organizations, the ISO, ITU-T, EIA/TIA, ANSI, and the IEEE.

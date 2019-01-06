@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+        <element type="IMAGE" x="0" y="00" width="680" height="490" src="media_11.4.3.3-s1.png" />
+        <element type="TEXT" id="ID_static_1" text="10.0.0.10" x="37.85" y="158" align="center" width="53" />
+        <element type="TEXT" id="ID_static_2" text="10.0.0.0/24" x="156.25" y="158" align="center" width="65" />
+        <element type="TEXT" id="ID_static_3" text="10.1.0.0/24" x="331.25" y="157" align="center" width="65" />
+        <element type="TEXT" id="ID_static_4" text="10.2.0.0/24" x="457.25" y="157" align="center" width="65" />
+        <element type="TEXT" id="ID_static_5" text="10.3.0.0/24" x="562.25" y="156" align="center" width="65" />
+        <element type="TEXT" id="ID_static_6" text=".1" x="263" y="132" align="center" width="8" />
+        <element type="TEXT" id="ID_static_7" text=".1" x="336" y="127" align="center" width="8" />
+        <element type="TEXT" id="ID_static_8" text=".2" x="389" y="119" align="center" width="10" />
+        <element type="TEXT" id="ID_static_9" text=".1" x="462" y="127" align="center" width="8" />
+        <element type="TEXT" id="ID_static_10" text=".2" x="514" y="119" align="center" width="10" />
+        <element type="TEXT" id="ID_static_11" text=".1" x="585" y="133" align="center" width="8" />
+        <slide>
+            <element type="ROUTER" textId="ID_router_txt1" x="40" y="222" width="600" height="230" />
+            <!--<text id="ID_router_txt1"><![CDATA[<pre>C:> ipconfig Windows IP Configuration Ethernet adapter Local Area Connection: Connection-specific DNS Suffix . : Link-local IPv6 Address . . . . . : fe80::fd4c:6609:6733:c5cc%11 IPv4 Address. . . . . . . . . . . : 10.0.0.10 Subnet Mask . . . . . . . . . . . : 255.255.255.0 Default Gateway . . . . . . . . . : 10.0.0.1 C:></pre>]]></text>-->
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title" />
+        </slide>
+        <slide>
+            <element type="ROUTER" textId="ID_router_txt2" x="40" y="222" width="600" height="230" />
+            <element type="IMAGE" x="0" y="00" width="680" height="490" src="media_11.4.3.3-s2.png" />
+            <element type="TEXT" compId="ID_s2_txt01" x="311" y="74" width="100" expand="up" align="center" color="#cb6d25" />
+            <element type="TEXT" compId="ID_s2_txt02" x="49.15" y="247.3" width="150" expand="right" align="left" color="#FFFFFF" />
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title" />
+        </slide>
+        <text id="ID_router_txt1">
+            <![CDATA[<pre>C:\> <b>ipconfig</b>
+
+Windows IP Configuration
+
+Ethernet adapter Local Area Connection:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::fd4c:6609:6733:c5cc%11
+   IPv4 Address. . . . . . . . . . . : 10.0.0.10
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   <span class="orangeText">Default Gateway . . . . . . . . . : 10.0.0.1</span>
+
+
+C:\>
+</pre>]]></text>
+        <text id="ID_router_txt2">
+            <![CDATA[<pre>R1# <b>show ip route</b>
+
+
+<span class="orangeText">Gateway of last resort is 10.1.0.2 to network 0.0.0.0</span>
+
+S*    0.0.0.0/0 [1/0] via 10.1.0.2
+      10.0.0.0/8 is variably subnetted, 4 subnets, 2 masks
+C        10.0.0.0/24 is directly connected, GigabitEthernet0/0
+L        10.0.0.1/32 is directly connected, GigabitEthernet0/0
+C        10.1.0.0/24 is directly connected, Serial0/0/0
+L        10.1.0.1/32 is directly connected, Serial0/0/0
+R1#
+</pre>]]></text>
+</slide>
+</data>

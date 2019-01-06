@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_10.1.2.3.png" />
+<element type="TEXT" subType="TITLE" compId="ID_title"/>
+<element type="TEXT" compId="ID_txt04" x="445" y="65" width="165.45" expand="up" align="center" />
+<element type="TEXT" compId="ID_txt01" x="293" y="249" width="92.4" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_txt03" x="69" y="65" width="164.5" expand="up" align="center" />
+<element type="TEXT" compId="ID_txt08" x="73" y="93" width="158.45" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt09" x="450" y="93" width="154.5" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt02" x="71" y="33" width="540" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_txt06" x="67" y="348" width="79.15" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt07" x="155" y="348" width="79.45" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt10" x="533" y="348" width="79.2" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt11" x="445" y="348" width="79.45" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXTBOX" titleId="" bodyId="ID_txt05" x="180" y="400" width="350" height="80" animated="0" subType="ROLLOVER" />
+<element type="BUBBLE" compId="ID_txt12" x="68" y="127" width="140" height="56" align="left" tailPosition="7" tailFlip="1" bgColor="#067EB2" borderColor="#067EB2" />
+<element type="BUBBLE" compId="ID_txt13" x="93" y="182" width="140" height="56" align="right" tailPosition="5" tailFlip="0" bgColor="#CB6D25" borderColor="#CB6D25" />
+<element type="BUBBLE" compId="ID_txt16" x="68" y="237" width="140" height="56" align="left" tailPosition="7" tailFlip="1" bgColor="#067EB2" borderColor="#067EB2" />
+<element type="BUBBLE" compId="ID_txt14" x="471" y="127" width="140" height="56" align="left" tailPosition="5" tailFlip="0" bgColor="#CB6D25" borderColor="#CB6D25" />
+<element type="BUBBLE" compId="ID_txt15" x="447" y="182" width="140" height="56" align="right" tailPosition="7" tailFlip="1" bgColor="#067EB2" borderColor="#067EB2" />
+<element type="BUBBLE" compId="ID_txt17" x="471" y="237" width="140" height="56" align="left" tailPosition="5" tailFlip="0" bgColor="#CB6D25" borderColor="#CB6D25" />
+	</slide>
+</data>

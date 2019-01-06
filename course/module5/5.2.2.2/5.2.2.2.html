@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.2.2 Switching por método de corte</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Switching por método de corte</h1>
+        <div>
+          <p>En este tipo de switching, el switch actúa sobre los datos apenas los recibe, incluso si la transmisión aún no se completó. El switch reúne en el búfer solo la información suficiente de la trama como para leer la dirección MAC de destino y determinar a qué puerto debe reenviar los datos. La dirección MAC de destino se encuentra en los primeros 6 bytes de la trama después del preámbulo. El switch busca la dirección MAC de destino en la tabla de switching, determina el puerto de la interfaz de salida y reenvía la trama a su destino mediante el puerto de switch designado. El switch no lleva a cabo ninguna verificación de errores en la trama. </p>
+          <p>Reproduzca la animación para ver una demostración del proceso switching por método de corte.</p>
+          <p>A continuación, se presentan dos variantes del switching por método de corte:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Switching de reenvío rápido:</b> este método ofrece el nivel de latencia más bajo. El switching de envío rápido reenvía el paquete inmediatamente después de leer la dirección de destino. Como el switching de reenvío rápido comienza a reenviar el paquete antes de recibirlo por completo, es posible que, a veces, los paquetes se distribuyan con errores. Esto no sucede frecuentemente, y el adaptador de red de destino descarta el paquete defectuoso al recibirlo. En el modo de reenvío rápido, la latencia se mide desde el primer bit recibido hasta el primer bit transmitido. El switching de envío rápido es el método de corte típico.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Switching libre de fragmentos:</b> en este método, el switch almacena los primeros 64 bytes de la trama antes de reenviarla. El switching libre de fragmentos se puede ver como un punto medio entre el switching de almacenamiento y envío, y el switching por método de corte. El motivo por el que el switching libre de fragmentos almacena solamente los primeros 64 bytes de la trama es que la mayoría de los errores y las colisiones de la red se producen en esos primeros 64 bytes. El switching libre de fragmentos intenta mejorar el switching de reenvío rápido al realizar una pequeña verificación de errores en los 64 bytes de la trama para asegurar que no haya ocurrido una colisión antes de reenviarla. Este método de switching es un punto medio entre la alta latencia y la alta integridad del switching de almacenamiento y envío, y la baja latencia y la baja integridad del switching de reenvío rápido.</li>
+            </ul>
+          </p>
+          <p>Algunos switches están configurados para realizar el switching por método de corte en cada puerto hasta alcanzar un umbral de errores definido por el usuario y, luego, cambiar automáticamente al switching de almacenamiento y envío. Si el índice de error está por debajo del umbral, el puerto vuelve automáticamente al switching por método de corte.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure is an animation showing that a switch starts forwarding the frame before it receives the entire frame.  This is known as cut through switching.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

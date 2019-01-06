@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide>
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_5.3.2.6.png" />
+        <element type="TEXT" compId="ID_txt01" x="137" y="262" width="119" expand="down" align="left" />
+        <element type="TEXT" compId="ID_txt02" x="339" y="69" width="118.95" expand="up" align="left" />
+        <element type="TEXT" compId="ID_txt03" x="524" y="262" width="122.2" expand="down" align="left" />
+        <element type="TEXT" compId="ID_txt04" x="366" y="301" width="127.65" expand="up" align="left" />
+        <element type="TEXT" compId="ID_txt06" x="526" y="339" width="67.3" expand="up+down" align="center" />
+        <element type="TEXT" id="ID_static_4" text="G0/0" x="331" y="313.75" align="center" width="31.1" />
+        <element type="TEXT" compId="ID_txt07" x="33" y="435" width="602.85" expand="up" align="left" />
+        <element type="BUBBLE" compId="ID_bubble01" x="65" y="152" width="196.05" height="52" align="left" tailPosition="6" tailFlip="0" />
+        <element type="TEXT" compId="ID_table" x="33" y="329" width="281.65" height="37.3" />
+        <element type="TEXT" subType="TITLE" compId="ID_title" />
+        <!-- <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_5.3.2.6.png" />
+		<element type="TEXT" subType="TITLE" compId="ID_title"/>
+		<element type="TEXT" compId="ID_txt01" x="116.35" y="261.85" width="119" expand="down" align="left" />
+		<element type="TEXT" compId="ID_txt02" x="318.2" y="68.85" width="118.95" expand="up" align="left" />
+		<element type="TEXT" compId="ID_txt03" x="502.75" y="261.85" width="122.2" expand="down" align="left" />
+		<element type="TEXT" compId="ID_txt04" x="345.35" y="300.85" width="127.65" expand="up" align="left" />
+		<element type="TEXT" compId="ID_txt06" x="505.1" y="338.8" width="67.3" expand="up+down" align="center" />
+		<element type="TEXT" id="ID_static_4" text="G0/0" x="307" y="312" align="center" width="31.1" />
+		<element type="TEXT" compId="ID_txt07" x="13.1" y="414.8" width="522.4" expand="up+down" align="left" />
+		<element type="BUBBLE" compId="ID_bubble01" x="44.1" y="151.95" width="196.05" height="52" align="left" tailPosition="6" tailFlip="0" />
+		<element type="TEXT" subType="TABLE" compId="ID_table" x="12.35" y="329.35" width="281.65" height="70.3" /> -->
+    </slide>
+</data>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.1.2.3 Procesamiento de tramas</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.1.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Procesamiento de tramas</h1>
+        <div>
+          <p>A menudo, la dirección MAC se conoce como “dirección física (BIA)” porque, históricamente, esta dirección se graba de manera física en la memoria de solo lectura (ROM) de la NIC. Es decir que la dirección está codificada en el chip de la ROM de manera permanente. </p>
+          <p>
+            <b>Nota:</b> en las NIC y los sistemas operativos de PC modernos, es posible cambiar la dirección MAC en el software. Esto es útil cuando se intenta acceder a una red filtrada por BIA. En consecuencia, el filtrado o el control de tráfico basado en la dirección MAC ya no son tan seguros. </p>
+          <p>Cuando la computadora arranca, lo primero que hace la NIC es copiar la dirección MAC de la ROM a la RAM. Cuando un dispositivo reenvía un mensaje a una red Ethernet, adjunta la información del encabezado a la trama. La información del encabezado contiene las direcciones MAC de origen y de destino.</p>
+          <p>En la animación, haga clic en Reproducir para ver el proceso de reenvío de tramas. Cuando una NIC recibe una trama de Ethernet, examina la dirección MAC de destino para ver si coincide con la dirección MAC física del dispositivo almacenada en la RAM. Si no hay coincidencia, el dispositivo descarta la trama. Si hay coincidencia, envía la trama a las capas OSI, donde ocurre el proceso de desencapsulamiento.</p>
+          <p>
+            <b>Nota:</b> las NIC Ethernet también aceptan tramas si la dirección MAC de destino es un grupo de difusión o de multidifusión del cual es miembro el host.</p>
+          <p></p>
+          <p>Cualquier dispositivo que pueda ser el origen o el destino de una trama de Ethernet debe tener asignada una dirección MAC. Esto incluye estaciones de trabajo, servidores, impresoras, dispositivos móviles y routers.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">This animation shows how a frame is forwarded.  There are four computers on shared media.  Each has a different MAC address.  Computer 1 sends a frame to Computer 3 using the correct MAC addresses for source and destination.  The frame is forwarded to all of the computers.  Computers 2 and 4 ignore the frame since the destination MAC address does not match their own.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+Figure shows the two competing networking models side-by-side and lists some common TCP/IP protocols used at each layer.  

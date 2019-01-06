@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_11.2.4.4.png" />
+<element type="TEXTBOX" titleId="" bodyId="ID_txt01" x="43" y="360" width="580" height="120" animated="0" subType="ROLLOVER" />
+<element type="TEXT" id="ID_static_1" text="Fa0/1" x="425" y="37" align="center" width="34" />
+<element type="TEXT" id="ID_static_2" text="S0/0/0" x="425" y="54" align="center" width="38" />
+<element type="TEXT" id="ID_static_3" text="Fa0/0" x="160" y="72" align="center" width="34" />
+<element type="TEXT" id="ID_static_4" text="S0/0/0" x="222" y="51" align="center" width="38" />
+<element type="TEXT" compId="ID_txt02" x="178" y="101" width="37" expand="right" align="left" />
+<element type="ROUTER" textId="ID_router_txt1" x="50" y="135.95" width="580" height="215" />
+	</slide>
+	<text id="ID_router_txt1"><![CDATA[<pre>R1# conf t</b>
+R1(config)#<b> ip domain-name span.com</b>
+R1(config)#<b> crypto key generate rsa general-keys modulus 1024</b>
+The name for the keys will be: R1.span.com
+% The key modulus size is 1024 bits
+% Generating 1024 bit RSA keys, keys will be non-exportable...[OK]
+R1(config)#
+*Dec 13 16:19:12.079: %SSH-5-ENABLED: SSH 1.99 has been enabled
+R1(config)#<b> username Bob secret cisco</b>
+R1(config)#<b> line vty 0 4</b>
+R1(config-line)#<b> login local</b>
+R1(config-line)#<b> transport input ssh</b>
+R1(config-line)#<b> exit</b></pre>]]></text>
+</data>

@@ -1,0 +1,17 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+.mtable {
+    border-radius:0! important;
+    box-shadow: none !important;
+
+}
+.mtable tr td{
+	/*border:2px solid #ffffff; 
+	border-radius:none !important;  
+	vertical-align:middle !important;
+	text-align:left;*/
+	border-color: #FFFFFF !important;
+}

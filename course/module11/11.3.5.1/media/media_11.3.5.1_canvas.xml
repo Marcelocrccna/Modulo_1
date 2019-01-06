@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide>
+        <element type="IMAGE" src="../../../common/images/page_backgrounds/bg_table_fullsize.jpg" x="0" y="0" width="1000" height="490" />
+        <element type="TEXT" subType="TITLE" compId="ID_title" color="#FFFFFF"/>
+        <!--<element type="IMAGE" src="bg.png" x="0" y="0" width="680" height="490" />-->
+        <element type="ROUTER" textId="ID_router_txt" x="40" y="50" width="600" height="400" />
+        <text id="ID_router_txt">
+            <![CDATA[<pre>R1# <b>debug ip icmp</b>
+ICMP packet debugging is on
+R1# ping 10.0.0.10
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 10.0.0.10, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/4 ms
+*Nov 13 12:56:08.147: ICMP: echo reply rcvd, src 10.0.0.10, dst 10.0.0.1,
+topology BASE, dscp 0 topoid 0
+*Nov 13 12:56:08.151: ICMP: echo reply rcvd, src 10.0.0.10, dst 10.0.0.1,
+topology BASE, dscp 0 topoid 0
+*Nov 13 12:56:08.151: ICMP: echo reply rcvd, src 10.0.0.10, dst 10.0.0.1,
+topology BASE, dscp 0 topoid 0
+*Nov 13 12:56:08.151: ICMP: echo reply rcvd, src 10.0.0.10, dst 10.0.0.1,
+topology BASE, dscp 0 topoid 0
+*Nov 13 12:56:08.151: ICMP: echo reply rcvd, src 10.0.0.10, dst 10.0.0.1,
+topology BASE, dscp 0 topoid 0
+R1# <b>undebug all</b>
+All possible debugging has been turned off
+R1#
+</pre>]]></text>
+    </slide>
+</data>

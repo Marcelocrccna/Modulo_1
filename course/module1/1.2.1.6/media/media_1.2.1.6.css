@@ -1,0 +1,21 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+@media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+  #ID_txt17,#ID_txt18,#ID_txt19{
+	 width:150px !important;
+	 left:-16px !important;
+  }
+  #ID_txt14{
+   width:150px !important;
+    
+  }
+}
+  @media only screen and (device-width: 768px) {
+#ID_txt26,#ID_txt27,#ID_txt28{
+width:150px !important;
+left:0px !important;
+}
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.1.1 Dominios de difusión</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Dominios de difusión</h1>
+        <div>
+          <p>En una LAN Ethernet, los dispositivos utilizan la difusión para identificar lo siguiente:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Otros dispositivos:</b> un dispositivo utiliza el protocolo de resolución de direcciones (ARP), que envía difusiones de capa 2 a una dirección IPv4 conocida en la red local para detectar la dirección MAC asociada. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Servicios</b>: por lo general, un host adquiere su configuración de dirección IPv4 con el protocolo de configuración dinámica de host (DHCP), que envía difusiones a la red local para localizar el servidor DHCP.</li>
+            </ul>
+          </p>
+          <p>Los switches propagan las difusiones por todas las interfaces, salvo por aquella en la cual se recibieron. Por ejemplo, si un switch de la ilustración recibiera una difusión, la reenviaría a los demás switches y a otros usuarios conectados en la red.</p>
+          <p>Los routers no propagan difusiones. Cuando un router recibe una difusión, no la reenvía por otras interfaces. Por ejemplo, cuando el R1 recibe una difusión en la interfaz Gigabit Ethernet 0/0, no la reenvía por otra interfaz. </p>
+          <p>Por lo tanto, cada interfaz de router conecta un <i>dominio de difusión</i>, y las difusiones se propagan solamente dentro de su dominio de difusión específico.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a router connected to the Internet and to another switch. The switch is connected to three other switches. A box encompasses all the switches and the router interface and is labeled “Broadcast Domain”.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

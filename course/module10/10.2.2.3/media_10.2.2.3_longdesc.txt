@@ -1,0 +1,1 @@
+The figure shows the DNS hierarchy.  A client communicates with a local DNS server.  That server can communicate with Top-level domain servers for records it does not have in its DNS database.  The Top-Level servers can communicate with the Root servers for any records they do not have.  The Root servers have All DNS records.

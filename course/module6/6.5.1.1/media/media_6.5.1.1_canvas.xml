@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide>
+
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="6_5_1_1.png" />
+
+<element type="TEXTBOX" bodyId="ID_txtbox" x="140" y="366" width="399" height="86" animated="1" subType="ROLLOVER" />
+<element type="TEXT" compId="ID_txt02" x="358" y="60" width="154.9" expand="up" align="center" />
+<element type="TEXT" id="ID_static_1" text="172.16.236.0/24" x="446.4" y="132.2" align="center" width="75.3" />
+<element type="TEXT" id="ID_static_2" text="172.17.0.0/1 6" x="446.4" y="170.95" align="center" width="52.1" />
+<element type="TEXT" id="ID_static_3" text="172.22.1.0/24" x="453.1" y="309.15" align="center" width="64.6" />
+<element type="TEXT" id="ID_static_4" text="172.16.3.1" x="446.4" y="205.9" align="center" width="51.2" />
+<element type="TEXT" id="ID_static_5" text="Fa0/1" x="419.2" y="231.15" align="center" width="30.55" />
+<element type="TEXT" compId="ID_txt09" x="273" y="310" width="108.65" expand="up+down" align="right" />
+<element type="ROUTER" textId="ID_router_txt1" x="172.4" y="76.70" width="223.15" height="130.05" size="10" />
+
+</slide>
+
+<text id="ID_router_txt1"><![CDATA[<pre>Gateway of last resort is 172.16.3.1 to 
+network 0.0.0.0 
+S 172.17.0.0/<span class="align">16</span> [1/0] via 172.16.3.1
+  172.16.0.0/<span class="align">16</span> is variably subnetted, 4 
+subnets, 2 masks
+S 172.16.236.0/<span class="align">24</span> [1/0] via 172.16.3.1
+S 172.16.0.0/<span class="align">16</span> [1/0] via 172.16.3.1
+C 172.16.1.0/<span class="align">24</span> is directly connected,
+FastEthernet0/0
+C 172.16.3.0/<span class="align">24</span> is directly connected,
+FastEthernet0/1 
+  172.22.0.0/<span class="align">24</span> is subnetted, 1 subnets 
+S 172.22.1.0 [1/0] via 172.16.1.1
+S* 0.0.0.0/0 [1/0] via 172.16.3.1</pre>]]></text>
+
+</data>
+
+
+
+		<!-- <element type="IMAGE" src="media_6.5.1.1.jpg" width="470" height="400" x="0" y="0" />
+		<element type="TEXT" compId="ID_footer" x="123" y="289" width="327.1" height="107" />
+		<element type="TEXT" compId="ID_txt02" x="197" y="22" width="135.25" expand="up" align="center" size="8" />
+		<element type="TEXT" compId="ID_txt09" x="124" y="244" width="94.9" expand="up+down" align="right" size="8" />
+	
+		
+	</slide>
+	<text id="ID_router_txt1"><![CDATA[<pre>Gateway of last resort is 172.16.3.1 to network 0.0.0.0
+S    172.17.0.0/16 [1/0] via 172.16.3.1
+     172.16.0.0/16 is  variably subnetted, 4 subnets, 2 masks
+S      172.16.236.0/24 [1/0] via 172.16.3.1
+S      172.16.0.0/16 [1/0] via 172.16.3.1
+C      172.16.1.0/24 is directly connected, FastEthernet0/0
+C      172.16.3.0/24 is directly connected, FastEthernet0/1
+     172.22.0.0/24 is subnetted, 1 subnets
+S      172.22.1.0 [1/0] via 172.16.1.1
+S*   0.0.0.0/0 [1/0] via 172.16.3.1</pre>]]></text>
+</data> -->

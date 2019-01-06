@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+		
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<element type="IMAGE" src="10_2_2_6.png" x="0" y="30" width="680" height="490"/>
+<element type="TEXT" compId="ID_txt01" x="115" y="165" width="95" expand="down" align="center" />
+<element type="TEXT" compId="ID_txt02" x="469" y="165" width="97" expand="down" align="center" />
+<element type="TEXT" compId="ID_txt03" x="256" y="190" width="169" expand="up+down" align="center" class="orangeCallOut" />
+<element type="TEXT" compId="ID_txt05" x="256" y="280" width="169" expand="up+down" align="center" class="orangeCallOut" />
+<element type="TEXT" compId="ID_txt04" x="256" y="235" width="169" expand="up+down" align="center" class="greenCallOut"/>
+<element type="TEXT" compId="ID_txt06" x="256" y="325" width="169" expand="up+down" align="center" class="greenCallOut"/>
+
+
+</slide>
+</data>
+
+

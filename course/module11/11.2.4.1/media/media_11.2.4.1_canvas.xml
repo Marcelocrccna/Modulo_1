@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_11.2.4.1.png" />
+
+<element type="TEXT" compId="ID_txt01" x="379" y="157" width="162" expand="right" align="left" />
+<element type="TEXT" compId="ID_txt03" x="201" y="184" width="62" expand="right" align="left" color="#c51230" />
+<element type="TEXT" compId="ID_txt04" x="367" y="124" width="63" expand="left" align="right" color="#c51230" />
+<element type="TEXT" compId="ID_txt05" x="274" y="353" width="62" expand="right" align="left" color="#ffffff" />
+<element type="ROUTER" textId="ID_router_txt1" x="265" y="229" width="273" height="155" />
+<element type="TEXT" subType="TITLE" compId="ID_title" />
+	</slide>
+<text id="ID_router_txt1"><![CDATA[<pre>R2# auto secure<br /><br />--- AutoSecure Configuration ---<br />*** AutoSecure configuration <br />enhances the security of the <br />router, but it will not make<br />it absolutely resistant to all <br/>security attacks ***</pre>]]></text>
+
+</data>
+

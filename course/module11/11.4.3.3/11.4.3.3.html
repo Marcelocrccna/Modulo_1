@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.4.3.3 Problemas con el gateway predeterminado</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.4.3.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Problemas con el gateway predeterminado</h1>
+        <div>
+          <p>El gateway predeterminado para un terminal es el dispositivo de red más cercano que puede reenviar tráfico a otras redes. Si un dispositivo tiene una dirección de gateway predeterminado incorrecta o inexistente, no podrá comunicarse con los dispositivos de las redes remotas. Dado que el gateway predeterminado es la ruta a las redes remotas, su dirección debe pertenecer a la misma red que el terminal.</p>
+          <p></p>
+          <p>La dirección del gateway predeterminado se puede configurar u obtener manualmente de un servidor DHCP. Como sucede con los problemas de asignación de direcciones IPv4, los problemas del gateway predeterminado pueden estar relacionados con la configuración incorrecta (en el caso de la asignación manual) o problemas de DHCP (si está en uso la asignación automática).</p>
+          <p></p>
+          <p>Para resolver los problemas de un gateway predeterminado mal configurado, asegúrese de que el dispositivo tenga configurado el gateway predeterminado correcto. Si la dirección predeterminada fue configurada manualmente pero es incorrecta, simplemente reemplácela por la dirección apropiada. Si la dirección de gateway predeterminado fue configurada automáticamente, asegúrese de que el dispositivo pueda comunicarse correctamente con el servidor DHCP. También es importante verificar que se configuraron la dirección IPv4 y la máscara de subred correspondientes en la interfaz del router y que la interfaz esté activa.</p>
+          <p></p>
+          <p>Para verificar el gateway predeterminado en las computadoras con Windows, utilice el comando <b>ipconfig</b>. como se muestra en la Figura 1.</p>
+          <p></p>
+          <p>En un router, use el comando <b>show ip route</b> para mostrar la tabla de routing y comprobar que se ha establecido el gateway predeterminado, conocido como ruta predeterminada. Se usa esta ruta cuando la dirección de destino del paquete no coincide con ninguna otra ruta en la tabla de routing. En la Figura 2, se muestra que R2 es la ruta predeterminada para R1, mientras que el resultado de los comandos <b>show ip route</b> muestra que el gateway predeterminado se configuró con una ruta predeterminada de 10.1.0.2.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a topology with a PC, a switch, and three routers. The PC is connected to the switch, which is connected to router R1, which is connected to router R2, which is connected to router R3. Below the topology is the command output for ‘ipconfig’ with the default gateway highlighted.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

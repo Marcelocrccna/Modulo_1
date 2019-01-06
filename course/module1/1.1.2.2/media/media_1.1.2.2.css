@@ -1,0 +1,15 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_set02_header{
+	width: 178px !important;
+}
+
+@media only screen and (device-width: 768px) {
+#ID_set02_header{
+	width: 178px !important;
+}
+
+}

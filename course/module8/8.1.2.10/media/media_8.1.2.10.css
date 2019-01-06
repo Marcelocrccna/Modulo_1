@@ -1,0 +1,16 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_static_6, #ID_static_7, #ID_static_8, #ID_static_9, #ID_static_191, #ID_static_192, #ID_static_193, #ID_static_194{
+	letter-spacing:-0.7px !important;
+	}
+	
+#alignment{
+	color:#F68026;
+	}
+	
+#alignment1{
+	color:#5FBC21;
+	}

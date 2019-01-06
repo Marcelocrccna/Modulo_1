@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.3.2.2 Proceso de arranque del router</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.3.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Proceso de arranque del router</h1>
+        <div>
+          <p>Existen tres fases de gran importancia en el proceso de arranque. Como se muestra en la figura 1, las fases son las siguientes:</p>
+          <p>1. Se realiza el POST y se carga el programa de arranque.</p>
+          <p>2. Se ubica y se carga el software Cisco IOS.</p>
+          <p>3. Se ubica y se carga el archivo de configuración de inicio o se ingresa al modo de configuración.</p>
+          <p>
+            <b>1. Realización del POST y carga del programa de arranque (figura 2)</b>
+          </p>
+          <p>Durante el autodiagnóstico al encender (POST), el router realiza diagnósticos en la ROM sobre varios componentes de hardware, incluidas la CPU, la RAM y la NVRAM. Después del POST, el programa de arranque se copia de la ROM a la RAM. La tarea principal del programa de arranque es ubicar al Cisco IOS y cargarlo en la RAM.</p>
+          <p>
+            <b>Nota:</b> En este punto, si usted tiene una conexión de consola al router, comienza a ver el resultado en la pantalla.</p>
+          <p>
+            <b>2. Ubicación y carga de Cisco IOS (figura 3)</b>
+          </p>
+          <p>Por lo general, el IOS se almacena en la memoria flash y se copia en la RAM para que lo ejecute la CPU. Si la imagen de IOS no está en la memoria flash, el router puede buscarla con un servidor de protocolo trivial de transferencia de archivos (TFTP) Si no se puede ubicar una imagen de IOS completa, se copia un IOS limitado en la RAM, que puede usarse para diagnosticar problemas y transferir un IOS completo a la memoria flash.</p>
+          <p>
+            <b>3. Ubicación y carga del archivo de configuración (figura 4)</b>
+          </p>
+          <p>El programa de arranque copia el archivo de configuración de inicio de la NVRAM a la RAM. Esto se convierte en la configuración en ejecución. Si el archivo de configuración de inicio no existe en la NVRAM, se puede configurar al router para que busque un servidor TFTP. Si no encuentra ningún servidor TFTP, el router muestra la petición de entrada del modo de configuración. </p>
+          <p>
+            <b>Nota:</b> El modo de configuración no se utiliza en este curso para configurar el router. Ante la petición de entrada del modo de configuración, siempre se debe responder <b>no</b>. Si usted contesta que sí e ingresa al modo de configuración, presione <b>Ctrl</b>+<b>C</b> en cualquier momento para finalizar el proceso de configuración.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the boot up process.  First the router performs a POST and loads the bootstrap.  Both are found in ROM.  Secondly the router loads the IOS found in flash or by TFTP. Finally the router loads the startup configuration, found in NVRAM or by TFTP or console. Figure 2 highlights the POST section. Figure 3 highlights the loading of the IOS section. Figure 4 highlights the loading of the startup configuration section.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

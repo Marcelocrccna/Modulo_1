@@ -1,0 +1,152 @@
+﻿<textcomponents>
+    <!--Slide 1-->
+    <component id='ID_s1_inst'>
+        <text>
+            <![CDATA[<b></b><br><br>]]></text>
+    </component>
+    <component id='ID_s1_title'>
+        <text>
+            <![CDATA[<b>Actividad: Protocolos y Capas</b>]]></text>
+    </component>
+    <component id='ID_s1_instr_title'>
+        <text>
+            <![CDATA[Instrucciones]]>
+        </text>
+    </component>
+    <component id='ID_s1_instr_body'>
+        <text>
+            <![CDATA[Arrastre el protocolo o estándar al nombre de la capa TCP/IP como se describe.]]>
+        </text>
+    </component>
+    <component id='ID_s1_header01'>
+        <text>
+            <![CDATA[<font size="10" class="font10px">Aplicación</font>]]>
+        </text>
+    </component>
+    <component id='ID_s1_header02'>
+        <text>
+            <![CDATA[<font size="10" class="font10px">Transporte</font>]]>
+        </text>
+    </component>
+    <component id='ID_s1_header03'>
+        <text>
+            <![CDATA[<font size="10" class="font10px">Internet</font>]]>
+        </text>
+    </component>
+    <component id='ID_s1_header04'>
+        <text>
+            <![CDATA[<font size="10" class="font10px">Acceso a la red</font>]]>
+        </text>
+    </component>
+    <!--Drag and Drop -->
+    <component id='ID_a01_DS'>
+        <text>
+            <![CDATA[<font color="#393536">DNS</font>]]>
+        </text>
+    </component>
+    <component id='ID_a02_DS'>
+        <text>
+            <![CDATA[<font color="#393536">DHCP</font>]]>
+        </text>
+    </component>
+    <component id='ID_a03_DS'>
+        <text>
+            <![CDATA[<font color="#393536">HTTP</font>]]>
+        </text>
+    </component>
+    <component id='ID_a04_DS'>
+        <text>
+            <![CDATA[<font color="#393536">FTP</font>]]>
+        </text>
+    </component>
+    <component id='ID_a05_DS'>
+        <text>
+            <![CDATA[<font color="#393536">POP</font>]]>
+        </text>
+    </component>
+    <component id='ID_a06_DS'>
+        <text>
+            <![CDATA[<font color="#393536">SMTP</font>]]>
+        </text>
+    </component>
+    <component id='ID_a07_DS'>
+        <text>
+            <![CDATA[<font color="#393536">IMAP</font>]]>
+        </text>
+    </component>
+    <component id='ID_a08_DS'>
+        <text>
+            <![CDATA[<font color="#393536">BOOTP</font>]]>
+        </text>
+    </component>
+    <component id='ID_b01_DS'>
+        <text>
+            <![CDATA[<font color="#393536">TCP</font>]]>
+        </text>
+    </component>
+    <component id='ID_b02_DS'>
+        <text>
+            <![CDATA[<font color="#393536">UDP</font>]]>
+        </text>
+    </component>
+    <component id='ID_c01_DS'>
+        <text>
+            <![CDATA[<font color="#393536">IP</font>]]>
+        </text>
+    </component>
+    <component id='ID_c02_DS'>
+        <text>
+            <![CDATA[<font color="#393536">ICMP</font>]]>
+        </text>
+    </component>
+    <component id='ID_c03_DS'>
+        <text>
+            <![CDATA[<font color="#393536">OSPF</font>]]>
+        </text>
+    </component>
+    <component id='ID_c04_DS'>
+        <text>
+            <![CDATA[<font color="#393536">EIGRP</font>]]>
+        </text>
+    </component>
+    <component id='ID_d01_DS'>
+        <text>
+            <![CDATA[<font color="#393536">Ethernet</font>]]>
+        </text>
+    </component>
+    <component id='ID_d02_DS'>
+        <text>
+            <![CDATA[<font color="#393536">Controladores<br>de interfaz</font>]]>
+        </text>
+    </component>
+    <component id='ID_s1_CORRECT_TITLE'>
+        <text>
+            <![CDATA[Correcto]]>
+        </text>
+    </component>
+    <component id='ID_s1_CORRECT_BODY'>
+        <text>
+            <![CDATA[Unió correctamente el nombre de protocolo con la capa de TCP/IP apropiada.]]>
+        </text>
+    </component>
+    <component id='ID_s1_INCORRECT_TITLE'>
+        <text>
+            <![CDATA[Incorrecto]]>
+        </text>
+    </component>
+    <component id='ID_s1_INCORRECT_BODY'>
+        <text>
+            <![CDATA[No unió correctamente el nombre de protocolo con la capa de TCP/IP apropiada.]]>
+        </text>
+    </component>
+    <component id='ID_s1_CHECK'>
+        <text>
+            <![CDATA[Verificar]]>
+        </text>
+    </component>
+    <component id='ID_s1_RESET'>
+        <text>
+            <![CDATA[Restablecer]]>
+        </text>
+    </component>
+</textcomponents>

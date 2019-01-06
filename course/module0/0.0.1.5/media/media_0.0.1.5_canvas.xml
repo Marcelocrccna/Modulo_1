@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+	<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+	<element type="IMAGE" x="80" y="55" width="228.05" height="137.8" subType="STD" src="0_0_1_5A.jpg" />
+	<element type="IMAGE" x="407.05" y="55" width="147.95" height="137.8" subType="STD" src="0_0_1_5B.jpg" />
+	<element type="IMAGE" x="382.1" y="240.85" width="197.95" height="164.45" subType="STD" src="0_0_1_5D.jpg" />
+	<element type="IMAGE" x="80" y="240.85" width="201.95" height="164.45" subType="STD" src="0_0_1_5C.jpg" />
+	<element type="TEXT" subType="TITLE" compId="ID_title" color="#FFFFFF"/>
+	<element type="TEXT" compId="ID_txt01" x="80.45" y="199.45" width="225.75" expand="down" align="center" color="#FFFFFF" />
+	<element type="TEXT" compId="ID_txt02" x="388.95" y="199.45" width="182.5" expand="down" align="center" color="#FFFFFF" />
+	<element type="TEXT" compId="ID_txt04" x="388.95" y="418.55" width="179.5" expand="down" align="center" color="#FFFFFF" />
+	<element type="TEXT" compId="ID_txt03" x="80.45" y="418.55" width="202.5" expand="down" align="center" color="#FFFFFF" />
+</slide>
+</data>
+

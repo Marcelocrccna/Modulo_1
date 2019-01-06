@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+		<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+<element type="ROUTER" textId="ID_router_txt1" x="40" y="50" width="600" height="400" />
+<text id="ID_router_txt1"><![CDATA[<pre>R3#<b>show cdp neighbors</b>
+Capability Codes: R - Router, T - Trans Bridge, 
+                  B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP,
+                  r - Repeater, P - Phone
+
+Device ID  Local Intrfce  Holdtme  Capability  Platform  Port ID
+S3         Fas 0/0        151      S I         WS-C2950  Fas 0/6
+R2         Ser 0/0/1      125      R           1841      Ser 0/0/1
+
+R3#<b>show cdp neighbors detail</b>
+
+Device ID: R2
+Entry address(es): 
+  IP address : 192.168.1.2
+Platform: Cisco 1841,  Capabilities: Router Switch IGMP
+Interface: Serial0/0/1,  Port ID (outgoing port): Serial0/0/1
+Holdtime : 161 sec
+
+Version :
+Cisco IOS Software, 1841 Software (C1841-ADVIPSERVICESK9-M),
+Version 12.4(10b), RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2007 by Cisco Systems, Inc.
+Compiled Fri 19-Jan-07 15:15 by prod_rel_team
+
+advertisement version: 2
+VTP Management Domain: ''
+
+---------------------------
+Device ID: S3
+Entry address(es): 
+Platform: cisco WS-C2950-24,  Capabilities: Switch IGMP
+Interface: FastEthernet0/0,  Port ID (outgoing port):
+FastEthernet0/11
+Holdtime : 148 sec
+
+Version :
+Cisco Internetwork Operating System Software
+IOS (tm) C2950 Software (C2950-I6Q4L2-M), Version 12.1(9)EA1, 
+RELEASE SOFTWARE (fc1)
+Copyright (c) 1986-2002 by cisco Systems, Inc.
+Compiled Wed 24-Apr-02 06:57 by antonino
+
+advertisement version: 2
+Protocol Hello:  OUI=0x00000C, Protocol ID=0x0112; payload
+len=27, value=00000000FFFFFFFF0
+10231FF000000000000000AB769F6C0FF0000
+VTP Management Domain: 'CCNA3'
+Duplex: full
+
+R3#
+</pre>]]></text>
+<element type="TEXT" subType="TITLE" compId="ID_title" color="#FFFFFF"/>
+</slide>
+
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_11.3.4.3.png" />
+<element type="TEXT" id="ID_static_1" text="172.16.3.0/24" x="109.95" y="419.2" align="center" width="71.15" bold="1"/>
+<element type="TEXT" id="ID_static_2" text="192.168.2.0/24" x="457.9" y="419.2" align="center" width="77.65" bold="1"/>
+<element type="TEXT" id="ID_static_3" text="192.168.1.0/24" x="399.95" y="336.9" align="center" width="77.65" bold="1"/>
+<element type="TEXT" id="ID_static_4" text="172.16.2.0/24" x="195.55" y="336.9" align="center" width="71.15" bold="1"/>
+<element type="TEXT" id="ID_static_5" text="172.16.1.0/24" x="210.8" y="184.15" align="center" width="71.15" bold="1"/>
+<element type="TEXT" id="ID_static_6" text=".1" x="344.05" y="235.35" align="center" width="7.45" />
+<element type="TEXT" id="ID_static_7" text=".1" x="253.35" y="357.45" align="center" width="7.45" />
+<element type="TEXT" id="ID_static_8" text=".1" x="210.55" y="393.1" align="center" width="7.45" />
+<element type="TEXT" id="ID_static_9" text=".1" x="417.3" y="357.45" align="center" width="7.45" />
+<element type="TEXT" id="ID_static_10" text=".1" x="445" y="393.05" align="center" width="7.45" />
+<element type="TEXT" id="ID_static_11" text="Fa0/0" x="192.8" y="372.3" align="center" width="28.7" />
+<element type="TEXT" id="ID_static_12" text="Fa0/0" x="302.65" y="233.3" align="center" width="28.7" />
+<element type="TEXT" id="ID_static_13" text="Fa0/0" x="444.05" y="375" align="center" width="28.7" />
+<element type="TEXT" id="ID_static_14" text="S0/0/0" x="263.8" y="287.75" align="center" width="35.35" />
+<element type="TEXT" id="ID_static_15" text="S0/0/1 DCE" x="376.1" y="288.3" align="center" width="33.55" />
+<element type="TEXT" id="ID_static_16" text="S0/0/0 DCE" x="295.8" y="352.95" align="center" width="35.35" />
+<element type="TEXT" id="ID_static_17" text=".2" x="316.1" y="304.15" align="center" width="9.1" />
+<element type="TEXT" id="ID_static_18" text=".2" x="342.1" y="304.15" align="center" width="9.1" />
+<element type="TEXT" id="ID_static_19" text="S0/0/1" x="350" y="350.45" align="center" width="33.55" />
+<element type="TEXT" id="ID_static_20" text="PC2" x="325.25" y="84.15" align="center" width="33.55" color="#FFFFFF" bold="1"/>
+<element type="TEXT" id="ID_static_21" text="PC1" x="50.9" y="376.9" align="center" width="33.55" color="#FFFFFF" bold="1"/>
+<element type="TEXT" id="ID_static_22" text="PC3" x="590.25" y="376.9" align="center" width="33.55" color="#FFFFFF" bold="1"/>
+<element type="TEXT" id="ID_static_23" text="R1" x="241.65" y="397.95" align="center" width="33.55" color="#FFFFFF" bold="1"/>
+<element type="TEXT" id="ID_static_24" text="R2" x="320.05" y="279.45" align="center" width="33.55" color="#FFFFFF" bold="1"/>
+<element type="TEXT" id="ID_static_25" text="R3" x="400.1" y="397.95" align="center" width="33.55" color="#FFFFFF" bold="1"/>
+
+
+<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+</slide>
+
+	</slide>
+<text id="ID_router_txt1"><![CDATA[]]></text>
+</data>

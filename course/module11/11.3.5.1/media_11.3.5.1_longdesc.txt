@@ -1,0 +1,1 @@
+Figure shows the output of the ‘debug ip icmp’ command.

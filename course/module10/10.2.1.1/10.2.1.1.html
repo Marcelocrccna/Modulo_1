@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.2.1.1 Protocolo de transferencia de hipertexto y lenguaje de marcado de hipertexto</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.2.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Protocolo de transferencia de hipertexto y lenguaje de marcado de hipertexto</h1>
+        <div>
+          <p>Cuando se escribe una dirección web o un localizador uniforme de recursos (URL) en un navegador web, el navegador establece una conexión con el servicio web que se ejecuta en el servidor mediante el protocolo HTTP. Los nombres que la mayoría de las personas asocia con las direcciones web son URL e identificadores uniformes de recursos (URI). </p>
+          <p>Para comprender mejor cómo interactúan el navegador web con el servidor web, podemos analizar cómo se abre una página web en un navegador. Para este ejemplo, utilice el URL http://www.cisco.com/index.html.</p>
+          <p>Primero, el navegador interpreta las tres partes del URL, como se muestra en la Figura 1: </p>
+          <p>1. <b>http</b> (el protocolo o esquema)</p>
+          <p>2. <b>www.cisco.com</b> (el nombre del servidor)</p>
+          <p>3. <b>index.html</b> (el nombre de archivo específico solicitado)</p>
+          <p>A continuación, el navegador se comunica con un servidor de nombres para convertir www.cisco.com en una dirección IP numérica que utiliza para conectarse al servidor, como se muestra en la figura 2. Mediante los requisitos de HTTP, el navegador envía una solicitud GET al servidor y solicita el archivo <b>index.html </b>. El servidor envía el código HTML para esta página web al navegador, como se muestra en la figura 3. Finalmente, el navegador descifra el código HTML y da formato a la página para que se pueda visualizar en la ventana del navegador, como se muestra en la figura 4.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a server and client connected to a network where the client is using HTTP Figure 2 shows step one, the client requesting a web page. Figure 3 shows step two, the server response with an example of the response header. Figure 4 shows the web page rendering in a browser on the client.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

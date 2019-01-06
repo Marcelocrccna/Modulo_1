@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+	<!-- slide 01-->
+	<slide>
+		<element type="IMAGE" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" x="0" y="0" width="680" height="490" />
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_6.4.3.2.png"/>
+<element type="TEXT" id="ID_static_1" text=".10" x="126.95" y="284.75" align="center" width="14.95" />
+<element type="TEXT" id="ID_static_2" text=".11" x="126.95" y="371.75" align="center" width="13.15" />
+<element type="TEXT" id="ID_static_3" text=".1 G0/0" x="257.05" y="322.25" align="right" width="24.65" />
+<element type="TEXT" id="ID_static_4" text="192.168.10.0/24" x="233" y="307" align="center" width="85.35" bold="1" />
+<element type="TEXT" id="ID_static_5" text=".1 G0/1" x="338.55" y="322.25" align="right" width="22.85" />
+<element type="TEXT" id="ID_static_6" text="192.168.11.0/24" x="347.4" y="306.65" align="center" width="85.35" bold="1" />
+<element type="TEXT" id="ID_static_7" text=".50" x="222.7" y="343.05" align="center" width="14.95" />
+<element type="TEXT" id="ID_static_8" text="PC1" x="90.75" y="275.35" align="center" width="25.65" color="#FFF" />
+<element type="TEXT" id="ID_static_9" text="PC2" x="91.3" y="364.1" align="center" width="25.65" color="#FFF" />
+<element type="TEXT" id="ID_static_10" text="S1" x="176.35" y="332.4" align="center" width="39.15" color="#FFF" />
+<element type="TEXT" id="ID_static_11" text="S2" x="374.3" y="334.85" align="center" width="39.3" color="#FFF" />
+<element type="TEXT" id="ID_static_12" text="R1" x="288" y="339.65" align="center" width="46.8" color="#FFF" />
+<element type="ROUTER" textId="ID_router_txt1" x="389.45" y="56.05" width="216.85" height="180.9" />
+<text id="ID_router_txt1"><![CDATA[<pre>S1# show running-config 
+Building configuration... 
+! 
+
+service password-encryption 
+! 
+hostname S1 
+! 
+Interface Vlan1 
+<span class="colo"><b>ip address 192.168.10.50</b></span>
+! 
+<span class="colo"><b>ip default-gateway</b></span>
+192.168.10.1</pre>]]></text>
+<element type="TEXT" compId="ID_txt03" x="392" y="94" width="104.5" expand="right" align="left" color="#ffffff" />
+<element type="TEXT" compId="ID_txt04" x="392" y="214" width="104.5" expand="right" align="left" color="#ffffff" />
+</slide>
+
+
+<slide>
+	<element type="IMAGE" src="../../../common/images/page_backgrounds/bg_table_fullsize.jpg" x="0" y="0" width="1000" height="490" />
+<element type="TEXT" subType="TITLE" compId="ID_SC_title" color="#FFF"/>
+<element type="ACTIVITY" subType="SYNTAX" compId="ID_SC" x="25" y="60" width="630" height="388" resetId="ID_sc_reset" showMeId="ID_sc_showme" showAllId="ID_sc_showall"/>	
+</slide>
+
+	</slide>
+</data>

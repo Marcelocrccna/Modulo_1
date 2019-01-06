@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+
+			<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_2.1.1.1_s1.png" />
+
+
+<element type="TEXT" compId="ID_txt01" x="164" y="54" width="103.25" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_txt02" x="161" y="96" width="107.65" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_txt03" x="164" y="134" width="102.4" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_txt04" x="516" y="180" width="100.5" expand="up" align="center" />
+<!-- <element type="TEXTBOX" titleId="ID_titleTxt01" bodyId="ID_bodyTxt01" x="40" y="374" width="600" height="105" animated="1" subType="ROLLOVER" /> -->
+<element type="TEXT" subType="TITLE" compId="ID_title"/>
+</slide>
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+<element type="IMAGE" x="40" y="67" width="599.95" height="333.2" subType="STD" src="media_2.1.1.1_slide2.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_slide2_title" color="#FFF"/>
+</slide>
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+<element type="IMAGE" x="40" y="67" width="599.95" height="352.5" subType="STD" src="media_2.1.1.1_slide3.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_slide3_title" color="#FFF"/>
+</slide>
+
+
+
+
+
+
+
+
+
+	
+	</slide> 
+</data>
+
+

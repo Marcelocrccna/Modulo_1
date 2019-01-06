@@ -1,0 +1,134 @@
+<textcomponents>
+    <!-- instructions -->
+    <component id="ID_inst">
+		<text><![CDATA[<b>Actividad: terminología de fibra óptica</b>]]></text>
+	</component>
+
+	<component id='ID_instr_title'>
+		<text><![CDATA[Instruction]]></text>
+	</component>
+
+	<component id='ID_instr_body'>
+		<text><![CDATA[En la tabla, se proporcionan descripciones de los medios de fibra óptica. Haga clic en el campo correspondiente para unir la descripción con el tipo de cable de fibra óptica.]]></text>
+	</component>
+    
+    <!-- buttons -->
+    <component id="ID_s1_CHECK">
+        <text>
+            <![CDATA[Verificar]]></text>
+    </component>
+    <component id="ID_s1_RESET">
+        <text>
+            <![CDATA[Restablecer]]></text>
+    </component>
+    <!--Number of rows in the table-->
+    <component id="txt_numrows">
+        <text>
+            <![CDATA[6]]>
+        </text>
+    </component>
+    <!--Number of columns for the answers in the table. Do not count the question column-->
+    <component id="txt_a3">
+        <text>
+            <![CDATA[2]]>
+        </text>
+    </component>
+    <!--column headers-->
+    <component id="MCTable_title">
+        <text>
+            <![CDATA[]]>
+        </text>
+    </component>
+    <component id="txt_col1">
+        <text>
+            <![CDATA[<b>Multimodo</b>]]></text>
+    </component>
+    <component id="txt_col2">
+        <text>
+            <![CDATA[<b>Monomodo</b>]]></text>
+    </component>
+    <!--Question text - blockindent code moves the text away from the left edge a bit-->
+    <!--Question text - If questions are numbered, use blockindent for hanging indents-->
+    <component id="txt_q1">
+        <text>
+            <![CDATA[1. <textformat blockindent='13'>Puede contribuir a que los datos recorran distancias de aproximadamente 1,24 mi o<br><span class="space">2 km (2000 m).</span></textformat>]]>
+        </text>
+    </component>
+    <component id="txt_q2">
+        <text>
+            <![CDATA[2. <textformat blockindent='13'>Utiliza diodos emisores de luz (LED) como fuente de luz para transmitir los datos.</textformat>]]>
+        </text>
+    </component>
+    <component id="txt_q3">
+        <text>
+            <![CDATA[3. <textformat blockindent='13'>Utiliza láseres en un único flujo como fuente de luz para transmitir los datos.</textformat>]]>
+        </text>
+    </component>
+    <component id="txt_q4">
+        <text>
+            <![CDATA[4. <textformat blockindent='13'>Se utiliza para conectar aplicaciones de telefonía y de TV por cable de larga distancia.</textformat>]]>
+        </text>
+    </component>
+    <component id="txt_q5">
+        <text>
+            <![CDATA[5. <textformat blockindent='13'>Puede recorrer distancias de aproximadamente 62,5 mi o 100 km (100 000 m).</textformat>]]>
+        </text>
+    </component>
+    <component id="txt_q6">
+        <text>
+            <![CDATA[6. <textformat blockindent='13'>Se utiliza dentro de una red de campus.</textformat>]]>
+        </text>
+    </component>
+    <!--Answers - Give the column number(s), column numbering start with 1 not 0-->
+    <!--Answers - For MCMA separate the correct answers with commas [2, 4, 5] -->
+    <component id="txt_a2">
+        <text>
+            <![CDATA[1]]>
+        </text>
+    </component>
+    <component id="txt_a1">
+        <text>
+            <![CDATA[1]]>
+        </text>
+    </component>
+    <component id="txt_numcols">
+        <text>
+            <![CDATA[2]]>
+        </text>
+    </component>
+    <component id="txt_a5">
+        <text>
+            <![CDATA[2]]>
+        </text>
+    </component>
+    <component id="txt_a4">
+        <text>
+            <![CDATA[2]]>
+        </text>
+    </component>
+    <component id="txt_a6">
+        <text>
+            <![CDATA[1]]>
+        </text>
+    </component>
+    <!-- Correct Feedback -->
+    <component id="ID_titleCorrect">
+        <text>
+            <![CDATA[Correcto]]></text>
+    </component>
+    <component id="ID_correctText">
+        <text>
+            <![CDATA[Unió correctamente cada descripción de la fibra óptica con el tipo de cable correspondiente.]]>
+        </text>
+    </component>
+    <!-- Incorrect Feedback -->
+    <component id="ID_titleIncorrect">
+        <text>
+            <![CDATA[Incorrecto]]></text>
+    </component>
+    <component id="ID_IncorrectText">
+        <text>
+            <![CDATA[No unió correctamente cada descripción de la fibra óptica con el tipo de cable correspondiente. Haga clic en Restablecer y vuelva a intentarlo.]]>
+        </text>
+    </component>
+</textcomponents>

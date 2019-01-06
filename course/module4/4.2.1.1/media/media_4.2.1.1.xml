@@ -1,0 +1,62 @@
+<textcomponents>
+	<component id="ID_txt01">
+        <text>
+            <![CDATA[<b>Señal digital pura<b>]]>
+        </text>
+    </component>
+     <component id="ID_txt04">
+        <text>
+            <![CDATA[<b>Señal de interferencia<b>]]>
+        </text>
+    </component>
+    <component id="ID_txt07">
+        <text>
+            <![CDATA[<b>Señal digital con interferencia<b>]]>
+        </text>
+    </component>
+    <component id="ID_txt10">
+        <text>
+            <![CDATA[<b>Lo que lee la computadora<b>]]>
+        </text>
+    </component>
+
+
+    <component id="ID_txt02">
+        <text>
+            <![CDATA[Voltaje]]>
+        </text>
+    </component>
+    <component id="ID_txt03">
+        <text>
+            <![CDATA[Tiempo]]>
+        </text>
+    </component>
+    <component id="ID_txt05">
+        <text>
+            <![CDATA[Voltaje]]>
+        </text>
+    </component>
+    <component id="ID_txt06">
+        <text>
+            <![CDATA[Tiempo]]>
+        </text>
+    </component>
+    <component id="ID_txt08">
+        <text>
+            <![CDATA[Voltaje]]>
+        </text>
+    </component>
+    <component id="ID_txt09">
+        <text>
+            <![CDATA[Tiempo]]>
+        </text>
+    </component>
+     <component id="ID_txt12">
+        <text>
+            <![CDATA[Señal modificada]]>
+        </text>
+    </component>
+
+    
+   
+</textcomponents>

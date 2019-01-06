@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.2.2.3 Ataques con acceso</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.2.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Ataques con acceso</h1>
+        <div>
+          <p>Los ataques de acceso explotan las vulnerabilidades conocidas de los servicios de autenticación, los servicios FTP y los servicios Web para obtener acceso a las cuentas Web, a las bases de datos confidenciales y demás información confidencial. Un ataque de acceso permite que una persona obtenga acceso no autorizado a información que no tiene derecho a ver. Los ataques de acceso pueden clasificarse en cuatro tipos: </p>
+          <p>
+            <ul>
+              <li>Ataques de contraseña (figura 1)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Explotación de confianza (figura 2)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Redireccionamiento de puertos (figura 3)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Man-in-the-middle (intermediario) (figura 4)</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 is an example of a password attack.  The user authentication dialog box is shown. Figure 2 is a video showing how a trust exploitation works.  An attacker on a host cannot get access to system A, but can get access to system B.  Since system B can access system A, the attacker can now access system A. Figure 3 shows a complex network.  There is an attacker on a host.  The attacker cannot access a device on the inside of a firewall.  However, the attacker can access a host that can access devices inside the firewall.  This is a form of a trust exploitation using port redirection.  Now packets can be forwarded to the trusted host to be redirected into the network. Figure 4 is an example of a man in the middle attack.  There is a laptop connected to a switch. The switch connects to a router and then to the Internet.  The attacker convinces the laptop to forward all traffic to his computer.  The attacker forwards the traffic correctly and returns it to the laptop. However, as a result, the attacker can inspect all packets to and from the laptop.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

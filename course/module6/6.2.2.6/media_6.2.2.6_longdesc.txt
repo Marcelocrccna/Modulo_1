@@ -1,0 +1,1 @@
+Figure 1 shows two routers connected by a serial connection.  Each router has two LANs attached.  Figure 2 shows the output from "show ip route" command issued on router 1. The two routes learned by EIGRP have the next hop interface highlighted in orange.  The next hop is the IP address of the WAN interface on the remote router.

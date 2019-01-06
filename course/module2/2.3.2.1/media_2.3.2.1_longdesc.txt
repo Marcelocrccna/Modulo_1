@@ -1,0 +1,1 @@
+Figure 1 shows the Windows Local Area Connection Properties window with “Internet Protocol Version 4 (TCP/IPv4)” selected. Figure 2 shows the Windows TCP/IPv4 Properties window with IP address information statically configured

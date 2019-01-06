@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.6 Ejemplo de división en subredes sin clase</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Ejemplo de división en subredes sin clase</h1>
+        <div>
+          <p>Comprender cómo realizar la división en subredes en un nivel sin clase puede ser de utilidad. En el siguiente ejemplo, se muestra este proceso. </p>
+          <p>Considere la dirección de red privada 192.168.1.0/24 que se muestra en la figura 1. Los primeros tres octetos se expresan en el sistema decimal, mientras que el último octeto se muestra en sistema binario. El motivo es que tomaremos prestados bits del último octeto para crear subredes de la red 192.168.1.0/24.</p>
+          <p>La máscara de subred es 255.255.255.0, según lo indica la longitud de prefijo /24. Esto identifica a los primeros tres octetos como la porción de red, y a los 8 bits restantes en el último octeto como la porción de host. Sin la división en subredes, esta red admite una sola interfaz de red LAN y proporciona 254 direcciones IPv4 de host. Si se necesitara otra LAN, sería necesario dividir la red en subredes.</p>
+          <p>En la figura 2, se toma prestado 1 bit del bit más significativo (el bit que se encuentra más a la izquierda) en la porción de host, lo que extiende la porción de red a 25 bits o /25. Esto permite la creación de dos subredes.</p>
+          <p>En la figura 3, se muestran las dos subredes: 192.168.1.0/25 y 192.168.1.128/25. Las dos subredes se derivan de cambiar el valor del bit que se pide prestado a 0 o a 1. Debido a que el bit que se pide prestado es el 128, el valor decimal del cuarto octeto para la segunda subred es 128. </p>
+          <p>En la figura 4, se muestra la máscara de subred que se obtiene para ambas redes. Observe cómo se usa un 1 en la posición del bit que se pidió prestado para indicar que ahora este bit forma parte de la porción de red.</p>
+          <p>En la figura 5, se muestra la representación decimal punteada de las dos direcciones de subred y de su máscara de subred común. Dado que se tomó prestado un bit, la máscara de subred para cada subred es 255.255.255.128 o /25.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the network address 192.168.1.0/24 with the first three octets of the address in decimal and the last octet in binary. The address is over the subnet mask. The first three octets of the subnet mask are in decimal and the last octet is in binary. The host portion of both is all zeros. Figure 2 shows borrowing the first bit in the fourth octet. Figure 3 shows the two subnets one bit borrowed would create. Figure 4 shows that the borrowed bit becomes a one bit in the subnet mask. Figure 5 shows that the two subnets are 192.168.1.0/25 and 192.168.1.128/25 with the new subnet mask of 255.255.255.128.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

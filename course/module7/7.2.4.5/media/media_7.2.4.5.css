@@ -1,0 +1,18 @@
+/*   load the main media CSS file    */
+@import url('../../../common/styles/media2.css');
+
+.blueColor {
+    color: #46a040;
+}
+
+.orangeColor {
+    color: #F26200;
+}
+#ID_s2_txt11{
+	font-weight: bold;
+}
+
+#ID_router_txt1, #ID_router_txt2 {
+    letter-spacing: -0.66px;
+    line-height: 18px;
+}

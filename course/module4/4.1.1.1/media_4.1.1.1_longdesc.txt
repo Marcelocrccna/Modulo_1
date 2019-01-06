@@ -1,0 +1,1 @@
+Figure 1 shows the back of a home wireless router.  There are arrows pointing to four Ethernet ports (the LAN ports), one Ethernet port (Internet connection) and the top of the router (the built in wireless antenna). Figure two shows the wireless router and a laptop.  The laptop is connected to one of the four LAN ports.

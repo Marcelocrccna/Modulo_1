@@ -1,0 +1,1 @@
+This is an interactive activity in which the learner practices using Rule 1 and Rule 2 to convert an IPv6 address from the preferred format into its shortest representation. There are ten problems.

@@ -1,0 +1,1 @@
+This is an interactive activity in which the learner can practice converting a decimal number into binary. Clicking “New Number” will provide another problem.

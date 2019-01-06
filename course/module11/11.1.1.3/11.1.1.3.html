@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.1.1.3 Direccionamiento IP para redes pequeñas</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.1.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Direccionamiento IP para redes pequeñas</h1>
+        <div>
+          <p>Al implementar una red pequeña, es necesario planificar el espacio de direccionamiento IP. Todos los hosts dentro de una internetwork deben tener una dirección exclusiva. Se debe planificar, registrar y mantener un esquema de asignación de direcciones IP basado en los tipos de dispositivos que reciben la dirección.</p>
+          <p>Los siguientes son ejemplos de diferentes tipos de dispositivos que afectan el diseño de IP:</p>
+          <p>
+            <ul>
+              <li>Dispositivos finales para usuarios</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Servidores y periféricos </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Hosts a los que se accede desde Internet</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Dispositivos intermediarios</li>
+            </ul>
+          </p>
+          <p>La planificación y el registro del esquema de direccionamiento IP ayudan al administrador a realizar un seguimiento de los tipos de dispositivos. Por ejemplo, si se asigna una dirección de host en el rango 50 a 100 a todos los servidores, resulta fácil identificar el tráfico de servidores por dirección IP. Esto puede resultar muy útil al llevar a cabo la resolución de problemas de tráfico de la red mediante un analizador de protocolos.</p>
+          <p>Además, los administradores pueden controlar mejor el acceso a los recursos de la red sobre la base de las direcciones IP cuando se utiliza un esquema de direccionamiento IP determinista. Esto puede ser especialmente importante para los hosts que proporcionan recursos a la red interna y la red externa. Los servidores Web o los servidores de e-commerce cumplen dicha función. Si las direcciones para estos recursos no son planificadas y documentadas, no es posible controlar fácilmente la seguridad y accesibilidad de los dispositivos. Si se asigna una dirección aleatoria a un servidor, resulta difícil bloquear el acceso a esta dirección, y es posible que los clientes no puedan localizar ese recurso.</p>
+          <p>Cada uno de estos diferentes tipos de dispositivos debería asignarse a un bloque lógico de direcciones dentro del rango de direcciones de la red.</p>
+          <p>Haga clic en los botones de la ilustración para ver el método de asignación.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is an interactive activity has two groups of network devices.  Each group contains laptops, PC's servers and a printer is labeled east office and west office.  There are buttons below. When you click on Location, all the devices in group one are highlighted orange and in group two are highlighted green.  Then there are buttons next to department labeled Sales, HR and Legal.   When you click on each button, the devices for that department from each group are highlighted orange.  There are also three buttons next to device labeled Printer, Server and Computer.  When you click on each of these buttons, the devices from each office are highlighted orange.  This activity demonstrates that you can organize devices by function, location, or type.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

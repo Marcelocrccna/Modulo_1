@@ -1,0 +1,238 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Uso de dos puntos dobles</b>]]></text>
+	</component><!--Slide 1--><component id="ID_s2_txt01">
+		<text><![CDATA[Recomendado]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Sin ceros iniciales]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[Comprimido]]></text>
+	</component><!--Slide 2--><component id="ID_s1_txt01">
+		<text><![CDATA[Recomendado]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Sin ceros iniciales]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Comprimido]]></text>
+	</component>
+	<component id="ID_s2_txt04">
+		<text><![CDATA[o]]></text>
+	</component>
+	<component id="ID_s3_txt03">
+		<text><![CDATA[Comprimido]]></text>
+	</component>
+	<component id="ID_s2_txt06">
+		<text><![CDATA[“::” se puede utilizar solo una vez]]></text>
+	</component><!--Slide 3--><component id="ID_s4_txt01">
+		<text><![CDATA[Recomendado]]></text>
+	</component>
+	<component id="ID_s4_txt02">
+		<text><![CDATA[Sin ceros iniciales]]></text>
+	</component>
+	<component id="ID_s2_txt05">
+		<text><![CDATA[Comprimido]]></text>
+	</component><!--Slide 4--><component id="ID_s3_txt01">
+		<text><![CDATA[Recomendado]]></text>
+	</component>
+	<component id="ID_s3_txt02">
+		<text><![CDATA[Sin ceros iniciales]]></text>
+	</component>
+	<component id="ID_s5_txt03">
+		<text><![CDATA[Comprimido]]></text>
+	</component><!--Slide 5--><component id="ID_s6_txt01">
+		<text><![CDATA[Recomendado]]></text>
+	</component>
+	<component id="ID_s6_txt02">
+		<text><![CDATA[Sin ceros iniciales]]></text>
+	</component>
+	<component id="ID_s4_txt03">
+		<text><![CDATA[Comprimido]]></text>
+	</component><!--Slide 6--><component id="ID_s5_txt01">
+		<text><![CDATA[Recomendado]]></text>
+	</component>
+	<component id="ID_s5_txt02">
+		<text><![CDATA[Sin ceros iniciales]]></text>
+	</component>
+	<component id="ID_s7_txt03">
+		<text><![CDATA[Comprimido]]></text>
+	</component><!--Slide 7--><component id="ID_s7_txt01">
+		<text><![CDATA[Recomendado]]></text>
+	</component>
+	<component id="ID_s7_txt02">
+		<text><![CDATA[Sin ceros iniciales]]></text>
+	</component>
+	<component id="ID_s6_txt03">
+		<text><![CDATA[Comprimido]]></text>
+	</component>
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+
+  <tr class="mtable_title">
+      <td colspan="2" bgcolor='#FFFFFF'><font size="5"></font></td>
+    </tr>
+
+    <tr class="mtable_top">
+      <td colspan='2' bgcolor='#666263'><font size='1' color='#0E6360'>.</font></td>
+    </tr>
+  
+  <tr >
+    <td width="198" bgcolor='#E9E7E8' width="198"><font color='#393536' >&nbsp;<br>&nbsp;</font></td>
+    <td bgcolor='#E9E7E8' width="398"><font color='#393536'  >&nbsp;<br>&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#F2F2F2'><font color='#393536'>&nbsp;<br>&nbsp;</font></td>
+    <td bgcolor='#F2F2F2'><font color='#393536'>&nbsp;<br>&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#F2F2F2'><font color='#393536'>&nbsp;<br>&nbsp;</font></td>
+    <td bgcolor='#F2F2F2'><font color='#393536'>&nbsp;<br>&nbsp;</font></td>
+  </tr>
+</table>]]></text>
+</component>
+<component id="ID_table_1">
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+
+  <tr class="mtable_title">
+      <td colspan="2" bgcolor='#FFFFFF'><font size="5"></font></td>
+    </tr>
+
+    <tr class="mtable_top">
+      <td colspan='2' bgcolor='#666263'><font size='1' color='#0E6360'>.</font></td>
+    </tr>
+  
+  <tr >
+    <td width="198" bgcolor='#E9E7E8'><font color='#393536' >&nbsp;<br>&nbsp;</font></td>
+    <td bgcolor='#E9E7E8' width="398"><font color='#393536' >&nbsp;<br>&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#F2F2F2'><font color='#393536'>&nbsp;<br>&nbsp;</font></td>
+    <td bgcolor='#F2F2F2'><font color='#393536'>&nbsp;<br>&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#F2F2F2'><font color='#393536'>&nbsp;<br>&nbsp;</font></td>
+    <td bgcolor='#F2F2F2'><font color='#393536'>&nbsp;<br>&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#F2F2F2'><font color='#393536'>&nbsp;<br>&nbsp;</font></td>
+    <td bgcolor='#F2F2F2'><font color='#393536'>&nbsp;<br>&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#F2F2F2'><font color='#393536'>&nbsp;<br>&nbsp;</font></td>
+    <td bgcolor='#F2F2F2'><font color='#393536'>&nbsp;<br>&nbsp;</font></td>
+  </tr>
+</table>]]></text>
+</component>
+
+<component id="ID_s1_table1_txt01">
+  <text><![CDATA[<pre>2001:<span class="orange">0</span>DB8:<span class="orange">000</span>0:1111:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">0</span>200</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table1_txt02">
+  <text><![CDATA[<pre>2001:&nbsp;DB8:&nbsp;&nbsp;&nbsp;0:1111:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;200</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table1_txt03">
+  <text><![CDATA[<pre>2001:DB8:0:1111::200</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table2_txt01">
+  <text><![CDATA[<pre>2001:<span class="orange">0</span>DB8:<span class="orange">000</span>0:<span class="orange">000</span>0:ABCD:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">0</span>100</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table2_txt02">
+  <text><![CDATA[<pre>2001:&nbsp;DB8:&nbsp;&nbsp;&nbsp;<span class="green">0</span>:&nbsp;&nbsp;&nbsp;<span class="green">0</span>:ABCD:&nbsp;&nbsp;&nbsp;<span class="green">0</span>:&nbsp;&nbsp;&nbsp;<span class="green">0</span>:&nbsp;100</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table2_txt03">
+  <text><![CDATA[<pre>2001:DB8::ABCD:0:0:100</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table2_txt04">
+  <text><![CDATA[<pre>2001:DB8:0:0:ABCD::100</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table3_txt01">
+  <text><![CDATA[<pre>FE80:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">0</span>123:4567:89AB:CDEF</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table3_txt02">
+  <text><![CDATA[<pre>FE80:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;123:4567:89AB:CDEF</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table3_txt03">
+  <text><![CDATA[<pre>FE80::123:4567:89AB:CDEF</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table4_txt01">
+  <text><![CDATA[<pre>FF02:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>1</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table4_txt02">
+  <text><![CDATA[<pre>FF02:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;1</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table4_txt03">
+  <text><![CDATA[<pre>FF02::1</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table5_txt01">
+  <text><![CDATA[<pre>FF02:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>1:FF00:<span class="orange">0</span>200</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table5_txt02">
+  <text><![CDATA[<pre>FF02:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;1:FF00:&nbsp;200</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table5_txt03">
+  <text><![CDATA[<pre>FF02::1:FF00:200</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table6_txt01">
+  <text><![CDATA[<pre><span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>1</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table6_txt02">
+  <text><![CDATA[<pre>&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;1</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table6_txt03">
+  <text><![CDATA[<pre>::1</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table7_txt01">
+  <text><![CDATA[<pre><span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0:<span class="orange">000</span>0</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table7_txt02">
+  <text><![CDATA[<pre>&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0:&nbsp;&nbsp;&nbsp;0</pre>]]>
+  </text>
+</component>
+
+<component id="ID_s1_table7_txt03">
+  <text><![CDATA[<pre>::</pre>]]>
+  </text>
+</component>
+</textcomponents>

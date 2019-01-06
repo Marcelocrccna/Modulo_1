@@ -1,0 +1,14 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Tres tipos de destinos</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Host local]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Módulo remoto de E/S]]></text>
+</component>
+
+</textcomponents>

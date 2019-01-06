@@ -1,0 +1,244 @@
+<textcomponents>
+	 <component id="ID_title">
+        <text>
+            <![CDATA[<b>Actividad: Funciones de los componentes de red</b>]]></text>
+    </component>
+    <component id="ID_table01">
+        <text>
+            <![CDATA[Categoría del dispositivo]]></text>
+    </component>
+    <component id="ID_table02">
+        <text>
+            <![CDATA[Función]]></text>
+    </component>
+    <component id="ID_table03">
+        <text>
+            <![CDATA[Representación]]></text>
+    </component>
+    <component id="ID_table04">
+        <text>
+            <![CDATA[Dispositivos finales]]></text>
+    </component>
+    <component id="ID_table05">
+        <text>
+            <![CDATA[Dispositivos intermediarios]]></text>
+    </component>
+    <component id="ID_table06">
+        <text>
+            <![CDATA[Medios de red]]></text>
+    </component>
+    <component id="ID_s2_CHECK">
+        <text>
+            <![CDATA[Verificar]]></text>
+    </component>
+    <component id="ID_s2_RESET">
+        <text>
+            <![CDATA[Restablecer]]></text>
+    </component>
+    <component id="ID_s1_CHECK">
+        <text>
+            <![CDATA[Verificar]]></text>
+    </component>
+    <component id="ID_s1_RESET">
+        <text>
+            <![CDATA[Restablecer]]></text>
+    </component>
+    <component id="ID_s3_CHECK">
+        <text>
+            <![CDATA[Verificar]]></text>
+    </component>
+    <component id="ID_s3_RESET">
+        <text>
+            <![CDATA[Restablecer]]></text>
+    </component>
+    <component id="ID_s2_INCORRECT_TITLE">
+        <text>
+            <![CDATA[<FONT FACE="_sans">Incorrecto</FONT>]]>
+        </text>
+    </component>
+    <component id="ID_s1_INCORRECT_BODY">
+        <text>
+            <![CDATA[<FONT FACE="_sans">No unió correctamente las funciones de los componentes de red con la categoría de los dispositivos. Haga clic en Restablecer y vuelva a intentarlo.</FONT>]]>
+        </text>
+    </component>
+    <component id="ID_s1_INCORRECT_TITLE">
+        <text>
+            <![CDATA[<FONT FACE="_sans">Incorrecto</FONT>]]>
+        </text>
+    </component>
+    <component id="ID_s2_INCORRECT_BODY">
+        <text>
+            <![CDATA[<FONT FACE="_sans">No unió correctamente los íconos de los componentes de red con la categoría de los dispositivos. Haga clic en Restablecer y vuelva a intentarlo.</FONT>]]>
+        </text>
+    </component>
+    <component id="ID_s3_INCORRECT_TITLE">
+        <text>
+            <![CDATA[<FONT FACE="_sans">Incorrecto</FONT>]]>
+        </text>
+    </component>
+    <component id="ID_s3_INCORRECT_BODY">
+        <text>
+            <![CDATA[<FONT FACE="_sans">No unió correctamente los nombres de los componentes de red con los íconos. Haga clic en Restablecer y vuelva a intentarlo.</FONT>]]>
+        </text>
+    </component>
+    <component id="ID_s3_CORRECT_TITLE">
+        <text>
+            <![CDATA[<FONT FACE="_sans"><b>Correcto</b></FONT>]]>
+        </text>
+    </component>
+    <component id="ID_s3_CORRECT_BODY">
+        <text>
+            <![CDATA[<FONT FACE="_sans">Unió correctamente los nombres de los componentes de red con los íconos.</FONT>]]>
+        </text>
+    </component>
+     <component id="ID_s1_instr_title">
+        <text>
+            <![CDATA[Instruction]]>
+        </text>
+    </component>
+    <component id="ID_s1_instr_body">
+        <text>
+            <![CDATA[Arrastre la función de los componentes de red hasta la categoría de dispositivo correspondiente.]]>
+        </text>
+    </component>
+    <component id="ID_s2_existing01">
+        <text>
+            <![CDATA[Proporciona una interfaz entre la persona<br>y la red.]]>
+        </text>
+    </component>
+    <component id="ID_s2_existing02">
+        <text>
+            <![CDATA[Proporciona conectividad<br>y garantiza el flujo de datos<br>en toda la red.]]>
+        </text>
+    </component>
+    <component id="ID_s2_existing03">
+        <text>
+            <![CDATA[Proporciona un canal para que los mensajes viajen del origen al destino]]>
+        </text>
+    </component>
+
+    <component id="ID_s2_instr_title">
+        <text>
+            <![CDATA[Instruction]]>
+        </text>
+    </component>
+    <component id="ID_s2_instr_body">
+        <text>
+            <![CDATA[Arrastre el ícono de los componentes de red hasta la categoría de dispositivo correspondiente.]]>
+        </text>
+    </component>
+    <component id="ID_s1_drag01">
+        <text>
+            <![CDATA[Proporciona una interfaz entre la persona<br>y la red.]]>
+        </text>
+    </component>
+    <component id="ID_s1_drag02">
+        <text>
+            <![CDATA[Proporciona conectividad<br>y garantiza el flujo de datos<br>en toda la red.]]>
+        </text>
+    </component>
+    <component id="ID_s1_drag03">
+        <text>
+            <![CDATA[Proporciona un canal para que los mensajes viajen del origen al destino]]>
+        </text>
+    </component>
+    <component id="ID_s3_instr_title">
+        <text>
+            <![CDATA[Instruction]]>
+        </text>
+    </component>
+    <component id="ID_s3_instr_body">
+        <text>
+            <![CDATA[Arrastre los nombres de los componentes de red hasta el ícono correspondiente.</font>]]>
+        </text>
+    </component>
+    <component id="ID_s3_existing01">
+        <text>
+            <![CDATA[Proporciona una interfaz entre la persona<br>y la red.]]>
+        </text>
+    </component>
+    <component id="ID_s3_existing02">
+        <text>
+            <![CDATA[Proporciona conectividad<br>y garantiza el flujo de datos<br>en toda la red.]]>
+        </text>
+    </component>
+    <component id="ID_s3_existing03">
+        <text>
+            <![CDATA[Proporciona un canal para que los mensajes viajen del origen al destino]]>
+        </text>
+    </component>
+    <component id="ID_s3_drag01">
+        <text>
+            <![CDATA[Computadora portátil]]>
+        </text>
+    </component>
+    <component id="ID_s3_drag02">
+        <text>
+            <![CDATA[Impresora]]>
+        </text>
+    </component>
+    <component id="ID_s3_drag03">
+        <text>
+            <![CDATA[Tableta inalámbrica]]>
+        </text>
+    </component>
+    <component id="ID_s3_drag04">
+        <text>
+            <![CDATA[Computadora de escritorio]]>
+        </text>
+    </component>
+    <component id="ID_s3_drag05">
+        <text>
+            <![CDATA[Teléfono IP]]>
+        </text>
+    </component>
+    <component id="ID_s3_drag06">
+        <text>
+            <![CDATA[Terminales de TelePresence]]>
+        </text>
+    </component>
+    <component id="ID_s3_drag07">
+        <text>
+            <![CDATA[Router inalámbrico]]>
+        </text>
+    </component>
+    <component id="ID_s3_drag08">
+        <text>
+            <![CDATA[Router]]>
+        </text>
+    </component>
+    <component id="ID_s3_drag09">
+        <text>
+            <![CDATA[Dispositivos<br/>de firewall]]>
+        </text>
+    </component>
+    <component id="ID_s3_drag10">
+        <text>
+            <![CDATA[Switch LAN]]>
+        </text>
+    </component>
+    <component id="ID_s3_drag11">
+        <text>
+            <![CDATA[Switch de multicapa]]>
+        </text>
+    </component>
+    <component id="ID_s3_drag12">
+        <text>
+            <![CDATA[Medios WAN]]>
+        </text>
+    </component>
+    <component id="ID_s3_drag13">
+        <text>
+            <![CDATA[Medios inalámbricos]]>
+        </text>
+    </component>
+    <component id="ID_s3_drag14">
+        <text>
+            <![CDATA[Medios LAN]]>
+        </text>
+    </component>
+    <component id="transcript">
+        <text>
+            <![CDATA[<b>la transcripción va aquí</b>]]></text>
+    </component>
+</textcomponents>

@@ -1,0 +1,10 @@
+﻿<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[Packet Tracer]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[Identificación del direccionamiento IPv4 e IPv6]]></text>
+	</component>
+	
+</textcomponents>

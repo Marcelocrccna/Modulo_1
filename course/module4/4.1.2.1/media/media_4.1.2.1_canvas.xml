@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<element type="IMAGE" src="media_4.1.2.1.png" x="0" y="0" width="680" height="490"/>
+<element type="TEXT" compId="ID_txt01" x="232" y="65" width="216.75" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_txt02" x="235" y="125" width="215" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt04" x="253" y="218.9" width="55.3" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" id="ID_static_1" text="1" x="243" y="425.55" align="center" width="12.6" />
+<element type="TEXT" id="ID_static_2" text="0" x="261" y="425.55" align="center" width="13.35" />
+<element type="TEXT" id="ID_static_3" text="1" x="280" y="425.55" align="center" width="13.35" />
+<element type="TEXT" id="ID_static_4" text="0" x="299" y="425.55" align="center" width="13.35" />
+<element type="TEXT" id="ID_static_5" text="0" x="318" y="425.55" align="center" width="13.35" />
+<element type="TEXT" id="ID_static_6" text="1" x="336" y="425.55" align="center" width="13.35" />
+<element type="TEXT" id="ID_static_7" text="1" x="355" y="425.55" align="center" width="12.6" />
+<element type="TEXT" id="ID_static_8" text="1" x="374" y="425.55" align="center" width="12.6" />
+<element type="TEXT" id="ID_static_9" text="0" x="392" y="425.55" align="center" width="12.6" />
+<element type="TEXT" id="ID_static_10" text="0" x="411" y="425.55" align="center" width="12.6" />
+<element type="TEXT" id="ID_static_11" text="1" x="430" y="425.55" align="center" width="12.6" />
+<element type="TEXT" compId="ID_txt03" x="227" y="191" width="227.25" expand="up" align="center" />
+<element type="TEXT" compId="ID_txt07" x="276" y="266" width="128.25" expand="up" align="center" />
+<element type="TEXT" compId="ID_txt15" x="227" y="403" width="225.9" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_txt13" x="342" y="363.55" width="56.3" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt10" x="226" y="335" width="229.05" expand="up" align="center" />
+<element type="TEXT" compId="ID_txt12" x="283" y="363.55" width="55.25" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt14" x="402" y="363.55" width="54.3" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt06-1" x="55" y="111" width="121.05" expand="up+down" align="center" size="10" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt05-1" x="55" y="176" width="121.05" expand="up+down" align="center" size="10" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt04-1" x="55" y="240" width="121.05" expand="up+down" align="center" size="10" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt03-1" x="55" y="305" width="121.05" expand="up+down" align="center" size="10" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt02-1" x="55" y="370" width="121.05" expand="up+down" align="center" size="10" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt01-1" x="55" y="434" width="121.05" expand="up+down" align="center" size="10" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt07-2" x="506" y="46" width="121.05" expand="up+down" align="center" size="10" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt06-2" x="506" y="111" width="121.05" expand="up+down" align="center" size="10" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt05-2" x="506" y="176" width="121.05" expand="up+down" align="center" size="10" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt04-2" x="506" y="240" width="121.05" expand="up+down" align="center" size="10" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt03-2" x="506" y="305" width="121.05" expand="up+down" align="center" size="10" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt02-2" x="506" y="370" width="121.05" expand="up+down" align="center" size="10" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt01-2" x="506" y="434" width="121.05" expand="up+down" align="center" size="10" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_header1" x="49" y="15" width="130.35" expand="up" align="center" />
+<element type="TEXT" compId="ID_osi_txt07-1" x="56" y="46" width="121.05" expand="up+down" align="center" size="10" color="#ffffff" />
+<element type="TEXT" compId="ID_txt11" x="223" y="363.55" width="56.25" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_header2" x="504" y="15" width="130.35" expand="up" align="center" />
+<element type="TEXT" compId="ID_txt16" x="290" y="454" width="100.5" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_txt05" x="313" y="218.9" width="55.25" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt06" x="372" y="218.9" width="55.25" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt08" x="283" y="295.2" width="55.25" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt09" x="343" y="295.2" width="54.3" expand="up+down" align="center" color="#ffffff" />
+</slide>
+</data>

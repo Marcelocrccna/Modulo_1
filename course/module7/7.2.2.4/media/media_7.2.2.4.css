@@ -1,0 +1,17 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+input{
+	border:0;
+	background-color:transparent;
+	padding:0 3px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif !important;
+	font-size:11px !important;
+	text-align:right;
+	color:#393536;
+	margin-left: -12px;
+}

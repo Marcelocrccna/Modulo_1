@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>	
+
+	
+<slide type="MBUTTON">
+	<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+
+<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFF"/>	
+<slide buttonType="BLUE" buttonX="50" buttonY="197.5" buttonWidth="250" buttonHeight="21" compId="ID_s1_btn01" selected="true">
+<element type="TEXTBOX" x="330" y="65" width="300" height="360" titleId="ID_s1_titleTxt01" bodyId="ID_s1_bodyTxt01"/></slide>
+<slide buttonType="BLUE" buttonX="50" buttonY="239.5" buttonWidth="250" buttonHeight="21" compId="ID_s1_btn02" >
+<element type="TEXTBOX" x="330" y="65" width="300" height="360" titleId="ID_s1_titleTxt02" bodyId="ID_s1_bodyTxt02"/></slide>
+<slide buttonType="BLUE" buttonX="50" buttonY="281.5" buttonWidth="250" buttonHeight="27" compId="ID_s1_btn03" >
+<element type="TEXTBOX" x="330" y="65" width="300" height="360" titleId="ID_s1_titleTxt03" bodyId="ID_s1_bodyTxt03"/></slide>
+</slide>
+</data>

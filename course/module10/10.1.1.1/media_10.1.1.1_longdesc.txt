@@ -1,0 +1,1 @@
+Figure shows the TCP/IP and OSI models side by side. Sample Applications for the O.S.I. model Application layer include Domain Name System, Hypertext Transfer Protocol, Simple Mail Transfer Protocol, Post Office Protocol, Dynamic Host Configuration Protocol, File Transfer Protocol, and Internet Message Access Protocol.

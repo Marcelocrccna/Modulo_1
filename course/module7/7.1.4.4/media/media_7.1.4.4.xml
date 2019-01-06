@@ -1,0 +1,124 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>Especificaciones de clase A</b>]]></text>
+</component>
+<component id="ID_s1_txt01">
+<text><![CDATA[* 0.0.0.0 y 127.0.0.0 están reservadas y no se pueden asignar]]></text>
+</component>
+
+<component id="ID_s1_table">
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+             <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+		<td bgcolor='#666263'><font color='#FFFFFF'><b>Especificaciones de clase A</b></font></td>
+		 <td bgcolor='#666263'><font color='#FFFFFF'></font></td>
+	 </tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Bloque de direcciones</b></font></td>
+		<td bgcolor='#E9E7E8'>0.0.0.0–127.0.0.0*</font></td>
+	</tr>
+	<tr>
+		 <td bgcolor='#E9E7E8'>Máscara de subred predeterminada</td>
+		 <td bgcolor='#F2F2F2'>/8 (255.0.0.0)</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Cantidad máxima de redes</td>
+		 <td bgcolor='#E9E7E8'>128</td>
+	</tr>
+	<tr>
+		 <td bgcolor='#E9E7E8'>Cantidad de hosts por red</td>
+		 <td bgcolor='#F2F2F2'>16 777 214</td>
+	</tr>
+	<tr>
+		 <td bgcolor='#E9E7E8'>Bits de orden superior</td>
+		 <td bgcolor='#E9E7E8'>0xxxxxxx.___.___.___</td>
+	</tr>
+	
+</table>]]></text>
+</component>
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>Especificaciones de clase B</b>]]></text>
+</component>
+
+<component id="ID_s2_table">
+<text><![CDATA[ <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+             <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+		<td bgcolor='#666263'><font color='#FFFFFF'><b>Especificaciones de clase B</b></font></td>
+		 <td bgcolor='#666263'><font color='#FFFFFF'></font></td>
+	 </tr>
+	<tr>
+		 <td bgcolor='#E9E7E8'>Bloque de direcciones</td>
+		<td bgcolor='#E9E7E8'>128.0.0.0-191.255.0.0</td>
+	</tr>
+	<tr>
+		 <td bgcolor='#E9E7E8'>Máscara de subred predeterminada</td>
+		<td bgcolor='#F2F2F2'>/16 (255.255.0.0)</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Cantidad máxima de redes</td>
+		<td bgcolor='#E9E7E8'>16 384</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Cantidad de hosts por red</td>
+		<td bgcolor='#F2F2F2'>65 534</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Bits de orden superior</td>
+		<td bgcolor='#E9E7E8'>10xxxxxx.___.___.___</td>
+	</tr>
+	
+</table>]]></text>
+</component>
+
+<component id="ID_s3_title">
+<text><![CDATA[<b>Especificaciones de clase C</b>]]></text>
+</component>
+
+<component id="ID_s3_table">
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+             <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+		<td bgcolor='#666263'><font color='#FFFFFF'><b>Especificaciones de clase C</b></font></td>
+		<td bgcolor='#666263'><font color='#FFFFFF'></font></td>
+	 </tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Bloque de direcciones</td>
+		 <td bgcolor='#E9E7E8'>192.0.0.0-223.255.255.0</td>
+	</tr>
+	<tr>
+		 <td bgcolor='#E9E7E8'>Máscara de subred predeterminada</td>
+		<td bgcolor='#F2F2F2'>/24 (255.255.255.0)</td>
+	</tr>
+	<tr>
+		 <td bgcolor='#E9E7E8'>Cantidad máxima de redes</td>
+		 <td bgcolor='#E9E7E8'>2 097 152</td>
+	</tr>
+	<tr>
+		 <td bgcolor='#E9E7E8'>Cantidad de hosts por red</td>
+		<td bgcolor='#F2F2F2'>254</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Bits de orden superior</td>
+		 <td bgcolor='#E9E7E8'>110xxxxx.___.___.___</td>
+	</tr>
+	
+</table>]]></text>
+</component>
+
+
+</textcomponents>

@@ -1,0 +1,21 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+#ID_static_2{
+	font-weight: bold;
+}
+.colo{
+	color:#F68026;
+}
+#ID_s2_txt02,#ID_s2_txt01{
+	background-color:#0D658B;
+	border-color: #0D658B;
+	padding: 4px !important;
+}
+.bor{
+	color:#46A040;
+}
+.orangeCallOut{
+	padding: 7px !important;
+}

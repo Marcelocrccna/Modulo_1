@@ -1,0 +1,14 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+
+/*#ID_s1_title, #ID_txt01{
+	font-size:11px !important;
+}*/
+
+#w9{
+	background-color: #000;
+}

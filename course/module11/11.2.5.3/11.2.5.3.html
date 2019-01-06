@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.2.5.3 Backing Up and Restoring Using Text Files</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.2.5.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Backing Up and Restoring Using Text Files</h1>
+        <div>
+          <p>
+            <b>Backup Configurations with Text Capture (Tera Term)</b>
+          </p>
+          <p></p>
+          <p>Configuration files can be saved/archived to a text file using Tera Term. </p>
+          <p></p>
+          <p>As shown in the figure, the steps are:</p>
+          <p></p>
+          <p>
+            <b>Step 1</b>. On the File menu, click <b>Log</b>.</p>
+          <p></p>
+          <p>
+            <b>Step 2</b>. Choose the location to save the file. Tera Term will begin capturing text. </p>
+          <p></p>
+          <p>
+            <b>Step 3</b>. After capture has been started, execute the <b>show running-config</b> or <b>show startup-config</b> command at the privileged EXEC prompt. Text displayed in the terminal window will be directed to the chosen file.</p>
+          <p></p>
+          <p>
+            <b>Step 4</b>. When the capture is complete, select <b>Close</b> in the Tera Term: Log window.</p>
+          <p></p>
+          <p>
+            <b>Step 5</b>. View the file to verify that it was not corrupted.</p>
+          <p></p>
+          <p>
+            <b>Restoring Text Configurations</b>
+          </p>
+          <p></p>
+          <p>A configuration can be copied from a file to a device. When copied from a text file and pasted into a terminal window, the IOS executes each line of the configuration text as a command. This means that the file will require editing to ensure that encrypted passwords are in plain text and that non-command text such as "--More--" and IOS messages are removed. This process is discussed in the lab. </p>
+          <p></p>
+          <p>Further, at the CLI, the device must be set at the global configuration mode to receive the commands from the text file being pasted into the terminal window.</p>
+          <p></p>
+          <p>When using Tera Term, the steps are:</p>
+          <p></p>
+          <p>
+            <b>Step 1</b>. On the File menu, click <b>Send</b> file.</p>
+          <p></p>
+          <p>
+            <b>Step 2</b>. Locate the file to be copied into the device and click <b>Open</b>.</p>
+          <p></p>
+          <p>
+            <b>Step 3</b>. Tera Term will paste the file into the device.</p>
+          <p></p>
+          <p>The text in the file will be applied as commands in the CLI and become the running configuration on the device. This is a convenient method for manually configuring a router.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Resize" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+Figure 1 shows the Windows IPv4 Properties window with the IP address, subnet mask, and default gateway address statically configured.

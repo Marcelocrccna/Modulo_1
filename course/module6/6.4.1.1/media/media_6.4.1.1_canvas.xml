@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide type="MBAR">
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+<element type="TEXTBOX" bodyId="ID_s1_txt01" x="90" y="55" width="500" height="400"/>
+<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF" />
+</slide>
+
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_6.4.1.1.png" />
+<element type="ROUTER" textId="ID_router_txt1" x="40" y="237.9" width="600" height="240"/>
+<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+</slide>
+<text id="ID_router_txt1"><![CDATA[<pre>Switch> enable
+Switch# configure terminal
+Switch(config)# hostname S1
+S1(config)# enable secret class
+S1(config)# line console 0
+S1(config-line)# password cisco
+S1(config-line)# login
+S1(config-line)# line vty 0 15
+S1(config-line)# password cisco
+S1(config-line)# login
+S1(config-line)# exit
+S1(config)# service password-encryption
+S1(config)# banner motd #No unauthorized access allowed!#
+S1(config)# interface vlan1
+S1(config-if)# ip address 192.168.10.50 255.255.255.0
+S1(config-if)# no shutdown
+S1(config-if)# end
+S1# copy running-config startup-config
+Destination filename [startup-config]? 
+Building configuration...
+[OK]
+S1#
+
+</pre>]]></text>
+</slide>
+</data>

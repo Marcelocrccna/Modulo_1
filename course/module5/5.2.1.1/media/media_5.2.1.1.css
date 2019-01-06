@@ -1,0 +1,22 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_txt05
+{
+	background-color: #FFFFFF;
+padding-top: 5px !important;
+padding-bottom: 5px !important;
+box-shadow: 1px 1px 1px 1px #888888
+}
+
+.mtable
+{
+	width: 400px !important;
+}
+
+.changeColor
+{
+	color: #666263 !important;
+}

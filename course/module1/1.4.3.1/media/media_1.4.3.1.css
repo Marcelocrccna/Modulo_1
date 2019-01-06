@@ -1,0 +1,13 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+.pinkCallOut {
+    border: 2px solid #DC7183;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    /* Firefox 3.6 and earlier */
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    padding: 2px 0 3px 3px;
+    background: #F9D1D2;
+}

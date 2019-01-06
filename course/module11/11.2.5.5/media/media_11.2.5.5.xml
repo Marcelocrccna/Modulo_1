@@ -1,0 +1,11 @@
+<textcomponents>
+
+	<component id='ID_title'>
+		<text><![CDATA[<b>Puerto USB en router Cisco de la serie 1941</b>]]></text>
+	</component>
+
+	<component id="ID_txt01">
+		<text><![CDATA[Puertos USB]]></text>
+	</component>
+
+</textcomponents>

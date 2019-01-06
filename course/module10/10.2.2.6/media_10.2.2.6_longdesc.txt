@@ -1,0 +1,1 @@
+The figure shows the DHCP conversation between a host and a server.  There are 4 steps listed.  DHCP Discover, DHCP offer, DHCP request, and DHCP acknowledgment.

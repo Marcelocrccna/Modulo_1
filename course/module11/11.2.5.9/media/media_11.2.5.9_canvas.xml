@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>      
+	<slide>
+	   
+		 <element type="IMAGE" x="241.9" y="229.6" width="473" height="263" src="../../../common-ext/styles/images/activity/2218D.jpg" />
+		  
+		  <element type="IMAGE" x="-78.4" y="-53" width="445" height="296" src="../../../common-ext/styles/images/activity/2218A.jpg"  />
+		  <element type="IMAGE" x="309" y="0" width="373.05" height="248.95" src="../../../common-ext/styles/images/activity/2218B.jpg" maskX="28" maskY="0" maskWidth="373" maskHeight="248.95" />
+		
+		  <element type="IMAGE" x="193" y="343" width="374" height="249.6" src="../../../common-ext/styles/images/activity/2218C.jpg" rotation="180"/>
+		 <element type="IMAGE" x="0" y="0" width="680" height="490" src="centerbg.png" />
+		 <element type="TEXT" compId="ID_type" x="12" y="227" width="210" align="right" expand="up+down" color="#ffffff" size="21"/>
+		 <element type="TEXT" compId="ID_title" x="246.5" y="230.5" width="416" align="left" expand="up+down" color="#ffffff" size="11"/>
+		 
+	</slide>  
+</data>

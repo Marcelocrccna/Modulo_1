@@ -1,0 +1,68 @@
+<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[Configuración de dúplex y velocidad]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Dúplex]]></text>
+	</component>
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Dúplex]]></text>
+	</component>
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Velocidad]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Velocidad]]></text>
+	</component>
+	<component id="ID_s1_txt07">
+		<text><![CDATA[Completo]]></text>
+	</component>
+	<component id="ID_s1_txt08">
+		<text><![CDATA[Medio]]></text>
+	</component>
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Completo]]></text>
+	</component>
+	<component id="ID_s1_txt06">
+		<text><![CDATA[Medio]]></text>
+	</component>
+	<component id="ID_s1_txt12">
+		<text><![CDATA[100 Mb/s]]></text>
+	</component>
+	<component id="ID_s1_txt13">
+		<text><![CDATA[10 Mb/s]]></text>
+	</component>
+	<component id="ID_s1_txt11">
+		<text><![CDATA[1000 Mb/s]]></text>
+	</component>
+	<component id="ID_s1_txt09">
+		<text><![CDATA[100 Mb/s]]></text>
+	</component>
+	<component id="ID_s1_txt10">
+		<text><![CDATA[10 Mb/s]]></text>
+	</component>
+	<component id="ID_s1_txt14">
+		<text><![CDATA[Puerto 1]]></text>
+	</component>
+	<component id="ID_s1_txt15">
+		<text><![CDATA[Autonegociación]]></text>
+	</component>
+	<component id="ID_s2_title">
+		<text><![CDATA[Incompatibilidad de dúplex]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Dúplex completo]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Dúplex medio]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[El S2 experimentará colisiones continuamente porque el S1 no deja de enviar tramas cada vez que tiene algo que enviar.]]></text>
+	</component>
+	<component id="ID_s2_bubbletxt01">
+		<text><![CDATA[Soy dúplex completo, así que puedo enviar elementos cuando quiera.]]></text>
+	</component>
+	<component id="ID_s2_bubbletxt02">
+		<text><![CDATA[Soy medio dúplex, así que solamente puedo enviar elementos cuando el enlace está libre, pero también estoy recibiendo muchas colisiones.]]></text>
+	</component>
+</textcomponents>

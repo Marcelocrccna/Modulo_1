@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.4.2 Configuración estática de una dirección de unidifusión global</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.4.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configuración estática de una dirección de unidifusión global</h1>
+        <div>
+          <p>
+            <b>Configuración del router</b>
+          </p>
+          <p>La mayoría de los comandos de configuración y verificación IPv6 de Cisco IOS son similares a sus equivalentes de IPv4. En la mayoría de los casos, la única diferencia es el uso de <b>ipv6</b> en lugar de <b>ip</b> dentro de los comandos. </p>
+          <p>El comando para configurar una dirección IPv6 de unidifusión global en una interfaz es <b>ipv6 address</b><i> ipv6-address/prefix-length.</i></p>
+          <p>Observe que no hay un espacio entre <i>ipv6-address</i> y <i>prefix-length</i><i>.</i></p>
+          <p>La configuración del ejemplo usa la topología que se muestra en la figura 1 y estas subredes IPv6: </p>
+          <p>
+            <ul>
+              <li>2001:0DB8:ACAD:0001:/64 (<i>o</i> 2001:DB8:ACAD:1::/64)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>2001:0DB8:ACAD:0002:/64 (<i>o</i> 2001:DB8:ACAD:2::/64)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>2001:0DB8:ACAD:0003:/64 (<i>o</i> 2001:DB8:ACAD:3::/64)</li>
+            </ul>
+          </p>
+          <p>En la figura 1, también se muestran los comandos necesarios para configurar la dirección IPv6 de unidifusión global en la interfaz GigabitEthernet 0/0, GigabitEthernet 0/1 y Serial 0/0/0 del R1.</p>
+          <p>
+            <b>Configuración de host</b>
+          </p>
+          <p>Configurar la dirección IPv6 en un host de forma manual es similar a configurar una dirección IPv4.</p>
+          <p>Como se muestra en la figura 2, la dirección de gateway predeterminado configurada para la PC1 es 2001:DB8:ACAD:1::1. Esta es la dirección de unidifusión global de la interfaz GigabitEthernet del R1 de la misma red. De manera alternativa, la dirección de gateway predeterminado puede configurarse para que coincida con la dirección link-local de la interfaz GigabitEthernet. Cualquiera de las dos configuraciones funciona.</p>
+          <p>Utilice el verificador de sintaxis de la figura 3 para configurar la dirección IPv6 de unidifusión global.</p>
+          <p>Al igual que con IPv4, la configuración de direcciones estáticas en clientes no se extiende a entornos más grandes. Por este motivo, la mayoría de los administradores de redes en una red IPv6 habilitan la asignación dinámica de direcciones IPv6. </p>
+          <p>Los dispositivos pueden obtener automáticamente una dirección IPv6 de unidifusión global de dos maneras:</p>
+          <p>
+            <ul>
+              <li>Configuración automática de dirección independiente del estado (SLAAC)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Mediante DHCPv6 con estado</li>
+            </ul>
+          </p>
+          <p>
+            <b>Nota:</b> cuando se usa DHCPv6 o SLAAC, se especifica automáticamente la dirección link-local del router local como dirección de gateway predeterminado.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a topology with a router with two LANs and a connection to a WAN.  Each network is labeled with an IPv6 network address. A command window below the topology shows the configuration of the router interfaces with IPv6 addresses: 2001:db8:acad:1::1/64, 2001:db8:acad:2::1/64, and 2001:db8:acad:3::1/64. Figure 2 shows the Windows TCP/IPv6 Properties windows. Thg IPv6 address, subnet prefix length, and default gateway are configured. Figure 3 is a Syntax Checker in which the learner can practice configuring the router with IPv6 addressing.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

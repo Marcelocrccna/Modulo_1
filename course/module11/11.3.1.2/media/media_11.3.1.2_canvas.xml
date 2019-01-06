@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide>
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_11.3.1.2.png" />
+        <element type="ROUTER" textId="ID_router_txt1" x="40" y="213" width="600" height="250" />
+        <text id="ID_router_txt1"><![CDATA[<pre>R2# <span class="color">ping</span><br>Protocol [ip]:<br>Target IP address: <span class="color">192.168.10.1</span><br>Repeat count [5]:<br>Datagram size [100]:<br>Timeout in seconds [2]:<br>Extended commands [n]: <span class="color">y</span><br>Source address or interface: <span class="color">10.1.1.1</span><br>Type of service [0]:<br>Set DF bit in IP header? [no]:<br>Validate reply data? [no]:<br>Data pattern [0xABCD]:<br>Loose, Strict, Record, Timestamp, Verbose[none]:<br>Sweep range of sizes [n]:<br>Type escape sequence to abort.<br>Sending 5, 100-byte ICMP Echos to 192.168.10.1, timeout is 2 seconds:</pre>]]></text>
+        <element type="TEXT" id="ID_static_1" text=".10" x="96" y="39.4" align="center" width="21.15" />
+        <element type="TEXT" id="ID_static_2" text=".10" x="96" y="133.45" align="center" width="21.15" />
+        <element type="TEXT" id="ID_static_3" text=".10" x="565.9" y="38.8" align="center" width="21.15" />
+        <element type="TEXT" id="ID_static_4" text=".1" x="437.65" y="72.2" align="center" width="15.05" />
+        <element type="TEXT" id="ID_static_5" text=".1" x="440.95" y="127.3" align="center" width="15.05" />
+        <element type="TEXT" id="ID_static_6" text="G0/0 .1" x="220.4" y="54.75" align="center" width="30.1" />
+        <element type="TEXT" id="ID_static_7" text=".225 S0/0/0" x="292.95" y="109.95" align="center" width="38.15" />
+        <element type="TEXT" id="ID_static_8" text=".226" x="365.8" y="101" align="center" width="27.25" />
+        <element type="TEXT" id="ID_static_9" text=".1 G0/1" x="220.4" y="131.3" align="center" width="30.1" />
+        <element type="TEXT" id="ID_static_10" text=".10" x="564.85" y="129.85" align="center" width="21.15" />
+        <element type="TEXT" id="ID_static_11" text="209.165.200.224/30" x="280.65" y="75.5" align="center" width="104.25" bold="1" />
+        <element type="TEXT" id="ID_static_12" text="192.168.10.0/24" x="125.8" y="26.55" align="center" width="85.35" bold="1" />
+        <element type="TEXT" id="ID_static_13" text="192.168.11.0/24" x="120.55" y="174.2" align="center" width="85.35" bold="1" />
+        <element type="TEXT" id="ID_static_14" text="10.1.1.0/24" x="458.6" y="29.15" align="center" width="60.95" bold="1" />
+        <element type="TEXT" id="ID_static_15" text="10.1.2.0/24" x="458.1" y="173.7" align="center" width="60.95" bold="1" />
+    </slide>
+</data>

@@ -1,0 +1,1 @@
+Figure is an interactive media element that has the user match security terms to the proper definition.  The terms used are Firewall,  Zero-day,  Virus, worm or Trojan horse, VPN, and Denial of Service.

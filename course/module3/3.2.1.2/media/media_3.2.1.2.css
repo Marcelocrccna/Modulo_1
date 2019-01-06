@@ -1,0 +1,22 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+#ID_s3_txt04,#ID_s2_txt04,#ID_s1_txt03,#ID_s4_txt01{
+	background-color: #FFFFFF;
+padding-top: 5px !important;
+padding-bottom: 5px !important;
+box-shadow: 1px 1px 1px 1px #888888;
+}
+
+#ID_s1_bubble01, #ID_s1_bubble02, #ID_s1_bubble03, #ID_s2_bubble01, #ID_s2_bubble02, #ID_s2_bubble03, #ID_s2_bubble04,#ID_s2_bubble05{
+	color: #FFFFFF !important;
+
+}
+
+#ID_s3_bubble01, #ID_s3_bubble02, #ID_s1_bubble03, #ID_s3_bubble03, #ID_s4_bubble01,#ID_s4_bubble02{
+	color: #FFFFFF !important;
+
+}

@@ -1,0 +1,65 @@
+<textcomponents>
+ 
+    <component id="ID_title">
+        <text><![CDATA[<b>Comprensión de las entradas de rutas remotas</b>]]></text>
+	</component>
+    
+    <component id="ID_txt01">
+		<text><![CDATA[D]]></text>
+	</component>
+  
+  	<component id="ID_titleTxt01">
+		<text><![CDATA[Origen de la ruta]]></text>
+	</component>
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[Identifica de qué manera el router detectó la red. Los orígenes de rutas comunes incluyen <b>S</b> (ruta estática), <b>D</b> (protocolo EIGRP) y <b>O</b> (Open Shortest Path First u OSPF). Otros orígenes de ruta exceden el ámbito de este capítulo.]]></text>
+	</component>
+
+  	<component id="ID_titleTxt02">
+		<text><![CDATA[Red de destino]]></text>
+	</component>
+	<component id="ID_bodyTxt02">
+		<text><![CDATA[Identifica la red de destino.]]></text>
+	</component>
+
+  	<component id="ID_titleTxt03">
+		<text><![CDATA[Distancia administrativa]]></text>
+	</component>
+	<component id="ID_bodyTxt03">
+		<text><![CDATA[Identifica la distancia administrativa (es decir, la confiabilidad) del origen de la ruta. Cuanto más bajo es el valor, más confiable es el origen de la ruta.]]></text>
+	</component>
+
+  	<component id="ID_titleTxt04">
+		<text><![CDATA[Métrica]]></text>
+	</component>
+	<component id="ID_bodyTxt04">
+		<text><![CDATA[Identifica el valor asignado para llegar a la red remota. Los valores más bajos indican las rutas preferidas.]]></text>
+	</component>
+
+  	<component id="ID_titleTxt05">
+		<text><![CDATA[Siguiente salto]]></text>
+	</component>
+	<component id="ID_bodyTxt05">
+		<text><![CDATA[Identifica la dirección IP del router siguiente para reenviar el paquete.]]></text>
+	</component>
+
+  	<component id="ID_titleTxt06">
+		<text><![CDATA[Marca de hora de la ruta]]></text>
+	</component>
+	<component id="ID_bodyTxt06">
+		<text><![CDATA[Identifica cuando fue la última comunicación con la ruta.]]></text>
+	</component>
+
+  	<component id="ID_titleTxt07">
+		<text><![CDATA[Interfaz de salida]]></text>
+	</component>
+	<component id="ID_bodyTxt07">
+		<text><![CDATA[Identifica la interfaz de salida que se debe utilizar para reenviar un paquete hacia el destino final.]]></text>
+	</component>
+	
+	
+	
+	
+	
+	
+</textcomponents>

@@ -1,0 +1,14 @@
+/*   load the main media CSS file    */
+@import url('../../../common/styles/media2.css');
+
+.blueCallout {
+  background-color: #FFFFFF !important;
+	box-shadow:  2px 2px 2px #888;
+	padding-top: 5px !important;
+padding-bottom: 5px !important;
+}
+
+.orangeTxt{
+	color: #F68026;
+}
+

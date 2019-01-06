@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+
+<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+			<element type="IMAGE" src="media_6.2.2.1.png" x="0" y="0" width="680" height="490"/>
+			<element type="TEXT" subType="TITLE" compId="ID_title" />
+			<element type="TEXT" compId="ID_txt01" width="119.25" x="60.15" y="109.75" align="center" expand="up" />
+			<element type="TEXT" compId="ID_txt02" width="119.25" x="60.15" y="311.45" align="center" expand="down" />
+			<element type="TEXT" compId="ID_txt03" width="119.25" x="280" y="258" align="center" expand="down" />
+			<element type="TEXT" compId="ID_txt04" width="109.25" x="510.95" y="105" align="center" expand="down" />
+			<element type="TEXT" compId="ID_txt05" width="109.25" x="510.95" y="319" align="center" expand="down" />
+			<element type="TEXT" compId="ID_txt06" width="334" x="219" y="353" align="left" expand="down" class="orangeCallOut"/>
+			<element type="TEXT" text="192.168.10.0/24" width="95.7" x="63" y="142" align="center" />	
+			<element type="TEXT" text="192.168.11.0/24" width="95.7" x="63" y="277" align="center" />
+			<element type="TEXT" text=".1" width="31" x="174" y="187" align="center" />
+			<element type="TEXT" text=".1" width="31" x="174" y="233" align="center"/>
+			<element type="TEXT" text=".225" width="31" x="253" y="210.85" align="center" />
+			<element type="TEXT" text="209.165.200.224/30" width="105.8" x="282" y="195" align="center" id="ipText"/>
+			<element type="TEXT" text=".226" width="31" x="384" y="227" align="center" />
+			<element type="TEXT" text="10.1.1.0/24" width="95.7" x="516" y="142" align="center" />
+			<element type="TEXT" text="10.1.2.0/24" width="95.7" x="511" y="282" align="center" />
+</slide>
+</data>

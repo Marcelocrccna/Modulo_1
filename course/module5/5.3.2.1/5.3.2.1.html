@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.3.2.1 Introducción ARP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.3.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Introducción ARP</h1>
+        <div>
+          <p>Recuerde que cada dispositivo que tiene una dirección IP en una red Ethernet también tiene una dirección MAC Ethernet. Cuando un dispositivo envía una trama de Ethernet, esta contiene estas dos direcciones:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección MAC de destino:</b> la dirección MAC de la NIC Ethernet, que es la dirección del destino final o del router. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección MAC de origen:</b> la dirección MAC de la NIC Ethernet del remitente.</li>
+            </ul>
+          </p>
+          <p>Para determinar la dirección MAC de destino, el dispositivo utiliza ARP. ARP proporciona dos funciones básicas:</p>
+          <p>
+            <ul>
+              <li>Resolución de direcciones IPv4 a direcciones MAC</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Mantenimiento de una tabla de asignaciones</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows 4 computers connected to a switch.  Each computer is labeled with its IP address.  Host 1 has a callout indicating that it knows the IP address of the destination but not the MAC address.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

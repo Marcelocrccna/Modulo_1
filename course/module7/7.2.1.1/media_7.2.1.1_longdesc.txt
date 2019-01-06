@@ -1,0 +1,1 @@
+Figure shows the world map labeled with the five RIRs and a description of the IPv4 exhaustion date for each: ARIN in July 2015; LACNIC in June 2014; RIPE in September 2012; APNIC in April 2011; and AfriNIC in 2019.

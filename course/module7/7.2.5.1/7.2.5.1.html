@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.5.1 Direcciones IPv6 de multidifusión asignadas</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.5.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Direcciones IPv6 de multidifusión asignadas</h1>
+        <div>
+          <p>Las direcciones IPv6 de multidifusión son similares a las direcciones IPv4 de multidifusión. Recuerde que las direcciones de multidifusión se utilizan para enviar un único paquete a uno o más destinos (grupo de multidifusión). Las direcciones IPv6 de multidifusión tienen el prefijo FF00::/8. </p>
+          <p>
+            <b>Nota:</b> las direcciones de multidifusión solo pueden ser direcciones de destino y no direcciones de origen.</p>
+          <p>Existen dos tipos de direcciones IPv6 de multidifusión:</p>
+          <p>
+            <ul>
+              <li>Dirección de multidifusión asignada</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Dirección de multidifusión de nodo solicitado</li>
+            </ul>
+          </p>
+          <p>
+            <b>Dirección de multidifusión asignada</b>
+          </p>
+          <p>Las direcciones de multidifusión asignadas son direcciones de multidifusión reservadas para grupos predefinidos de dispositivos. Una dirección de multidifusión asignada es una única dirección que se utiliza para llegar a un grupo de dispositivos que ejecutan un protocolo o servicio común. Las direcciones de multidifusión asignadas se utilizan en contexto con protocolos específicos, como DHCPv6. </p>
+          <p>Dos grupos comunes de direcciones IPv6 de multidifusión asignadas incluyen los siguientes:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Grupo de multidifusión FF02::1 para todos los nodos:</b> este es un grupo de multidifusión al que se unen todos los dispositivos con IPv6 habilitado. Los paquetes que se envían a este grupo son recibidos y procesados por todas las interfaces IPv6 en el enlace o en la red. Esto tiene el mismo efecto que una dirección de difusión en IPv4. En la ilustración, se muestra un ejemplo de comunicación mediante la dirección de multidifusión de todos los nodos. Un router IPv6 envía mensajes de RA de protocolo de mensajes de control de Internet versión 6 (ICMPv6) al grupo de multidifusión de todos los nodos. El mensaje RA proporciona a todos los dispositivos en la red con IPv6 habilitado la información de direccionamiento, como el prefijo, la longitud de prefijo y el gateway predeterminado. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Grupo de multidifusión FF02::2 para todos los nodos:</b> este es un grupo de multidifusión al que se unen todos los routers IPv6. Un router comienza a formar parte de este grupo cuando se lo habilita como router IPv6 con el comando de configuración global <b>ipv6 unicast-routing</b>. Los paquetes que se envían a este grupo son recibidos y procesados por todos los routers IPv6 en el enlace o en la red. </li>
+            </ul>
+          </p>
+          <p>Los dispositivos con IPv6 habilitado envían mensajes de solicitud de router (RS) de ICMPv6 a la dirección de multidifusión de todos los routers. El mensaje RS solicita un mensaje RA del router IPv6 para contribuir a la configuración de direcciones del dispositivo. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a router with a switch connected to one gigabit Ethernet port. There are 2 computers, a server, and a printer connected to the switch.  The router is sending an IPv6 all-nodes multicast message to destination address FF02::1.  The message is sent out to all the IPv6 enabled devices that are connected to the switch.  </div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

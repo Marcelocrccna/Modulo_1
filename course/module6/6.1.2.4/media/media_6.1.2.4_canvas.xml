@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="6_1_2_4.png" />
+<element type="TEXT" compId="ID_txt07" x="147" y="292" width="184.85" expand="down" align="center" class="orangeCallOut" />
+<element type="TEXT" compId="ID_txt06" x="385" y="292" width="159.8" expand="down" align="center" class="orangeCallOut" />
+<element type="TEXT" compId="ID_txt03" x="148" y="255" width="62" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_txt01" x="148" y="209" width="62" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_txt02" x="148" y="163" width="62" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_txt05" x="431" y="208" width="62" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_txt04" x="431" y="162" width="62" expand="up+down" align="center" />
+<element type="TEXT" subType="TITLE" compId="ID_title"/>
+<element type="TEXTBOX" titleId="" bodyId="ID_bodyTxt01" x="90" y="364" width="500" height="100" animated="1" subType="ROLLOVER" />	
+
+</slide>
+
+<text id="ID_s1_txt01"><![CDATA[
+	<table width="370" border="0" cellspacing="0" cellpadding="0"> <tr> <td>R1(config)#<strong>interface s0/0/0</strong></td> </tr> <tr> <td>R1(config-if)#<strong>ipv6 traffic-filter NO-R3-LAN-ACCESS in</strong></td> </tr></table>
+]]></text>
+
+
+</data>

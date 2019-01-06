@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.3.1.1 Dirección IPv6 de unidifusión global</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.3.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Dirección IPv6 de unidifusión global</h1>
+        <div>
+          <p>La división en subredes IPv6 requiere un enfoque diferente que la división en subredes IPv4. Las mismas razones para la división en subredes del espacio de asignación de direcciones IPv4 para administrar el tráfico de red también se aplican a IPv6. Sin embargo, debido a la gran cantidad de direcciones IPv6, ya no es necesario preocuparse por conservar direcciones. El plan de direcciones IPv6 puede concentrarse en el mejor enfoque jerárquico para administrar y asignar subredes IPv6. Consulte la ilustración para hacer una revisión rápida de la estructura de una dirección IPv6 de unidifusión global.</p>
+          <p>La división en subredes IPv4 no comprende solamente limitar los dominios de difusión, sino que también incluye la administración de la escasez de dirección. Para ayudar a conservar las direcciones IPv4, se debe determinar la máscara de subred y utilizar VLSM. En la división en subredes IPv6, la conservación del espacio de direcciones no es un problema que considerar. La ID de subred incluye más subredes que las suficientes. La división en subredes IPv6 tiene que ver con la creación de una jerarquía de direccionamiento basada en la cantidad de subredes necesarias. </p>
+          <p>Recuerde que existen dos tipos de direcciones IPv6 asignables: una dirección IPv6 link-local nunca se subdivide, ya que solo existe en el enlace local; sin embargo, una dirección IPv6 de unidifusión global se puede dividir. </p>
+          <p>La dirección IPv6 de unidifusión global consiste, por lo general, en un prefijo de routing global /48, una ID de subred de 16 bits y una ID de interfaz de 64 bits. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the structure of an IPv6 global unicast address with the first 48 bits as the global routing prefix, the next 16 bits as the subnet ID, and the last 64 bits as the interface ID. Click on each opens a textbox with more information.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

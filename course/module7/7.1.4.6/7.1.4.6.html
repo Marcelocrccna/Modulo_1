@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.4.6 Direccionamiento sin clase</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.4.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Direccionamiento sin clase</h1>
+        <div>
+          <p>Como se muestra en la ilustración, el sistema con clase asignaba el 50 % de las direcciones IPv4 disponibles a 128 redes de clase A, el 25 % de las direcciones a la clase B, y la clase C compartía el 25 % restante con las clases D y E. El problema es que así se desperdiciaba una gran cantidad de direcciones y se agotaba la disponibilidad de las direcciones IPv4. No todos los requisitos de las organizaciones se ajustaban a una de estas tres clases. Por ejemplo, una empresa que tenía una red con 260 hosts necesitaría recibir una dirección de clase B con más de 65 000 direcciones, con lo que se desperdiciarían 64 740 direcciones. </p>
+          <p>El direccionamiento con clase se abandonó a fines de la década de 1990 para favorecer el sistema de direccionamiento sin clase actual. Sin embargo, todavía existen versiones con clase en las redes actuales. Por ejemplo, cuando se asigna una dirección IPv4 a una computadora, el sistema operativo examina la dirección que se asigna para determinar si es de clase A, B o C. El sistema operativo después asume el prefijo que usa esa clase y realiza la asignación de la máscara de subred predeterminada. </p>
+          <p>El sistema usado actualmente se conoce como <i>direccionamiento sin clase</i>. El nombre formal es “Classless Inter-Domain Routing” (CIDR, pronunciado “cider”). En 1993, el IETF creó un nuevo conjunto de estándares que permitía que los proveedores de servicios asignaran direcciones IPv4 en cualquier límite de bits de dirección (longitud de prefijo) en lugar de solo con una dirección de clase A, B o C. Se hizo para poder demorar la disminución y el agotamiento final de las direcciones IPv4.</p>
+          <p>El IETF sabía que el CIDR era solo una solución temporal y que sería necesario desarrollar un nuevo protocolo IP para admitir el rápido crecimiento de la cantidad de usuarios de Internet. En 1994, el IETF comenzó a trabajar para encontrar un sucesor de IPv4, que finalmente fue IPv6.</p>
+          <p>Entonces, ¿quién administra y asigna estas direcciones IP?</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a pie chart. Class A addresses are 50%. Class B addresses are 25%. Class C addresses are 12.5%. And Class D and E make up the remaining 12.5%.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

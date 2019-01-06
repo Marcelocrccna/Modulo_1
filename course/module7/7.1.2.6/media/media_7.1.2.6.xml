@@ -1,0 +1,175 @@
+<textcomponents><!--slide-01--><component id="ID_s1_title">
+		<text><![CDATA[<b>Tipos de direcciones en una red</b>]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[<b>Red</b>]]></text>
+	</component>
+	<component id="ID_s1_titleTxt01">
+		<text><![CDATA[Dirección de red]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[<b>Direcciones de host</b>]]></text>
+	</component>
+	<component id="ID_s1_titleTxt03">
+		<text><![CDATA[Primera dirección de host]]></text>
+	</component>
+	<component id="ID_s1_titleTxt04">
+		<text><![CDATA[Última dirección de host]]></text>
+	</component>
+	<component id="ID_s1_titleTxt05">
+		<text><![CDATA[Dirección de difusión]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Dirección de red]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[La dirección y la máscara de subred hacen referencia a una red. Todos los hosts dentro de la red comparten la misma dirección de red. La porción de host se compone solo de ceros.]]></text>
+	</component>
+	<component id="ID_s2_titleTxt02">
+		<text><![CDATA[Direcciones de host]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt02">
+		<text><![CDATA[Direcciones IP únicas asignadas a los hosts y a los dispositivos. La porción de host siempre contiene ceros y unos combinados, pero nunca ceros o unos solamente.]]></text>
+	</component>
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Primera dirección de host]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt03">
+		<text><![CDATA[Primera dirección IP de host disponible en la red. La porción de host siempre se compone de todos ceros, excepto el último número, que es un uno.]]></text>
+	</component>
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Última dirección de host]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt04">
+		<text><![CDATA[Última dirección IP de host disponible en la red. La porción de host siempre se compone de todos números uno, excepto el último, que es un cero.]]></text>
+	</component>
+	<component id="ID_s1_txt06">
+		<text><![CDATA[Dirección de difusión]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt05">
+		<text><![CDATA[Una dirección especial que se comunica con todos los hosts en una red, por ejemplo, cuando un host envía un paquete a la dirección IPv4 de difusión de la red, y todos los demás hosts de la red reciben el paquete. La dirección de difusión utiliza la dirección más alta en el rango de la red. La porción de host se compone solo de unos.]]></text>
+	</component><!--slide-02--><component id="ID_s2_title">
+		<text><![CDATA[<b>Tipos de direcciones en la red 192.168.10.0 /24</b>]]></text>
+	</component>
+	<component id="ID_s1_txt01">
+		<text><![CDATA[<b>Red</b>]]></text>
+	</component>
+	<component id="ID_s2_titleTxt01">
+		<text><![CDATA[Dirección de red]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[<b>Direcciones de host</b>]]></text>
+	</component>
+	<component id="ID_s2_titleTxt03">
+		<text><![CDATA[Primera dirección de host]]></text>
+	</component>
+	<component id="ID_s2_titleTxt04">
+		<text><![CDATA[Última dirección de host]]></text>
+	</component>
+	<component id="ID_s2_titleTxt05">
+		<text><![CDATA[Dirección de difusión]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Dirección de red]]></text>
+	</component>
+	<component id="ID_s2_bodyTxt01">
+		<text><![CDATA[La porción de host se compone solo de ceros (.00000000)]]></text>
+	</component>
+	<component id="ID_s1_titleTxt02">
+		<text><![CDATA[Direcciones de host]]></text>
+	</component>
+	<component id="ID_s2_bodyTxt02">
+		<text><![CDATA[La porción de host contiene ceros y unos (.00000001 a .11111110)]]></text>
+	</component>
+	<component id="ID_s2_txt04">
+		<text><![CDATA[Primera dirección de host]]></text>
+	</component>
+	<component id="ID_s2_bodyTxt03">
+		<text><![CDATA[La porción de host se compone de todos ceros, excepto el último número, que es un uno (.00000001)]]></text>
+	</component>
+	<component id="ID_s2_txt05">
+		<text><![CDATA[Última dirección de host]]></text>
+	</component>
+	<component id="ID_s2_bodyTxt04">
+		<text><![CDATA[La porción de host se compone de todos números uno, excepto el último, que es un cero (.11111110)]]></text>
+	</component>
+	<component id="ID_s2_txt06">
+		<text><![CDATA[Dirección de difusión]]></text>
+	</component>
+	<component id="ID_s2_bodyTxt05">
+		<text><![CDATA[La porción de host se compone solo de unos (.11111111)]]></text>
+	</component><!--slide-03--><component id="ID_s3_title">
+		<text><![CDATA[<b>Dirección de red</b>]]></text>
+	</component>
+	<component id="ID_s4_txt01">
+		<text><![CDATA[<b>Porción de red</b>]]></text>
+	</component>
+	<component id="ID_s4_txt02">
+		<text><![CDATA[<b>Porción de host</b>]]></text>
+	</component>
+	<component id="ID_s3_bubble01">
+		<text><![CDATA[En la porción de host, solo hay ceros]]></text>
+	</component><!--slide-04--><component id="ID_s4_title">
+		<text><![CDATA[<b>Dirección de host</b>]]></text>
+	</component>
+	<component id="ID_s3_txt01">
+		<text><![CDATA[<b>Porción de red</b>]]></text>
+	</component>
+	<component id="ID_s3_txt02">
+		<text><![CDATA[<b>Porción de host</b>]]></text>
+	</component>
+	<component id="ID_s4_bubble01">
+		<text><![CDATA[En la porción de host, hay ceros y unos]]></text>
+	</component>
+	<component id="ID_s5_title">
+		<text><![CDATA[<b>Primera dirección de host</b>]]></text>
+	</component>
+	<component id="ID_s6_txt01">
+		<text><![CDATA[<b>Porción de red</b>]]></text>
+	</component>
+	<component id="ID_s6_txt02">
+		<text><![CDATA[<b>Porción de host</b>]]></text>
+	</component>
+	<component id="ID_s5_bubble01">
+		<text><![CDATA[En la porción de host, hay todos ceros y un número uno]]></text>
+	</component>
+	<component id="ID_s6_title">
+		<text><![CDATA[<b>Última dirección de host</b>]]></text>
+	</component>
+	<component id="ID_s5_txt01">
+		<text><![CDATA[<b>Porción de red</b>]]></text>
+	</component>
+	<component id="ID_s5_txt02">
+		<text><![CDATA[<b>Porción de host</b>]]></text>
+	</component>
+	<component id="ID_s6_bubble01">
+		<text><![CDATA[En la porción de host, hay todos unos y un cero]]></text>
+	</component>
+	<component id="ID_s7_title">
+		<text><![CDATA[<b>Dirección de difusión</b>]]></text>
+	</component>
+	<component id="ID_s7_txt01">
+		<text><![CDATA[<b>Porción de red</b>]]></text>
+	</component>
+	<component id="ID_s7_txt02">
+		<text><![CDATA[<b>Porción de host</b>]]></text>
+	</component>
+	<component id="ID_s7_bubble01">
+		<text><![CDATA[En la porción de host, solo hay unos]]></text>
+	</component>
+	<component id="ID_static_45">
+		<text><![CDATA[<span class="orangeText">10.1.1</span>.1]]></text>
+	</component>
+	<component id="ID_static_46">
+		<text><![CDATA[<span class="orangeText">10.1.1</span>.10]]></text>
+	</component>
+	<component id="ID_static_47">
+		<text><![CDATA[<span class="orangeText">10.1.1</span>.12]]></text>
+	</component>
+	<component id="ID_static_48">
+		<text><![CDATA[<span class="orangeText">10.1.1</span>.11]]></text>
+	</component>
+	<component id="ID_static_49">
+		<text><![CDATA[<span class="orangeText">10.1.1</span>.254]]></text>
+	</component>
+</textcomponents>

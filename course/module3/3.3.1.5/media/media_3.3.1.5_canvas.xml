@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide width="780">
+		<element type="IMAGE" x="0" y="0" width="1000" height="490" src="../../../common/images/page_backgrounds/bg_activity.jpg" />
+		<element type="IMAGE" x="0" y="0" width="1000" height="490" src="media_3.3.1.5.png" />
+<element type="TEXT" compId="ID_txt01" x="511" y="107" width="160.8" expand="up+down" align="center" color="#0" />
+<element type="TEXT" compId="ID_txt02" x="511" y="163" width="51.6" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt03" x="565" y="163" width="51.6" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt04" x="619" y="163" width="51.55" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt06" x="619" y="218" width="51.55" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt08" x="544" y="275" width="72.35" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt09" x="619" y="275" width="51.55" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt07" x="471" y="275" width="70.35" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt12" x="544" y="331" width="72.35" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt13" x="619" y="331" width="51.55" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt11" x="471" y="331" width="70.3" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt14" x="673" y="331" width="70.3" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt10" x="396" y="331" width="72.35" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt15" x="416" y="374" width="305.9" expand="down" align="center" />
+<element type="TEXT" compId="ID_txt16" x="771" y="50" width="182.75" expand="up" align="center" color="#0" class="orangeCallOut" />
+<element type="TEXT" compId="ID_txt05" x="544" y="218" width="72.35" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" subType="TITLE" compId="ID_title" color="#FFF"/>
+<element type="TEXT" compId="ID_drop_header" x="509" y="58" width="245.45" expand="up" align="right" color="#ffffff" />
+
+<element type="TEXTBOX" titleId="ID_s1_instr_title" bodyId="ID_s1_instr_body" x="59" y="55" width="280" height="160" animated="0" subType="ROLLOVER" />
+
+<element type="ACTIVITY" subType="DRAGDROP" method="NORMAL" dragAlign="center" replicate="false" compWidth="131.85" compHeight="43.3" dragIcon="" dropIcon="" tickPosition="left" dragAlpha="1">
+
+<subelement type="DROP" compId="ID_pdu01_DT" clipName="pdu01_dt" x="769.75" y="92" match="0" />
+<subelement type="DROP" compId="ID_pdu02_DT" clipName="pdu02_dt" x="769.75" y="174.55" match="1" />
+<subelement type="DROP" compId="ID_pdu03_DT" clipName="pdu03_dt" x="769.75" y="259.35" match="2" />
+<subelement type="DROP" compId="ID_pdu04_DT" clipName="pdu04_dt" x="769.75" y="316.25" match="3" />
+<subelement type="DROP" compId="ID_pdu05_DT" clipName="pdu05_dt" x="769.75" y="373.15" match="4" />
+
+<subelement type="DRAG" compId="ID_pdu01_DS" x="58.6" clipName="pdu01_ds" y="349.75" />
+<subelement type="DRAG" compId="ID_pdu02_DS" x="210.45" clipName="pdu02_ds" y="349.75" />
+<subelement type="DRAG" compId="ID_pdu03_DS" x="134.5" clipName="pdu03_ds" y="231.45" />
+<subelement type="DRAG" compId="ID_pdu04_DS" x="210.45" clipName="pdu04_ds" y="290.6" />
+<subelement type="DRAG" compId="ID_pdu05_DS" x="58.6" clipName="pdu05_ds" y="290.6" />
+
+
+
+<subelement type="CHECK" x="67.6" y="430" width="132" height="21" compId="ID_CHECK"/>
+<subelement type="RESET" x="219.45" y="430" width="132" height="21" compId="ID_RESET"/>
+
+
+<subelement type="FEEDBACK" x="390" y="130" width="230" height="150" correctTitleId="ID_s1_CORRECT_TITLE" correctBodyId="ID_s1_CORRECT_BODY" wrongTitleId="ID_s1_INCORRECT_TITLE" wrongBodyId="ID_s1_INCORRECT_BODY"/>
+		</element> 	
+	</slide>
+</data>
+
+

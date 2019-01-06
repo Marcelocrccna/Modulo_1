@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>	
+
+		<slide type="MBUTTON">
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+			<element type="IMAGE" src="media_9.2.1.2.png" width="680" height="490" x="0" y="0" />
+			<element type="TEXT" subType="TITLE" compId="ID_title"/>
+			<element type="TEXT" compId="ID_txt01" x="121" y="356" width="104.55" expand="up+down" align="center" />
+			<element type="TEXT" compId="ID_inst" x="94" y="408" width="495.75" expand="up" align="left" size="12" />
+			<element type="TEXT" id="ID_static_17" text="A" x="238.85" y="87.4" align="center" width="8.7" color="#FFF" bold="1" />
+			<element type="TEXT" id="ID_static_18" text="B" x="436.85" y="87.4" align="center" width="7.15" color="#FFF" bold="1" />  
+
+			<slide buttonType="BLUE" buttonX="228.8" buttonY="352.7" buttonWidth="59" buttonHeight="21" compId="ID_btn02" selected="true" >
+			<element type="TEXT" compId="ID_s1_txt02" x="90.2" y="136.05" width="156.7" expand="up+down" align="right" />
+			<element type="TEXT" compId="ID_s1_txt03" x="155.65" y="158.55" width="115.05" expand="down" align="left" />
+			<element type="TEXT" compId="ID_s1_txt04" x="403.4" y="143.55" width="124.15" expand="down" align="left" />
+			<element type="TEXT" compId="ID_s1_txt05" x="136.35" y="287.25" width="379.85" expand="down" align="center" />
+			<element type="IMAGE" src="1.png" width="680" height="490" x="0" y="0" />
+			<element type="IMAGE" src="arrow1.png" width="680" height="490" x="0" y="0" />
+			</slide> 
+			<slide buttonType="BLUE" buttonX="460" buttonY="352.7" buttonWidth="83" buttonHeight="21" compId="ID_btn01" selected="false">
+			<element type="TEXTBOX" subType="CLOSABLE" titleId="dummy" bodyId="ID_s1_pop01"  width="430" height="173" x="6" y="85"  visible="0" class="xyz" />				
+			</slide>
+
+				
+			<slide buttonType="BLUE" buttonX="300.1" buttonY="352.7" buttonWidth="59" buttonHeight="21" compId="ID_btn03" selected="false">
+			<element type="TEXT" compId="ID_s2_txt02" x="90.2" y="136.05" width="156.8" expand="up+down" align="right" />
+			<element type="TEXT" compId="ID_s2_txt04" x="403.4" y="143.55" width="124.15" expand="down" align="left" />
+			<element type="TEXT" compId="ID_s2_txt09" x="136.35" y="287.25" width="379.85" expand="down" align="center" />
+			<element type="TEXT" compId="ID_s2_txt05" x="113.8" y="187.55" width="156.7" expand="down" align="right" />
+			<element type="TEXT" compId="ID_s2_txt06" x="422.7" y="172.5" width="156.7" expand="up+down" align="left" />
+			<element type="TEXT" compId="ID_s2_txt08" x="404.45" y="205.75" width="151.15" expand="down" align="left" />
+			<element type="TEXT" compId="ID_s2_txt03" x="161.85" y="158.55" width="115.05" expand="down" align="left" />
+			<element type="IMAGE" src="1.png" width="680" height="490" x="0" y="0" />
+			<element type="IMAGE" src="2.png" width="680" height="490" x="0" y="0" />
+			<element type="IMAGE" src="arrow1.png" width="680" height="490" x="0" y="0" />
+			<element type="IMAGE" src="arrow2.png" width="680" height="490" x="0" y="0" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="370.35" buttonY="352.7" buttonWidth="59" buttonHeight="21" compId="ID_btn04" selected="false">
+			<element type="TEXT" compId="ID_s3_txt02" x="90.2" y="136.05" width="156.8" expand="up+down" align="right" />
+			<element type="TEXT" compId="ID_s3_txt03" x="155.65" y="158.55" width="115.05" expand="down" align="left" />
+			<element type="TEXT" compId="ID_s3_txt08" x="403.4" y="143.55" width="124.15" expand="down" align="left" />
+			<element type="TEXT" compId="ID_s3_txt12" x="136.35" y="287.25" width="379.85" expand="down" align="center" />
+			<element type="TEXT" compId="ID_s3_txt04" x="113.8" y="187.55" width="156.7" expand="down" align="right" />
+			<element type="TEXT" compId="ID_s3_txt09" x="422.7" y="172.5" width="156.7" expand="up+down" align="left" />
+			<element type="TEXT" compId="ID_s3_txt11" x="404.45" y="205.75" width="151.15" expand="down" align="left" />
+			<element type="TEXT" compId="ID_s3_txt07" x="90.2" y="250.8" width="174.35" expand="down" align="right" />
+			<element type="TEXT" compId="ID_s3_txt06" x="90.2" y="229.35" width="156.8" expand="up" align="right" />
+			<element type="IMAGE" src="1.png" width="680" height="490" x="0" y="0" />
+		 	<element type="IMAGE" src="2.png" width="680" height="490" x="0" y="0" />
+			<element type="IMAGE" src="3.png" width="680" height="490" x="0" y="0" />
+			<element type="IMAGE" src="arrow1.png" width="680" height="490" x="0" y="0" />
+			<element type="IMAGE" src="arrow2.png" width="680" height="490" x="0" y="0" />
+			<element type="IMAGE" src="arrow3.png" width="680" height="490" x="0" y="0" />	
+				    
+		</slide>  
+		</slide>	
+</data>

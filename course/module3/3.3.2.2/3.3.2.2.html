@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.3.2.2 Direcciones de enlaces de datos</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.3.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Direcciones de enlaces de datos</h1>
+        <div>
+          <p>La dirección física de la capa de enlace de datos, o capa 2, tiene una función distinta. Su propósito es enviar la trama de enlace de datos desde una interfaz de red hasta otra interfaz de red en la misma red. Este proceso se ilustra en las figuras 1 a 3.</p>
+          <p></p>
+          <p>Antes de que un paquete IP pueda enviarse a través de una red conectada por cable o inalámbrica, se debe encapsular en una trama de enlace de datos de modo que pueda transmitirse a través del medio físico. </p>
+          <p></p>
+          <p>A medida que el paquete IP se mueve de host a router, de router a router y, finalmente, de router a host, es encapsulado en una nueva trama de enlace de datos, en cada punto del recorrido. Cada trama de enlace de datos contiene la dirección de origen de enlace de datos de la tarjeta NIC que envía la trama y la dirección de destino de enlace de datos de la tarjeta NIC que recibe la trama. </p>
+          <p></p>
+          <p>El protocolo de enlace de datos de capa 2 solo se utiliza para enviar el paquete de NIC a NIC en la misma red. El router elimina la información de la capa 2 a medida que una NIC la recibe y agrega nueva información de enlace de datos antes de reenviarla a la NIC de salida en su recorrido hacia el dispositivo de destino final.</p>
+          <p></p>
+          <p>El paquete IP se encapsula en una trama de enlace de datos que contiene información de enlace de datos, como la siguiente:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección de enlace de datos de origen:</b> la dirección física de la NIC del dispositivo que envía la trama de enlace de datos. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección de enlace de datos de destino:</b> la dirección física de la NIC que recibe la trama de enlace de datos. Esta dirección es el router del salto siguiente o el dispositivo de destino final. </li>
+            </ul>
+          </p>
+          <p></p>
+          <p>La trama de enlace de datos también contiene un tráiler que se analizará en mayor detalle en los siguientes capítulos.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figures 1, 2, and 3 demonstrate the concept that layer 2 address change at every hop while the layer 3 addresses stay the same. In Figure 1, the layer 2 addresses are for the original source and router 1. In Figure 2, the layer 2 addresses are for router 1 and router 2. In Figure 3, the layer 2 addresses are for router 2 and the final destination, the web server.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

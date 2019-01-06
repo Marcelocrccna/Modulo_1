@@ -1,0 +1,55 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+
+.bluebox {
+	border:1px solid #000000; 
+	
+	background:#FDEED0;
+	
+ }
+input{
+	color:#000; 
+	font-size:11px;
+	text-align:center;
+	outline:none; 
+	border:none; 
+	font-weight:bold;
+	display:inline;
+	margin:0px 2px;
+	border-radius:0px;
+	padding:2px 0px;
+	font-family:Helvetica,Arial,sans-serif;
+ }
+
+ 
+
+
+ 
+
+
+.tickmark {
+    background-image: url(../../../common/images/tick.png);
+    display: none !important;
+}
+
+.crossmark {
+    background-image: url(../../../common/images/wrong.png);
+    display: none !important;
+}
+
+.corssmarkShow {
+     background-image: url(../../../common/images/wrong.png);
+    display: block !important;
+}
+
+.tickmarkShow {
+        background-image: url(../../../common/images/tick.png);
+    display: block !important;
+}
+
+
+

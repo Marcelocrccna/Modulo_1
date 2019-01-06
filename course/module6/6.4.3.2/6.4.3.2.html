@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.4.3.2 Gateway predeterminado para un switch</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.4.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Gateway predeterminado para un switch</h1>
+        <div>
+          <p>Por lo general, un switch de grupo de trabajo que interconecta computadoras cliente es un dispositivo de capa 2. Como tal, un switch de capa 2 no necesita una dirección IP para funcionar adecuadamente. Sin embargo, si desea conectarse al switch y administrarlo en varias redes, debe configurar la SVI con una dirección IPv4, una máscara de subred y una dirección de gateway predeterminado. </p>
+          <p>Por lo general, la dirección del gateway predeterminado se configura en todos los dispositivos que desean comunicarse más allá de la red local. En otras palabras, para acceder de manera remota al switch desde otra red con SSH o Telnet, el switch debe tener una SVI configurado con una dirección IPv4, una máscara de subred y una dirección de gateway predeterminado. Si se accede al switch desde un host dentro de la red local, la dirección IPv4 de gateway predeterminado no es necesaria.</p>
+          <p>Para configurar un gateway predeterminado en un switch, use el comando de configuración global <b>ip default-gateway</b>. La dirección IP configurada es la de la interfaz de router del switch conectado.</p>
+          <p>En la Figura 1 se muestra un administrador que establece una conexión remota al switch S1 en otra red. El switch S1 se debe configurar con un gateway predeterminado, para que pueda responder y establecer una conexión SSH con el host administrativo.</p>
+          <p>Un concepto erróneo habitual es que el switch usa su dirección de gateway predeterminado configurada para determinar a dónde enviar los paquetes provenientes de los hosts conectados al switch y destinados a hosts de redes remotas. En realidad, la información de dirección IP y de gateway predeterminado se usa únicamente para los paquetes que se originan en el switch. Los paquetes que se originan en servidores conectados al switch ya deben crearse con la dirección de gateway predeterminado configurada en el sistema operativo de su servidor. </p>
+          <p>Utilice el verificador de sintaxis de la figura 2 para practicar la configuración de un gateway predeterminado en un switch.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a network with a worker connected to a LAN.  The figure demonstrates how to configure a switch with a management interface (VLAN 1) and a default gateway so a network administrator can manage the switch remotely.  Without these configured, you cannot connect to a switch remotely. Figure 2 is a Syntax Checker activity allowing the learner to practice configuring a management interface and default gateway on a switch.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

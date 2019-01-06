@@ -1,0 +1,1 @@
+The figure is an animation that shows how the frame header and trailer change depending on the media.

@@ -1,0 +1,1 @@
+This animation shows how a frame is forwarded.  There are four computers on shared media.  Each has a different MAC address.  Computer 1 sends a frame to Computer 3 using the correct MAC addresses for source and destination.  The frame is forwarded to all of the computers.  Computers 2 and 4 ignore the frame since the destination MAC address does not match their own.

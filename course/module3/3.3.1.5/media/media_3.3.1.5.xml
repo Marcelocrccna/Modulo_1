@@ -1,0 +1,118 @@
+<textcomponents>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instrucciones]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Arrastre la PDU al lugar apropiado en la pila para ilustrar el orden del proceso de encapsulamiento.]]></text>
+</component>
+
+<component id='ID_title'>
+	<text><![CDATA[<b>Actividad: Ilustrar el proceso de encapsulamiento</b>]]></text>
+</component>	
+
+<component id="ID_drag_header">
+	<text><![CDATA[<b>PDU</b>]]></text>
+</component>
+
+<component id="ID_drop_header">
+	<text><![CDATA[<b>Encapsulamiento</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+	<text><![CDATA[Datos de correos electrónicos]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Datos]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Datos]]></text>
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[Datos]]></text>
+</component>
+
+<component id="ID_txt08">
+<text><![CDATA[Encabezado de transporte]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Datos]]></text>
+</component>
+
+<component id="ID_txt11">
+<text><![CDATA[Encabezado de la red]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[Encabezado de transporte]]></text>
+</component>
+
+<component id="ID_txt13">
+<text><![CDATA[Datos]]></text>
+</component>
+
+<component id="ID_txt10">
+<text><![CDATA[Encabezado de la trama]]></text>
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[Encabezado de la red]]></text>
+</component>
+
+<component id="ID_txt12">
+<text><![CDATA[Encabezado de transporte]]></text>
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[Datos]]></text></component>
+
+<component id="ID_txt14">
+<text><![CDATA[Tráiler de la trama]]></text>
+</component>
+
+<component id="ID_txt15">
+<text><![CDATA[<b>1100010101000101100101001010101001</b>]]></text>
+</component>
+
+<component id="ID_txt16">
+<text><![CDATA[Transmisión del stack.]]></text>
+</component>
+
+<!--Drag and Drop-->
+
+<component id="ID_pdu01_DS"><text><![CDATA[<font color="#393536">Datos</font>]]></text></component>
+
+<component id="ID_pdu02_DS"><text><![CDATA[<font color="#393536">Segmentos</font>]]></text></component>
+
+<component id="ID_pdu03_DS"><text><![CDATA[<font color="#393536">Paquetes</font>]]></text></component>
+
+<component id="ID_pdu04_DS"><text><![CDATA[<font color="#393536">Tramas</font>]]></text></component>
+
+<component id="ID_pdu05_DS"><text><![CDATA[<font color="#393536">Bits</font>]]></text></component>
+
+<component id="ID_s1_CORRECT_TITLE"><text><![CDATA[Correcto]]></text></component>
+
+<component id="ID_s1_CORRECT_BODY">
+	<text><![CDATA[Colocó correctamente las PDU en el orden adecuado para ilustrar el proceso de encapsulamiento.]]></text>
+</component>
+
+<component id="ID_s1_INCORRECT_TITLE">
+	<text><![CDATA[Incorrecto]]></text>
+</component>
+
+<component id="ID_s1_INCORRECT_BODY">
+	<text><![CDATA[No colocó correctamente las PDU en el orden adecuado para ilustrar el proceso de encapsulamiento. Haga clic en Restablecer y vuelva a intentarlo.]]></text>
+</component>
+
+<component id="ID_CHECK">
+	<text><![CDATA[Verificar]]></text>
+</component>
+
+<component id="ID_RESET">
+	<text><![CDATA[Restablecer]]></text>
+</component></textcomponents>

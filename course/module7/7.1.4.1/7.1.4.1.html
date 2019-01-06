@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.4.1 Direcciones IPv4 públicas y privadas</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.4.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Direcciones IPv4 públicas y privadas</h1>
+        <div>
+          <p>Las direcciones IPv4 públicas son direcciones que se enrutan globalmente entre los routers de los ISP (proveedores de servicios de Internet). Sin embargo, no todas las direcciones IPv4 disponibles pueden usarse en Internet. Existen bloques de direcciones denominadas <i>direcciones privadas</i> que la mayoría de las organizaciones usan para asignar direcciones IPv4 a los hosts internos. </p>
+          <p>A mediados de la década de 1990, se presentaron las direcciones IPv4 privadas debido a la reducción del espacio de direcciones IPv4. Las direcciones IPv4 privadas no son exclusivas y pueden usarse en una red interna.</p>
+          <p>Específicamente, los bloques de direcciones privadas son los siguientes:</p>
+          <p>
+            <ul>
+              <li>
+                <b>10.0.0.0 /8</b> o <b>10.0.0.0</b> a <b>10.255.255.</b><b>255</b></li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>172.16.0.0 /12</b> o <b>172.16.0.0 a 172.31.255.255</b></li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>192.168.0.0 /16</b> o <b>192.168.0.0 a 192.168.255.255</b></li>
+            </ul>
+          </p>
+          <p>Es importante saber que las direcciones dentro de estos bloques de direcciones no están permitidas en Internet y deben ser filtradas (descartadas) por los routers de Internet. Por ejemplo, en la ilustración, los usuarios de las redes 1, 2 o 3 envían paquetes a destinos remotos. Los routers del proveedor de servicios de Internet (ISP) detectan que las direcciones IPv4 de origen de los paquetes son de direcciones privadas y, por lo tanto, descartan los paquetes.</p>
+          <p>
+            <b>Nota:</b> las direcciones privadas se definen en <a href="https://tools.ietf.org/html/rfc1918" target="_blank">RFC 1918</a>. </p>
+          <p>La mayoría de las organizaciones usan direcciones IPv4 privadas para los hosts internos. Sin embargo, estas direcciones RFC 1918 no se pueden enrutar en Internet y deben traducirse a direcciones IPv4 públicas. Se usa la traducción de direcciones de red (NAT) para traducir entre direcciones IPv4 privadas y públicas. En general, esto se hace en el router que conecta la red interna a la red del ISP. </p>
+          <p>Los routers domésticos brindan la misma funcionalidad. Por ejemplo, la mayoría de los routers domésticos asignan direcciones IPv4 a sus hosts cableados e inalámbricos desde la dirección privada 192.168.1.0 /24. A la interfaz de router doméstico que se conecta a la red del proveedor de servicios de Internet (ISP) se le asigna una dirección IPv4 pública para usar en Internet.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows three separate networks. Each is connected to its own ISP router. The ISP routers are connected to the Internet. The networks are privately addressed. In the figure, each router is sending a privately addressed packet to its ISP router. Each ISP router has a red X over the link signifying that the router will not accept the packet.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

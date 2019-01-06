@@ -1,0 +1,1 @@
+Figure 1 lists all the IEEE 802 working groups and study groups. Of particular interest to the learner is the 802.1 Higher Layer LAN Protocols Working Group, the 802.3 Ethernet Working Group, and the 802.11 Wireless LAN Working Group. Figure 2 shows a CAT5E cable that has been marked as verified to conform with the TIA/EIA 568B standard.

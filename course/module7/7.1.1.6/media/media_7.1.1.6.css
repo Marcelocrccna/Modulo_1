@@ -1,0 +1,21 @@
+/*   load the main media CSS file    */
+@import url('../../../common/styles/media2.css');
+
+.blueCallout {
+    background-color: #CCE9E7;
+    border: 2px solid #008E8B;
+    border-radius:5px;
+    -moz-border-radius:5px; /* Firefox 3.6 and earlier */
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    padding:2px 0 3px 3px;
+}
+
+
+#ID_s1_txt05,#ID_s1_txt06,#ID_s1_txt07,#ID_s2_txt05,#ID_s2_txt06,#ID_s2_txt07,#ID_s3_txt05,#ID_s3_txt06,#ID_s3_txt07,#ID_s4_txt05,#ID_s4_txt06,#ID_s4_txt07,
+#ID_s5_txt05,#ID_s5_txt06,#ID_s5_txt07,#ID_s6_txt05,#ID_s6_txt06,#ID_s6_txt07,#ID_s7_txt05,#ID_s7_txt06,#ID_s7_txt07,#ID_s8_txt05,#ID_s8_txt06,#ID_s8_txt07{
+	background-color: #FFFFFF !important;
+	box-shadow:  2px 2px 2px #888;
+	padding-top: 5px !important;
+padding-bottom: 5px !important;
+}

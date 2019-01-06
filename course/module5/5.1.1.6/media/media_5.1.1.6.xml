@@ -1,0 +1,253 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<font color='#FFFFFF'><b>Actividad: Campos de la trama de Ethernet</b></font>]]>
+        </text>
+    </component>
+    <component id='ID_s1_instr_title'>
+        <text>
+            <![CDATA[Instructions]]>
+        </text>
+    </component>
+    <component id='ID_s1_instr_body'>
+        <text>
+            <![CDATA[Arrastre el nombre del campo de la trama de Ethernet hasta su descripción.]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt01">
+        <text>
+            <![CDATA[Utiliza el relleno para aumentar este campo de la trama, al menos, a 64 bytes.]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt02">
+        <text>
+            <![CDATA[Describe qué protocolo de capa superior se utilizó.]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt03">
+        <text>
+            <![CDATA[Es la NIC de origen o la dirección MAC de interfaz de la trama.]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt04">
+        <text>
+            <![CDATA[Ayuda a un host a determinar si la trama recibida está dirigida a él.]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt05">
+        <text>
+            <![CDATA[Notifica a los destinos que se deben preparar para una nueva trama.]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt06">
+        <text>
+            <![CDATA[Sincroniza los dispositivos de envío y de recepción para el envío de tramas.]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt07">
+        <text>
+            <![CDATA[Detecta errores en una trama de Ethernet.]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt08">
+        <text>
+            <![CDATA[<b>Nombre de campo</b>]]></text>
+    </component>
+    <component id="ID_s1_txt09">
+        <text>
+            <![CDATA[<b>Descripción de los campos de la trama de Ethernet 802.3</b>]]></text>
+    </component>
+    <!--Drag and Drop-->
+    <component id="ID_s1_drag01">
+        <text>
+            <![CDATA[<font color="#393536">Encabezado y datos<br>802.2</font>]]>
+        </text>
+    </component>
+    <component id="ID_s1_drag02">
+        <text>
+            <![CDATA[<font color="#393536">Secuencia de<br>verificación de trama</font>]]>
+        </text>
+    </component>
+    <component id="ID_s1_drag03">
+        <text>
+            <![CDATA[<font color="#393536">Tipo</font>]]>
+        </text>
+    </component>
+    <component id="ID_s1_traget04">
+        <text>
+            <![CDATA[<font color="#393536">Delimitador de inicio de trama </font>]]>
+        </text>
+    </component>
+    <component id="ID_s1_drag05">
+        <text>
+            <![CDATA[<font color="#393536">Dirección de destino</font>]]>
+        </text>
+    </component>
+    <component id="ID_s1_drag06">
+        <text>
+            <![CDATA[<font color="#393536">Preámbulo</font>]]>
+        </text>
+    </component>
+    <component id="ID_s1_drag07">
+        <text>
+            <![CDATA[<font color="#393536">Dirección de origen</font>]]>
+        </text>
+    </component>
+    <component id="ID_s2_CORRECT_TITLE">
+        <text>
+            <![CDATA[Correcto]]>
+        </text>
+    </component>
+    <component id="ID_s1_CORRECT_BODY">
+        <text>
+            <![CDATA[Unió correctamente los nombres de los campos de la trama de Ethernet con sus descripciones.]]>
+        </text>
+    </component>
+    <component id="ID_s2_INCORRECT_TITLE">
+        <text>
+            <![CDATA[Incorrecto]]>
+        </text>
+    </component>
+    <component id="ID_s1_INCORRECT_BODY">
+        <text>
+            <![CDATA[No unió correctamente los nombres de los campos de la trama de Ethernet con sus descripciones. Haga clic en Restablecer y vuelva a intentarlo.]]>
+        </text>
+    </component>
+    <component id="ID_s2_CHECK">
+        <text>
+            <![CDATA[Verificar]]>
+        </text>
+    </component>
+    <component id="ID_s2_RESET">
+        <text>
+            <![CDATA[Restablecer]]>
+        </text>
+    </component>
+    <!--slide02-->
+    <component id="ID_s2_title">
+        <text>
+            <![CDATA[<font color='#FFFFFF'><b>Actividad: Campos de la trama de Ethernet</b></font>]]>
+        </text>
+    </component>
+    <component id='ID_s2_title_instr'>
+        <text>
+            <![CDATA[Instructions]]>
+        </text>
+    </component>
+    <component id='ID_s2_body_instr'>
+        <text>
+            <![CDATA[Arrastre el nombre del campo de la trama de Ethernet hasta su ubicación correcta en el diagrama.]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt01">
+        <text>
+            <![CDATA[Campos de la trama de Ethernet IEEE 802.3]]></text>
+    </component>
+    <component id="ID_s2_txt02">
+        <text>
+            <![CDATA[7 bytes]]></text>
+    </component>
+    <component id="ID_s2_txt03">
+        <text>
+            <![CDATA[1 byte]]></text>
+    </component>
+    <component id="ID_s2_txt05">
+        <text>
+            <![CDATA[6 bytes]]></text>
+    </component>
+    <component id="ID_s2_txt04">
+        <text>
+            <![CDATA[6 bytes]]></text>
+    </component>
+    <component id="ID_s2_txt06">
+        <text>
+            <![CDATA[2 bytes]]></text>
+    </component>
+    <component id="ID_s2_txt07">
+        <text>
+            <![CDATA[46 a 1500 bytes]]></text>
+    </component>
+    <component id="ID_s2_txt08">
+        <text>
+            <![CDATA[4 bytes]]></text>
+    </component>
+    <!--Drag and Drop-->
+    <component id="ID_s2_traget01">
+        <text>
+            <![CDATA[<font color="#393536">Dirección de origen</font>]]>
+        </text>
+    </component>
+    <component id="ID_s2_traget02">
+        <text>
+            <![CDATA[<font color="#393536">Secuencia de verificación de trama</font>]]>
+        </text>
+    </component>
+    <component id='ID_s2_traget03'>
+	<text><![CDATA[<font color="#393536">Start of Frame Delimiter</font>]]></text>
+</component>
+    <component id="ID_s1_drag04">
+        <text>
+            <![CDATA[<font color="#393536">Delimitador de inicio de trama</font>]]>
+        </text>
+    </component>
+    <component id="ID_s2_traget04">
+        <text>
+            <![CDATA[<font color="#393536">Preámbulo</font>]]>
+        </text>
+    </component>
+    <component id="ID_s2_traget05">
+        <text>
+            <![CDATA[<font color="#393536">Encabezado y datos 802.2</font>]]>
+        </text>
+    </component>
+    <component id="ID_s2_traget06">
+        <text>
+            <![CDATA[<font color="#393536">Longitud</font>]]>
+        </text>
+    </component>
+    <component id="ID_s2_traget07">
+        <text>
+            <![CDATA[<font color="#393536">Dirección de destino</font>]]>
+        </text>
+    </component>
+    <component id="ID_s1_CORRECT_TITLE">
+        <text>
+            <![CDATA[Correcto]]>
+        </text>
+    </component>
+    <component id="ID_s2_CORRECT_BODY">
+        <text>
+            <![CDATA[Unió correctamente los campos de la trama de Ethernet con sus ubicaciones correctas.]]>
+        </text>
+    </component>
+    <component id="ID_s1_INCORRECT_TITLE">
+        <text>
+            <![CDATA[Incorrecto]]>
+        </text>
+    </component>
+    <component id="ID_s2_INCORRECT_BODY">
+        <text>
+            <![CDATA[No unió correctamente los campos de la trama de Ethernet con sus ubicaciones correctas. Haga clic en Restablecer y vuelva a intentarlo.]]>
+        </text>
+    </component>
+    <component id="ID_s1_CHECK">
+        <text>
+            <![CDATA[Verificar]]>
+        </text>
+    </component>
+    <component id="ID_s1_RESET">
+        <text>
+            <![CDATA[Restablecer]]>
+        </text>
+    </component>
+    <component id='ID_s1_drag_header'>
+        <text>
+            <![CDATA[<font color="#FFFFFF" size="13">Field</font>]]>
+        </text>
+    </component>
+    <component id='ID_s1_text_header'>
+        <text>
+            <![CDATA[<font size="15">Description</font>]]>
+        </text>
+    </component>
+</textcomponents>

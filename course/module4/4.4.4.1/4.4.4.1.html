@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.4.4.1 La trama</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.4.4.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>La trama</h1>
+        <div>
+          <p>La capa de enlace de datos prepara los paquetes para su transporte a través de los medios locales encapsulándolos con un encabezado y un tráiler para crear una trama. La descripción de una trama es un elemento clave de cada protocolo de capa de enlace de datos. Si bien existen muchos protocolos de capa de enlace de datos diferentes que describen las tramas de la capa de enlace de datos, cada tipo de trama tiene tres partes básicas:</p>
+          <p>
+            <ul>
+              <li>Encabezado</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Datos</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Tráiler</li>
+            </ul>
+          </p>
+          <p>Todos los protocolos de capa de enlace de datos encapsulan la PDU de la Capa 3 dentro del campo de datos de la trama. Sin embargo, la estructura de la trama y los campos contenidos en el encabezado y tráiler varían de acuerdo con el protocolo. </p>
+          <p>No hay una estructura de trama que cumpla con las necesidades de todos los transportes de datos a través de todos los tipos de medios. Según el entorno, la cantidad de información de control que se necesita en la trama varía para cumplir con los requisitos de control de acceso al medio de la topología lógica y de los medios. </p>
+          <p>Como se muestra en la figura, un entorno frágil requiere más control. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows two routers connected by a satellite network connection.  This figure demonstrates the need for more controls over a fragile environment.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

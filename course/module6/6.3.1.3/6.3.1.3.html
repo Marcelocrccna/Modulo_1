@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.3.1.3 Memoria del router</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.3.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Memoria del router</h1>
+        <div>
+          <p>Un router tiene acceso a un almacenamiento de memoria volátil y no volátil. La memoria volátil necesita energía constante para conservar la información. Cuando el router se apaga o se reinicia, el contenido se borra y se pierde. La memoria no volátil retiene la información incluso cuando se reinicia el dispositivo. </p>
+          <p>Específicamente, un router Cisco utiliza cuatro tipos de memoria: </p>
+          <p>
+            <ul>
+              <li>
+                <b>RAM:</b> Esta es una memoria volátil que utilizan los routers Cisco para almacenar aplicaciones, procesos y los datos necesarios para que la CPU los pueda ejecutar. Los routers Cisco usan un tipo rápido de RAM denominado "memoria sincrónica dinámica de acceso aleatorio" (SDRAM). Haga clic en "RAM" en la ilustración para obtener más información.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>ROM:</b> Esta es una memoria no volátil que se usa para almacenar instrucciones operativas cruciales y un IOS limitado.  Específicamente, la memoria ROM tiene un firmware integrado en un circuito también integrado dentro del router que solo puede modificar Cisco. Haga clic en "ROM" en la ilustración para obtener más información.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>NVRAM</b>: es la memoria no volátil que se usa como almacenamiento permanente para el archivo de configuración de inicio (startup-config). </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Flash</b>: es la memoria flash no volátil, y se usa como almacenamiento permanente del IOS y otros archivos relacionados con el sistema, como archivos de registro, archivos de configuración de voz, archivos HTML, configuraciones de respaldo, entre otros. Cuando se reinicia un router, se copia el IOS de la memoria flash a la RAM. </li>
+            </ul>
+          </p>
+          <p>Todas las plataformas de router tienen componentes y configuraciones predeterminadas. Por ejemplo, el router Cisco de la serie 1941 viene con 512 MB de memoria SDRAM, pero se la puede expandir hasta 2 GB. El router Cisco 1941 también viene con 256 MB de memoria flash, pero se puede expandir con dos ranuras para tarjeta de memoria externa CompactFlash. Cada ranura puede admitir tarjetas de memoria de alta velocidad de hasta 4 GB. Haga clic <a href="http://www.cisco.com/c/en/us/products/collateral/routers/1900-series-integrated-services-routers-isr/data_sheet_c78_556319.html" target="_blank">aquí</a> para obtener más información sobre el router de servicios integrados Cisco 1941.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure is a diagram showing the four types of memory in the router. RAM holds running IOS as well as many processes that the IOS starts including routing table, ARP table, running configuration, and packet buffer. NVRAM stores the startup-config file. Flash stores the IOS files. ROM stores POST and the ROM monitor firmware, which is a limited IOS. The figure has two buttons, one for RAM and one for ROM. Clicking the buttons provides more information.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

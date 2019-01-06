@@ -1,0 +1,12 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+font[size="14"]{
+	font-size: 14px;
+}
+#ID_s1_txt04,#ID_s1_txt03,#ID_s1_txt02,#ID_s1_txt01{
+	color: #FFFFFF !important;
+}

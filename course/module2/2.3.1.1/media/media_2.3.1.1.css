@@ -1,0 +1,11 @@
+@import url('../../../common/styles/media2.css');
+
+#ID_txt01 li {
+   /* margin-bottom: 28px !important;*/
+}
+
+#ID_ins_title{
+	font-weight: bold;
+	font-size: 16px !important;
+	top: 5px !important;
+}

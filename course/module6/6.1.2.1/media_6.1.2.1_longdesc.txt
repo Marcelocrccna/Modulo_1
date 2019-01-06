@@ -1,0 +1,1 @@
+Figure 1 shows a Transport layer PDU, the segment, as the segment header and the data from the upper layers. Figure 2 shows how layer 3, the network layer, encapsulates the transport layer PDU into a packet and adds the IP Header

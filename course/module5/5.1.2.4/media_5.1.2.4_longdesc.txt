@@ -1,0 +1,1 @@
+Figure one shows the output of ip config/all command on a PC and the Physical Address is highlighted.  The physical address is the MAC address. Figure 2 shows that a MAC address can be represented with dashes, colons or periods.

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.2.5.4 Backing up and Restoring TFTP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.2.5.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Backing up and Restoring TFTP</h1>
+        <div>
+          <p>
+            <b>Backup Configurations with TFTP</b>
+          </p>
+          <p></p>
+          <p>Copies of configuration files should be stored as backup files in the event of a problem. Configuration files can be stored on a Trivial File Transfer Protocol (TFTP) server or a USB drive. A configuration file should also be included in the network documentation. </p>
+          <p></p>
+          <p>To save the running configuration or the startup configuration to a TFTP server, use either the <b>copy running-config tftp</b> or <b>copy startup-config tftp</b> command as shown in the figure. Follow these steps to backup the running configuration to a TFTP server:</p>
+          <p></p>
+          <p>
+            <b>Step 1</b>. Enter the <b>copy running-config tftp</b> command.</p>
+          <p></p>
+          <p>
+            <b>Step 2</b>. Enter the IP address of the host where the configuration file will be stored.</p>
+          <p></p>
+          <p>
+            <b>Step 3</b>. Enter the name to assign to the configuration file.</p>
+          <p></p>
+          <p>
+            <b>Step 4</b>. Press Enter to confirm each choice.</p>
+          <p></p>
+          <p>
+            <b>Restoring Configurations with TFTP</b>
+          </p>
+          <p></p>
+          <p>To restore the running configuration or the startup configuration from a TFTP server, use either the <b>copy tftp running-config</b> or <b>copy tftp startup-config</b> command. Use these steps to restore the running configuration from a TFTP server:</p>
+          <p></p>
+          <p>
+            <b>Step 1</b>. Enter the <b>copy tftp running-config</b> command.</p>
+          <p></p>
+          <p>
+            <b>Step 2</b>. Enter the IP address of the host where the configuration file is stored.</p>
+          <p></p>
+          <p>
+            <b>Step 3</b>. Enter the name to assign to the configuration file.</p>
+          <p></p>
+          <p>
+            <b>Step 4</b>. Press <b>Enter</b> to confirm each choice.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Resize" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

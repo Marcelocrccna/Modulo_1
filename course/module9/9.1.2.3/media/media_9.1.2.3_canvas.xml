@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide>
+	<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+	<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_9.1.2.3.png" />
+	<element type="TEXTBOX" titleId="ID_titleTxt01" bodyId="ID_bodyTxt01" x="90" y="290" width="500" height="165" animated="0" subType="ROLLOVER" />
+	<element type="TEXT" subType="TITLE" compId="ID_title"/>
+	<element type="TEXT" compId="ID_txt01" x="54" y="97" width="119.1" expand="down" align="right" />
+	<element type="TEXT" compId="ID_txt02" x="480" y="88" width="93.4" expand="up" align="left" />
+</slide>
+</data>

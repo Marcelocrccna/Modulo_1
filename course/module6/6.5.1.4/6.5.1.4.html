@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.5.1.4 Capítulo 6: Capa de red</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.5.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Capítulo 6: Capa de red</h1>
+        <div>
+          <p>La capa de red o la capa OSI 3, brinda servicios para permitir que los terminales puedan intercambiar datos en la red. Para lograr este transporte completo, la capa de red utiliza cuatro procesos básicos: La asignación de direcciones IP para terminales, el encapsulamiento, el routing y el desencapsulamiento.</p>
+          <p>Internet se basa mayormente en IPv4, que todavía es el protocolo de capa de red más utilizado. Un paquete IPv4 incluye el encabezado IP y el contenido. Sin embargo, IPv4 tiene una cantidad limitada de direcciones IP públicas únicas disponibles. Esto tuvo como resultado el desarrollo de IP versión 6 (IPv6). El encabezado simplificado de IPv6 ofrece varias ventajas con respecto a IPv4, lo que incluye más eficiencia de routing, encabezados de extensión simplificados y la funcionalidad de proceso por flujo. Además, las direcciones IPv6 se basan en el direccionamiento jerárquico de 128 bits en comparación con los 32 bits de IPv4. El número de direcciones IP disponibles aumenta drásticamente.</p>
+          <p>Además del direccionamiento jerárquico, la capa de red también es responsable del routing.</p>
+          <p>Los hosts requieren una tabla de routing local para que los paquetes se dirijan a la red de destino correcta. La tabla local de un host tiene, por lo general, una conexión directa, la ruta de la red local y la ruta local predeterminada. La ruta local predeterminada es la ruta al gateway predeterminado.</p>
+          <p>El gateway predeterminado es la dirección IP de una interfaz de router conectada a la red local Cuando un host debe enviar un paquete a una dirección de destino que no está en la misma red que el host, el paquete se envía al gateway predeterminado para que se lleven a cabo más procesos. </p>
+          <p>Cuando un router, como el gateway predeterminado, recibe un paquete, examina la dirección IP de destino para determinar la red de destino. En la tabla de routing de un router se almacena información sobre las rutas conectadas directamente y las rutas remotas a redes IP. Si el router tiene una entrada en su tabla de routing para la red de destino, el router envía el paquete. Si no existe ninguna entrada de routing, el router puede enviar el paquete a su propia ruta predeterminada, si tiene una configurada o puede descartarlo.</p>
+          <p>Las entradas de tabla de routing se pueden configurar de manera manual en cada router para brindar un routing estático o los routers pueden comunicarse la información de la ruta de manera dinámica con un protocolo de routing.</p>
+          <p>Para que se pueda llegar a los routers, se debe configurar la interfaz de router. Para habilitar una interfaz específica, ingrese al modo de configuración de interfaz con el comando <b>interface </b><i>tipo y número</i> del modo de configuración global.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a standard graphic for the introduction and conclusion pages.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

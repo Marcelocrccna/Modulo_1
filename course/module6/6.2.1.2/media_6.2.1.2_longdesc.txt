@@ -1,0 +1,1 @@
+Figure lists the functions of a default gateway. A default gateway: routes traffic to other networks; has a local IP address in the same address range as other hosts on the network; and can take data in and forward data out.

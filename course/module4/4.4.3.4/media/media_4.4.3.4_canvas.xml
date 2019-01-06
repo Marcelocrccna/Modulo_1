@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+        <element type="IMAGE" x="0" y="0" width="680" height="490"  src="media_4.4.3.4.png" />
+        
+<element type="TEXT" subType="TITLE" compId="ID_title"/>
+<slide>
+<element type="BUBBLE" compId="ID_s1_txt02" x="55" y="89" width="143" height="72.5" align="center" tailPosition="6" tailFlip="0" />
+<element type="TEXT" compId="ID_s1_txt01" x="176" y="168" width="75.9" expand="up" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt03" x="300" y="144" width="83.4" expand="up+down" align="center" size="12" />
+<element type="TEXT" subType="TITLE" compId="ID_title"/>
+</slide>
+
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490"  src="arrow.png" />
+<element type="BUBBLE" compId="ID_s2_txt03" x="463" y="89" width="150" height="72.5" align="center" tailPosition="6" tailFlip="0" />
+<element type="TEXT" compId="ID_s2_txt01" x="429" y="167" width="75.4" expand="up" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s2_txt02" x="260" y="280" width="75.4" expand="up" align="center" color="#ffffff" />
+</slide>
+
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490"  src="arrow.png" />
+<element type="BUBBLE" compId="ID_s3_txt03" x="463" y="89" width="150" height="72.5" align="center" tailPosition="6" tailFlip="0" />
+<element type="TEXT" compId="ID_s3_txt01" x="429" y="167" width="75.4" expand="up" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s3_txt02" x="260" y="280" width="75.4" expand="up" align="center" color="#ffffff" />
+<element type="BUBBLE" compId="ID_s3_txt04" x="161" y="302" width="150" height="72.5" align="center" tailPosition="3" tailFlip="0" />
+</slide>
+
+	</slide>
+</data>
+
+

@@ -1,0 +1,22 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+html, body {
+    margin:0;
+    height:100%;
+}
+#flashContent {
+    width:98%;
+    height:98%;
+   
+}
+#ID_title{
+    margin-left: -145px;
+}
+#router_txt{
+    color: #000000 !important;
+    letter-spacing: -0.6px;
+}
+	#router_txt{margin-left:2px;}

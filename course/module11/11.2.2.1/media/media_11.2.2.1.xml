@@ -1,0 +1,44 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Tipos de malware</b>]]></text>
+</component>
+
+<component id="ID_txt01">		
+<text><![CDATA[Las vulnerabilidades principales de las estaciones de trabajo de los usuarios finales son virus, gusanos y ataques de caballos de Troya.</font>]]></text>
+</component>
+<component id="ID_txt02">
+<text><![CDATA[Un gusano ejecuta un código arbitrario e instala copias de sí mismo en la memoria del equipo infectado. El objetivo principal de un gusano es replicarse a sí mismo automáticamente y esparcirse por la red de un sistema al otro.</font>]]></text>
+</component>
+<component id="ID_txt03">		
+<text><![CDATA[El virus es un software malicioso que ejecuta una función no deseada específica y, generalmente, dañina en un equipo.</font>]]></text>
+</component>
+<component id="ID_txt04">
+<text><![CDATA[Un caballo de Troya es un tipo de malware que no se replica a sí mismo. Generalmente contiene un código malicioso que está diseñado para parecer otra cosa, como una aplicación o un archivo legítimos. Cuando se descarga y abre una aplicación o un archivo infectados, el caballo de Troya puede atacar el terminal desde adentro.</font>]]></text>
+</component><!--ANIMATION CONTROLLER--><component id="end">
+		<text><![CDATA[Fin]]></text>
+	</component>
+	
+	<component id="fforward">
+		<text><![CDATA[Adelantar]]></text>
+	</component>
+	
+	<component id="pause">
+		<text><![CDATA[Pausa]]></text>
+	</component>
+	
+	<component id="play">
+		<text><![CDATA[Reproducir]]></text>
+	</component>
+	
+	<component id="rewind">
+		<text><![CDATA[Regresar]]></text>
+	</component>
+	
+	<component id="start">
+		<text><![CDATA[Inicio]]></text>
+	</component>
+<component id="transcript">
+<text><![CDATA[Transcripción]]></text>
+</component>
+</textcomponents>

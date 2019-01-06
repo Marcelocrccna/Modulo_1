@@ -1,0 +1,66 @@
+<textcomponents>
+    <component id="ID_title">
+        <text>
+            <![CDATA[<b>Actividad: Cálculo básico de máscara de subred</b>]]></text>
+    </component>
+    <component id="ID_s1_instr_title">
+        <text>
+            <![CDATA[Instructions]]>
+        </text>
+    </component>
+    <component id="ID_s1_instr_body">
+        <text>
+            <![CDATA[En esta actividad, se le proporciona una máscara de subred en formato decimal.Introduzca la representación binaria de la máscara de subred en los campos de octetos proporcionados.Además, convierta la máscara al formato de notación de prefijo (/x) en el campo Notación de prefijo.]]>
+        </text>
+    </component>
+    <component id="txt_correct">
+        <text>
+            <![CDATA[Correcto]]>
+        </text>
+    </component>
+    <component id="txt_incorrect">
+        <text>
+            <![CDATA[Incorrecto]]>
+        </text>
+    </component>
+    <component id="txt_body_correct">
+        <text>
+            <![CDATA[Convirtió correctamente la máscara de subred a los formatos binario y de notación de prefijo. Haga clic en Nuevo número para continuar.]]>
+        </text>
+    </component>
+    <component id="txt_body_incorrect">
+        <text>
+            <![CDATA[No convirtió correctamente la máscara de subred a los formatos binario y de notación de prefijo. Haga clic en Restablecer y vuelva a intentarlo.]]>
+        </text>
+    </component>
+    <component id="ID_txt01">
+        <text>
+            <![CDATA[Máscara de subred]]></text>
+    </component>
+    <component id="ID_txt02">
+        <text>
+            <![CDATA[Máscara de subred en<br>formato binario]]></text>
+    </component>
+    <component id="ID_txt03">
+        <text>
+            <![CDATA[Notación de prefijo]]></text>
+    </component>
+    <component id="txt_check">
+        <text>
+            <![CDATA[Verificar]]>
+        </text>
+    </component>
+    <component id="txt_reset">
+        <text>
+            <![CDATA[Restablecer]]>
+        </text>
+    </component>
+    <component id="txt_newnumber">
+        <text>
+            <![CDATA[Nuevo número]]></text>
+    </component>
+    <component id="mask">
+        <text>
+            <![CDATA[<b>Calculate Subnet Mask</b>]]></text>
+    </component>
+</textcomponents>

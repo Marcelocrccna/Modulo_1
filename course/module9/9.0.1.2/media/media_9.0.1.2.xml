@@ -1,0 +1,42 @@
+<textcomponents>
+<component id="ID_txt01">
+<text><![CDATA[<b>Mientras completa esta actividad, considere lo siguiente:</b><br/><br/><textformat blockindent="-14"><ul><li>Los datos importantes deben ser precisos cuando se envían y reciben.</li><li>La temporización puede ser un factor en la elección del método de envío de datos.</li></ul></textformat>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+<text><![CDATA[Para: tu@ejemplo.com<br>De: yo@ejemplo.com<br>Asunto: Correo electrónico]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+<text><![CDATA[Correo electrónico]]></text>
+</component>
+
+<component id="ID_s1_txt03">
+<text><![CDATA[Mensajería<br/>instantánea]]></text>
+</component>
+
+
+<component id="ID_s1_txt04">
+<text><![CDATA[Varias páginas web]]></text>
+</component>
+
+
+
+<component id="ID_s1_txt05">
+<text><![CDATA[Telefonía IP<br/>(VoIP)]]></text>
+</component>
+
+<component id="ID_s1_txt06">
+<text><![CDATA[Transmisión de vídeo]]></text>
+</component>
+
+<component id="ID_s1_txt07">
+<text><![CDATA[Red]]></text>
+</component>
+
+
+<component id="ID_s1_txt08">
+<text><![CDATA[]]></text>
+</component>
+
+</textcomponents>

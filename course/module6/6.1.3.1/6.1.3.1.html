@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.1.3.1 Encabezado de paquetes IPv4</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.1.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Encabezado de paquetes IPv4</h1>
+        <div>
+          <p>El encabezado de paquetes IPv4 consta de campos que contienen información importante sobre el paquete. Estos campos tienen números binarios que examina el proceso de capa 3. Los valores binarios de cada campo identifican diversos parámetros de configuración del paquete IP. Los diagramas de encabezado del protocolo, que se leen de izquierda a derecha y de arriba hacia abajo, proporcionan una representación visual de consulta al analizar los campos de protocolo. El diagrama de encabezado del protocolo IP en la ilustración identifica los campos de un paquete IPv4.</p>
+          <p>Los campos más importantes del encabezado de IPv4 son los siguientes:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Versión:</b> Contiene un valor binario de 4 bits establecido en 0100 que lo identifica como un paquete IP versión 4. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Servicios diferenciados o DiffServ (DS)</b>: antes conocido como el campo "tipo de servicio" (ToS), es un campo de 8 bits que se utiliza para determinar la prioridad de cada paquete. Los seis bits más importantes del campo de servicios diferenciados son el punto de código de servicios diferenciados (DSCP), y los últimos dos bits son los de notificación de congestión explícita (ECN).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Tiempo de duración (TTL):</b> Contiene un valor binario de 8 bits que se usa para delimitar el tiempo de vida de un paquete. El emisor del paquete establece el valor inicial de TTL que se reduce en uno cada vez que un router procesa el paquete. Si el campo TTL llega a cero, el router descarta el paquete y envía a la dirección IP de origen un mensaje de tiempo superado del protocolo de mensajes de control de Internet (ICMP). </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                El campo <b>Protocolo</b> se utiliza para identificar el protocolo del siguiente nivel. Este valor binario de 8 bits indica el tipo de carga de datos que lleva el paquete, lo que permite que la capa de red transmita los datos al protocolo de capa superior apropiado. ICMP (1), TCP (6) y UDP (17) son algunos valores comunes.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección IPv4 de origen</b>: contiene un valor binario de 32 bits que representa la dirección IPv4 de origen del paquete. La dirección IPv4 de origen siempre es una dirección de unidifusión.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección IPv4 de destino</b>: contiene un valor binario de 32 bits que representa la dirección IPv4 de destino del paquete. La dirección IPv4 de destino es una dirección de unidifusión, de multidifusión o de difusión.</li>
+            </ul>
+          </p>
+          <p>Los dos campos a los que se hace más referencia son los de dirección IP de origen y de destino En estos campos, se identifica de dónde viene el paquete y a dónde va. Por lo general, estas direcciones no cambian cuando un paquete se transfiere desde el origen hasta el destino.</p>
+          <p>Para identificar y validar el paquete, se usan los campos de longitud del encabezado de Internet (IHL), longitud total y el encabezado checksum.</p>
+          <p>Para reordenar un paquete fragmentado, se usan otros campos. Específicamente, el paquete IPv4 utiliza los campos de identificación, señaladores y desplazamiento de fragmentos para llevar un control de los fragmentos. Es posible que un router deba fragmentar un paquete cuando lo reenvíe de un medio a otro con una MTU menor. </p>
+          <p>Los campos "opciones" y "relleno" se usan con poca frecuencia y exceden el ámbito de este capítulo.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a sample IP Header with several fields Highlighted.  These include Version, Differentiated Services (comprised of a code and explicit congestion notification), Time to live,  protocol and the source and destination IP addresses.  There are other fields, but these are the important ones at this time.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

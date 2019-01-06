@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>		
+	<slide type="MBAR">
+	<!-- slide 01-->
+		<slide>
+			<element type="IMAGE" subType="bg" bgType="IMAGE" />
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#fff"/>
+			<element type="IMAGE" src="media_image_2.3.2.2-1.jpg" x="162.5" y="54.95" width="355.25" height="411.95"/>
+		</slide>
+	<!-- slide 02-->
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_title"/>
+			<element type="ACTIVITY" subType="SYNTAX" compId="ID_SC5" x="25" y="60" width="630" height="388" resetId = "ID_sc_reset" showMeId="ID_sc_showme" showAllId="ID_sc_showall"/>
+		</slide>
+	</slide>
+</data>
+
+
+

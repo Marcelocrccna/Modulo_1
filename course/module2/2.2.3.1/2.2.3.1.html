@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.2.3.1 Guardar el archivo de configuración en ejecución</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.2.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Guardar el archivo de configuración en ejecución</h1>
+        <div>
+          <p>Existen dos archivos de sistema que almacenan la configuración de dispositivos.</p>
+          <p>
+            <ul>
+              <li>
+                <b>startup-config: </b>el archivo almacenado en la memoria no volátil de acceso aleatorio (NVRAM) que contiene todos los comandos que utilizará el dispositivo durante el inicio o reinicio. La memoria NVRAM no pierde su contenido cuando el dispositivo se desconecta.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>running-config:</b> el archivo almacenado en la memoria de acceso aleatorio (RAM) que refleja la configuración actual. La modificación de una configuración en ejecución afecta el funcionamiento de un dispositivo Cisco de inmediato. La memoria RAM es volátil. Pierde todo el contenido cuando el dispositivo se apaga o se reinicia.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Como se muestra en la figura, se puede utilizar el comando <b>show running-config</b> en el modo EXEC privilegiado para ver un archivo de configuración en ejecución. Para ver el archivo de configuración de inicio, ejecute el comando <b>show startup-config</b> en el modo EXEC privilegiado.</p>
+          <p></p>
+          <p>Si se corta la energía al dispositivo o si este se reinicia, se perderán todos los cambios de configuración a menos que se hayan guardado. Para guardar los cambios realizados en la configuración en ejecución en el archivo de configuración de inicio utilice el comando <b>copy running-config startup-config</b> en el modo EXEC privilegiado.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure one shows how to display the current running configuration as well as how to save the current running configuration to the startup configuration in NVRAM.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

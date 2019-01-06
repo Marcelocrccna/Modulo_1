@@ -1,0 +1,9 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+#ID_txt01 li{margin-left:34px !important;}
+
+#ID_s1_title {color:#FFF !important;}

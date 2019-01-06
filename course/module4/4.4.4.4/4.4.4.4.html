@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.4.4.4 Dirección de Capa 2</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.4.4.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Dirección de Capa 2</h1>
+        <div>
+          <p>La capa de enlace de datos proporciona direccionamiento que es utilizado para transportar una trama a través de los medios locales compartidos. Las direcciones de dispositivo en esta capa se llaman direcciones físicas. El direccionamiento de la capa de enlace de datos está contenido en el encabezado de la trama y especifica el nodo de destino de la trama en la red local. El encabezado de la trama también puede contener la dirección de origen de la trama. </p>
+          <p>A diferencia de las direcciones lógicas de la Capa 3, que son jerárquicas, las direcciones físicas no indican en qué red está ubicado el dispositivo. En cambio, la dirección física es única para un dispositivo en particular. Si el dispositivo se traslada a otra red o subred, sigue funcionando con la misma dirección física de la Capa 2. </p>
+          <p>Las figuras 1 a 3 muestran la función de las direcciones de la capa 2 y capa 3. A medida que el paquete IP se mueve de host a router, de router a router y, finalmente, de router a host, es encapsulado en una nueva trama de enlace de datos, en cada punto del recorrido. Cada trama de enlace de datos contiene la dirección de origen de enlace de datos de la tarjeta NIC que envía la trama y la dirección de destino de enlace de datos de la tarjeta NIC que recibe la trama.</p>
+          <p>No se puede utilizar una dirección específica de un dispositivo y no jerárquica para localizar un dispositivo en grandes redes o de Internet. Eso sería como intentar localizar una casa específica en todo el mundo, sin más datos que el nombre de la calle y el número de la casa. Sin embargo, la dirección física se puede usar para localizar un dispositivo dentro de un área limitada. Por este motivo, la dirección de la capa de enlace de datos solo se utiliza para entregas locales. Las direcciones en esta capa no tienen significado más allá de la red local. Compare esto con la Capa 3, en donde las direcciones en el encabezado del paquete pasan del host de origen al host de destino, sin tener en cuenta la cantidad de saltos de redes a lo largo de la ruta.</p>
+          <p>Si los datos deben pasar a otro segmento de red, se necesita un dispositivo intermediario, como un router. El router debe aceptar la trama según la dirección física y desencapsularla para examinar la dirección jerárquica, o dirección IP. Con la dirección IP, el router puede determinar la ubicación de red del dispositivo de destino y el mejor camino para llegar a él. Una vez que sabe adónde reenviar el paquete, el router crea una nueva trama para el paquete, y la nueva trama se envía al segmento de red siguiente hacia el destino final. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figures 1, 2, and 3 demonstrate the concept that layer 2 address change at every hop while the layer 3 addresses stay the same. In Figure 1, the layer 2 addresses are for the original source and router 1. In Figure 2, the layer 2 addresses are for router 1 and router 2. In Figure 3, the layer 2 addresses are for router 2 and the final destination, the web server.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

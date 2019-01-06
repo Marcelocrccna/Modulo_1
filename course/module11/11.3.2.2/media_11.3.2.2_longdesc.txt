@@ -1,0 +1,1 @@
+Figure 1 is a table describing each of IOS traceroute options. Figure 2 shows the tracert options on a Windows machine 

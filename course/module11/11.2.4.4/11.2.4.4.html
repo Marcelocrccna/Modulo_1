@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.2.4.4 Activar SSH</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.2.4.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Activar SSH</h1>
+        <div>
+          <p>Telnet no es seguro. Los datos contenidos en un paquete Telnet se transmiten sin cifrar. Por este motivo, se recomienda especialmente habilitar SSH en los dispositivos para obtener un método de acceso remoto seguro. Es posible configurar un dispositivo Cisco para que admita SSH mediante cuatro pasos, como se muestra en la ilustración.</p>
+          <p>
+            <b>Paso 1.</b> Asegúrese de que el router tenga un nombre de host exclusivo y configure el nombre de dominio IP de la red mediante el comando <b>ip domain-name</b> en el modo de configuración global.</p>
+          <p>
+            <b>Paso 2.</b> Se deben generar claves secretas unidireccionales para que un router cifre el tráfico SSH. Para generar la clave SSH, utilice el comando <b>crypto key generate rsa general-keys</b> en el modo de configuración global. El significado específico de las diferentes partes de este comando es complejo y excede el ámbito de este curso. Observe que el módulo determina el tamaño de la clave y se puede configurar de 360 a 2048 bits. Cuanto más grande es el módulo, más segura es la clave, pero más se tarda en cifrar y descifrar la información. La longitud mínima de módulo recomendada es de 1024 bits. </p>
+          <p>
+            <b>Paso 3.</b> Cree una entrada de nombre de usuario en la base de datos local mediante el comando de configuración global <b>username</b>.</p>
+          <p>
+            <b>Paso 4.</b> Habilite las sesiones SSH entrantes mediante los comandos de línea vty <b>login local</b> y <b>transport input ssh</b>.</p>
+          <p>Ahora se puede acceder remotamente al router solo con SSH.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the commands to configure SSH. The steps are listed in a text box.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

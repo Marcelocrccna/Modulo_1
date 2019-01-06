@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.3 División en subredes sin clase</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>División en subredes sin clase</h1>
+        <div>
+          <p>En los ejemplos que se vieron hasta ahora, se pidieron prestados bits de host de los prefijos de red comunes /8, /16 y /24. Sin embargo, las subredes pueden tomar prestados bits de <i>cualquier</i> posición de bit de host para crear otras máscaras.</p>
+          <p>Por ejemplo, una dirección de red /24 se suele dividir en subredes con longitudes de prefijo más extensas al tomar prestados bits del cuarto octeto. Esto le proporciona al administrador mayor flexibilidad al asignar direcciones de red a un número menor de terminales.  </p>
+          <p>Tal como se muestra en la ilustración: </p>
+          <p>
+            <ul>
+              <li>Fila /25: Tomar prestado 1 bit del cuarto octeto crea 2 subredes que admiten, cada una, 126 hosts.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Fila /26: Tomar prestados 2 bits crea 4 subredes que admiten, cada una, 62 hosts.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Fila /27: Tomar prestados 3 bits crea 8 subredes que admiten, cada una, 30 hosts. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Fila /28: Tomar prestados 4 bits crea 16 subredes que admiten, cada una, 14 hosts. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Fila /29: Tomar prestados 5 bits crea 32 subredes que admiten, cada una, 6 hosts. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Fila /30: Tomar prestados 6 bits crea 64 subredes que admiten, cada una, 2 hosts. </li>
+            </ul>
+          </p>
+          <p>Por cada bit que se toma prestado en el cuarto octeto, la cantidad de subredes disponible se duplica, al tiempo que se reduce la cantidad de direcciones de host por subred.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a table. The first column lists the six prefix lengths from /25 to /30. The second column lists the six subnet masks from 255.255.255.128 to 255.255.255.252. The third column shows the subnet mask in binary with the letter “n” above one bits and the letter “h” above zero bits. The effect is to show the borrowing of bits into the fourth octet from borrowing one bit in the first row (/25) to borrowing six bits in the last row (/30). The fourth and fifth columns show the number of subnets and hosts respectively. For example, borrowing 3 bits gets you 8 subnets with 30 hosts per subnet.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

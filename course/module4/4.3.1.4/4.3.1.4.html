@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.3.1.4 Provisión de acceso a los medios</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.3.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Provisión de acceso a los medios</h1>
+        <div>
+          <p>Durante una misma comunicación, pueden ser necesarios distintos métodos de control de acceso al medio. Cada entorno de red que los paquetes encuentran cuando viajan desde un host local hasta un host remoto puede tener características diferentes. Por ejemplo, una LAN Ethernet consta de muchos hosts que compiten por acceder al medio de red. Los enlaces seriales constan de una conexión directa entre dos dispositivos únicamente. </p>
+          <p>Las interfaces del router encapsulan el paquete en la trama correspondiente, y se utiliza un método de control de acceso al medio adecuado para acceder a cada enlace. En cualquier intercambio de paquetes de capas de red, puede haber muchas transiciones de medios y capa de enlace de datos. </p>
+          <p>En cada salto a lo largo de la ruta, los routers realizan lo siguiente:</p>
+          <p>
+            <ul>
+              <li>Aceptan una trama proveniente de un medio.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Desencapsulan la trama.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Vuelven a encapsular el paquete en una trama nueva.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Reenvían la nueva trama adecuada al medio de ese segmento de la red física.</li>
+            </ul>
+          </p>
+          <p>El router de la figura tiene una interfaz Ethernet para conectarse a la LAN y una interfaz serial para conectarse a la WAN. A medida que el router procesa tramas, utilizará los servicios de la capa de enlace de datos para recibir la trama desde un medio, desencapsularlo en la PDU de la Capa 3, volver a encapsular la PDU en una trama nueva y colocar la trama en el medio del siguiente enlace de la red.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is an animation that shows how the frame header and trailer change depending on the media.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

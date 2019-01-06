@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	
+		<slide>
+			
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+<element type="IMAGE" x="89" y="72" width="180" height="105" subType="STD" src="9_4_4_2_A.jpg" />
+<element type="IMAGE" x="88" y="346" width="180" height="105" subType="STD" src="9_4_4_2_C.jpg" />
+<element type="IMAGE" x="89" y="208" width="180" height="105" subType="STD" src="9_4_4_2_B.jpg" />
+
+<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF" />
+		</slide>
+
+</data>

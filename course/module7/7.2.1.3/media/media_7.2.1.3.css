@@ -1,0 +1,12 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_s1_INCORRECT_TITLE, #ID_s1_CORRECT_TITLE {
+    top: 6px !important;
+}
+
+#ID_txt05{
+	letter-spacing:-0.4px;
+	}

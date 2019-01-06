@@ -1,0 +1,45 @@
+﻿<textcomponents>
+    <!-- slide 1 -->
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<b>Limitación de acceso de los dispositivos</b>]]></text>
+    </component>
+
+     <component id="ID_s1_ins_title01">
+        <text>
+            <![CDATA[Protección del acceso administrativo]]>
+        </text>
+    </component>
+    <component id="ID_s1_ins_body01">
+        <text>
+            <![CDATA[<textformat blockindent='-17'><ul><li>Proteja el acceso a EXEC privilegiado con una contraseña</li><li>Proteja el acceso a EXEC de usuario con una contraseña</li><li>Proteja el acceso a Telnet remoto con una contraseña</li></ul></textformat><textformat blockindent='-17'><ul><li>Encripte todas las contraseñas</li><li>Proporcione notificación legal</li></ul></textformat>]]></text>
+    </component>
+
+    <component id="ID_s1_ins_title02">
+        <text>
+            <![CDATA[Other tasks]]>
+        </text>
+    </component>
+    <component id="ID_s1_ins_body02">
+        <text>
+            <![CDATA[<textformat blockindent='-17'><ul><li>Encrypt all passwords</li><li>Provide legal notification</li></ul></textformat>]]>
+        </text>
+    </component>
+
+    <!-- end slide 1-->
+    <!-- slide 2 -->
+    <component id="ID_s2_title">
+        <text>
+            <![CDATA[<b>Pautas para la selección de contraseñas</b>]]></text>
+    </component>
+     <component id="ID_s2_ins_title">
+        <text>
+            <![CDATA[Cuando seleccione contraseñas]]>
+        </text>
+    </component>
+    <component id="ID_s2_ins_body">
+        <text>
+            <![CDATA[<textformat blockindent='-17'><ul><li>Use contraseñas que tengan más de 8 caracteres.</li><li>Use una combinación de letras mayúsculas y minúsculas, números, caracteres especiales o secuencias numéricas.</li><li>Evite el uso de la misma contraseña para todos los dispositivos.</li><li>No use palabras comunes porque se descubren fácilmente.</li></ul></textformat>]]></text>
+    </component>
+    <!-- end slide 2-->
+</textcomponents>

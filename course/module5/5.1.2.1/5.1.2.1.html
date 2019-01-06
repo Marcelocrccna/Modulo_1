@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.1.2.1 Dirección MAC y hexadecimal</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.1.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Dirección MAC y hexadecimal</h1>
+        <div>
+          <p>Una dirección MAC de Ethernet es un valor binario de 48 bits expresado como 12 dígitos hexadecimales (4 bits por dígito hexadecimal).</p>
+          <p>Así como el sistema decimal es un sistema numérico de base 10, el sistema hexadecimal es un sistema de base 16. El sistema numérico de base 16 utiliza los número del 0 al 9 y las letras de la A a la F. En la figura 1, se muestran los valores decimales y hexadecimales equivalentes para los números binarios del 0000 al 1111. Es más fácil expresar un valor como un único dígito hexadecimal que como cuatro bits binarios. </p>
+          <p>Dado que 8 bits (1 byte) es un método de agrupación binaria común, los números binarios del 00000000 al 11111111 se pueden representar en hexadecimal como el rango del 00 al FF, como se muestra en la figura 2. Los ceros iniciales se muestran siempre para completar la representación de 8 bits. Por ejemplo, el valor binario “0000 1010” se muestra en hexadecimal como “0A”.</p>
+          <p>
+            <b>Nota:</b> es importante distinguir los valores hexadecimales de los valores decimales con respecto a los caracteres del 0 al 9, como se muestra en la ilustración. </p>
+          <p>
+            <b>Representación de valores hexadecimales</b>
+          </p>
+          <p>Generalmente, el sistema hexadecimal se representa por escrito por medio del valor precedido por “0x” (por ejemplo, “0x73”) o de un subíndice 16. En ocasiones menos frecuentes, puede estar seguido por una H (por ejemplo, “73H”). Sin embargo, y debido a que el texto en subíndice no se reconoce en entornos de línea de comandos o de programación, la representación técnica de un valor hexadecimal es precedida por “0x” (cero X). Por lo tanto, los ejemplos anteriores deberían mostrarse como “0x0A” y “0x73”, respectivamente.</p>
+          <p>El valor hexadecimal se utiliza para representar las direcciones MAC de Ethernet y las direcciones IP versión 6.</p>
+          <p>
+            <b>Conversiones hexadecimales</b>
+          </p>
+          <p>Las conversiones numéricas entre valores decimales y hexadecimales son simples, pero no siempre es conveniente dividir o multiplicar por 16. Si es necesario realizar dichas conversiones, generalmente, es más fácil convertir el valor decimal o hexadecimal a un valor binario y, a continuación, convertir ese valor binario a un valor decimal o hexadecimal, según corresponda. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a table with Decimal values between 0 and 15 with the Binary and Hexadecimal equivalents.  This table demonstrates why Hexadecimal has letters A through F along with numbers 0 through 9. Figure 2 shows a table with Decimal values between 0 and 255 with the Binary and Hexadecimal equivalents.  This table only shows 19 examples.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Dirección IPv6 de multidifusión de nodo solicitado</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[Ethernet]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[IPv6]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[MAC de destino: multidifusión]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[IPv6 de destino: multidifusión de nodo solicitado]]></text>
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[<font color="#FFFFFF">Mi NIC Ethernet determinó que esta multidifusión no es para mí.</font>]]></text>
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[<font color="#FFFFFF">Mi NIC Ethernet determinó que esta multidifusión no es para mí.</font>]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[<font color="#FFFFFF">Mi NIC Ethernet determinó que esta multidifusión es para mí.</font>]]></text>
+	</component>
+</textcomponents>

@@ -1,0 +1,6 @@
+<textcomponents>
+    <component id="ID_txt01">
+        <text>
+            <![CDATA[La CLI maneja el Cisco IOS.]]></text>
+    </component>
+</textcomponents>

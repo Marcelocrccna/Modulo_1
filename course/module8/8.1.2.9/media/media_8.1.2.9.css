@@ -1,0 +1,18 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#htmlMedia {
+	width: 600px;
+	height: 400px;
+}
+
+#ID_static_1{
+	margin-left: 25px!important;
+	letter-spacing: 1.17px!important;
+}
+
+.fontfamily{
+	font-family: Courier New!important;
+	
+}

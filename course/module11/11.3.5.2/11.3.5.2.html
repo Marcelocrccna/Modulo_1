@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.3.5.2 Comando terminal monitor</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.3.5.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Comando terminal monitor</h1>
+        <div>
+          <p>Las conexiones para otorgar acceso a la interfaz de línea de comandos de IOS se pueden establecer de forma local o remota.</p>
+          <p></p>
+          <p>Las conexiones locales requieren acceso físico al router o switch; por lo tanto, se requiere una conexión de cable. Esta conexión se establece generalmente mediante la conexión de una PC al puerto de consola del router o del switch mediante un cable de sustitución. En este curso, nos referimos a una conexión local como conexión de consola.</p>
+          <p></p>
+          <p>Las conexiones remotas se establecen a través de la red; por lo tanto, requieren un protocolo de red como IP. No se requiere acceso físico directo para las sesiones remotas. SSH y Telnet son dos protocolos de conexión comunes utilizados para las sesiones remotas. En este curso, usamos el protocolo cuando hablamos de una conexión remota específica, como una conexión Telnet o una conexión SSH.</p>
+          <p></p>
+          <p>Aunque los mensajes de registro de IOS se envían a la consola de manera predeterminada, estos mismos mensajes de registro no se envían a las líneas virtuales de manera predeterminada. Debido a que los mensajes de depuración son mensajes de registro, este comportamiento evita que los mensajes se muestren en las líneas VTY.</p>
+          <p></p>
+          <p>Para mostrar los mensajes de registro en una terminal (consola virtual), utilice el comando modo EXEC privilegiado <b>terminal monitor</b>.</p>
+          <p></p>
+          <p>Para detener los mensajes de registro en una terminal, utilice el comando modo EXEC privilegiado <b>terminal no monitor</b>.</p>
+          <p></p>
+          <p>Use el verificador de sintaxis para practicar, con <b>terminal monitor</b> y <b>debug</b> para solucionar problemas</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 is output from the ‘debug ip icmp’ command. Figure 2 is a syntax checker activity.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

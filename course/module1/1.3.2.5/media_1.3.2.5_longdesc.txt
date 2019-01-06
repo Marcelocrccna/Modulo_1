@@ -1,0 +1,1 @@
+Figure 1 shows a router requiring a user name and a password to access it, thereby giving security to the device.  Devices such as routers can also be secured from physical access by locking the room where they are stored. Figure 2 shows a triangle labeled on each side with one of the three primary security requirements: confidentiality, integrity, and availability.

@@ -1,0 +1,1 @@
+Figure 1 shows the output of the "show cdp neighbors" command and "show cdp neighbors detail" command. Figure 2 shows a topology with three routers connected with serial connections.  R1 connects to R2, and R2. connects to R3  Each Router has a LAN with a switch and a PC.

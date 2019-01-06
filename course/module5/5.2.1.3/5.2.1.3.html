@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.1.3 Filtrado de tramas</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Filtrado de tramas</h1>
+        <div>
+          <p>A medida que un switch recibe tramas de diferentes dispositivos, puede completar la tabla de direcciones MAC examinando la dirección MAC de cada trama. Cuando la tabla de direcciones MAC del switch contiene la dirección MAC de destino, puede filtrar la trama y reenviarla por un solo puerto.</p>
+          <p>En las figuras 1 y 2, se muestra la PC-D enviando una trama de regreso a la PC-A. En primer lugar, el switch obtiene la dirección MAC de la PC-D. A continuación, como la dirección MAC de la PC-A está en la tabla del switch, este envía la trama solamente por el puerto 1. </p>
+          <p>En la figura 3, se muestra la PC-A enviando otra trama a la PC-D. La tabla de direcciones MAC ya contiene la dirección MAC de la PC-A, por lo que se restablece el temporizador de actualización para esa entrada. A continuación, como la dirección MAC de la PC-D está en la tabla del switch, este envía la trama solamente por el puerto 4.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a four port switch with four PCs attached one to each port. The PCs are named A, B, C, and D. The abbreviated MAC addresses are 00-0A, 00-0B, 00-0C, and 00-0D. The switch MAC address table is also shown. The MAC table includes port and MAC address for A. The switch received a frame from D and entered the port number and MAC address for D. In Figure 2, the switch forwards the frame out the port associated with A. In Figure 3, A sends another frame to D and the switch only forwards the frame out the port associated with D.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

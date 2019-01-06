@@ -1,0 +1,429 @@
+﻿<textcomponents><component id="ID_s1_title">
+		<text><![CDATA[<b>Notación de posición decimal</b>]]></text>
+	</component><component id="ID_s1_table">
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable" width="600">
+	
+		<tr class="mtable_title">
+			<td colspan="5" bgcolor='#FFFFFF'><font size="5"></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='5' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+			<tr>
+				<td bgcolor='#666263' width="225"><p align='right'><font color="#FFFFFF"><b>Base</b></font><br/><br/></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>10</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>10</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>10</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>10</p></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p align='right'><font color="#FFFFFF"><b>Posición en cifras</b></font></p><br/><br/></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>3</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>2</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>1</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p align='right'><font color="#FFFFFF"><b>Cálculo</b></font><br/><br/></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>(10^<font color='#F68026'><b>3</b></font>)</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>(10^<font color='#F68026'><b>2</b></font>)</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>(10^<font color='#F68026'><b>1</b></font>)</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>(10^<font color='#F68026'><b>0</b></font>)</p></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p align='right'><font color="#FFFFFF"><b>Valor de posición</b></font><br/><br/></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#46A040'><b>1000</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#46A040'><b>100</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#46A040'><b>10</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#46A040'><b>1</b></font></p></td>
+			</tr>
+		</table>]]></text>
+	</component>
+
+<component id="ID_titleTxt01">
+		<text><![CDATA[<b>Base</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[La primera fila identifica la base numérica o la base. El sistema de notación decimal está basado en 10, por lo tanto, la base es 10.]]></text>
+	</component>
+<component id="ID_titleTxt02">
+	<text><![CDATA[Position in Number]]></text>
+	</component>
+	<component id="ID_s3_titleTxt02">
+		<text><![CDATA[<b>Posición en cifras</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt02">
+		<text><![CDATA[La segunda fila toma en cuenta la posición del número decimal de derecha a izquierda, 0 (primera posición), 1 (segunda posición), 2 (tercera posición), 3 (cuarta posición). A su vez, estos números representan el valor exponencial que se usa para calcular el valor de posición (cuarta fila).]]></text>
+	</component>
+	<component id="ID_titleTxt03">
+		<text><![CDATA[<b>Cálculo</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt03">
+		<text><![CDATA[La tercera fila calcula el valor de posición al aumentar la base con el valor exponencial de la posición. Nota: n^0 es siempre = 1.]]></text>
+	</component>
+	<component id="ID_titleTxt04">
+		<text><![CDATA[<b>Valor de posición</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt04">
+		<text><![CDATA[La primera fila identifica la base numérica o la base. Por lo tanto, el valor que se indica, de izquierda a derecha, representa unidades de millares, centenas, decenas y unidades.]]></text>
+	</component>
+
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Aplicación de la notación de posición decimal</b>]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[<font size="16"><font color='#F68026'><b>1234</b></font></font>]]></text>
+	</component>
+	<component id="ID_s2_table"><text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable" width="600">
+	
+		<tr class="mtable_title">
+			<td colspan="5" bgcolor='#FFFFFF'><font size="5"></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='5' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>	
+		 
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF'><b></b></font></td>
+			<td bgcolor='#666263'><font color='#FFFFFF'><p align='center'><b>Millares</b></p></font></td>
+			<td bgcolor='#666263'><font color='#FFFFFF'><p align='center'><b>Centenas</b></p></font></td>
+			<td bgcolor='#666263'><font color='#FFFFFF'><p align='center'><b>Decenas</b></p></font></td>
+			<td bgcolor='#666263'><font color='#FFFFFF'><p align='center'><b>Unidades</b></p></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Valor de posición</b></td>
+			<td bgcolor='#E9E7E8'><p align='center'><font color='#46A040'><b>1000</b></font></p></td>
+			<td bgcolor='#E9E7E8'><p align='center'><font color='#46A040'><b>100</b></font></p></td>
+			<td bgcolor='#E9E7E8'><p align='center'><font color='#46A040'><b>10</b></font></p></td>
+			<td bgcolor='#E9E7E8'><p align='center'><font color='#46A040'><b>1</b></font></p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'><b>Número decimal</b></td>
+			<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>1</b></font></p></td>
+			<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>2</b></font></p></td>
+			<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>3</b></font></p></td>
+			<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>4</b></font></p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Cálculo</b></td>
+			<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>1</b></font> x<font color='#46A040'><b> 1000</b></font></p></td>
+			<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>2</b></font> x<font color='#46A040'><b> 100</b></font></p></td>
+			<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>3</b></font> x<font color='#46A040'><b> 10</b></font></p></td>
+			<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>4</b></font> x<font color='#46A040'><b> 1</b></font></p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'><b>Súmelos...</b></td>
+			<td bgcolor='#F2F2F2'><p align='center'>1000</p></td>
+			<td bgcolor='#F2F2F2'><p align='center'>+ 200 &nbsp;&nbsp;</p></td>
+			<td bgcolor='#F2F2F2'><p align='center'>+ 30 &nbsp;&nbsp;</p></td>
+			<td bgcolor='#F2F2F2'><p align='center'>+ 4 &nbsp;&nbsp;</p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Resultado</b></td>
+			<td bgcolor='#E9E7E8' colspan="4"><p align='center'>1234</p></td>
+		</tr>
+	</table>]]></text>
+	</component>
+
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Notación de posición binaria</b>]]></text>
+	</component>
+	<component id="ID_s3_table">
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable" width="600">
+	
+		<tr class="mtable_title">
+			<td colspan="9" bgcolor='#FFFFFF'><font size="5"></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='9' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>  
+			<tr>
+				<td bgcolor='#666263' width='225px'><p align='right'><font color='#FFFFFF'><b>Base</b><br/><br/></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>2</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>2</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>2</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>2</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>2</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>2</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>2</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>2</p></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p align='right'><font color='#FFFFFF'><b>Posición en cifras</b></font></p><br/><br/></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>7</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>6</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>5</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>4</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>3</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>2</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>1</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p align='right'><font color='#FFFFFF'><b>Cálculo</b></font><br/><br/></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>(2^<font color='#F68026'><b>7</b></font>)</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>(2^<font color='#F68026'><b>6</b></font>)</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>(2^<font color='#F68026'><b>5</b></font>)</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>(2^<font color='#F68026'><b>4</b></font>)</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>(2^<font color='#F68026'><b>3</b></font>)</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>(2^<font color='#F68026'><b>2</b></font>)</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>(2^<font color='#F68026'><b>1</b></font>)</p></td>
+				<td bgcolor='#E9E7E8'><p align='center'>(2^<font color='#F68026'><b>0</b></font>)</p></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p align='right'><font color='#FFFFFF'><b>Valor de posición</b></font><br/><br/></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#46A040'><b>128</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#46A040'><b>64</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#46A040'><b>32</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#46A040'><b>16</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#46A040'><b>8</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#46A040'><b>4</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#46A040'><b>2</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#46A040'><b>1</b></font></p></td>
+			</tr>
+		</table>]]></text>
+	</component>
+	<component id="ID_s3_titleTxt01">
+		<text><![CDATA[Base]]></text>
+	</component>
+	<component id="ID_s3_bodyTxt01">
+		<text><![CDATA[El sistema de notación decimal está basado en 2, por lo tanto, la base es 2.]]></text>
+	</component>
+	<component id="ID_s3_btn02_title">
+		<text><![CDATA[Posición en cifras]]></text>
+	</component>
+	<component id="ID_s3_bodyTxt02">
+		<text><![CDATA[La segunda fila toma en cuenta la posición del número binario de derecha a izquierda, 0 (primera posición), 1 (segunda posición), 2 (tercera posición), 3 (cuarta posición). A su vez, estos números representan el valor exponencial que se usa para calcular el valor de posición (cuarta fila).]]></text>
+	</component>
+	<component id="ID_s3_titleTxt03">
+		<text><![CDATA[Cálculo]]></text>
+	</component>
+	<component id="ID_s3_bodyTxt03">
+		<text><![CDATA[La tercera fila calcula el valor de posición al aumentar la base con el valor exponencial de la posición. Nota: n^0 es siempre = 1.]]></text>
+	</component>
+	<component id="ID_s3_titleTxt04">
+		<text><![CDATA[Valor de posición]]></text>
+	</component>
+	<component id="ID_s3_bodyTxt04">
+		<text><![CDATA[La cuarta fila identifica el valor de posición, lo que significa que un dígito en dicha posición representa el valor de la unidad. Por lo tanto, el valor que se indica, de derecha a izquierda, representa unidades de uno, dos, cuatro, ocho, etc.]]></text>
+	</component>
+	<component id="ID_s4_title">
+		<text><![CDATA[<b>Aplicación de la notación de posición binaria</b>]]></text>
+	</component>
+	<component id="ID_s4_txt01">
+		<text><![CDATA[<font size="16"><font color='#F68026'><b>11000000</b></font></font>]]></text>
+	</component>
+	<component id="ID_s4_table"><text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable" width="600">
+	
+		<tr class="mtable_title">
+			<td colspan="9" bgcolor='#FFFFFF'><font size="5"></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='9' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>	
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF'><b>Valor de posición</b></font></td>
+			<td bgcolor='#E9E7E8'><p align='center'>128</p></td>
+			<td bgcolor='#E9E7E8'><p align='center'>64</p></td>
+			<td bgcolor='#E9E7E8'><p align='center'>32</p></td>
+			<td bgcolor='#E9E7E8'><p align='center'>16</p></td>
+			<td bgcolor='#E9E7E8'><p align='center'>8</p></td>
+			<td bgcolor='#E9E7E8'><p align='center'>4</p></td>
+			<td bgcolor='#E9E7E8'><p align='center'>2</p></td>
+			<td bgcolor='#E9E7E8'><p align='center'>1</p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263'><font color='#FFFFFF'><b>Número binario (11000000)</b></font></td>
+			<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>1</b></font></p></td>
+			<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>1</b></font></p></td>
+			<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+			<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+			<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+			<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+			<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+			<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263'><font color='#FFFFFF'><b>Cálculo</b></font></td>
+			<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>1</b></font> x<font color='#46A040'><b> 128</b></font></p></td>
+			<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>1</b></font> x<font color='#46A040'><b> 64</b></font></p></td>
+			<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 32</b></font></p></td>
+			<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 16</b></font></p></td>
+			<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 8</b></font></p></td>
+			<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 4</b></font></p></td>
+			<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 2</b></font></p></td>
+			<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 1</b></font></p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263'><font color='#FFFFFF'><b>Súmelos...</b></font></td>
+			<td bgcolor='#F2F2F2'><p align='center'>128</p></td>
+			<td bgcolor='#F2F2F2'><p align='center'>+ 64 &nbsp;&nbsp;</p></td>
+			<td bgcolor='#F2F2F2'><p align='center'>+ 0 &nbsp;&nbsp;</p></td>
+			<td bgcolor='#F2F2F2'><p align='center'>+ 0 &nbsp;&nbsp;</p></td>
+			<td bgcolor='#F2F2F2'><p align='center'>+ 0 &nbsp;&nbsp;</p></td>
+			<td bgcolor='#F2F2F2'><p align='center'>+ 0 &nbsp;&nbsp;</p></td>
+			<td bgcolor='#F2F2F2'><p align='center'>+ 0 &nbsp;&nbsp;</p></td>
+			<td bgcolor='#F2F2F2'><p align='center'>+ 0 &nbsp;&nbsp;</p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263'><font color='#FFFFFF'><b>Resultado</b></font></td>
+			<td bgcolor='#E9E7E8' colspan="8"><p align='center'>192</p></td>
+		</tr>
+	</table>]]></text>
+	</component><!-- end slide 4 --><component id="ID_s1_table01">
+		<text><![CDATA[<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr>
+		<td colspan='5' bgcolor='#0E6360' class="mtable_top"><font size='1' color='#98D3D1'>.</font></td>
+	</tr>
+	<tr class="br">
+		
+	</tr>
+	<tr>
+		<td bgcolor='' width="150" glow='true' glowcolor='#00A1E3' id="td1" class="tdOver"><b>Base</b></td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;"><span class="spacer">10</span></td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">10</td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">10</td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">10</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#99D5EF' glow='true' glowcolor='#00A1E3' id="td2" class="tdFill"><b>Posición en cifras</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important;color:#F68026;text-align:center;padding-top:3px !important;"><span class="spacer"><b>3</b></span></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#F68026;text-align:center;padding-top:3px !important;"><b>2</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#F68026;text-align:center;padding-top:3px !important;"><b>1</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#F68026;text-align:center;padding-top:3px !important;"><b>0</b></td>
+	</tr>
+	<tr>
+		<td bgcolor='#99D5EF' glow='true' glowcolor='#00A1E3' id="td3" class="tdFill"><b>Cálculo</b></td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;"><span class="spacer">(10^<span style="color:#F68026;"><b>3</b></span>)</span></td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">(10^<span style="color:#F68026;"><b>2</b></span>)</td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">(10^<span style="color:#F68026;"><b>1</b></span>)</td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">(10^<span style="color:#F68026;"><b>0</b></span>)</td>
+	</tr>
+	<tr>
+		<td bgcolor='#99D5EF' glow='true' glowcolor='#00A1E3' id="td4" class="tdFill"><b>Valor de posición</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important;color:#46A040;text-align:center;padding-top:3px !important;"><span class="spacer"><b>1000</b></span></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#46A040;text-align:center;padding-top:3px !important;"><b>100</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#46A040;text-align:center;padding-top:3px !important;"><b>10</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#46A040;text-align:center;padding-top:3px !important;"><b>0</b></td>
+	</tr>
+</table>]]></text>
+	</component>
+	
+	<component id="ID_s3_table01">
+		<text><![CDATA[<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr>
+		<td colspan='9' bgcolor='#0E6360' class="mtable_top"><font size='1' color='#98D3D1'>.</font></td>
+	</tr>
+	<tr class="br">
+		
+	</tr>
+	<tr>
+		<td bgcolor='' width="150" glow='true' glowcolor='#00A1E3' id="td_1" class="tdOver"><b>Base</b></td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;"><span class="spacer">2</span></td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">2</td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">2</td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">2</td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">2</td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">2</td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">2</td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">2</td>
+	</tr>
+	<tr>
+		<td bgcolor='#99D5EF' glow='true' glowcolor='#00A1E3' id="td_2" class="tdFill"><b>Posición en cifras</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important;color:#F68026;text-align:center;padding-top:3px !important;"><span class="spacer"><b>7</b></span></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#F68026;text-align:center;padding-top:3px !important;"><b>6</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#F68026;text-align:center;padding-top:3px !important;"><b>5</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#F68026;text-align:center;padding-top:3px !important;"><b>4</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#F68026;text-align:center;padding-top:3px !important;"><b>3</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#F68026;text-align:center;padding-top:3px !important;"><b>2</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#F68026;text-align:center;padding-top:3px !important;"><b>1</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#F68026;text-align:center;padding-top:3px !important;"><b>0</b></td>
+	</tr>
+	<tr>
+		<td bgcolor='#99D5EF' glow='true' glowcolor='#00A1E3' id="td_3" class="tdFill"><b>Cálculo</b></td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;"><span class="spacer">(2^<span style="color:#F68026;"><b>7</b></span>)</span></td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">(2^<span style="color:#F68026;"><b>6</b></span>)</td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">(2^<span style="color:#F68026;"><b>5</b></span>)</td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">(2^<span style="color:#F68026;"><b>4</b></span>)</td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important;border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">(2^<span style="color:#F68026;"><b>3</b></span>)</td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">(2^<span style="color:#F68026;"><b>2</b></span>)</td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">(2^<span style="color:#F68026;"><b>1</b></span>)</td>
+		<td bgcolor='#E9E7E8' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">(2^<span style="color:#F68026;"><b>0</b></span>)</td>
+	</tr>
+	<tr>
+		<td bgcolor='#99D5EF' glow='true' glowcolor='#00A1E3' id="td_4" class="tdFill"><b>Valor de posición</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important;color:#46A040;text-align:center;padding-top:3px !important;"><span class="spacer"><b>128</b></span></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#46A040;text-align:center;padding-top:3px !important;"><b>64</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#46A040;text-align:center;padding-top:3px !important;"><b>32</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#46A040;text-align:center;padding-top:3px !important;"><b>16</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#46A040;text-align:center;padding-top:3px !important;"><b>8</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#46A040;text-align:center;padding-top:3px !important;"><b>4</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#46A040;text-align:center;padding-top:3px !important;"><b>2</b></td>
+		<td bgcolor='#FFFFFF' style="border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;color:#46A040;text-align:center;padding-top:3px !important;"><b>1</b></td>
+
+	</tr>
+</table>]]></text>
+	</component>
+	<component id="ID_s4_table01"><text><![CDATA[<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr>
+			<td bgcolor='#98D3D1' colspan='9' class="mtitle"><font size='12' color="#1C3635"><b ></b></font></td>
+		</tr>
+		<tr>
+			<td colspan='9' bgcolor='#0E6360' class="mtable_top"><font size='1' color='#434321'><span style="color:#98D3D1">.</span></font></td>
+		</tr>  
+		<tr>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;padding-top:3px !important;"width="150"><b>Valor de posición</b></td>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">128</td>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">64</td>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">32</td>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">16</td>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">8</td>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">4</td>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">2</td>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">1</td>
+		</tr>
+		<tr>
+			<td bgcolor='#FFFFFF' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;padding-top:3px !important;"><b>Número binario</b></td>
+			<td bgcolor='#FFFFFF' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;color:#F68026;"><b>1</b></td>
+			<td bgcolor='#FFFFFF' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;color:#F68026;"><b>1</b></td>
+			<td bgcolor='#FFFFFF' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;color:#F68026;"><b>0</b></td>
+			<td bgcolor='#FFFFFF' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;color:#F68026;"><b>0</b></td>
+			<td bgcolor='#FFFFFF' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;color:#F68026;"><b>0</b></td>
+			<td bgcolor='#FFFFFF' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;color:#F68026;"><b>0</b></td>
+			<td bgcolor='#FFFFFF' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;color:#F68026;"><b>0</b></td>
+			<td bgcolor='#FFFFFF' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;color:#F68026;"><b>0</b></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;padding-top:3px !important;"><b>Cálculo</b></td>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;"><span style="color:#F68026"><b>1 </b></span>x<span style="color:#46A040"><b> 128</b></span></td>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;"><span style="color:#F68026"><b>1 </b></span>x<b> 64</b></font></td>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;"><span style="color:#F68026"><b>0 </b></span>x<b> 32</b></font></td>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;"><span style="color:#F68026"><b>0 </b></span>x<b> 16</b></font></td>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;"><span style="color:#F68026"><b>0 </b></span>x<b> 8</b></font></td>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;"><span style="color:#F68026"><b>0 </b></span>x<b> 4</b></font></td>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;"><span style="color:#F68026"><b>0 </b></span>x<b> 2</b></font></td>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;"><span style="color:#F68026"><b>0 </b></span>x<b> 1</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#FFFFFF' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;padding-top:3px !important;"><b>Súmelos...</b></td>
+			<td bgcolor='#FFFFFF' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">128</td>
+			<td bgcolor='#FFFFFF' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">+ 64 &nbsp;&nbsp;</td>
+			<td bgcolor='#FFFFFF' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">+ 0 &nbsp;&nbsp;</td>
+			<td bgcolor='#FFFFFF' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">+ 0 &nbsp;&nbsp;</td>
+			<td bgcolor='#FFFFFF' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">+ 0 &nbsp;&nbsp;</td>
+			<td bgcolor='#FFFFFF' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">+ 0 &nbsp;&nbsp;</td>
+			<td bgcolor='#FFFFFF' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">+ 0 &nbsp;&nbsp;</td>
+			<td bgcolor='#FFFFFF' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">+ 0 &nbsp;&nbsp;</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;padding-top:3px !important;"><b>Resultado</b></td>
+			<td bgcolor='#E9E7E8' colspan="8" style="border-top:3px solid #98D3D1 !important;border-bottom:3px solid #98D3D1 !important; border-right:3px solid #98D3D1 !important;border-left:3px solid #98D3D1 !important;text-align:center;padding-top:3px !important;">192</td>
+		</tr>
+	</table>]]></text>
+	</component>
+</textcomponents>

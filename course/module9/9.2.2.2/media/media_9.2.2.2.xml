@@ -1,0 +1,5 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Reconocimiento de los segmentos TCP</b>]]></text>
+	</component>
+</textcomponents>

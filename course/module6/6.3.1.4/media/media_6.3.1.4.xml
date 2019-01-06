@@ -1,0 +1,29 @@
+<textcomponents>
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[Fuente de alimentación</p>]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt02">
+		<text><![CDATA[Protección para tarjeta de interfaz WAN (WIC) o WIC de alta velocidad (HWIC)</p>]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt03">
+		<text><![CDATA[Protección para tarjeta de interfaz WAN (WIC) o WIC de alta velocidad (HWIC)</p>]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt04">
+		<text><![CDATA[Ventilador</p>]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt05">
+		<text><![CDATA[RAM sincrónica dinámica (SDRAM) que se utiliza para mantener la configuración en ejecución y las tablas de routing, y para admitir el almacenamiento en búfer de paquetes.]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt06">
+		<text><![CDATA[RAM no volátil (NVRAM) y memoria flash de arranque que se utilizan para almacenar el código de arranque ROMMON y los datos de la NVRAM.]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt07">
+		<text><![CDATA[CPU]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt08">
+		<text><![CDATA[La opción del Módulo de integración avanzada (AIM) que descarga funciones que le exigen mucho al procesador, como el cifrado desde la CPU principal.]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[Haga clic en las áreas resaltadas para obtener más información.]]></text>
+	</component>
+</textcomponents>

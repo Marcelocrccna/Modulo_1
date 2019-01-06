@@ -1,0 +1,1 @@
+Figure 1 shows the output for the Windows command, “ipconfig”. The IP address, subnet mask, and default gateway are highlighted. Figure 2 shows the output for the Windows command, “ipconfig /all”. The Physical Address or MAC address is highlighted. Figure 3 shows the output for the Windows command, “ipconfig /displaydns”. The DNS information for cisco.com is shown.

@@ -1,0 +1,1 @@
+The figure shows an FTP conversation between client and server.  There are two connections, the control and the data use two different TCP ports.

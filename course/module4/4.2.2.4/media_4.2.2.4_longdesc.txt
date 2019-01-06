@@ -1,0 +1,1 @@
+Figure shows two RJ-45 wiring standards, the T568A and the T568 B.  Below is a table showing the cable types, their application and the standards. For Ethernet straight-through cables, both ends must be the same standard. For Ethernet crossover cables, one end must be T568A and the other end must be T568B. Cisco rollover cables are proprietary.

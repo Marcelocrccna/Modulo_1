@@ -1,0 +1,23 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+#htmlMedia{
+	overflow:hidden !important
+}
+
+
+#ID_txt01{
+	background: #0D658B; 
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	}
+
+
+
+	#ID_txt02{
+	background: #0D658B; 
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	}

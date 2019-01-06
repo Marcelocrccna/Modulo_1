@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide>
+        <element type="IMAGE" x="0" y="0" width="1000" height="490" src="../../../common/images/page_backgrounds/bg_activity.jpg" />
+        <element type="IMAGE" x="0" y="0" width="1000" height="680" src="media_9.2.4.4.png" />
+        <element type="TEXT" compId="ID_inst" x="65" y="7" width="1000" expand="down" align="center" size="17" color="#ffffff" />
+        <element type="TEXTBOX" titleId="ID_instr_title" bodyId="ID_instr_body" x="50" y="60" width="270" height="160" animated="0" subType="ROLLOVER" />
+        <element type="TEXT" compId="ID_header01" x="426" y="76" width="115.6" expand="up+down" align="center" size="14" />
+        <element type="TEXT" compId="ID_header02" x="603" y="76" width="115.6" expand="up+down" align="center" size="14" />
+        <element type="TEXT" compId="ID_header03" x="779" y="76" width="115.6" expand="up+down" align="center" size="14" />
+        <element type="ACTIVITY" subType="DRAGDROP" method="NORMAL" replicate="false" compWidth="120" compHeight="36" dragIcon="" dropIcon="" tickPosition="left" dragAlpha=".3" matchType="group">
+            <subelement type="DRAG" compId="ID_a01_DS" x="60" y="230" group="a" />
+            <subelement type="DRAG" compId="ID_a02_DS" x="60" y="272" group="a" />
+            <subelement type="DRAG" compId="ID_a03_DS" x="60" y="314" group="a" />
+            <subelement type="DRAG" compId="ID_a04_DS" x="189" y="230" group="a" />
+            <subelement type="DRAG" compId="ID_b01_DS" x="189" y="272" group="b" />
+            <subelement type="DRAG" compId="ID_b02_DS" x="189" y="314" group="c" />
+            <subelement type="DRAG" compId="ID_b03_DS" x="60" y="399" group="b" />
+            <subelement type="DRAG" compId="ID_b04_DS" x="189" y="356" group="b" />
+            <subelement type="DRAG" compId="ID_b05_DS" x="189" y="399" group="b" />
+            <subelement type="DRAG" compId="ID_c01_DS" x="60" y="356" group="c" />
+            <subelement type="DROP" x="424" y="112" group="a" />
+            <!-- 0 -->
+            <subelement type="DROP" x="424" y="169" group="a" />
+            <!-- 1 -->
+            <subelement type="DROP" x="424" y="227" group="a" />
+            <!-- 2 -->
+            <subelement type="DROP" x="424" y="283" group="a" />
+            <!-- 3 -->
+            <subelement type="DROP" x="424" y="342" group="a" empty="null" />
+            <!-- 4 -->
+            <subelement type="DROP" x="600" y="112" group="b" />
+            <!-- 5 -->
+            <subelement type="DROP" x="600" y="169" group="b" />
+            <!-- 6 -->
+            <subelement type="DROP" x="600" y="227" group="b" />
+            <!-- 7 -->
+            <subelement type="DROP" x="600" y="283" group="b" />
+            <!-- 8 -->
+            <subelement type="DROP" x="600" y="342" group="b" empty="null" />
+            <!-- 9 -->
+            <subelement type="DROP" x="776" y="112" group="c" />
+            <!-- 10 -->
+            <subelement type="DROP" x="776" y="169" group="c" />
+            <!-- 11 -->
+            <subelement type="DROP" x="776" y="227" group="c" empty="null" />
+            <!-- 12 -->
+            <subelement type="DROP" x="776" y="283" group="c" empty="null" />
+            <!-- 13 -->
+            <subelement type="DROP" x="776" y="342" group="c" empty="null" />
+            <!-- 14 -->
+            <subelement type="CHECK" x="50" y="451" width="130" height="21" compId="ID_CHECK" />
+            <subelement type="RESET" x="189" y="451" width="130" height="21" compId="ID_RESET" />
+            <subelement type="FEEDBACK" x="426" y="148" width="280" height="180" correctTitleId="ID_s1_CORRECT_TITLE" correctBodyId="ID_s1_CORRECT_BODY" wrongTitleId="ID_s1_INCORRECT_TITLE" wrongBodyId="ID_s1_INCORRECT_BODY" />
+        </element>
+    </slide>
+</data>

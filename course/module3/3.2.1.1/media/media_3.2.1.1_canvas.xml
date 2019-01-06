@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+	<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+	<element type="IMAGE" src="3_2_1_1.png" x="0" y="0" width="680" height="490" />
+	<element type="BUBBLE" compId="ID_bubble" x="420" y="47" width="156" height="86" align="center" tailPosition="7" tailFlip="0" />
+	<element type="TEXT" compId="ID_s1_txt05" x="92" y="203" width="206" expand="up+down" align="left" />
+	<element type="TEXT" compId="ID_s1_txt02" x="84" y="93" width="145.7" expand="up+down" align="center" />
+	<element type="TEXT" compId="ID_s1_txt01" x="50" y="430" width="582.8" expand="up" align="center" />
+	<element type="TEXT" compId="ID_s1_txt03" x="411" y="206" width="145.7" expand="up+down" align="center" />
+	<element type="TEXT" compId="ID_s1_txt04" x="251" y="320" width="145.7" expand="up+down" align="center" />
+	<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+	</slide>
+</data>

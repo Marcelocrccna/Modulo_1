@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.1.1 Direcciones IPv4</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Direcciones IPv4</h1>
+        <div>
+          <p>El sistema binario es un sistema numérico que consiste en los números 0 y 1, denominados <i>bits</i>. En comparación, el sistema numérico decimal consiste en 10 dígitos, que incluyen los números 0 a 9. </p>
+          <p>Es importante que comprendamos el sistema binario, ya que los hosts, los servidores y los dispositivos de red usan el direccionamiento binario. Específicamente, usan direcciones IPv4 binarias, como se muestra en la figura 1, para identificarse entre sí. </p>
+          <p>Cada dirección consta de una cadena de 32 bits, divididos en cuatro secciones denominadas <i>octetos</i>. Cada octeto contiene 8 bits (o 1 byte) separados por un punto. Por ejemplo, a la PC1 de la ilustración se le asignó la dirección IPv4 11000000.10101000.00001010.00001010. La dirección de gateway predeterminado sería la de la interfaz Gigabit Ethernet del R1, 11000000.10101000.00001010.00000001. </p>
+          <p>El trabajo con números binarios puede ser desafiante. Para que esto resulte más fácil, las direcciones IPv4 suelen expresarse mediante una notación decimal punteada, como se muestra en la figura 2. A la PC1 se le asignó la dirección IPv4 192.168.10.10, y la dirección de gateway predeterminado es 192.168.10.1. </p>
+          <p>En la figura 3, se compara la dirección decimal punteada con la dirección binaria de 32 bits de la PC1.</p>
+          <p>Para tener una buena comprensión del direccionamiento de red, es necesario comprender el direccionamiento binario y obtener habilidades prácticas en la conversión entre direcciones IPv4 binarias y decimales punteadas.</p>
+          <p>En esta sección, se explica cómo convertir entre los sistemas de numeración de base dos y de base 10. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a topology with router connected to two LANs and to a cloud. Each LAN has a PC and there is a PC in the cloud. All the devices are labeled with their IP addresses in binary format, which is a series of 32 binary digits separated by a period at every 8th bit. Figure 2 shows the same topology as Figure 1. But now the devices are labeled with their IPv4 addresses in dotted decimal notation. Figure 3 shows the IP address 192.168.10.10 in dotted decimal format and in binary digits format.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

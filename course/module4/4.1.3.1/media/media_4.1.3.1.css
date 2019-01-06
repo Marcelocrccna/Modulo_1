@@ -1,0 +1,12 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_s1_txt01{
+	margin-left: 100px;
+}
+@media only screen and (device-width: 768px) {
+#ID_s1_txt01{
+	margin-left: 100px;
+}
+}

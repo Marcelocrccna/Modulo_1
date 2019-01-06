@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_7.2.1.2.png" />
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title" />
+            <element type="TEXT" compId="ID_s1_txt02" x="286" y="182" width="108.9" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s1_txt01" x="147" y="250" width="96.65" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s1_txt03" x="270" y="307" width="127.1" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s1_txt04" x="416" y="259" width="122.5" expand="down" align="center" />
+             <element type="TEXT" id="ID_static_5
+" text="R1" x="321.9" y="286.55" align="center" width="16" bold="1" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_7.2.1.2.A.png" />
+            <element type="TEXT" compId="ID_s2_txt05" x="269.6" y="146.15" width="134" expand="down" align="center" />
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title" />
+            <element type="TEXT" compId="ID_s2_txt01" x="118.85" y="308.4" width="112.5" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s2_txt02" x="235.75" y="226.5" width="80" expand="up" align="left" />
+            <element type="TEXT" compId="ID_s2_txt03" x="351.95" y="226" width="80" expand="up" align="right" />
+            <element type="TEXT" compId="ID_s2_txt04" x="444.55" y="308.4" width="104.5" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s2_txt06" x="284.6" y="122.05" width="104.5" expand="right" align="center" color="#ffffff" />
+            <element type="TEXT" id="ID_static_1" text="PC1" x="160.1" y="264" align="center" width="16" bold="1" />
+            <element type="TEXT" id="ID_static_2" text="PC2" x="486.75" y="264" align="center" width="16" bold="1" />
+            <element type="TEXT" id="ID_static_3" text="R1" x="202.85" y="236.5" align="center" width="16" bold="1" />
+            <element type="TEXT" id="ID_static_4" text="R2" x="451.05" y="236.5" align="center" width="16" bold="1" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_7.2.1.2.B.png" />
+            <element type="TEXT" compId="ID_s3_txt03" x="302" y="246" width="85.4" expand="down" align="center" />
+            <element type="TEXT" subType="TITLE" compId="ID_s3_title" />
+            <element type="TEXT" compId="ID_s3_txt01" x="128" y="229" width="104.5" expand="down" align="center" />
+            <element type="TEXT" compId="ID_s3_txt02" x="454" y="229" width="104.5" expand="down" align="center" />
+        </slide>
+    </slide>
+</data>

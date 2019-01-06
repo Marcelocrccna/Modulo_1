@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_10.1.2.2.png" />
+<element type="TEXTBOX" titleId="" bodyId="ID_txt05" x="25" y="420" width="630" height="40" animated="1" subType="ROLLOVER" />
+<element type="TEXT" compId="ID_txt01" x="74" y="266" width="104.05" expand="down" align="center" />
+<element type="TEXT" compId="ID_txt02" x="370" y="266" width="104.55" expand="down" align="center" />
+<element type="TEXT" compId="ID_txt03" x="503" y="255" width="95.45" expand="left+right" align="center" />
+<element type="TEXT" compId="ID_txt04" x="502" y="343" width="90" expand="up+down" align="center" class="orangeCallOut" />
+<element type="BUBBLE" compId="ID_bubble_txt01" x="39" y="122" width="190" height="80" align="left" tailPosition="6" tailFlip="1" />
+<element type="BUBBLE" compId="ID_bubble_txt02" x="335" y="122" width="190" height="80" align="left" tailPosition="6" tailFlip="1" />
+<element type="TEXT" subType="TITLE" compId="ID_title"/>
+	</slide>
+</data>

@@ -1,0 +1,1 @@
+Figure 1 shows a worker at a computer and there is a callout made up of concentric rings. The outer ring is labelled Shell. The middle ring is labelled Kernel. The center of the image is labelled Hardware. Figure 2 is a screen capture of the CLI for Linux. Figure 3 is a screen capture of the Windows 7 desktop.

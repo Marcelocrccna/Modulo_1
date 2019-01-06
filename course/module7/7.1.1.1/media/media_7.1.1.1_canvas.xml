@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+		<element type="IMAGE" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" x="0" y="0" width="680" height="490" />
+		<slide>
+
+			<element type="IMAGE" src="media_7.1.1.1_s1.png" x="0" y="0" width="680" height="490" />	
+			<element type="TEXT" compId="ID_s1_txt01" x="23.35" y="266.85" width="283.3" expand="down" align="center" />
+			<element type="TEXT" compId="ID_s1_txt02" x="376.35" y="266.85" width="283.3" expand="down" align="center" />
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+			<element type="TEXT" id="ID_static_1" text="11000000.10101000.00001010.00001010" x="23" y="374.95" align="center" width="219.1" size="11" />
+			<element type="TEXT" id="ID_static_2" text="11000000.10101000.00001011.00001010" x="433.95" y="374.95" align="center" width="219.1" size="11" />
+			<element type="TEXT" id="ID_static_3" text="11000000.10101000.00001010.00000001" x="90" y="309.95" align="center" width="217.3" size="11" />
+			<element type="TEXT" id="ID_static_4" text="11000000.10101000.00001011.00000001" x="370.95" y="309.95" align="center" width="217.3" size="11" />
+			<element type="TEXT" id="ID_static_5" text="G0/0" x="281.95" y="353.95" align="center" width="24.65" />
+			<element type="TEXT" id="ID_static_6" text="G0/1" x="373.95" y="353.95" align="center" width="22.85" />
+			<element type="TEXT" id="ID_static_7" text="11010001.10100101.11001000.11100001" x="229.3" y="153" align="center" width="217.3" size="11" />
+			</slide>
+
+
+			<slide>
+			<element type="IMAGE" src="media_7.1.1.1_s2.png" x="0" y="0" width="680" height="490" />	
+			<element type="TEXT" compId="ID_s2_txt01" x="23.35" y="266.85" width="283.3" expand="down" align="center" />
+			<element type="TEXT" compId="ID_s2_txt02" x="376.35" y="266.85" width="283.3" expand="down" align="center" />
+			<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+			<element type="TEXT" id="ID_static_8" text="192.168.10.10" x="19" y="374.95" align="center" width="73.9" size="11"/>
+			<element type="TEXT" id="ID_static_9" text="192.168.11.10" x="581.95" y="374.95" align="center" width="73.9" size="11"/>
+			<element type="TEXT" id="ID_static_10" text="192.168.10.1" x="239.8" y="309.95" align="center" width="65.5" size="11"/>
+			<element type="TEXT" id="ID_static_11" text="192.168.11.1" x="370.95" y="309.95" align="center" width="65.5" size="11"/>
+			<element type="TEXT" id="ID_static_12" text="G0/0" x="281.95" y="353.95" align="center" width="24.65" size="11"/>
+			<element type="TEXT" id="ID_static_13" text="G0/1" x="373.95" y="353.95" align="center" width="22.85" size="11"/>
+			<element type="TEXT" id="ID_static_14" text="209.165.200.225" x="291.3" y="153" align="center" width="87.9" size="11"/>
+			</slide>
+
+
+			<slide type="MBUTTON">
+			<element type="TEXT" subType="TITLE" compId="ID_s3_title"/>
+			    <!--  <element type="IMAGE" src="media_7.1.1.2_box.png" x="0" y="0" width="680" height="490" />	 -->
+				<slide buttonType="BLUE" buttonX="74.2" buttonY="356" buttonWidth="160" buttonHeight="41" compId="ID_s3_btn01" selected="true">
+					<element type="IMAGE" src="7_1_1_2_A_A.png" x="0" y="0" width="680" height="490" />	
+					<element type="TEXT" compId="ID_s3_txt01" x="150" y="240" width="372.1" expand="down" align="center" />
+				</slide> 
+				
+				<slide buttonType="BLUE" buttonX="260" buttonY="356" buttonWidth="160" buttonHeight="21" compId="ID_s3_btn02" >
+					<element type="IMAGE" src="7_1_1_2_A_B.png"  x="0" y="0" width="680" height="490" />		
+					<element type="TEXT" compId="ID_s3_txt02" x="150" y="240" width="372.1" expand="down" align="center" />
+				</slide>
+				
+				<slide buttonType="BLUE" buttonX="446.2" buttonY="356" buttonWidth="160" buttonHeight="21" compId="ID_s3_btn03" >
+					<element type="IMAGE" src="7_1_1_2_A_C.png"  x="0" y="0" width="680" height="490" />		
+					<element type="TEXT" compId="ID_s3_txt03" x="150" y="240" width="372.1" expand="down" align="center" />
+				</slide> 
+			
+			
+		</slide>
+	</slide>
+
+</data>

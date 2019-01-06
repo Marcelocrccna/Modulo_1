@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <element type="IMAGE" x="0" y="0" width="1000" height="490" src="../../../common/images/page_backgrounds/bg_activity.jpg" />
+        <element type="IMAGE" x="0" y="0" width="1000" height="490" src="bg.png" />
+        <element type="IMAGE" x="53" y="0" width="1000" height="490" src="dot.png" />
+        <element type="TEXT" subType="TITLE" compId="ID_inst" color="#ffffff" />
+        <element type="TEXT" compId="ID_txt01" x="519.5" y="100" width="216" expand="left+right" align="center" size="13" bold="1" />
+        <element type="TEXT" compId="ID_txt02" x="352.5" y="144.75" width="126" expand="left+right" align="right" />
+        <element type="TEXT" compId="ID_txt03" x="352" y="183.75" width="124" expand="up+down" align="right" />
+        <element type="TEXT" compId="ID_txt004" x="352" y="234.45" width="124" expand="up+down" align="right" />
+        <element type="TEXTBOX" titleId="ID_s1_instr_title" bodyId="ID_s1_instr_body" x="40" y="90.5" size="10" width="240" height="180" />
+        <slide>
+            <!--   1  -->
+            <element type="TEXT" x="492" text="2001" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="541.7" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="591.4" text="0DB8" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="641.1" text="1111" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="690.8" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="740.5" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="790.2" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="839.9" text="0200" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+        </slide>
+        <slide>
+            <!--   2  -->
+            <element type="TEXT" x="492" text="2013" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="541.7" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="591.4" text="0123" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="641.1" text="4567" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="690.8" text="89AB" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="740.5" text="CDEF" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="790.2" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="839.9" text="0001" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+        </slide>
+        <slide>
+            <!--   3  -->
+            <element type="TEXT" x="492" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="541.7" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="591.4" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="641.1" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="690.8" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="740.5" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="790.2" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="839.9" text="0001" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+        </slide>
+        <slide>
+            <!--   4  -->
+            <element type="TEXT" x="492" text="2012" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="541.7" text="ABCD" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="591.4" text="EF01" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="641.1" text="2345" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="690.8" text="0678" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="740.5" text="0910" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="790.2" text="AAAA" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="839.9" text="BBBB" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+        </slide>
+        <slide>
+            <!--   5  -->
+            <element type="TEXT" x="492" text="AB1E" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="541.7" text="2B00" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="591.4" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="641.1" text="1234" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="690.8" text="5678" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="740.5" text="9101" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="790.2" text="1112" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="839.9" text="1113" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+        </slide>
+        <slide>
+            <!--   6  -->
+            <element type="TEXT" x="492" text="BB2B" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="541.7" text="EF12" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="591.4" text="BFF3" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="641.1" text="9125" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="690.8" text="1111" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="740.5" text="0101" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="790.2" text="1111" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="839.9" text="0101" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+        </slide>
+        <slide>
+            <!--   7  -->
+            <element type="TEXT" x="492" text="1129" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="541.7" text="1984" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="591.4" text="2233" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="641.1" text="4455" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="690.8" text="6677" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="740.5" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="790.2" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="839.9" text="0101" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+        </slide>
+        <slide>
+            <!--   8  -->
+            <element type="TEXT" x="492" text="1111" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="541.7" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="591.4" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="641.1" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="690.8" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="740.5" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="790.2" text="0101" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="839.9" text="1111" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+        </slide>
+        <slide>
+            <!--   9  -->
+            <element type="TEXT" x="492" text="1031" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="541.7" text="1976" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="591.4" text="0001" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="641.1" text="0002" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="690.8" text="0003" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="740.5" text="0004" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="790.2" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="839.9" text="0101" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+        </slide>
+        <slide>
+            <!--   10  -->
+            <element type="TEXT" x="492" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="541.7" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="591.4" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="641.1" text="1234" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="690.8" text="6678" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="740.5" text="9101" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="790.2" text="0000" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+            <element type="TEXT" x="839.9" text="34AB" y="146.35" width="40" align="center" bold="1" color="#F26200" />
+        </slide>
+    </slide>
+</data>

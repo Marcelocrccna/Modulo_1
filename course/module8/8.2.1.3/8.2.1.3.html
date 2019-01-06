@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.2.1.3 Asignación de direcciones a dispositivos</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.2.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Asignación de direcciones a dispositivos</h1>
+        <div>
+          <p>Dentro de una red, existen distintos tipos de dispositivos que requieren direcciones, incluidos los siguientes:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Clientes usuarios finales:</b> la mayoría de las redes asignan direcciones de manera dinámica con el protocolo de configuración dinámica de host (DHCP). Esto reduce la carga sobre el personal de soporte de red y elimina de manera virtual los errores de entrada.  Del mismo modo, las direcciones solo se conceden por un período determinado. Cambiar el esquema de división en subredes significa que se necesita volver a configurar el servidor DHCP y que los clientes deben renovar sus direcciones IP. Los clientes IPv6 pueden obtener información de dirección mediante DHCPv6 o SLAAC.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Servidores y periféricos:</b> deben tener una dirección IP estática predecible. Utilice un sistema de numeración coherente para estos dispositivos.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Servidores a los que se puede acceder mediante Internet:</b> en muchas redes, los servidores deben ponerse a disposición de usuarios remotos. En la mayoría de los casos, a estos servidores se les asignan direcciones privadas internamente, y el router o firewall en el perímetro de la red debe estar configurado para traducir la dirección interna a una dirección pública. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dispositivos intermediarios:</b> a estos dispositivos se asignan direcciones para la administración, la supervisión y la seguridad de redes. Debido a que es necesario saber cómo comunicarse con dispositivos intermediarios, estos deben tener asignadas direcciones predecibles y estáticas. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Gateway:</b> los routers y los dispositivos de firewall tienen una dirección IP asignada para cada interfaz que sirve como gateway para los hosts de dicha red. Normalmente, la interfaz de router utiliza la dirección más baja o más alta de la red.</li>
+            </ul>
+          </p>
+          <p>En la tabla de la ilustración, se muestra un ejemplo de la asignación de direcciones para una red pequeña.</p>
+          <p>Al desarrollar un esquema de asignación de direcciones IP, por lo general se recomienda tener un patrón establecido de la forma en que se asignan las direcciones a cada tipo de dispositivo. Esto beneficia a los administradores a la hora de agregar y quitar dispositivos, ya que filtra el tráfico basado en IP, y también simplifica el registro.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows a table with a breakdown of IP address assignment based on network design.  This table shows a /24 with breakdown as follows: 1 through 229 for hosts, 230 through 239 for servers, 240 through 249 for printers, 250 through 253 for intermediary devices, and 254 for the gateway.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

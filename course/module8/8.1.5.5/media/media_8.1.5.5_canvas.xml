@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+		
+<element type="TEXT" id="ID_static_1" text="192.168.20.0/27" x="87.8" y="109.05" align="center" width="96.2" />
+<element type="TEXT" id="ID_static_2" text="192.168.20.32/27" x="223.8" y="109.05" align="center" width="103.05" />
+<element type="TEXT" id="ID_static_3" text="192.168.20.64/27" x="357.05" y="109.05" align="center" width="103.05" />
+<element type="TEXT" id="ID_static_4" text="192.168.20.96/27" x="491.35" y="109.05" align="center" width="103.05" />
+<element type="TEXT" id="ID_static_5" text="192.168.20.224/30" x="155.4" y="197.05" align="center" width="97.5" />
+<element type="TEXT" id="ID_static_6" text="192.168.20.228/30" x="291.3" y="197.05" align="center" width="97.5" />
+<element type="TEXT" id="ID_static_7" text="192.168.20.232/30" x="423.6" y="197.05" align="center" width="97.5" />
+		<slide>
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+            
+
+		</slide>
+		<slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+           
+             <element type="IMAGE" src="media_8.1.5.5.A.png" x="0" y="0" width="680" height="490" />
+			<element type="ROUTER" textId="ID_router_txt1" x="40" y="297.05" width="600" height="169.05" />
+		</slide>
+		
+		<slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s3_title"/>
+			<element type="IMAGE" src="media_8.1.5.5.B.png" x="0" y="0" width="680" height="490" />
+			<element type="ROUTER" textId="ID_router_txt2" x="40" y="297.05" width="600" height="169" />
+		</slide>
+		
+		<slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s4_title"/>
+			<element type="IMAGE" src="media_8.1.5.5.C.png" x="0" y="0" width="680" height="490" />
+			<element type="ROUTER" textId="ID_router_txt3" x="40" y="297.05" width="600" height="169.05" />
+		</slide>
+		
+		<slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s5_title"/>
+			<element type="IMAGE" src="media_8.1.5.5.D.png" x="0" y="0" width="680" height="490" />
+			<element type="ROUTER" textId="ID_router_txt4" x="40" y="297.05" width="600" height="170" />
+		</slide>
+		
+		
+	
+	<element type="TEXT" compId="ID_txt01" x="94.2" y="87.45" width="88" expand="up" align="center" />
+	<element type="TEXT" compId="ID_txt02" x="228.7" y="87.45" width="88" expand="up" align="center" />
+	<element type="TEXT" compId="ID_txt03" x="363.45" y="87.45" width="88" expand="up" align="center" />
+	<element type="TEXT" compId="ID_txt04" x="497.75" y="87.45" width="88" expand="up" align="center" />
+	
+	
+	<text id="ID_router_txt1"><![CDATA[<pre>R1(config)#&nbsp;<b>interface gigabitethernet 0/0</b>
+R1(config-if)#&nbsp;<b>ip address 192.168.20.1 255.255.255.224</b>
+R1(config-if)#&nbsp;<b>exit</b>
+R1(config)#&nbsp;<b>interface serial 0/0/0</b>      
+R1(config-if)#&nbsp;<b>ip address 192.168.20.225 255.255.255.252</b>
+R1(config-if)#&nbsp;<b>end</b>
+R1#</pre>]]></text>
+
+<text id="ID_router_txt2"><![CDATA[<pre>R2(config)#&nbsp;<b>interface gigabitethernet 0/0</b>
+R2(config-if)#&nbsp;<b>ip address 192.168.20.33 255.255.255.224</b>
+R2(config-if)#&nbsp;<b>exit</b>
+R2(config)#&nbsp;<b>interface serial 0/0/0 </b>
+R2(config-if)#&nbsp;<b>ip address 192.168.20.226 255.255.255.252</b>
+R2(config-if)#&nbsp;<b>exit</b>
+R2(config)#&nbsp;<b>interface serial 0/0/1      </b>  
+R2(config)#&nbsp;<b>ip address 192.168.20.229 255.255.255.252</b>
+R2(config-if)#&nbsp;<b>end</b>
+R2#</pre>]]></text>
+<text id="ID_router_txt3"><![CDATA[<pre>R3(config)#&nbsp;<b>interface gigabitethernet 0/0</b>
+R3(config-if)#&nbsp;<b>ip address 192.168.20.65 255.255.255.224</b>
+R3(config-if)#&nbsp;<b>exit</b>
+R3(config)#&nbsp;<b>interface serial 0/0/0 </b> 
+R3(config-if)#&nbsp;<b>ip address 192.168.20.230 255.255.255.252</b>
+R3(config-if)#&nbsp;<b>exit</b>
+R3(config)#&nbsp;<b>interface serial 0/0/1</b>  
+R3(config)#&nbsp;<b>ip address 192.168.20.233 255.255.255.252</b>
+R3(config-if)#&nbsp;<b>end</b>
+R3#</pre>]]></text>
+<text id="ID_router_txt4"><![CDATA[<pre>R4(config)#&nbsp;<b>interface gigabitethernet 0/0</b>
+R4(config-if)#&nbsp;<b>ip address 192.168.20.97 255.255.255.224</b>
+R4(config-if)#&nbsp;<b>exit</b>
+R4(config)#&nbsp;<b>interface serial 0/0/0</b> 
+R4(config-if)#&nbsp;<b>ip address 192.168.20.234 255.255.255.252</b>
+R4(config-if)#&nbsp;<b>end</b>
+R4#</pre>]]></text>
+
+<element type="IMAGE" src="media_8.1.5.5.png" x="0" y="0" width="680" height="490" />
+		</slide>
+</data>

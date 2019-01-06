@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.3.2.4 Dispositivos en una red remota</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.3.2.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Dispositivos en una red remota</h1>
+        <div>
+          <p>Sin embargo, ¿cuáles son las funciones de la dirección de la capa de red y de la dirección de la capa de enlace de datos cuando un dispositivo se comunica con un otro en una red remota? En este ejemplo, tenemos un equipo cliente, PC1, que se comunica con un servidor, en este caso un servidor web, en una red IP diferente.</p>
+          <p></p>
+          <p>
+            <b>Función de las direcciones de la capa de red</b>
+          </p>
+          <p></p>
+          <p>Cuando el emisor del paquete se encuentra en una red distinta de la del receptor, las direcciones IP de origen y de destino representan los hosts en redes diferentes. Esto lo indica la porción de red de la dirección IP del host de destino.</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección IP de origen:</b> la dirección IP del dispositivo emisor, es decir, el equipo cliente PC1: 192.168.1.110.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección IP de destino:</b> la dirección IP del dispositivo receptor, es decir, el servidor web: 172.16.1.99.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>En la figura, observe que la porción de red de las direcciones IP de origen y de destino se encuentran en redes diferentes.</p>
+          <p></p>
+          <p>
+            <b>Función de las direcciones de la capa de enlace de datos</b>
+          </p>
+          <p></p>
+          <p>Cuando el emisor y el receptor del paquete IP se encuentran en redes diferentes, la trama de enlace de datos de Ethernet no se puede enviar directamente al host de destino, debido a que en la red del emisor no se puede tener acceso directamente al host. La trama de Ethernet se debe enviar a otro dispositivo conocido como router o gateway predeterminado. En nuestro ejemplo, el gateway predeterminado es R1. R1 tiene una dirección de enlace de datos de Ethernet que se encuentra en la misma red que PC1. Esto permite que PC1 alcance el router directamente. </p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección MAC de origen:</b> la dirección MAC de Ethernet del dispositivo emisor, PC1. La dirección MAC de la interfaz Ethernet de PC1 es AA-AA-AA-AA-AA-AA.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección MAC de destino:</b> cuando el dispositivo receptor, la dirección IP de destino, está en una red distinta de la del dispositivo emisor, este utiliza la dirección MAC de Ethernet del gateway predeterminado o el router. En este ejemplo, la dirección MAC de destino es la dirección MAC de la interfaz Ethernet de R1, 11-11-11-11-11-11.  Esta es la interfaz que se adjunta a la misma red que PC1.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>La trama de Ethernet con el paquete IP encapsulado ahora se puede transmitir a R1. R1 reenvía el paquete al destino, el servidor web. Esto puede significar que R1 reenvía el paquete a otro router o directamente al servidor web si el destino se encuentra en una red conectada a R1. </p>
+          <p></p>
+          <p>Es importante que en la dirección IP del gateway predeterminado esté configurada en cada host de la red local. Todos los paquetes que tienen como destino redes remotas se envían al gateway predeterminado. Las direcciones MAC de Ethernet y el gateway predeterminado se analizan en capítulos más adelante.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the details of a packet header with source and destination IP address on separate networks.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

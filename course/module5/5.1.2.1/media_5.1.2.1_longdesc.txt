@@ -1,0 +1,1 @@
+Figure 1 shows a table with Decimal values between 0 and 15 with the Binary and Hexadecimal equivalents.  This table demonstrates why Hexadecimal has letters A through F along with numbers 0 through 9. Figure 2 shows a table with Decimal values between 0 and 255 with the Binary and Hexadecimal equivalents.  This table only shows 19 examples.

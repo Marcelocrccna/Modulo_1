@@ -1,0 +1,18 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_s2_table table { border-collapse:collapse}
+#ID_s2_table table tr td{ border:2px solid #FFFFFF !important; }
+
+
+#ID_address2{left:-2px !important;}
+#ID_box6{ word-wrap: break-word; left: 3px !important; }
+#ID_john,#ID_bodyText{
+	left:3px !important;
+
+}
+#image_12{
+	left:-6px !important;
+	}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.2.3.2 Bloque de mensajes del servidor</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.2.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Bloque de mensajes del servidor</h1>
+        <div>
+          <p>El bloque de mensajes del servidor (SMB) es un protocolo de intercambio de archivos cliente/servidor que describe la estructura de los recursos de red compartidos, como archivos, directorios, impresoras y puertos serie. Es un protocolo de solicitud-respuesta. Todos los mensajes SMB comparten un mismo formato. Este formato utiliza un encabezado de tamaño fijo seguido de un parámetro de tamaño variable y un componente de datos.</p>
+          <p>Los mensajes SMB pueden:</p>
+          <p>
+            <ul>
+              <li>Iniciar, autenticar y terminar sesiones</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Controlar el acceso a los archivos y a las impresoras</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Autorizar una aplicación para enviar o recibir mensajes para o de otro dispositivo </li>
+            </ul>
+          </p>
+          <p>Los servicios de impresión y transferencia de archivos SMB se han transformado en el pilar de las redes de Microsoft. Con la presentación de la serie de software Windows 2000, Microsoft cambió la estructura subyacente para el uso de SMB. En versiones anteriores de los productos de Microsoft, los servicios de SMB utilizaban un protocolo que no es TCP/IP para implementar la resolución de nombres. A partir de Windows 2000, todos los productos subsiguientes de Microsoft utilizan la convención de nomenclatura DNS, que permite que los protocolos TCP/IP admitan directamente el uso compartido de recursos de SMB, como se muestra en la figura 1. El proceso de intercambio de archivos de SMB entre equipos Windows se muestra en la figura 2.</p>
+          <p>A diferencia del protocolo para compartir archivos admitido por FTP, los clientes establecen una conexión a largo plazo con los servidores. Después de establecer la conexión, el usuario del cliente puede acceder a los recursos en el servidor como si el recurso fuera local para el host del cliente. </p>
+          <p>Los sistemas operativos LINUX y UNIX también proporcionan un método de intercambio de recursos con redes de Microsoft mediante una versión del SMB llamado SAMBA. Los sistemas operativos Macintosh de Apple también admiten recursos compartidos utilizando el protocolo SMB.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a client computer using SMB protocol to access documents on a remote Windows server and a printer connected to the remote Windows server. Figure 2 shows two clients using SMB to share files.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

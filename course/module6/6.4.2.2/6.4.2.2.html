@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.4.2.2 Verificación de configuración de interfaz</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.4.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Verificación de configuración de interfaz</h1>
+        <div>
+          <p>Existen varios comandos que se pueden utilizar para verificar la configuración de interfaz. El más útil de ellos es <b>show ip interface brief</b>. El resultado generado muestra todas las interfaces, su dirección IPv4 y el estado actual. Las interfaces configuradas y conectadas deben mostrar un estado "up" y el protocolo "up". Cualquier otra cosa indica que existe un problema con la configuración o con los cables.</p>
+          <p>Puede verificar la conectividad de la interfaz con el comando <b>ping</b>. Los routers Cisco envían cinco pings consecutivos y miden los tiempos de ida y vuelta mínimo, máximo y promedio. Los signos de exclamación verifican la conectividad.</p>
+          <p>En la figura 1, se muestra el resultado del comando <b>show ip interface brief</b>, que muestra que las interfaces de la red LAN y el enlace WAN están activos y en funcionamiento. Observe que el comando <b>ping</b> genera cinco signos de exclamación que verifican la conectividad al R2.</p>
+          <p>Otros comandos de verificación de interfaz pueden ser los siguientes:</p>
+          <p>
+            <ul>
+              <li>
+                <b>show ip route</b><b>: </b>Muestra el contenido de la tabla de routing IPv4 que se almacena en la RAM.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>show interfaces</b><b>: </b>Muestra las estadísticas de todas las interfaces de un dispositivo.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>show ip interface</b><b>: </b>Muestra las estadísticas IPv4 de todas las interfaces de un router.</li>
+            </ul>
+          </p>
+          <p>En la figura 2, se muestra el resultado del comando <b>show ip route</b>. Observe las tres redes conectadas directamente con las direcciones IPv4 de interfaz local.</p>
+          <p>Recuerde guardar la configuración con el comando <b>copy running-config startup-config</b>.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows output from the “show ip interface brief” command and a successful ping. Figure 2 shows the output from the “show ip route” command verifying that the router has a entries in the routing table for all directly connected networks.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

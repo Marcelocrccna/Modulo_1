@@ -1,0 +1,1 @@
+Figure shows the dotted decimal IPv4 address 192.168.10.10 and the binary values for the octets below it. The IP addresses is divided into the network portion and the host portion with the first three octets in the network and the fourth octet in the host.

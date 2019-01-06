@@ -1,0 +1,1 @@
+Figure shows the structure of an IPv6 global unicast address with the first 48 bits as the global routing prefix, the next 16 bits as the subnet ID, and the last 64 bits as the interface ID. Click on each opens a textbox with more information.

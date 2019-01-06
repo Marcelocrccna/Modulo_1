@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+		<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+<element type="TEXTBOX" titleId="ID_titleTxt01" bodyId="ID_bodyTxt01" x="450" y="90" width="210" height="296" animated="0" subType="ROLLOVER" />
+<element type="TEXT" compId="ID_txt01" x="38" y="205" width="181.9" expand="down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt02" x="248" y="205" width="181.9" expand="down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt03" x="38" y="383" width="181.85" expand="down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt04" x="248" y="383" width="181.9" expand="down" align="center" color="#ffffff" />
+<element type="IMAGE" x="38" y="90" width="180" height="106.15" subType="STD" src="media_1.png" />
+<element type="IMAGE" x="248" y="90" width="180" height="106.15" subType="STD" src="media_2.png" />
+<element type="IMAGE" x="38" y="269" width="180" height="106.15" subType="STD" src="media_3.png" />
+<element type="IMAGE" x="248" y="269" width="180" height="106.15" subType="STD" src="media_4.jpg" />
+</slide> 
+	</slide>
+</data>

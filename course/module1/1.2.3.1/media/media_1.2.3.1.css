@@ -1,0 +1,11 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_txt06{
+	height: 22px !important;
+	line-height: 25px !important;
+	background-color: #fff;
+	border-width: 2px;
+}

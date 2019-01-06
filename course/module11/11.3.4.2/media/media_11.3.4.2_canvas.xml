@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide>
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+        
+        <element type="ROUTER" textId="ID_router_txt1" x="40" y="294.9" width="600" height="124" />
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_11.3.4.2.png" />
+        <text id="ID_router_txt1">
+            <![CDATA[<pre>c:\><b>arp -a</b>
+Internet Address  Physical Address  Type
+10.0.0.2          00-08-a3-b6-ce-04 dynamic
+10.0.0.3          00-0d-56-09-fb-d1 dynamic
+10.0.0.4          00-12-3f-d4-6d-1b dynamic
+10.0.0.254        00-10-7b-e7-fa-ef dynamic</pre>]]></text>
+        <element type="TEXT" id="ID_static_1" text="10.0.0.254/24" x="293.1" y="68.4" align="center" width="73.75" />
+        <element type="TEXT" id="ID_static_2" text="10.0.0.1/24" x="414" y="164.15" align="center" width="59.75" />
+        <element type="TEXT" id="ID_static_3" text="10.0.0.2/24" x="378" y="225.45" align="center" width="67.3" />
+        <element type="TEXT" id="ID_static_4" text="10.0.0.3/24" x="273" y="249.1" align="center" width="59.75" />
+        <element type="TEXT" id="ID_static_5" text="10.0.0.4/24" x="175.5" y="225.45" align="center" width="59.75" />
+        <element type="TEXT" id="ID_static_6" text="10.0.0.5/24" x="167" y="125.05" align="center" width="59.75" />
+        <element type="TEXT" subType="TITLE" compId="ID_title" />
+        <element type="TEXT" compId="ID_txt01" x="333" y="449" width="100" expand="up" align="center" class="orangeCallOut" />
+    </slide>
+</data>

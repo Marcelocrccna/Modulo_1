@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.2.2 La máscara de subred</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>La máscara de subred</h1>
+        <div>
+          <p>Como se muestra en la figura 1, se deben configurar tres direcciones IPv4 decimales punteadas cuando se asigna una configuración IPv4 al host.</p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección IPv4:</b> dirección IPv4 única del host. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Máscara de subred:</b> se usa para identificar la porción de red/host de la dirección IPv4.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Gateway predeterminado:</b> identifica el gateway local (es decir, la dirección IPv4 de interfaz de router local) para llegar a redes remotas. </li>
+            </ul>
+          </p>
+          <p>Cuando se asigna una dirección IPv4 a un dispositivo, la máscara de subred se usa para determinar la dirección de red a la que pertenece el dispositivo. La dirección de red representa todos los dispositivos de la misma red. </p>
+          <p>En la figura 2, se muestra la dirección decimal punteada y la máscara de subred de 32 bits. Observe que la máscara de subred es básicamente una secuencia de bits 1 seguida de una secuencia de bits 0. </p>
+          <p>Para identificar las porciones de red y de host de una dirección IPv4, se compara la máscara de subred con la dirección IPv4 bit por bit, de izquierda a derecha, como se muestra en la figura 3. Los 1 de la máscara de subred identifican la porción de red, mientras que los 0 identifican la porción de host. Se debe tener en cuenta que la máscara de subred no contiene en efecto la porción de red o de host de una dirección IPv4, sino que simplemente le dice a la PC dónde buscar estas porciones en una dirección IPv4 dada.</p>
+          <p>El proceso real que se usa para identificar la porción de red y la porción de host se denomina AND.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the Windows IPv4 Properties window with the IP address, subnet mask, and default gateway address statically configured. Figure 2 shows the dotted decimal format for the subnet mask 255.255.255.0 and the binary format below it. The octets are divided between the third and fourth octet. Figure 3 adds the IP address 192.168.10.10 above the subnet mask from Figure 2. The subnet mask is what determines which bits are network and which bits are host.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,274 @@
+<textcomponents>
+   
+    <component id='ID_s1_title'>
+        <text>
+            <![CDATA[<b>Actividad: tipos de ataques</b>]]></text>
+    </component>
+    <component id='ID_s1_instr_title'>
+        <text>
+            <![CDATA[Instructions]]>
+        </text>
+    </component>
+    <component id='ID_s1_instr_body'>
+        <text>
+            <![CDATA[Determine el tipo de ataque de seguridad a partir de las descripciones. Arrastre cada tipo de ataque de seguridad a la situación correspondiente.]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt01">
+        <text>
+            <![CDATA[ACME Inc. usa una computadora como servidor de impresión. El personal de TI no ha hecho actualizaciones de seguridad en la computadora durante más de 60 días. Ahora el servidor de impresión está lento y envía una gran cantidad de paquetes maliciosos a su NIC.]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt02">
+        <text>
+            <![CDATA[Sharon, una pasante de TI en ACME Inc., descubrió algunos paquetes extraños mientras revisaba los registros de seguridad generados por el firewall. Algunas direcciones IP en Internet enviaron paquetes malformados a varias otras direcciones IP, en diferentes números de puerto al azar dentro de ACME Inc.]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt03">
+        <text>
+            <![CDATA[Tipo de ataque]]></text>
+    </component>
+    <component id="ID_s2_txt04">
+        <text>
+            <![CDATA[Situación de ataque de seguridad]]></text>
+    </component>
+    <!--Drag and Drop-->
+    <component id="ID_s2_traget01">
+        <text>
+            <![CDATA[<font color="#393536">Gusano</font></b>]]>
+        </text>
+    </component>
+    <component id="ID_s2_traget02">
+        <text>
+            <![CDATA[<font color="#393536">Acceso</font></b>]]>
+        </text>
+    </component>
+    <component id="ID_s2_traget03">
+        <text>
+            <![CDATA[<font color="#393536">Virus</font></b>]]>
+        </text>
+    </component>
+    <component id="ID_s2_traget04">
+        <text>
+            <![CDATA[<font color="#393536">Caballo de Troya</font></b>]]>
+        </text>
+    </component>
+    <component id="ID_s2_traget05">
+        <text>
+            <![CDATA[<font color="#393536">Reconocimiento</font></b>]]>
+        </text>
+    </component>
+    <component id="ID_s2_traget06">
+        <text>
+            <![CDATA[<font color="#393536">Rechazo de servicio (DoS)</font></b>]]>
+        </text>
+    </component>
+    <component id="ID_s2_CORRECT_TITLE">
+        <text>
+            <![CDATA[Correcto]]></text>
+    </component>
+    <component id="ID_s2_CORRECT_BODY">
+        <text>
+            <![CDATA[Ha colocado satisfactoriamente cada ataque de seguridad en su situación.]]>
+        </text>
+    </component>
+    <component id="ID_s2_INCORRECT_TITLE">
+        <text>
+            <![CDATA[Incorrecto]]></text>
+    </component>
+    <component id="ID_s2_INCORRECT_BODY">
+        <text>
+            <![CDATA[No ha colocado satisfactoriamente cada ataque de seguridad en su situación. Haga clic en “Restablecer” para intentarlo nuevamente.]]>
+        </text>
+    </component>
+    <component id="ID_s2_CHECK">
+        <text>
+            <![CDATA[Verificar]]></text>
+    </component>
+    <component id="ID_s2_RESET">
+        <text>
+            <![CDATA[Restablecer]]></text>
+    </component>
+    <!--slide02-->
+   
+     <component id='ID_s2_title'>
+        <text>
+            <![CDATA[<b>Actividad: tipos de ataques</b>]]></text>
+    </component>
+    <component id='ID_s2_instr_title'>
+        <text>
+            <![CDATA[Instructions]]>
+        </text>
+    </component>
+    <component id='ID_s2_instr_body'>
+        <text>
+            <![CDATA[Determine el tipo de ataque de seguridad a partir de las descripciones. Arrastre cada tipo de ataque de seguridad a la situación correspondiente.]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt01">
+        <text>
+            <![CDATA[Jeremiah estaba navegando en Internet desde su computadora personal cuando un sitio web al azar le ofreció un programa gratis para limpiar su sistema. Luego de haber descargado y ejecutado el archivo ejecutable, el sistema operativo colapsó. Se habían corrompido archivos esenciales relacionados con el sistema operativo, y Jeremiah tuvo que formatear todo el disco y reinstalar el sistema operativo.]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt02">
+        <text>
+            <![CDATA[Arianna encontró una unidad flash en el estacionamiento de un centro comercial. Preguntó si era de alguien, pero no pudo encontrar al dueño. Decidió quedársela y la introdujo en su computadora portátil, donde encontró una carpeta de fotos. Arianna sintió curiosidad y abrió algunas fotos antes de formatear la unidad flash para usarla solo ella. Luego, Arianna descubrió que la cámara de su computadora portátil se había activado.]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt03">
+        <text>
+            <![CDATA[Tipo de ataque]]></text>
+    </component>
+    <component id="ID_s1_txt04">
+        <text>
+            <![CDATA[Situación de ataque de seguridad]]></text>
+    </component>
+    <!--Drag and Drop-->
+    <component id="ID_s1_traget01">
+        <text>
+            <![CDATA[<font color="#393536">Gusano</font>]]>
+        </text>
+    </component>
+    <component id="ID_s1_traget02">
+        <text>
+            <![CDATA[<font color="#393536">Acceso</font>]]>
+        </text>
+    </component>
+    <component id="ID_s1_traget03">
+        <text>
+            <![CDATA[<font color="#393536">Virus</font>]]>
+        </text>
+    </component>
+    <component id="ID_s1_traget04">
+        <text>
+            <![CDATA[<font color="#393536">Caballo de Troya</font>]]>
+        </text>
+    </component>
+    <component id="ID_s1_traget05">
+        <text>
+            <![CDATA[<font color="#393536">Reconocimiento</font>]]>
+        </text>
+    </component>
+    <component id="ID_s1_traget06">
+        <text>
+            <![CDATA[<font color="#393536">Rechazo de servicio (DoS)</font>]]>
+        </text>
+    </component>
+    <component id="ID_s1_CORRECT_TITLE">
+        <text>
+            <![CDATA[Correcto]]></text>
+    </component>
+    <component id="ID_s1_CORRECT_BODY">
+        <text>
+            <![CDATA[Ha colocado satisfactoriamente cada ataque de seguridad en su situación.]]>
+        </text>
+    </component>
+    <component id="ID_s1_INCORRECT_TITLE">
+        <text>
+            <![CDATA[Incorrecto]]></text>
+    </component>
+    <component id="ID_s1_INCORRECT_BODY">
+        <text>
+            <![CDATA[No ha colocado satisfactoriamente cada ataque de seguridad en su situación. Haga clic en “Restablecer” para intentarlo nuevamente.]]>
+        </text>
+    </component>
+    <component id="ID_s1_CHECK">
+        <text>
+            <![CDATA[Verificar]]></text>
+    </component>
+    <component id="ID_s1_RESET">
+        <text>
+            <![CDATA[Restablecer]]></text>
+    </component>
+    <!--slide03-->
+    
+     <component id='ID_s3_title'>
+        <text>
+            <![CDATA[<b>Actividad: tipos de ataques</b>]]></text>
+    </component>
+    <component id='ID_s3_instr_title'>
+        <text>
+            <![CDATA[Instructions]]>
+        </text>
+    </component>
+    <component id='ID_s3_instr_body'>
+        <text>
+            <![CDATA[Determine el tipo de ataque de seguridad a partir de las descripciones. Arrastre cada tipo de ataque de seguridad a la situación correspondiente.]]>
+        </text>
+    </component>
+    <component id="ID_s3_txt01">
+        <text>
+            <![CDATA[Angela, miembro del personal de TI de ACME Inc., notó que la comunicación con el servidor web de la empresa era muy lenta. Luego de investigar, descubrió que la respuesta era lenta porque una computadora en Internet estaba enviando una gran cantidad de solicitudes web malformadas al servidor web de ACME.]]>
+        </text>
+    </component>
+    <component id="ID_s3_txt02">
+        <text>
+            <![CDATA[George tenía que compartir un vídeo con un colega. Debido al gran tamaño del archivo de vídeo, decidió ejecutar un servidor FTP simple en su estación de trabajo para enviarle el archivo de vídeo a su colega. Para facilitar las cosas, Geoge creó una cuenta con la contraseña "file" y se la informó a su colega el viernes. Al no contar con las medidas de seguridad correspondientes ni con una contraseña segura, el personal de TI no se sorprendió al enterarse el lunes de que la estación de trabajo de George había sido comprometida y estaba intentando subir documentos laborales a Internet.]]>
+        </text>
+    </component>
+    <component id="ID_s3_txt03">
+        <text>
+            <![CDATA[Tipo de ataque]]></text>
+    </component>
+    <component id="ID_s3_txt04">
+        <text>
+            <![CDATA[Situación de ataque de seguridad]]></text>
+    </component>
+    <!--Drag and Drop-->
+    <component id="ID_s3_traget01">
+        <text>
+            <![CDATA[<font color="#393536">Gusano</font>]]>
+        </text>
+    </component>
+    <component id="ID_s3_traget02">
+        <text>
+            <![CDATA[<font color="#393536">Acceso</font>]]>
+        </text>
+    </component>
+    <component id="ID_s3_traget03">
+        <text>
+            <![CDATA[<font color="#393536">Virus</font>]]>
+        </text>
+    </component>
+    <component id="ID_s3_traget04">
+        <text>
+            <![CDATA[<font color="#393536">Caballo de Troya</font>]]>
+        </text>
+    </component>
+    <component id="ID_s3_traget05">
+        <text>
+            <![CDATA[<font color="#393536">Reconocimiento</font>]]>
+        </text>
+    </component>
+    <component id="ID_s3_traget06">
+        <text>
+            <![CDATA[<font color="#393536">Rechazo de servicio (DoS)</font>]]>
+        </text>
+    </component>
+    <component id="ID_s3_CORRECT_TITLE">
+        <text>
+            <![CDATA[<b>Correcto</b>]]></text>
+    </component>
+    <component id="ID_s3_CORRECT_BODY">
+        <text>
+            <![CDATA[Ha colocado satisfactoriamente cada ataque de seguridad en su situación.]]>
+        </text>
+    </component>
+    <component id="ID_s3_INCORRECT_TITLE">
+        <text>
+            <![CDATA[Incorrecto]]></text>
+    </component>
+    <component id="ID_s3_INCORRECT_BODY">
+        <text>
+            <![CDATA[No ha colocado satisfactoriamente cada ataque de seguridad en su situación. Haga clic en “Restablecer” para intentarlo nuevamente.]]>
+        </text>
+    </component>
+    <component id="ID_s3_CHECK">
+        <text>
+            <![CDATA[Verificar]]></text>
+    </component>
+    <component id="ID_s3_RESET">
+        <text>
+            <![CDATA[Restablecer]]></text>
+    </component>
+</textcomponents>

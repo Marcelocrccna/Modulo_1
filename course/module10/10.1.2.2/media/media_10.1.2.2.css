@@ -1,0 +1,8 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+#ID_bubble_txt01,#ID_bubble_txt02
+{
+	color: #FFFFFF !important;
+}

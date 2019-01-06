@@ -1,0 +1,1 @@
+Figure 1 shows the output of the "show ip arp" command on a router.  It lists the protocol, IP address, age, hardware address, type and interface. Figure 2 shows the output of the "arp -a" command on a Windows PC.   This lists destinations learned and grouped by interface.  The output includes the destination IP address, physical address and the type.

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<element type="IMAGE" src="media_3.2.4.1.png" width="680" height="490" x="0" y="0" />		
+<element type="TEXT" compId="ID_osi_txt07" x="76" y="222" width="155.7" expand="left+right" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt06" x="76" y="259" width="155.7" expand="left+right" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt05" x="76" y="296" width="155.7" expand="left+right" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt04" x="76" y="333" width="155.7" expand="left+right" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt03" x="76" y="370" width="155.7" expand="left+right" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt02" x="76" y="408" width="155.7" expand="left+right" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt01" x="76" y="444" width="155.7" expand="left+right" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_header" x="77" y="195" width="155.7" expand="up" align="center" />
+<element type="TEXT" compId="ID_tcpip_txt04" x="462" y="259" width="158.65" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_tcpip_txt03" x="461" y="333" width="160.8" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_tcpip_txt02" x="462" y="370" width="159.7" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_tcpip_txt01" x="461" y="426" width="160.8" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_tcpip_header" x="464" y="195" width="155.7" expand="up" align="center" />
+<element type="TEXT" compId="ID_txt03" x="257" y="256" width="180.9" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_txt04" x="257" y="333" width="180.9" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_txt05" x="257" y="370" width="180.9" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_txt06" x="257" y="426" width="180.9" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_txt02" x="257" y="194" width="180.9" expand="up" align="center" />
+<element type="TEXT" compId="ID_txt01" x="246" y="69" width="198.2" expand="up" align="center" />
+	</slide>
+</data>

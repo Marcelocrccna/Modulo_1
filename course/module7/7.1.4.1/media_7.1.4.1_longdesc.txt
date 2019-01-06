@@ -1,0 +1,1 @@
+Figure shows three separate networks. Each is connected to its own ISP router. The ISP routers are connected to the Internet. The networks are privately addressed. In the figure, each router is sending a privately addressed packet to its ISP router. Each ISP router has a red X over the link signifying that the router will not accept the packet.

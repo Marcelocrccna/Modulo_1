@@ -1,0 +1,1 @@
+Figures 1 through 10 show an example of determining the binary value for an IP address. Converting the first octet is shown in the first seven figures. Figure 8 shows the conversion of the second octet. Figure 9 shows the conversion of the third octet. Figure 10 shows the conversion of the fourth octet.

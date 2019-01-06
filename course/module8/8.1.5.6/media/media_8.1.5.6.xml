@@ -1,0 +1,194 @@
+<textcomponents>
+<component id="ID_s1_title">
+<text><![CDATA[<b>División básica en subredes de 192.168.20.0/24</b>]]></text>
+</component>
+<component id='ID_s1_table'>
+        <text>
+            <![CDATA[
+				<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+	
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="5"></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>		 			
+				<tr>
+					<td bgcolor='#666263' valign="top" width="192" ><font size='11' color='#ffffff'></font></td>
+					<td bgcolor='#666263' valign="top" width="194"><font size='11' color='#ffffff'><b>Red /27</b></font></td>
+					<td bgcolor='#666263'  valign="top" width="194"><font size='11' color='#ffffff'><b>Hosts</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11'color='#393536'>Edificio A</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>.0</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>De .1 a .30</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Edificio A B</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>.32</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>De .33 a .62</font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>Edificio A C</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>.64</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>De .65 a .94</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Edificio A D</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>.96</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>De .97 a .126</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>WAN R1 y R2</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>.128</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>De .129 a .158</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>WAN R2 y R3</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>.160</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>De .161 a .190</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>WAN R3 y R4</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>.192</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>De .193 a .222</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Sin utilizar</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>.224</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>De .225 a .254</font></td>
+				</tr>		
+				
+			</table>]]>
+        </text>
+    </component>
+    <component id='ID_s2_table01'>
+        <text>
+            <![CDATA[
+				<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+	
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="5"></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>						
+				<tr>
+					<td bgcolor='#666263'  valign="top" width="192"><font size='11' color='#ffffff'></font></td>
+					<td bgcolor='#666263'  valign="top" width="194"><font size='11' color='#ffffff'><b>Red /27</b></font></td>
+					<td bgcolor='#666263'   valign="top" width="194"><font size='11' color='#ffffff'><b>Hosts</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11'color='#393536'>Edificio A</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>.0</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>De .1 a .30</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Edificio B</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>.32</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>De .33 a .62</font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>Edificio C</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>.64</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>De .65 a .94</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Edificio D</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>.96</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>De .97 a .126</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>Sin utilizar</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>.128</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>De .129 a .158</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Sin utilizar</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>.160</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>De .161 a .190</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>Sin utilizar</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>.192</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>De .193 a .222</font></td>
+				</tr>		
+				<tr style="outline: 2px solid #f68026;">
+					<td bgcolor='#FDE6D4' valign="top"><font size='11' color='#393536'></font></td>
+					<td bgcolor='#FDE6D4' valign="top"><font size='11' color='#393536'>.224</font></td>
+					<td bgcolor='#FDE6D4' valign="top"><font size='11' color='#393536'>De .193 a .222</font></td>
+				</tr>		
+				
+			</table>]]>
+        </text>
+    </component>
+    <component id='ID_s2_table02'>
+        <text>
+            <![CDATA[
+				<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+	
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="5"></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#CB6D25'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>				
+				<tr>
+					<td bgcolor='#CB6D25'  valign="top" width="192"><font size='11' color='#ffffff'></font></td>
+					<td bgcolor='#CB6D25'  valign="top" width="194"><font size='11' color='#ffffff'><b>Red /30</b></font></td>
+					<td bgcolor='#CB6D25'   valign="top" width="194"><font size='11' color='#ffffff'><b>Hosts</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FDF6F3' valign="top"><font size='11'color='#393536'>WAN R1 y R2</font></td>
+					<td bgcolor='#FDF6F3' valign="top"><font size='11' color='#393536'>.224</font></td>
+					<td bgcolor='#FDF6F3' valign="top"><font size='11' color='#393536'>De .225 a .226</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='11' color='#393536'>WAN R2 y R3</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='11' color='#393536'>.228</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='11' color='#393536'>De .229 a .230</font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#FDF6F3' valign="top"><font size='11' color='#393536'>WAN R3 y R4</font></td>
+					<td bgcolor='#FDF6F3' valign="top"><font size='11' color='#393536'>.232</font></td>
+					<td bgcolor='#FDF6F3' valign="top"><font size='11' color='#393536'>De .233 a .234</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='11' color='#393536'>Sin utilizar</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='11' color='#393536'>.236</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='11' color='#393536'>De .237 a .238</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#FDF6F3' valign="top"><font size='11' color='#393536'>Sin utilizar</font></td>
+					<td bgcolor='#FDF6F3' valign="top"><font size='11' color='#393536'>.240</font></td>
+					<td bgcolor='#FDF6F3' valign="top"><font size='11' color='#393536'>De .241 a .242</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='11' color='#393536'>Sin utilizar</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='11' color='#393536'>.244</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='11' color='#393536'>De .245 a .246</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#FDF6F3' valign="top"><font size='11' color='#393536'>Sin utilizar</font></td>
+					<td bgcolor='#FDF6F3' valign="top"><font size='11' color='#393536'>.248</font></td>
+					<td bgcolor='#FDF6F3' valign="top"><font size='11' color='#393536'>De .249 a .250</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='11' color='#393536'>Sin utilizar</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='11' color='#393536'>.252</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='11' color='#393536'>De .253 a .254</font></td>
+				</tr>		
+				
+			</table>]]>
+        </text>
+    </component>
+
+
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>División en subredes VLSM de 192.168.20.0/24</b>]]></text>
+</component>
+</textcomponents>

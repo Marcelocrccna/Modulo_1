@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.4.2 División en subredes basada en necesidad de redes</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.4.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>División en subredes basada en necesidad de redes</h1>
+        <div>
+          <p>En ocasiones, se requiere una cantidad determinada de subredes, con menor énfasis en la cantidad de direcciones de host por subred. Esto puede suceder en el caso de que una organización decida separar el tráfico de red sobre la base de la estructura interna o de la organización de los departamentos, como se muestra en la ilustración. Por ejemplo, una organización puede elegir colocar todos los dispositivos host que utilizan los empleados del departamento de Ingeniería en una red, y todos los dispositivos host que utiliza la gerencia en una red diferente. En este caso, la cantidad de subredes es el factor más importante para determinar cuántos bits se deben tomar prestados.</p>
+          <p>Recuerde que se puede calcular la cantidad de subredes que se crean cuando se toman bits prestados mediante la fórmula 2^n (donde “n” representa la cantidad de bits que se toman prestados). La clave es equilibrar la cantidad de subredes y la cantidad de hosts que se requieren para la subred más grande. Cuantos más bits se toman prestados para crear subredes adicionales, menor es la cantidad de hosts disponibles por subred.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows a cloud with smaller clouds within.  This figure demonstrates subnetting based on organizational structure.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.1.7 Ejemplos de conversión de sistema decimal a binario</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.1.7_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Ejemplos de conversión de sistema decimal a binario</h1>
+        <div>
+          <p>Para poder comprender el proceso, considere la dirección IP 192.168.11.10. Mediante el proceso explicado anteriormente, comience con la tabla de valores de posición binarios y el primer número decimal 192.</p>
+          <p>En la figura 1, se muestra cómo se compara el número 192 para ver si es igual o mayor que el bit de valor superior 128. Como 192 es mayor que 128, agregue un 1 al valor de posición de valor superior para que represente 128. A continuación, reste 128 de 192 para obtener un resto de 64. En la figura 2, se compara el valor 64 con el siguiente bit de valor superior 64. Como son iguales, agregue un 1 al siguiente valor de posición de valor superior. Introduzca un valor binario 0 en el resto de los valores de posición, como se muestra en la figura 3. El valor binario del primer octeto es 11000000.</p>
+          <p>El siguiente octeto es 168. En la figura 4, se compara 168 con el bit de valor superior 128. Como 168 es mayor que 128, agregue un 1 al valor de posición de valor superior. A continuación, reste 128 de 168 para obtener un resto de 40. En la figura 5, se compara el valor 40 con el siguiente bit de valor superior 64. Como 40 es menor, agregue un 0 al siguiente valor de posición de valor superior 64. En la figura 6, se compara el siguiente bit de valor superior 32. Como 40 es mayor que 32, agregue un 1 al valor de posición y reste 32 de 40 para obtener un resto de 8. Ocho coincide con un valor de posición específico. Por lo tanto, introduzca un 0 para el valor de posición de 16 y agregue un 1 al valor de posición de 8, como se muestra en la figura 7. Agregue un 0 a todos los valores de posición restantes. Como se muestra en la figura 8, el valor binario del tercer octeto es <b>10101000</b>.</p>
+          <p>El tercer octeto es 11. Es posible omitir el proceso de resta con números decimales menores o más pequeños. Por ejemplo, en la figura 9, se muestra el número binario convertido. Observe que sería bastante fácil calcular este número sin tener que pasar por el proceso de resta (8 + 2 + 1 = 11). El valor binario del segundo octeto es 00001011. </p>
+          <p>El cuarto octeto es 10 (8 + 2). Como se muestra en la figura 10, el valor binario del cuarto octeto es 00001010.</p>
+          <p>La conversión de sistema binario a decimal puede parecer un desafío inicialmente, pero con la práctica resulta más fácil.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figures 1 through 10 show an example of determining the binary value for an IP address. Converting the first octet is shown in the first seven figures. Figure 8 shows the conversion of the second octet. Figure 9 shows the conversion of the third octet. Figure 10 shows the conversion of the fourth octet.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

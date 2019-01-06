@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.4.1.3 Verificación y supervisión de la solución</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.4.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Verificación y supervisión de la solución</h1>
+        <div>
+          <p>Cisco IOS incluye herramientas eficaces para la solución de problemas y la verificación. Cuando se ha solucionado el problema y se ha implementado la solución, es importante verificar el funcionamiento del sistema. Las herramientas de verificación incluyen los comandos <b>ping</b>, <b>traceroute</b> y <b>show</b>. El comando <b>ping</b> se utiliza para verificar si la conectividad de la red es satisfactoria.</p>
+          <p></p>
+          <p>Si un <b>ping</b> se completa con éxito, como se muestra en la Figura 1, puede darse por seguro que los paquetes están llegando desde el origen hasta el destino.</p>
+          <p></p>
+          <p>
+            <b>Nota</b>: Un <b>ping</b> fallido no suele proporcionar suficiente información para llegar a una conclusión. Puede ser el resultado de una ACL o de un firewall que bloqueaba los paquetes ICMP, o bien el dispositivo de destino puede estar configurado para no responder los pings. Un ping fallido generalmente indica que se requiere investigación adicional.</p>
+          <p></p>
+          <p>El comando <b>traceroute</b>, como se muestra en la Figura 2.2, es útil para mostrar la ruta que los paquetes utilizan para llegar a un destino. Aunque el resultado del comando <b>ping</b> muestra si un paquete llegó al destino, el resultado del comando <b>traceroute</b> muestra qué ruta tomó para llegar allí, o dónde el paquete fue interrumpido a lo largo de la ruta.</p>
+          <p></p>
+          <p>Los comandos <b>show</b> de Cisco IOS son algunas de las herramientas de corrección y verificación más útiles para solucionar problemas. Al aprovechar una gran variedad de opciones y de subopciones, el comando <b>show</b> puede utilizarse para filtrar y mostrar información sobre prácticamente cualquier aspecto específico de IOS.</p>
+          <p></p>
+          <p>En la Figura 3, se muestra el resultado del comando <b>show ip interface brief</b>. Observe que las dos interfaces configuradas con las direcciones IPv4 están en “up” y “up”. Estas interfaces pueden enviar y recibir tráfico. Las otras tres interfaces no tienen ningún direccionamiento IPv4 y están desactivadas.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1, 2, and 3 show a topology with a PC, a switch, and three routers. The PC is connected to the switch, which is connected to router R1, which is connected to router R2, which is connected to router R3. Figure 1 shows ping command output. Figure 2 shows traceroute output. Figure 3 shows output for the ‘show ip interface brief’ command.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

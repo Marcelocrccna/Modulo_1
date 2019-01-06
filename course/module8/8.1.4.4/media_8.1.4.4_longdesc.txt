@@ -1,0 +1,1 @@
+This is an interactive activity in which the learner practices converting a subnet mask from its dotted decimal format into binary and then its prefix notation. Clicking “New Number” will bring up a new problem.

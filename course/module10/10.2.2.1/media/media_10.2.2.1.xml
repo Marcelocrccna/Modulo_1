@@ -1,0 +1,67 @@
+<textcomponents><!-- btns --><component id="ID_title">
+		<text><![CDATA[<b>Resolver direcciones DNS</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[Servidor DNS]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[Red]]></text>
+	</component>
+	<component id="ID_txt10">
+		<text><![CDATA[198.133.219.25]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[Cliente]]></text>
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[El protocolo DNS resuelve el nombre de dominio y halla la dirección numérica del dispositivo de red.]]></text>
+	</component>
+	<component id="ID_title1">
+		<text><![CDATA[<b>Resolver direcciones DNS: paso 1</b>]]></text>
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[El nombre es fácil de usar.]]></text>
+	</component>
+	<component id="ID_title2">
+		<text><![CDATA[<b>Resolver direcciones DNS: paso 2</b>]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[<b>Nombre</b>]]></text>
+	</component>
+	<component id="ID_txt08">
+		<text><![CDATA[<b>Dirección</b>]]></text>
+	</component>
+	<component id="ID_txt11">
+		<text><![CDATA[www.cisco.com]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[198.133.219.25]]></text>
+	</component>
+	<component id="ID_bubble">
+		<text><![CDATA[<p id="ID_bubble" class="arrow">El servidor DNS hace coincidir el nombre de dominio con direcciones numéricas.</p>]]></text>
+	</component>
+	<component id="ID_bubble1">
+		<text><![CDATA[<p id="ID_bubble1" class="arrow">Los dispositivos usan números.</p>]]></text>
+	</component>
+	<component id="ID_title3">
+		<text><![CDATA[<b>Resolver direcciones DNS: paso 3</b>]]></text>
+	</component>
+	<component id="ID_txt09">
+		<text><![CDATA[www.cisco.com]]></text>
+	</component>
+	<component id="ID_txt14">
+		<text><![CDATA[Consulta al DNS]]></text>
+	</component>
+	<component id="ID_title4">
+		<text><![CDATA[<b>Resolver direcciones DNS: paso 4</b>]]></text>
+	</component>
+	<component id="ID_txt12">
+		<text><![CDATA[Respuesta de la consulta al DNS<br/><br/>198.133.219.25]]></text>
+	</component>
+	<component id="ID_txt13">
+		<text><![CDATA[Se devuelve un número al cliente para que use en solicitudes al servidor.]]></text>
+	</component>
+	<component id="ID_title5">
+		<text><![CDATA[<b>Resolver direcciones DNS: paso 5</b>]]></text>
+	</component>
+</textcomponents>

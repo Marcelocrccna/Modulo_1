@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<slide>
+    <element type="IMAGE" x="0" y="0" width="1000" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+    <element type="IMAGE" x="0" y="0" width="680" height="490" src="1_4_2_3_A.png"  />
+    <element type="TEXT" subType="TITLE" compId="ID_title" />
+</slide>

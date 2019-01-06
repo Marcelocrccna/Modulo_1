@@ -1,0 +1,23 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+/*html, body {
+	margin:0;
+	height:100%;
+
+}
+
+
+
+#canvas, #mediaContainer {
+	margin-left: 105px;
+	margin-top: 35px;
+} 
+
+#dnd_1_drag_2_0 div{
+	width:330px !important;
+}
+
+#dnd_1_drag_0_0,#dnd_1_drag_2_0{line-height:12px;}*/

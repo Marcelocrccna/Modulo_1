@@ -1,0 +1,56 @@
+<textcomponents>
+    <component id="ID_title">
+        <text>
+            <![CDATA[<b>Intervalos de direcciones IP</b>]]></text>
+    </component>
+    <component id='ID_table'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='2' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+
+
+				<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size='14'><b>Network: 192.168.1.0/24</b></font></td>
+		       </tr>
+
+				<tr>
+					<td colspan='3' bgcolor='#4E4C4D' class="mtable_top"><font size='1' color='#4E4C4D'>.</font></td>
+				</tr>
+
+
+				<tr>
+					<td width="250" bgcolor='#666263' valign="top"><font color='#ffffff'><b>Uso</b></font></td>
+					<td bgcolor='#666263' width="150" valign="top"><font color='#ffffff'><b>Primera</b></font></td>
+					<td bgcolor='#666263' width="150" valign="top"><font color='#ffffff'><b>Última</b></font></td>
+				</tr>
+
+				<tr> 
+					
+					<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'>Dispositivos host</font></td>	
+					<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'>.1</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'>.229</font></td>			
+				</tr>
+				<tr>	
+
+					<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'>Servidores</font></td>	
+					<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'>.230</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'>.239</font></td>			
+				</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'>Impresoras</font></td>	
+					<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'>.240</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'>.249</font></td>			
+				</tr>
+				<tr>					
+					<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'>Dispositivos intermediarios</font></td>	
+					<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'>.250</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'>.253</font></td>			
+				</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'>Gateway (interfaz de la red LAN del router)</font></td>	
+					<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'>.254</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'></font></td>			
+				</tr>
+				</table>]]>
+        </text>
+    </component>
+</textcomponents>

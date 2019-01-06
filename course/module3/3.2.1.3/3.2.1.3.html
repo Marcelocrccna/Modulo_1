@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.2.1.3 Interacción de protocolos</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.2.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Interacción de protocolos</h1>
+        <div>
+          <p>La comunicación entre un servidor web y un cliente web es un ejemplo de interacción entre varios protocolos. Los protocolos que se muestran en la figura son:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>HTTP:</b> es un protocolo de aplicación que rige la forma en que interactúan un servidor web y un cliente web. HTTP define el contenido y el formato de las solicitudes y respuestas intercambiadas entre el cliente y el servidor. Tanto el cliente como el software del servidor web implementan el HTTP como parte de la aplicación. HTTP se basa en otros protocolos para regular la forma en que se transportan los mensajes entre el cliente y el servidor.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>TCP:</b> es el protocolo de transporte que administra las conversaciones individuales. TCP divide los mensajes HTTP en partes más pequeñas, llamadas “segmentos”. Estos segmentos se envían entre los procesos del servidor y el cliente web que se ejecutan en el host de destino. También es responsable de controlar el tamaño y los intervalos a los que se intercambian los mensajes entre el servidor y el cliente. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>IP:</b> es responsable de tomar los segmentos formateados del TCP, encapsularlos en paquetes, asignar las direcciones apropiadas y seleccionar la mejor ruta al host de destino.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Ethernet:</b> es un protocolo de acceso a la red que describe dos funciones principales: la comunicación a través de un enlace de datos y la transmisión física de datos en los medios de red. Los protocolos de acceso a la red son responsables de tomar los paquetes de IP y los formatean para transmitirlos por los medios.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the protocol stack interaction during a web server and a web client communication.  This communication begins with the hypertext transport protocol (HTTP), it is then passed to the Transmission Control Protocol (TCP), from here it is passed to the Internet Protocol (IP) layer, and lastly it is passed to a network access protocol such as Ethernet.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

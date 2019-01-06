@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.3.1 Creación de subredes con un prefijo /16</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Creación de subredes con un prefijo /16</h1>
+        <div>
+          <p>En una situación en la que se necesita una mayor cantidad de subredes, se requiere una red IPv4 con más bits de host para tomar prestados. Por ejemplo, la dirección de red 172.16.0.0 tiene una máscara predeterminada de 255.255.0.0 o /16. Esta dirección tiene 16 bits en la porción de red y 16 bits en la porción de host. Estos 16 bits en la porción de host se pueden tomar prestados para crear subredes. En la tabla de la ilustración, se destacan todas las situaciones posibles para la división en subredes de un prefijo /16. </p>
+          <p></p>
+          <p>Pese a que no se requiere una memorización completa de la tabla, se sugiere que adquiera un buen nivel de conocimiento sobre cómo se genera cada valor en ella. No se deje intimidar por el tamaño de la tabla. La razón de su gran tamaño es que tiene 8 bits adicionales que se pueden tomar prestados y, por lo tanto, la cantidad de subredes y hosts es simplemente más grande.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a table. The first column lists the fourteen prefix lengths from /27 to /30. The second column lists the fourteen subnet masks from 255.255.128.0 to 255.255.255.252. The third column shows the subnet mask in binary with the letter “n” above one bits and the letter “h” above zero bits. The effect is to show the borrowing of bits into the third and fourth octet from borrowing one bit in the first row (/17) to borrowing fourteen bits in the last row (/30). The fourth and fifth columns show the number of subnets and hosts respectively. For example, borrowing 5 bits gets you 32 subnets with 2046 hosts per subnet.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

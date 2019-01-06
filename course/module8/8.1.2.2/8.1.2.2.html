@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.2 División en subredes en el límite del octeto</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>División en subredes en el límite del octeto</h1>
+        <div>
+          <p>Comprender cómo ocurre la división en subredes en el límite del octeto puede ser de utilidad. En el siguiente ejemplo, se muestra este proceso. Suponga que una empresa eligió como su dirección de red interna la dirección privada 10.0.0.0/8. Dicha dirección de red puede conectar 16 777 214 hosts en un dominio de difusión. Por supuesto, esto no es lo ideal. </p>
+          <p>La empresa puede seguir dividiendo en subredes la dirección 10.0.0.0/8 en el límite del octeto de /16, tal como se muestra en la figura 1. Esto le daría a la empresa la capacidad de definir hasta 256 subredes (p. ej.: 10.0.0.0/16 a 10.255.0.0/16), y cada subred sería capaz de conectar 65 534 hosts. Observe cómo los primeros dos octetos identifican la porción de red de la dirección, mientras que los últimos dos octetos corresponden a las direcciones IP del host.</p>
+          <p>Como una alternativa, la empresa puede elegir hacer la división en subredes en el límite del octeto /24, tal como se muestra en la figura 2. Esto le permitiría a la empresa definir 65 536 subredes, cada una capaz de conectar 254 hosts. El uso del límite /24 está muy difundido en la división en subredes debido a que admite una cantidad razonable de hosts y permite dividir en subredes en el límite del octeto de manera conveniente.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a table with all the possible subnets for 10.x.0.0/16. The first column is the subnet address. Although there are 256 possibilities, only the first seven and the last subnet are shown. The second column shows the host range for each subnet. Each subnet can support 65,534 hosts. The third column shows the broadcast address for each subnet. Figure 2 shows a table with all the possible subnets for 10.x.x.0/24. Although there are 65,536 possibilities, only nine are shown. The second column shows the host range for each subnet. Each subnet can support 254 hosts. The third column shows the broadcast address for each subnet.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

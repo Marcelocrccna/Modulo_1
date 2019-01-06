@@ -1,0 +1,16 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+.whiteCallOut{
+border: 2px solid #D3d1d2;
+border-radius:5px;
+-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+padding:2px 0 3px 3px;
+background:#FFFFFF;
+}
+

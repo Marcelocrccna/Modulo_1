@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.2.1 Porciones de red y de host</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Porciones de red y de host</h1>
+        <div>
+          <p>Es importante entender la notación binaria para determinar si dos hosts están en la misma red. Recuerde que una dirección IPv4 es una dirección jerárquica compuesta por una porción de red y una porción de host. Cuando se determina la porción de red en comparación con la porción de host, se debe observar la secuencia de 32 bits. Dentro de la secuencia de 32 bits, una porción de los bits identifica la red y una porción identifica el host, como se muestra en la ilustración.</p>
+          <p>Los bits dentro de la porción de red de la dirección deben ser idénticos para todos los dispositivos que residen en la misma red. Los bits dentro de la porción de host de la dirección deben ser únicos para identificar un host específico dentro de una red. Si dos hosts tienen el mismo patrón de bits en la porción de red especificada de la secuencia de 32 bits, esos dos hosts residen en la misma red. </p>
+          <p>¿Pero cómo saben los hosts qué porción de los 32 bits identifica la red y qué porción identifica el host? Esa es la función de la <i>máscara de subred</i>.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the dotted decimal IPv4 address 192.168.10.10 and the binary values for the octets below it. The IP addresses is divided into the network portion and the host portion with the first three octets in the network and the fourth octet in the host.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.3.4.4 El comando show ip interface brief.</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.3.4.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>El comando show ip interface brief.</h1>
+        <div>
+          <p>De la misma manera que los comandos y las utilidades se utilizan para verificar la configuración de un host, los comandos se pueden utilizar para verificar las interfaces de los dispositivos intermediarios. Cisco IOS proporciona comandos para verificar el funcionamiento de interfaces de router y switch.</p>
+          <p></p>
+          <p>
+            <b>Verificación de interfaces del router</b>
+          </p>
+          <p></p>
+          <p>Uno de los comandos más utilizados es el comando <b>show ip interface brief</b>. Este comando proporciona un resultado más abreviado que el comando <b>show ip interface</b>. Proporciona un resumen de la información clave para todas las interfaces de red de un router.</p>
+          <p></p>
+          <p>En la figura 1, se muestra la topología que se utiliza en este ejemplo.</p>
+          <p></p>
+          <p>En la figura 2, haga clic en el botón R1. El resultado de <b>show ip interface brief</b> muestra todas las interfaces del router, la dirección IP asignada a cada interfaz (si las hubiera) y el estado de funcionamiento de la interfaz.</p>
+          <p></p>
+          <p>
+            <b>Verificación de las interfaces del switch</b>
+          </p>
+          <p></p>
+          <p>En la figura 2, haga clic en el botón S1. El comando <b>show ip interface brief</b> también se puede utilizar para verificar el estado de las interfaces del switch. La interfaz VLAN1 recibió la dirección IPv4 192.168.254.250 y está habilitada y en funcionamiento.</p>
+          <p></p>
+          <p>El resultado también muestra que la interfaz FastEthernet0/1 está inactiva. Esto indica que no hay ningún dispositivo conectado a la interfaz o que el dispositivo que está conectado tiene una interfaz de red que no funciona. </p>
+          <p></p>
+          <p>Por otro lado, el resultado muestra que las interfaces FastEthernet0/2 y FastEthernet0/3 funcionan. Esto lo indica el valor up en las columnas Status y Protocol.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a network consisting of a PC connected to a switch, which is connected to a router, which is connected to a cloud. Figure 2 shows the output of the show ip interface brief command on the router and on the switch. </div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+Figure 1 shows the output from issuing the nslookup command at a command prompt in Windows. Figure 2 is a Syntax Checker allowing the learner to practice entering the nslookup command on both Windows and Linux command lines.

@@ -1,0 +1,1 @@
+Figure two shows how email gets relayed between ISPs before reaching its destination.

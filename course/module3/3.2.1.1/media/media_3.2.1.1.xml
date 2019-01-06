@@ -1,0 +1,35 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<b>Suite de protocolos</b>]]></text>
+    </component>
+    <component id="ID_s1_txt01">
+        <text>
+            <![CDATA[Las suites de protocolos son conjuntos de reglas que funcionan conjuntamente para ayudar a resolver un problema.]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt02">
+        <text>
+            <![CDATA[Capa de contenido]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt03">
+        <text>
+            <![CDATA[Capa de reglas]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt04">
+        <text>
+            <![CDATA[Capa física]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt05">
+        <text>
+            <![CDATA[<b>Suite de protocolos de conversación</b><br/>1. Utilizar un idioma común.<br/>2. Esperar el turno.<br/>3. Indicar al finalizar.]]></text>
+    </component>
+    <component id="ID_bubble">
+        <text>
+            <![CDATA[<font color="#FFFFFF">¿Dónde está la cafetería?</font>]]>
+        </text>
+    </component>
+</textcomponents>

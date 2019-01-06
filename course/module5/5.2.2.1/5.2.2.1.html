@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.2.1 Métodos de reenvío de tramas de los switches Cisco</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Métodos de reenvío de tramas de los switches Cisco</h1>
+        <div>
+          <p>Los switches utilizan uno de los siguientes métodos de reenvío para el switching de datos entre puertos de la red: </p>
+          <p>
+            <ul>
+              <li>Switching de almacenamiento y envío</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Switching por método de corte</li>
+            </ul>
+          </p>
+          <p>En la figura 1, se resaltan las diferencias entre estos dos métodos. </p>
+          <p>En este tipo de switching, cuando el switch recibe la trama, la almacena en los búferes de datos hasta recibir la trama en su totalidad. Durante el proceso de almacenamiento, el switch analiza la trama para buscar información acerca de su destino. En este proceso, el switch también lleva a cabo una verificación de errores utilizando la porción del tráiler de comprobación de redundancia cíclica (CRC) de la trama de Ethernet. </p>
+          <p>La CRC utiliza una fórmula matemática basada en la cantidad de bits (números uno) de la trama para determinar si esta tiene algún error. Después de confirmar la integridad de la trama, se la reenvía por el puerto apropiado hacia su destino. Cuando se detecta un error en la trama, el switch la descarta. El proceso de descarte de las tramas con errores reduce el ancho de banda consumido por datos dañados. El switching de almacenamiento y envío se requiere para el análisis de calidad de servicio (QoS) en las redes convergentes, donde se necesita una clasificación de la trama para decidir el orden de prioridad del tráfico. Por ejemplo, los flujos de datos de voz sobre IP deben tener prioridad sobre el tráfico de navegación web. </p>
+          <p>En la figura 2, reproduzca la animación para ver una demostración del proceso de almacenamiento y envío. </p>
+          <p>Haga clic <a href="http://www.cisco.com/c/en/us/products/collateral/switches/nexus-5020-switch/white_paper_c11-465436.html" target="_blank">aquí</a> para obtener más información sobre el switching de almacenamiento de envío y por método de corte.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows 2 switches.  One is set to store and forward and the other is set to cut through. Figure 2 is an animation demonstrating that a switch receives an entire frame and checks the CRC value before forwarding the frame.  This is known as store and forward.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

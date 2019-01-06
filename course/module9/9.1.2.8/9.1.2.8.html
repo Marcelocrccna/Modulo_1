@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.1.2.8 Grupos de números de puerto</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.1.2.8_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Grupos de números de puerto</h1>
+        <div>
+          <p>La Autoridad de Números Asignados de Internet (IANA) es el organismo normativo responsable de asignar los diferentes estándares de direccionamiento, incluidos los números de puerto. Existen diferentes tipos de números de puerto, como se muestra en la figura 1:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Puertos conocidos (números del 0 al 1023) </b>: estos números se reservan para servicios y aplicaciones. Por lo general, se utilizan para aplicaciones como navegadores web, clientes de correo electrónico y clientes de acceso remoto. Al definir estos puertos bien conocidos para las aplicaciones de los servidores, las aplicaciones cliente se pueden programar para solicitar una conexión a ese puerto en particular y a su servicio relacionado.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Puertos registrados (números del 1024 al 49151)</b>: IANA asigna estos números de puerto a una entidad que los solicite para utilizar con procesos o aplicaciones específicos. Principalmente, estos procesos son aplicaciones individuales que el usuario elige instalar en lugar de aplicaciones comunes que recibiría un número de puerto bien conocido. Por ejemplo, Cisco ha registrado el puerto 1985 para su proceso Hot Standby Routing Protocol (HSRP).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Puertos dinámicos o privados (números 49152 a 65535)</b>: también conocidos como puertos efímeros, usualmente el SO del cliente los asigna de forma dinámica cuando se inicia una conexión a un servicio. El puerto dinámico se utiliza para identificar la aplicación cliente durante la comunicación.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Nota</b>: Algunos sistemas operativos cliente pueden utilizar números de puerto registrados en lugar de números de puerto dinámicos para asignar los puertos de origen.</p>
+          <p>En la figura 2 se muestran algunos números de puerto conocidos y sus aplicaciones asociadas. Algunas aplicaciones pueden utilizar TCP y UDP. Por ejemplo, DNS utiliza UDP cuando los clientes envían solicitudes a un servidor DNS. Sin embargo, la comunicación entre dos servidores DNS siempre utiliza TCP.</p>
+          <p>Haga clic <a href="http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml" target="_blank">aquí</a> para ver la lista completa de los números de puerto y las aplicaciones asociadas en el sitio web de la IANA. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the three ranges used for port numbers.  Ports 0 through 1023 are classified as well known ports.  Numbers 1024 through 49151 are registered ports.  Ports 49152 through 65535 are considered private and slash or dynamic ports. Figure 2 lists a dozen of the more common well-known port numbers including FTP (20 and 21), SSH (22), SMTP (25), DNS (53), DHCP (67 and 68), TFTP (69), HTTP (80), POP3 (110), IMAP (143), SNMP (161), and HTTPS (443).</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+Figure 1 shows a chart using basic subnetting to assign equal sized subnets to the LANs and WANs. Figure 2 shows a chart using VLSM subnetting to assign equal sized (slash twenty sevens) subnets to each of the LAN links and different but equal sized (slash thirties) subnets to each of the WAN links.

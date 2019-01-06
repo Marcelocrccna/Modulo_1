@@ -1,0 +1,1 @@
+Figure shows a router connected to the Internet and to another switch. The switch is connected to three other switches. A box encompasses all the switches and the router interface and is labeled “Broadcast Domain”.

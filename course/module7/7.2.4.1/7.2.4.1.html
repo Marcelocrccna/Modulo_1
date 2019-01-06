@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.4.1 Estructura de una dirección IPv6 de unidifusión global</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.4.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Estructura de una dirección IPv6 de unidifusión global</h1>
+        <div>
+          <p>Las direcciones IPv6 de unidifusión globales (GUA) son globalmente únicas y enrutables en Internet IPv6. Estas direcciones son equivalentes a las direcciones IPv4 públicas. La Corporación de Internet para la Asignación de Nombres y Números (ICANN), operador de la IANA, asigna bloques de direcciones IPv6 a los cinco RIR. Actualmente, solo se asignan direcciones de unidifusión globales con los tres primeros bits 001 o 2000::/3. Es decir que el primer dígito hexadecimal de una dirección de GUA comienza con 2 o 3. Esto solo constituye un octavo del espacio total disponible de direcciones IPv6, sin incluir solamente una parte muy pequeña para otros tipos de direcciones de unidifusión y multidifusión. </p>
+          <p>
+            <b>Nota:</b> se reservó la dirección 2001:0DB8::/32 con fines de documentación, incluido el uso en ejemplos. </p>
+          <p>En la figura 1, se muestra la estructura y el intervalo de una dirección de unidifusión global.</p>
+          <p>Una dirección de unidifusión global consta de tres partes:</p>
+          <p>
+            <ul>
+              <li>Prefijo de routing global</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>ID de subred</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>ID de interfaz</li>
+            </ul>
+          </p>
+          <p>
+            <b>Prefijo de routing global</b>
+          </p>
+          <p>El prefijo de routing global es la porción de prefijo, o de red, de la dirección que asigna el proveedor (por ejemplo, un ISP) a un cliente o a un sitio. En general, los RIR asignan un prefijo de routing global /48 a los clientes. Estos incluyen a todos, desde redes comerciales de empresas a hogares individuales. </p>
+          <p>En la figura 2, se muestra la estructura de una dirección de unidifusión global con el prefijo de routing global /48. Los prefijos /48 son los prefijos de routing global más comunes y se utilizan en la mayoría de los ejemplos a lo largo de este curso. </p>
+          <p>Por ejemplo, la dirección IPv6 2001:0DB8:ACAD::/48 tiene un prefijo que indica que los primeros 48 bits (3 hextetos) (2001:0DB8:ACAD) son la porción de prefijo o de red de la dirección. Los dos puntos dobles (::) antes de la longitud de prefijo /48 significan que el resto de la dirección se compone solo de ceros.</p>
+          <p>El tamaño del prefijo de routing global determina el tamaño de la ID de subred.</p>
+          <p>
+            <b>ID de subred</b>
+          </p>
+          <p>Las organizaciones utilizan la ID de subred para identificar subredes dentro de su ubicación. Cuanto mayor es la ID de subred, más subredes habrá disponibles.</p>
+          <p>
+            <b>ID de interfaz</b>
+          </p>
+          <p>La ID de interfaz IPv6 equivale a la porción de host de una dirección IPv4. Se utiliza el término “ID de interfaz” debido a que un único host puede tener varias interfaces, cada una con una o más direcciones IPv6. Se recomienda especialmente usar subredes /64 en la mayoría de los casos. En otras palabras, una ID de interfaz de 64 bits como la que se muestra en la figura 2. </p>
+          <p>
+            <b>Nota:</b> a diferencia de IPv4, en IPv6, pueden asignarse a un dispositivo las direcciones de host compuestas solo por ceros y solo por unos. Se puede usar la dirección compuesta solo por unos debido al hecho de que en IPv6 no se usan las direcciones de difusión. Las direcciones compuestas solo por ceros también pueden usarse, pero se reservan como dirección de difusión por proximidad subred-router, y solo deben asignarse a los routers.</p>
+          <p>Una forma fácil de leer la mayoría de las direcciones IPv6 es contar la cantidad de hextetos. Como se muestra en la figura 3, en una dirección de unidifusión global /64, los primeros cuatro hextetos son para la porción de red de la dirección, y el cuarto hexteto indica la ID de subred. Los cuatro hextetos restantes son para la ID de interfaz. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the first three bits in an IPv6 global unicast address are set to 001.  The figure shows the range of binary bits for the first hextet to be from 2000 to 3FFF. Figure 2 shows the IPv6 global routing prefix of /48.  The first 48 bits serve as the global routing prefix and the next sixteen bits are used as a subnet identifier.  The /48 routing prefix plus the 16 bit subnet identifier form the /64 prefix.   The remaining 64 bits are the interface identifier. Figure 3 shows how to read a global unicast address.  The address is listed first as a compressed address, 2001:DB8:ACAD:1::10/64.  The first four hextets is the prefix and the last four hextets is the interface identifier.  This expands to 2001:0DB8:ACAD:0001:0000:0000:0000:0010 /64.  The global routing prefix is 2001:0DB8:ACAD.  The subnet ID is 0001 and the interface ID is 0000:0000:0000:0200.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

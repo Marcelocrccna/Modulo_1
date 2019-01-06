@@ -1,0 +1,26 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+#ID_s2_txt12{
+	margin-left: -93px !important;
+}
+#ID_s1_txt08{
+	top: -12px !important;
+	left: -10px !important;
+}
+
+#ID_s2_txt04{
+	left: -9px !important;
+}
+
+#ID_s2_txt07{
+	top: -9px !important;
+	left: -6px !important;
+}
+
+#ID_s2_txt10, #ID_s1_txt11{
+	left: 103px !important;
+}

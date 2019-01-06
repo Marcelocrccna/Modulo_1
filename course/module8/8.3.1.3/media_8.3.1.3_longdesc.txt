@@ -1,0 +1,1 @@
+Figure 1 shows two routers connected by a serial link. Each router has 2 LANs attached. Figure 2 shows several IPv6 subnet IDs and 5 of them will be used for the networks previously displayed. Figure 3 shows the previous network topology with the IPv6 subnets assigned to the networks. Figure 4 shows a router with the commands to configure each interface with an IPv6 address.

@@ -1,0 +1,65 @@
+<textcomponents>
+	<component id="ID_txt01">
+		<text><![CDATA[Personalizado:<br>Medios de comunicación]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[Personalizado:<br>Servicios de salud]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[Personalizado:<br>Gobierno]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[Pública]]></text>
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[Personalizado:<br>Y más]]></text>
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[Privado:<br>Noticias locales]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[Híbrida]]></text>
+	</component>
+	<component id="ID_titleTxt02">
+		<text><![CDATA[<font size="17">Nubes personalizadas</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt02">
+		<text><![CDATA[El vector más común para la pérdida de datos incluye software de mensajería instantánea y los sitios de medios sociales. Por ejemplo, el correo electrónico o ME interceptará ES mensajes puede capturar y mostrar la información confidencial.]]></text>
+	</component>
+	<component id="ID_titleTxt01">
+		<text><![CDATA[<font size="17">Nubes personalizadas</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[El vector más común para la pérdida de datos incluye software de mensajería instantánea y los sitios de medios sociales. Por ejemplo, el correo electrónico o ME interceptará ES mensajes puede capturar y mostrar la información confidencial.]]></text>
+	</component>
+	<component id="ID_titleTxt05">
+		<text><![CDATA[<font size="17">Nubes personalizadas</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt05">
+		<text><![CDATA[El vector más común para la pérdida de datos incluye software de mensajería instantánea y los sitios de medios sociales. Por ejemplo, el correo electrónico o ME interceptará ES mensajes puede capturar y mostrar la información confidencial.]]></text>
+	</component>
+	<component id="ID_titleTxt04">
+		<text><![CDATA[<font size="17">Nubes públicas</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt06">
+		<text><![CDATA[Las aplicaciones y los servicios basados en la nube que se ofrecen en una nube pública están a disposición de la población en general. Los servicios pueden ser gratuitos u ofrecerse en el formato de pago según el uso, como el pago de almacenamiento en línea. La nube pública utiliza Internet para proporcionar servicios.]]></text>
+	</component>
+	<component id="ID_titleTxt03">
+		<text><![CDATA[<font size="17">Nubes personalizadas</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt03">
+		<text><![CDATA[El vector más común para la pérdida de datos incluye software de mensajería instantánea y los sitios de medios sociales. Por ejemplo, el correo electrónico o ME interceptará ES mensajes puede capturar y mostrar la información confidencial.]]></text>
+	</component>
+	<component id="ID_titleTxt06">
+		<text><![CDATA[<font size="17">Nubes privadas</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt04">
+		<text><![CDATA[Las aplicaciones y los servicios basados en la nube que se ofrecen en una nube pública están a disposición de la población en general. Los servicios pueden ser gratuitos u ofrecerse en el formato de pago según el uso, como el pago de almacenamiento en línea. La nube pública utiliza Internet para proporcionar servicios.]]></text>
+	</component>
+	<component id="ID_titleTxt07">
+		<text><![CDATA[<font size="17">Nubes híbridas</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt07">
+		<text><![CDATA[Una nube híbrida consta de dos o más nubes (por ejemplo, una parte personalizada y otra parte pública); ambas partes son objetos separados, pero están conectadas a través de una única arquitectura. En una nube híbrida, las personas podrían tener grados de acceso a diversos servicios según los derechos de acceso de los usuarios.]]></text>
+	</component>
+</textcomponents>

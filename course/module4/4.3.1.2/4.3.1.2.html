@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.3.1.2 Subcapas de enlace de datos</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.3.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Subcapas de enlace de datos</h1>
+        <div>
+          <p>La capa de enlace de datos se divide en dos subcapas: </p>
+          <p>
+            <ul>
+              <li>
+                <b>Control de enlace lógico (LLC):</b> esta subcapa superior se comunica con la capa de red. Coloca en la trama información que identifica qué protocolo de capa de red se utiliza para la trama. Esta información permite que varios protocolos de la Capa 3, tales como IPv4 e IPv6, utilicen la misma interfaz de red y los mismos medios. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Control de acceso al medio (MAC):</b> se trata de la subcapa inferior, que define los procesos de acceso al medio que realiza el hardware. Proporciona direccionamiento de la capa de enlace de datos y acceso a varias tecnologías de red.</li>
+            </ul>
+          </p>
+          <p>En la figura, se muestra la forma en que la capa de enlace de datos se divide en las subcapas LLC y MAC. La subcapa LLC se comunica con la capa de red, mientras que la subcapa MAC admite diversas tecnologías de acceso de red. Por ejemplo, la subcapa MAC se comunica con la tecnología LAN Ethernet para enviar y recibir las tramas a través de cables de cobre o de fibra óptica. La subcapa MAC también se comunica con tecnologías inalámbricas como Wi-Fi y Bluetooth para enviar y recibir tramas en forma inalámbrica.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows layers one, two and three of the OSI model.  Layer two is divided into its two sub-layers, the upper sub-layer is LLC and the lower is MAC.  The figure also shows that 802.3, 802.11 and 802.15 standards span layer 1 and the MAC sublayer of layer 2.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

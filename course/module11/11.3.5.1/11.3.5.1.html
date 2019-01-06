@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.3.5.1 Comando debug</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.3.5.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Comando debug</h1>
+        <div>
+          <p>Los procesos, protocolos, mecanismos y eventos de IOS generan mensajes para comunicar su estado. Estos mensajes pueden proporcionar información valiosa cuando hay que solucionar problemas o verificar las operaciones del sistema. El comando <b>debug</b> de IOS permite que el administrador muestre estos mensajes en tiempo real para su análisis. Es una herramienta muy importante para supervisar eventos en un dispositivo Cisco IOS.</p>
+          <p></p>
+          <p>Todos los comandos <b>debug</b> se introducen en el modo EXEC privilegiado. Cisco IOS permite limitar el resultado de <b>debug</b> para incluir solo la característica o la subcaracterística relevante. Esto es importante porque se le asigna alta prioridad al resultado de depuración en el proceso de CPU y puede hacer que el sistema no se pueda utilizar. Por este motivo, use los comandos <b>debug</b> solo para solucionar problemas específicos. Para supervisar el estado de mensajes de ICMP en un router Cisco, utilice <b>debug ip icmp</b>, como se muestra en la ilustración.</p>
+          <p></p>
+          <p>Para acceder a una breve descripción de todas las opciones del comando de depuración, utilice el comando <b>debug ?</b> en modo EXEC con privilegios, en la línea de comandos.</p>
+          <p></p>
+          <p>Para desactivar una característica de depuración específica, agregue la palabra clave <b>no</b> delante del comando <b>debug</b>:</p>
+          <p></p>
+          <p>
+            <span class="cmd">Router# </span>
+            <span class="cmd">
+              <b>no debug ip icmp</b>
+            </span>
+          </p>
+          <p></p>
+          <p>Alternativamente, puede ingresar la forma <b>undebug</b> del comando en modo EXEC privilegiado:</p>
+          <p></p>
+          <p>
+            <span class="cmd">Router# </span>
+            <span class="cmd">
+              <b>undebug ip icmp</b>
+            </span>
+          </p>
+          <p></p>
+          <p>Para desactivar todos los comandos debug activos de inmediato, utilice el comando <b>undebug all</b>:</p>
+          <p></p>
+          <p>
+            <span class="cmd">Router# </span>
+            <span class="cmd">
+              <b>undebug all</b>
+            </span>
+          </p>
+          <p></p>
+          <p>Algunos comandos debug, como <b>debug all</b> y <b>debug ip packet</b>, generan una importante cantidad de resultados y usan una gran porción de recursos del sistema. El router estaría tan ocupado mostrando mensajes de depuración que no tendría suficiente potencia de procesamiento para realizar las funciones de red, o incluso escuchar los comandos para desactivar la depuración. Por este motivo, no se recomienda y se debe evitar utilizar estas opciones de comando.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the output of the ‘debug ip icmp’ command.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

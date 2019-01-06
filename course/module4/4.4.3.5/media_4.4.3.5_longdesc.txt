@@ -1,0 +1,1 @@
+Figure shows three laptops wireless connected to a wireless router. One laptop says “I’m receiving this wireless frame.” The other two laptops say “I see in the wireless frame that the channel is going to be unavailable for a specific amount of time so I can not send.”

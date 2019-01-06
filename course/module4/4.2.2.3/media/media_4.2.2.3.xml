@@ -1,0 +1,27 @@
+<textcomponents>
+    <!--Slide 1-->
+    <component id="ID_s1_txt01">
+        <text>
+            <![CDATA[<b>Conectores RJ-45 para UTP<b>]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt02">
+        <text>
+            <![CDATA[<b>Socket RJ-45 para UTP<b>]]>
+        </text>
+    </component>
+    <!--Slide 2-->
+    <component id="ID_s2_txt01">
+        <text>
+            <![CDATA[<b>Conector defectuoso</b>: Los hilos están expuestos, sin trenzar, y el revestimiento no los cubre completamente.]]></text>
+    </component>
+    <component id="ID_s2_txt02">
+        <text>
+            <![CDATA[<b>Conector correcto</b>: Los hilos están sin trenzar solo en el trecho necesario para unir el conector.]]></text>
+    </component>
+    <component id="ID_s2_txt03">
+        <text>
+            <![CDATA[La terminación incorrecta de los cables puede afectar el rendimiento de la transmisión.]]>
+        </text>
+    </component>
+</textcomponents>

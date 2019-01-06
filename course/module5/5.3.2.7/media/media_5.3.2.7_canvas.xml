@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+    	<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+        <slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFF" />
+            <element type="ROUTER" textId="ID_router_txt1" x="40.75" y="84.35" width="600" height="200" />
+        </slide>
+        <slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#FFF" />
+            <element type="ROUTER" textId="ID_router_txt2" x="40.75" y="84.35" width="600" height="300" />
+        </slide>
+    </slide>
+    <text id="ID_router_txt1">
+        <![CDATA[<pre>Router# <b>show ip arp</b> 
+                          Age
+Protocol  Address        (min)  Hardware Addr    Type   Interface
+Internet  172.16.233.229   -    0000.0c59.f892   ARPA   Ethernet0/0 
+Internet  172.16.233.218   -    0000.0c07.ac00   ARPA   Ethernet0/0 
+Internet  172.16.168.11    -    0000.0c63.1300   ARPA   Ethernet0/0 
+Internet  172.16.168.254   9    0000.0c36.6965   ARPA   Ethernet0/0
+	</pre>]]></text>
+    <text id="ID_router_txt2">
+        <![CDATA[<pre>C:\> <b>arp -a</b>
+
+Interface: 192.168.1.67 --- 0xa
+  Internet Address      Physical Address      Type
+  192.168.1.254         64-0f-29-0d-36-91     dynamic
+  192.168.1.255         ff-ff-ff-ff-ff-ff     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+Interface: 10.82.253.91 --- 0x10
+  Internet Address      Physical Address      Type
+  10.82.253.92          64-0f-29-0d-36-91     dynamic
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+	</pre>]]></text>
+</data>

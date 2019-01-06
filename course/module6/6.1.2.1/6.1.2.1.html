@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.1.2.1 Encapsulamiento de IP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.1.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Encapsulamiento de IP</h1>
+        <div>
+          <p>Para encapsular el segmento de capa de transporte u otros datos, IP le agrega un encabezado IP. Este encabezado se usa para entregar el paquete al host de destino. El encabezado IP permanece igual desde el momento en que el paquete deja el host de origen hasta que llega al host de destino.</p>
+          <p>En la figura 1, se muestra el proceso de creación de la PDU de capa de transporte. En la figura 2, se muestra cómo la PDU de capa de red encapsula la PDU de capa de transporte para crear un paquete IP.</p>
+          <p>El proceso de encapsulamiento de datos capa por capa permite que se desarrollen y se escalen los servicios en las diferentes capas sin afectar a las otras capas. Esto significa que IPv4 o IPv6 o cualquier protocolo nuevo que se desarrolle en el futuro puede armar sin inconvenientes un paquete con los segmentos de capa de transporte. </p>
+          <p>Los routers pueden implementar diferentes protocolos de capa de red para que funcionen simultáneamente en una red. El routing que realizan estos dispositivos intermediarios solo toma en cuenta el contenido del encabezado de paquetes de la capa de red. En ningún caso, la porción de datos del paquete, es decir, la PDU de capa de transporte encapsulada, se modifica durante los procesos de la capa de red.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a Transport layer PDU, the segment, as the segment header and the data from the upper layers. Figure 2 shows how layer 3, the network layer, encapsulates the transport layer PDU into a packet and adds the IP Header</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

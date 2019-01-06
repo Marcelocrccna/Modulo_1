@@ -1,0 +1,14 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_txt03,#ID_txt04{
+	background-color: #CB6D25;
+	padding-top: 3px !important;
+	padding-bottom: 3px !important; 
+}
+#ID_bubble01,#ID_bubble02,#ID_bubble03
+{
+	color: #FFFFFF !important;
+}

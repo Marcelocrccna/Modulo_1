@@ -1,0 +1,97 @@
+<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Direcciones de enlace de datos de Capa 2</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[Código original]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Destino final]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[PC1 192.168.1.110]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[Servidor web 172.16.1.99]]></text>
+	</component>
+	
+	<component id="ID_txt05">
+		<text><![CDATA[L2 = Capa 2<br/>L3 = Capa 3]]></text>
+	</component>
+
+    <component id="ID_txt07">
+        <text><![CDATA[NIC]]></text>
+    </component>
+    
+    <component id="ID_txt08">
+        <text><![CDATA[NIC]]></text>
+    </component>
+    
+    <component id="ID_txt09">
+        <text><![CDATA[NIC]]></text>
+    </component>
+    
+    <component id="ID_txt10">
+        <text><![CDATA[NIC]]></text>
+    </component>
+    
+    <component id="ID_txt11">
+        <text><![CDATA[NIC]]></text>
+    </component>
+    
+    <component id="ID_txt12">
+        <text><![CDATA[NIC]]></text>
+    </component>
+
+	<component id="ID_txt13">
+		<text><![CDATA[L2]]></text>
+	</component>
+	
+	<component id="ID_txt14">
+		<text><![CDATA[L3]]></text>
+	</component>
+	
+	<component id="ID_txt15">
+		<text><![CDATA[L2]]></text>
+	</component>
+	
+	<component id="ID_txt16">
+		<text><![CDATA[L3]]></text>
+	</component>
+	
+	<component id="ID_txt17">
+		<text><![CDATA[L2]]></text>
+	</component>
+
+	<component id="ID_txt18">
+		<text><![CDATA[L3]]></text>
+	</component>
+
+<!-- Slide 1-->
+<component id="ID_s2_txt01"><text><![CDATA[NIC de destino]]></text></component>
+<component id="ID_s2_txt02"><text><![CDATA[NIC de origen]]></text></component>
+<component id="ID_s2_txt03"><text><![CDATA[IP de origen 192.168.1.110]]></text></component>
+<component id="ID_s2_txt04"><text><![CDATA[IP de destino 172.16.1.99]]></text></component>
+<component id="ID_s2_txt05"><text><![CDATA[Encabezado L2]]></text></component>
+<component id="ID_s2_txt06"><text><![CDATA[Paquete IP L3]]></text></component>
+
+<!-- Slide 2-->
+<component id="ID_s1_txt01"><text><![CDATA[NIC de destino]]></text></component>
+<component id="ID_s1_txt02"><text><![CDATA[NIC de origen]]></text></component>
+<component id="ID_s1_txt03"><text><![CDATA[IP de origen 192.168.1.110]]></text></component>
+<component id="ID_s1_txt04"><text><![CDATA[IP de destino 172.16.1.99]]></text></component>
+<component id="ID_s1_txt05"><text><![CDATA[Encabezado L2]]></text></component>
+<component id="ID_s1_txt06"><text><![CDATA[Paquete IP L3]]></text></component>
+
+<!-- Slide 3 -->
+<component id="ID_s3_txt01"><text><![CDATA[NIC de destino]]></text></component>
+<component id="ID_s3_txt02"><text><![CDATA[NIC de origen]]></text></component>
+<component id="ID_s3_txt03"><text><![CDATA[IP de origen 192.168.1.110]]></text></component>
+<component id="ID_s3_txt04"><text><![CDATA[IP de destino 172.16.1.99]]></text></component>
+<component id="ID_s3_txt05"><text><![CDATA[Encabezado L2]]></text></component>
+<component id="ID_s3_txt06"><text><![CDATA[Paquete IP L3]]></text></component></textcomponents>

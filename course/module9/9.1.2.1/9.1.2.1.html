@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.1.2.1 Características de TCP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.1.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Características de TCP</h1>
+        <div>
+          <p>Para entender las diferencias entre TCP y UDP, es importante comprender la manera en que cada protocolo implementa las características específicas de confiabilidad y la forma en que realizan el seguimiento de las conversaciones. Además de admitir funciones básicas de segmentación y rearmado de datos, TCP, como se muestra en la figura, también proporciona otros servicios.</p>
+          <p>
+            <b>Establecimiento de una sesión</b>
+          </p>
+          <p>TCP es un protocolo orientado a la conexión. Un protocolo orientado a la conexión es uno que negocia y establece una conexión (o sesión) permanente entre los dispositivos de origen y de destino antes de reenviar tráfico. Mediante el establecimiento de sesión, los dispositivos negocian la cantidad de tráfico que se puede reenviar en un momento determinado, y los datos que se comunican entre ambos se pueden administrar detenidamente. </p>
+          <p>
+            <b>Entrega confiable</b>
+          </p>
+          <p>En términos de redes, la confiabilidad significa asegurar que cada segmento que envía el origen llegue al destino. Por varias razones, es posible que un segmento se dañe o se pierda por completo a medida que se transmite en la red. </p>
+          <p>
+            <b>Entrega en el mismo orden</b>
+          </p>
+          <p>Los datos pueden llegar en el orden equivocado, debido a que las redes pueden proporcionar varias rutas que pueden tener diferentes velocidades de transmisión. Al numerar y secuenciar los segmentos, TCP puede asegurar que estos se rearmen en el orden correcto. </p>
+          <p>
+            <b>Control del flujo</b>
+          </p>
+          <p>Los hosts de red tienen recursos limitados, como la memoria o la capacidad de procesamiento. Cuando TCP advierte que estos recursos están sobrecargados, puede solicitar que la aplicación emisora reduzca la velocidad del flujo de datos. Esto lo lleva a cabo TCP, que regula la cantidad de datos que transmite el origen. El control de flujo puede evitar la necesitad de retransmitir los datos cuando los recursos del host receptor están desbordados. </p>
+          <p>Para obtener más información sobre TCP, lea <a href="https://www.ietf.org/rfc/rfc793.txt" target="_blank">RFC</a>.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows a single computer that has multiple web pages open along with an instant messaging window and an e-mail application running.  Four core services provided by T.C.P. are establishing a session, providing reliable delivery of data, providing proper order of data sent and managing flow control.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

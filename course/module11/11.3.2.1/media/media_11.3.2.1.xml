@@ -1,0 +1,31 @@
+<textcomponents><!-- slide 1 --><component id="ID_s1_title">
+		<text><![CDATA[<b>Prueba de la ruta a un host remoto</b>]]></text>
+	</component>	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[<p align='left'>Seguimiento desde un router<br><font face='_typewriter' id='test1'>RouterA# <b>traceroute 10.1.0.2</b></font></p>]]></text>
+	</component>	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Router C]]></text>
+	</component>	
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Router D]]></text>
+	</component>	
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Router A]]></text>
+	</component>	
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Router B]]></text>
+	</component>	
+	<component id="ID_s1_txt06">
+		<text><![CDATA[Host 1]]></text>
+	</component>	
+	<component id="ID_s1_txt07">
+		<text><![CDATA[<p align='left'>Seguimiento desde un host<br><font face='_typewriter' id="test2">C:\> <b>tracert 10.1.0.2</b></font></p>]]></text>
+	</component>	
+	<component id="ID_s1_txt08">
+		<text><![CDATA[<b>Host 2</b>]]></text>
+	</component><!-- end slide 1--><!-- slide 2 --><component id="ID_s2_title">
+		<text><![CDATA[<b>Seguimiento de la ruta del host 1 al host 2</b>]]></text>
+	</component><!-- for HTML media only --><component id='ID_s2_txt01'>
+		<text><![CDATA[<pre>C:\> <b>tracert 10.1.0.2</b> Tracing route to 10.1.0.2 over a maximum of 30 hops 1 2 ms 2 ms 2 ms 10.0.0.254 2 * * * Request timed out. 3 * * * Request timed out. 4 ^C C:\>]]></text>
+	</component><!-- end for HTML media only--><!-- end slide 2 --></textcomponents>

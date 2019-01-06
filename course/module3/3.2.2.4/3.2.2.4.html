@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.2.2.4 Proceso de comunicación TCP/IP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.2.2.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Proceso de comunicación TCP/IP</h1>
+        <div>
+          <p>En las figuras 1 y 2, se muestra el proceso de comunicación completo mediante un ejemplo de servidor web que transmite datos a un cliente. Este proceso y estos protocolos se analizarán con más profundidad en capítulos posteriores.</p>
+          <p>Haga clic en el botón <b>Reproducir</b> para ver la demostración animada:</p>
+          <p>
+            <b>1</b>. En la figura 1, la animación comienza con el servidor web preparando la página de lenguaje de marcado de hipertexto (HTML) como los datos que se van a enviar. </p>
+          <p>
+            <b>2</b>. El encabezado HTTP del protocolo de aplicación se agrega al frente de los datos HTML. El encabezado contiene diversos tipos de información, incluida la versión de HTTP que utiliza el servidor y un código de estado que indica que tiene información para el cliente web.</p>
+          <p>
+            <b>3.</b> El protocolo de capa de aplicación HTTP entrega los datos de la página web con formato HTML a la capa de transporte. El protocolo de la capa de transporte TCP se utiliza para administrar conversaciones individuales, en este ejemplo entre el servidor web y el cliente web.</p>
+          <p>
+            <b>4</b>. Luego, la información IP se agrega al frente de la información TCP. IP asigna las direcciones IP de origen y de destino que corresponden. Esta información se conoce como paquete IP.</p>
+          <p>
+            <b>5</b>. El protocolo Ethernet agrega información en ambos extremos del paquete IP, conocidos como la “trama de enlace de datos”. Esta trama se envía al router más cercano a lo largo de la ruta hacia el cliente web. Este router elimina la información de Ethernet, analiza el paquete IP, determina el mejor camino para el paquete, coloca el paquete en una trama nueva y lo envía al siguiente router vecino hacia el destino. Cada router elimina y agrega información de enlace de datos nueva antes de reenviar el paquete.</p>
+          <p>
+            <b>6</b>. Estos datos ahora se transportan a través de la internetwork, que consta de medios y dispositivos intermediarios. </p>
+          <p>
+            <b>7</b>. En la figura 2, la animación comienza con el cliente que recibe las tramas de enlace de datos que contienen los datos. Cada encabezado de protocolo se procesa y luego se elimina en el orden inverso al que se agregó. La información de Ethernet se procesa y se elimina, seguida por la información del protocolo IP, luego la información de TCP y, finalmente, la información de HTTP. </p>
+          <p>
+            <b>8</b>. A continuación, la información de la página web se transfiere al software de navegador web del cliente.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 is an animation that shows the protocol encapsulation process involved when a web server sends a web page to a client across a network. Figure 2 is an animation that shows the protocol de-encapsulation process involved when a web client receives a web page from a web server across a network.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

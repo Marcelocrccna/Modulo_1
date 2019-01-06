@@ -1,0 +1,36 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_txt03{
+padding:2px 0 3px 3px;
+background:#46A040;
+padding-top: 3px !important;
+padding-bottom: 3px !important; 
+}
+#ID_txt01{
+padding:2px 0 3px 3px;
+background:#CB6D25;
+padding-top: 3px !important;
+padding-bottom: 3px !important; 
+}
+#ID_txt02{
+padding:2px 0 3px 3px;
+background:#A2AA23;
+padding-top: 3px !important;
+padding-bottom: 3px !important; 
+}
+#ID_txt04{
+padding:2px 0 3px 3px;
+background:#918F90;
+padding-top: 3px !important;
+padding-bottom: 3px !important; 
+}
+#ID_txt05{
+padding:2px 0 3px 3px;
+background:#652C8A;
+padding-top: 3px !important;
+padding-bottom: 3px !important; 
+}
+

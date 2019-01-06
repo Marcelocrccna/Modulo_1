@@ -1,0 +1,31 @@
+<textcomponents>
+
+	<component id="ID_footer">
+		<text><![CDATA[<i><b>Las aplicaciones de red: </b><textformat blockindent="-14"><ul><li>Facilitan la comunicación en el lugar de trabajo.</li><li>Afectan la cantidad de trabajo terminado por día.</li><li>Reducen el tiempo y el costo de las comunicaciones de datos.</li></ul></textformat</i>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[Mensajería instantánea]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Weblog]]></text> 
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Podcasting]]></text> 
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[La mensajería instantánea (IM) está en todos lados y puede incluir conversaciones de audio y vídeo. La IM puede enviar mensajes de texto a teléfonos celulares.]]></text>
+	</component>
+	
+	<component id="ID_txt05">
+		<text><![CDATA[Puede expresar sus ideas en línea, compartir sus fotos y sumarse a una comunidad de pensadores.]]></text>
+	</component>
+	
+	<component id="ID_txt06">
+		<text><![CDATA[Puede escuchar su programa de radio favorito en su reproductor de audio portátil, cuando quiera y donde quiera. Cada vez que un programa nuevo está disponible, puede descargarse automáticamente.]]></text>
+	</component>
+
+</textcomponents>

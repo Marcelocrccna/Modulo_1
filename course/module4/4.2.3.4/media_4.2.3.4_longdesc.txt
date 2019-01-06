@@ -1,0 +1,1 @@
+Figure 1 shows four pictures of fiber connectors.  ST, SC, LC, and duplex multimode LC connectors. Clicking each connector brings up a text box with a brief description. Figure 2 shows four pictures of fiber patch chords for each of the four connectors.

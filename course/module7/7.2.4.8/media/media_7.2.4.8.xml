@@ -1,0 +1,50 @@
+<textcomponents>
+
+<!--Slide 2-->
+<component id='ID_s2_txt01'>
+	<text><![CDATA[&lt;output omitted&gt;]]></text>
+</component>
+<!--End Slide 2-->
+
+
+
+
+<!--Slide 4-->
+
+<component id="ID_SC_title">
+<text><![CDATA[<b>Verificación de la configuración de la dirección IPv6</b>]]></text>
+</component>
+
+
+<!--Syntax Checker Button Text-->
+		<component id="ID_sc_reset">
+			<text><![CDATA[Restablecer]]></text>
+		</component>
+
+        <component id="ID_sc_showme">
+			<text><![CDATA[Mostrar]]></text>
+		</component>
+
+        <component id="ID_sc_showall">
+			<text><![CDATA[Mostrar todo]]></text>
+		</component><!--End Syntax Checker Button Text--><component id="ID_SC5" fontSize="12" fontFace='_typewriter'  fontColor="#ffffff">
+                <feedback id="fb"><![CDATA[<b><font size = '10' face="_sans" color="#FFFFFF">***Debe introducir el comando exacto y completo. Los comandos que incluyen un nombre o una contraseña distinguen mayúsculas de minúsculas.***</font></b> ]]></feedback>
+              <existingcommands><![CDATA[<font size = '10' face="_sans"><b>Introduzca el comando show que muestra un breve resumen del estado de la interfaz IPv6.</b></font>]]></existingcommands>
+                <command prompt="R1#">
+                       <correctresponse><![CDATA[ show ipv6 interface brief]]></correctresponse>
+                                <deviceresponse><![CDATA[GigabitEthernet0/0 [up/up]<br>    FE80::FE99:47FF:FE75:C3E0<br>    2001:DB8:ACAD:1::1<br>GigabitEthernet0/1 [up/up]<br>    FE80::FE99:47FF:FE75:C3E1<br>    2001:DB8:ACAD:2::1<br>Serial0/0/0 [up/up]<br>    FE80::FE99:47FF:FE75:C3E0<br>    2001:DB8:ACAD:3::1<br>Serial0/0/1 [administratively down/down]<br>    unassigned]]></deviceresponse>
+                       <instruction><![CDATA[<font size = '10' face="_sans"><b>Introduzca el comando show que muestra la tabla de routing IPv6.</font>]]></instruction>
+              </command>
+                <command prompt="R1#">
+                       <correctresponse><![CDATA[show ipv6 route]]></correctresponse>
+                                <deviceresponse><![CDATA[IPv6 Routing Table - default - 7 entries<br>Codes: C - Connected, L - Local, S - Static, U - Per-user Static route<br>       B - BGP, R - RIP, I1 - ISIS L1, I2 - ISIS L2<br>       IA - ISIS interarea, IS - ISIS summary, D - EIGRP, EX - EIGRP external<br>       ND - ND Default, NDp - ND Prefix, DCE - Destination, NDr - Redirect<br>       O - OSPF Intra, OI - OSPF Inter, OE1 - OSPF ext 1, OE2 - OSPF ext 2<br>       ON1 - OSPF NSSA ext 1, ON2 - OSPF NSSA ext 2, a - Application<br>C 2001:DB8:ACAD:1::/64 [0/0]<br>     via GigabitEthernet0/0, directly connected<br>L 2001:DB8:ACAD:1::1/128 [0/0]<br>     via GigabitEthernet0/0, receive<br>C 2001:DB8:ACAD:2::/64 [0/0]<br>     via GigabitEthernet0/1, directly connected<br>L 2001:DB8:ACAD:2::1/128 [0/0]<br>     via GigabitEthernet0/1, receive<br>C 2001:DB8:ACAD:3::/64 [0/0]<br>     via Serial0/0/0, directly connected<br>L 2001:DB8:ACAD:3::1/128 [0/0]<br>     via Serial0/0/0, receive<br>L FF00::/8 [0/0]<br>     via Null0, receive<br>R1#]]></deviceresponse>
+                       <instruction><![CDATA[<font size = '10' face="_sans"><b>Verifique la conectividad a la PC2 en 2001:db8:acad:1::10.</font>]]></instruction>
+              </command>
+                <command prompt="R1#">
+                       <correctresponse><![CDATA[ ping 2001:db8:acad:1::10]]></correctresponse>
+                                <deviceresponse><![CDATA[Type escape sequence to abort.<br>Sending 5, 100-byte ICMP Echos to 2001:DB8:ACAD:1::10, timeout is 2 seconds:<br>!!!!!<br>Success rate is 100 percent (5/5)<br>R1#]]></deviceresponse>
+                       <instruction><![CDATA[<font size = '10' face="_sans"><b>Verificó correctamente la configuración de la dirección IPv6.</font>]]></instruction>
+              </command>
+<command prompt=""/>
+
+</component><!--End Syntax Checker Body Text--><!--End Slide 4--></textcomponents>

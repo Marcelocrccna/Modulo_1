@@ -1,0 +1,1 @@
+Figure shows the command syntax for configure the link-local address on a router interface. Also shown is an example of configuring three interfaces on a router with the same link-local command, which is “ipv6 address fe80::1 link-local”.

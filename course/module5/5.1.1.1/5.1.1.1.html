@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.1.1.1 Encapsulamiento de Ethernet</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.1.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Encapsulamiento de Ethernet</h1>
+        <div>
+          <p>Ethernet es la tecnología LAN más utilizada hoy en día. </p>
+          <p>Ethernet funciona en la capa de enlace de datos y en la capa física. Es una familia de tecnologías de red que se definen en los estándares IEEE 802.2 y 802.3. Ethernet admite los siguientes anchos de banda de datos:</p>
+          <p>
+            <ul>
+              <li>10 Mb/s</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>100 Mb/s</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>1000 Mb/s (1 Gb/s)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>10 000 Mb/s (10 Gb/s)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>40 000 Mb/s (40 Gb/s)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>100 000 Mb/s (100 Gb/s)</li>
+            </ul>
+          </p>
+          <p>Como se muestra en la figura 1, los estándares de Ethernet definen tanto los protocolos de capa 2 como las tecnologías de capa 1. Para los protocolos de capa 2, como con todos los estándares IEEE 802, Ethernet depende de ambas subcapas individuales de la capa de enlace de datos para funcionar: la subcapa de control de enlace lógico (LLC) y la subcapa MAC.</p>
+          <p>
+            <b>Subcapa LLC</b>
+          </p>
+          <p>La subcapa LLC de Ethernet maneja la comunicación entre las capas superiores e inferiores. Generalmente, esto sucede entre el software de red y el hardware del dispositivo. La subcapa LLC toma los datos del protocolo de la red, que generalmente son un paquete IPv4, y agrega información de control para ayudar a distribuir el paquete al nodo de destino. El LLC se utiliza para la comunicación con las capas superiores de la aplicación y para la transición del paquete hacia las capas inferiores con fines de distribución.</p>
+          <p>El LLC se implementa en el software, y su implementación es independiente del hardware. En una computadora, el LLC se puede considerar el software del controlador de la NIC. El controlador de la NIC es un programa que interactúa directamente con el hardware de la NIC para trasladar los datos entre la subcapa MAC y los medios físicos.</p>
+          <p>
+            <b>Subcapa MAC</b>
+          </p>
+          <p>La subcapa MAC es la subcapa inferior de la capa de enlace de datos y se implementa mediante hardware, generalmente, en la NIC de la computadora. Los datos específicos se detallan en los estándares IEEE 802.3. En la figura 2, se detallan los estándares IEEE de Ethernet comunes. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the seven layers of the OSI model with the lower two layers highlighted.  This figure demonstrates that Ethernet spans Layers 1 and 2.  802.3 covers Layer 1 and the MAC sublayer of Layer 2.  802.2 is the LLC sublayer and covers the upper half of Layer 2. Figure 2 shows a different representation of how the different implementations of Ethernet span the layers.  In this figure, we see that Ethernet, Fast Ethernet and Gigabit Ethernet spans Layer 1 and the lower half of Layer 2.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

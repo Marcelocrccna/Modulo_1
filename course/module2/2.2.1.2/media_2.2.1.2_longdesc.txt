@@ -1,0 +1,1 @@
+Figure 1 shows the command syntax for configuring a hostname. Figure 2 is a Syntax Checker allowing the learner to practice configuring the hostname on a switch.

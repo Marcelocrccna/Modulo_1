@@ -1,0 +1,47 @@
+<textcomponents>
+    <component id="ID_footer">
+        <text>
+            <![CDATA[Para aprovechar al máximo un esquema de asignación de direcciones IP, se requiere una planificación cuidadosa.<br/><br/>Planifique lo siguiente: <textformat blockindent="-14"><ul><li>Tamaño</li><li>Ubicación</li><li>Uso</li><li>Requisitos de acceso</li></ul></textformat>]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt02">
+        <text>
+            <![CDATA[30 hosts]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt01">
+        <text>
+            <![CDATA[30 hosts]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt04">
+        <text>
+            <![CDATA[30 hosts]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt03">
+        <text>
+            <![CDATA[30 hosts]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt06">
+        <text>
+            <![CDATA[30 hosts]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt05">
+        <text>
+            <![CDATA[30 hosts]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt07">
+        <text>
+            <![CDATA[30 hosts]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt08">
+        <text>
+            <![CDATA[Ocho subredes<br>(Cuatro hosts en cada subred)]]>
+        </text>
+    </component>
+</textcomponents>

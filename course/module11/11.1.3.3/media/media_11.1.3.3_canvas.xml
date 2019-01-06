@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBUTTON">
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_11.1.3.3.png" />
+<element type="IMAGE" x="60" y="80" width="257.75" height="289" subType="STD" src="11_1_3_3.jpg" />
+<element type="TEXT" compId="ID_txt01" x="344" y="130" width="262" expand="up" align="left" />
+<element type="TEXT" compId="ID_txt03" x="410" y="167" width="193.4" expand="up+down" align="left" />
+<element type="TEXT" compId="ID_txt04" x="410" y="220" width="190.2" expand="up+down" align="left" />
+<element type="TEXT" compId="ID_txt05" x="410" y="270" width="190.2" expand="up+down" align="left" />
+<element type="TEXT" compId="ID_txt06" x="410" y="317" width="201" expand="up+down" align="left" />
+<element type="TEXT" compId="ID_txt07" x="100" y="410" width="482.35" expand="down" align="center" />
+<slide buttonType="BLUE" buttonX="344" buttonY="163" buttonWidth="60" buttonHeight="23" compId="ID_1" >
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="arrow_A.png" />
+</slide>
+<slide buttonType="BLUE" buttonX="344" buttonY="217" buttonWidth="60" buttonHeight="23" compId="ID_2" >
+<element type="IMAGE" x="2" y="0" width="680" height="490" src="arrow_B.png" />
+</slide>
+<slide buttonType="BLUE" buttonX="345" buttonY="315" buttonWidth="60" buttonHeight="21" compId="ID_4" >
+<element type="IMAGE" x="2" y="0" width="680" height="490" src="arrow_D.png" />
+</slide>
+<slide buttonType="BLUE" buttonX="344" buttonY="267" buttonWidth="60" buttonHeight="21" compId="ID_3" >
+<element type="IMAGE" x="3" y="0" width="680" height="490" src="arrow_C.png" />
+</slide>
+<element type="TEXT" subType="TITLE" compId="ID_title"/>
+	</slide>
+</data>

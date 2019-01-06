@@ -1,0 +1,10 @@
+<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[Packet Tracer]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[Implementación de un esquema de direccionamiento IPv6 dividido en subredes]]></text>
+	</component>
+	
+</textcomponents>

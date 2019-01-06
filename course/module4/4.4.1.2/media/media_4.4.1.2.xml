@@ -1,0 +1,136 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<b>Topología física</b>]]></text>
+    </component>
+    <component id="ID_txt20">
+        <text>
+            <![CDATA[<b>Internet</b>]]></text>
+    </component>
+    <component id="ID_txt21">
+        <text>
+            <![CDATA[Servidor web]]></text>
+    </component>
+    <component id="ID_txt22">
+        <text>
+            <![CDATA[Servidor de correo electrónico]]></text>
+    </component>
+    <component id="ID_txt23">
+        <text>
+            <![CDATA[Servidor de archivos]]></text>
+    </component>
+    <component id="ID_txt05">
+        <text>
+            <![CDATA[Rack 2<br/>Estante 1]]>
+        </text>
+    </component>
+    <component id="ID_txt06">
+        <text>
+            <![CDATA[Rack 2<br/>Estante 2]]>
+        </text>
+    </component>
+    <component id="ID_txt07">
+        <text>
+            <![CDATA[Rack 2<br/>Estante 3]]>
+        </text>
+    </component>
+    <component id="ID_txt12">
+        <text>
+            <![CDATA[Rack 1<br/>Estante 2]]>
+        </text>
+    </component>
+    <component id="ID_txt11">
+        <text>
+            <![CDATA[Rack 1<br/>Estante 1]]>
+        </text>
+    </component>
+    <component id="ID_txt13">
+        <text>
+            <![CDATA[Rack 1<br/>Estante 3]]>
+        </text>
+    </component>
+    <component id="ID_txt09">
+        <text>
+            <![CDATA[Rack 1<br/>Estante 1]]>
+        </text>
+    </component>
+    <component id="ID_txt08">
+        <text>
+            <![CDATA[Rack 1<br/>Estante 2]]>
+        </text>
+    </component>
+    <component id="ID_txt10">
+        <text>
+            <![CDATA[Rack 1<br/>Estante 3]]>
+        </text>
+    </component>
+    <component id="ID_txt14">
+        <text>
+            <![CDATA[<b>Sala de servidores: hab 2158</b>]]></text>
+    </component>
+    <component id="ID_txt15">
+        <text>
+            <![CDATA[<b>Oficina de TI: hab 2159</b>]]></text>
+    </component>
+    <component id="ID_txt16">
+        <text>
+            <![CDATA[<b>Hab 2124</b>]]></text>
+    </component>
+    <component id="ID_txt17">
+        <text>
+            <![CDATA[<b>Clase 1: hab 2125</b>]]></text>
+    </component>
+    <component id="ID_txt18">
+        <text>
+            <![CDATA[<b>Clase 2: hab 2126</b>]]></text>
+    </component>
+    <component id="ID_txt19">
+        <text>
+            <![CDATA[<b>Clase 3: hab 2127</b>]]></text>
+    </component>
+    <component id="ID_s2_title">
+        <text>
+            <![CDATA[<b>Topología lógica</b>]]></text>
+    </component>
+    <component id="ID_txt01">
+        <text>
+            <![CDATA[<b>Internet</b>]]></text>
+    </component>
+    <component id="ID_txt02">
+        <text>
+            <![CDATA[Web Server<br/>Rack 2<br/>Estante 1]]>
+        </text>
+    </component>
+    <component id="ID_txt03">
+        <text>
+            <![CDATA[Email Server<br/>Rack 2<br/>Estante 2]]>
+        </text>
+    </component>
+    <component id="ID_txt04">
+        <text>
+            <![CDATA[File Server<br/>Rack 2<br/>Estante 3]]>
+        </text>
+    </component>
+    
+    
+    <component id="ID_txt24">
+        <text>
+            <![CDATA[<b>Red <br/>192.168.10.0</b>]]></text>
+    </component>
+    <component id="ID_txt25">
+        <text>
+            <![CDATA[<b>Red <br/>192.168.11.0</b>]]></text>
+    </component>
+    <component id="ID_txt26">
+        <text>
+            <![CDATA[<b>Red 192.168.100.0</b>]]></text>
+    </component>
+    <component id="ID_txt27">
+        <text>
+            <![CDATA[<b>Red 192.168.101.0</b>]]></text>
+    </component>
+    <component id="ID_txt28">
+        <text>
+            <![CDATA[<b>Red 192.168.102.0</b>]]></text>
+    </component>
+</textcomponents>

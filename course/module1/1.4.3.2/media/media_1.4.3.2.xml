@@ -1,0 +1,29 @@
+﻿<textcomponents>
+	<component id='ID_trans01'>
+		<text><![CDATA[ACCESS LIST]]></text>
+	</component>
+
+	<component id='ID_trans02'>
+		<text><![CDATA[LAN]]></text>
+	</component>
+
+	<component id='ID_trans03'>
+		<text><![CDATA[FIREWALL]]></text>
+	</component>
+
+	<component id='ID_trans04'>
+		<text><![CDATA[LAN]]></text>
+	</component>
+
+	<component id='ID_trans05'>
+		<text><![CDATA[ACL]]></text>
+	</component>
+
+	<component id='ID_trans06'>
+		<text><![CDATA[FIREWALL]]></text>
+	</component>
+
+	<component id='ID_trans07'>
+		<text><![CDATA[INTERNET]]></text>
+	</component>
+</textcomponents>

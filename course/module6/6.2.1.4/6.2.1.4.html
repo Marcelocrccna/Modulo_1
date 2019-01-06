@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.2.1.4 Tablas de routing de host</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.2.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Tablas de routing de host</h1>
+        <div>
+          <p>Para mostrar la tabla de routing de un host de Windows, se puede usar el comando <b>route print</b> o <b>netstat -r</b>. Ambos comandos generan el mismo resultado. El resultado puede ser un poco abrumador al principio, pero es bastante simple de comprender.</p>
+          <p>Al introducir el comando <b>netstat -r</b> o su comando equivalente <b>route print</b>, se muestran tres secciones relacionadas con las conexiones de red TCP/IP actuales:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Lista de interfaces:</b> Muestra una lista de las direcciones de control de acceso a los medios (MAC) y el número de interfaz asignado de cada interfaz con capacidad de conexión a red en el host, incluidos los adaptadores Ethernet, Wi-Fi y Bluetooth.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Tabla de rutas IPv4:</b> Es una lista de todas las rutas IPv4 conocidas, incluidas las conexiones directas, las redes locales y las rutas locales predeterminadas.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Tabla de rutas IPv6:</b> Es una lista de todas las rutas IPv6 conocidas, incluidas las conexiones directas, las redes locales y las rutas locales predeterminadas.</li>
+            </ul>
+          </p>
+         
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a network with the output of "netstat -r" command on a P.C.  This command shows the routing table for the PC.  The IPv4 routing table displays five columns: Network Destination, Netmask, Gateway, Interface and Metric.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

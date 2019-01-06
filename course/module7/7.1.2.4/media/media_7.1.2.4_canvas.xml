@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	 
+		<slide> 
+			<element type="IMAGE" x="0" y="0" width="1040" height="490" src="../../../common/images/page_backgrounds/bg_activity.jpg" />
+
+			<element type="TEXT" subType="TITLE" compId="txt_instructions" color="#FFFFFF"/>
+			<element type="TEXTBOX" titleId="ID_titleTxt01" bodyId="ID_bodyTxt01" x="40" y="65.55" width="250" height="300" animated="0" subType="ROLLOVER" />
+			<element type="IMAGE" src="media_7.1.2.4.png" x="0" y="0" width="1000" height="490" />
+			
+			 
+			<element type="TEXT" compId="txt_hostaddress" x="425.6" y="101" width="158.55" expand="up+down" align="left" size="11"/>
+			<element type="TEXT" compId="txt_subnetmask" x="425.6" y="128.3" width="158.55" expand="up+down" align="left" size="11"/>
+			<element type="TEXT" compId="txt_hostaddrbin" x="425.6" y="155.1" width="158.55" expand="up+down" align="left" size="11"/>
+			<element type="TEXT" compId="txt_subnetbin" x="425.6" y="181.3" width="158.55" expand="up+down" align="left" size="11"/>
+			<element type="TEXT" compId="txt_netbin" x="425.6" y="208.65" width="158.55" expand="up+down" align="left" size="11"/>
+			<element type="TEXT" compId="txt_netdec" x="425.6" y="236.35" width="158.55" expand="up+down" align="left" size="11"/>
+ 
+			<element type="TEXT" id="host1" x="589.55" y="101" width="69.3" align="center" />
+			<element type="TEXT" id="host2" x="663.4" y="101" width="69.3" align="center" />
+			<element type="TEXT" id="host3" x="737.35" y="101" width="69.3" align="center" />
+			<element type="TEXT" id="host4" x="810.6" y="101" width="69.3" align="center" />
+		
+			<element type="TEXT" id="subnet1" x="589.55" y="127.75" width="69.3" align="center" />
+			<element type="TEXT" id="subnet2" x="663.4" y="127.75" width="69.3" align="center" />
+			<element type="TEXT" id="subnet3" x="737.35" y="127.75" width="69.3" align="center" />
+			<element type="TEXT" id="subnet4" x="810.6" y="127.75" width="69.3" align="center" />
+			
+			<element type="TEXT" id="hostbin1" x="589.55" y="154.5" width="69.3" align="center" />
+			<element type="TEXT" id="hostbin2" x="663.4" y="154.5" width="69.3" align="center" />
+			<element type="TEXT" id="hostbin3" x="737.35" y="154.5" width="69.3" align="center" />
+			<element type="TEXT" id="hostbin4" x="810.6" y="154.5" width="69.3" align="center" />
+			
+			<element type="TEXT" id="subnetbin1" x="589.55" y="182.25" width="69.3" align="center" />
+			<element type="TEXT" id="subnetbin2" x="663.4" y="182.5" width="69.3" align="center" />
+			<element type="TEXT" id="subnetbin3" x="737.35" y="182.25" width="69.3" align="center" />
+			<element type="TEXT" id="subnetbin4" x="810.6" y="182.25" width="69.3" align="center" /> 
+		</slide>
+		 
+</data>

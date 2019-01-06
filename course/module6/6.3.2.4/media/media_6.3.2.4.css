@@ -1,0 +1,16 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+
+.aln{
+	color: #F68026;
+}
+
+
+#ID_op1{
+	color: #FFFFFF !important;
+	font-size:11px !important; 
+}

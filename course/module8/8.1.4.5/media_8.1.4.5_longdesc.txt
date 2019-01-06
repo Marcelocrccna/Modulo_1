@@ -1,0 +1,1 @@
+This is an interactive activity in which the learner determines the subnet mask when given the number of hosts needed. The subnet mask is entered in binary, dotted decimal, and prefix notation. There are five problems.

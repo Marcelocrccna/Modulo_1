@@ -1,0 +1,1 @@
+Figures 1 through 8 are a series of graphics highlighting the positional value of an octet starting with the highest order 128 bit in Figure 1 and ending with the lowest order 1 bit in Figure 8.

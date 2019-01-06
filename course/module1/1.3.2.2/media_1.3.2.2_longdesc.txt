@@ -1,0 +1,1 @@
+Figure shows redundant links between routers which allow for alternate paths providing fault tolerance.

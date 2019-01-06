@@ -1,0 +1,79 @@
+<textcomponents>
+    <!-- Slide 1 -->
+    <component id="ID_inst">
+        <text>
+            <![CDATA[Haga clic en Hardware, Kernel y Shell para obtener más información.]]>
+        </text>
+    </component>
+    <component id="ID_title">
+        <text>
+            <![CDATA[<b>Sistema operativo</b>]]></text>
+    </component>
+    <component id="ID_txt01">
+        <text>
+            <![CDATA[Shell]]>
+        </text>
+    </component>
+    <component id="ID_txt02">
+        <text>
+            <![CDATA[Kernel]]>
+        </text>
+    </component>
+    <component id="ID_txt03">
+        <text>
+            <![CDATA[Hardware]]>
+        </text>
+    </component>
+    <component id="ID_txt04">
+        <text>
+            <![CDATA[Interfaz <br>de usuario]]>
+        </text>
+    </component>
+    <component id="ID_titleTxt01">
+        <text>
+            <![CDATA[Shell]]>
+        </text>
+    </component>
+
+    <component id="ID_bodyTxt01">
+        <text>
+            <![CDATA[la interfaz del usuario que permite a los usuarios solicitar tareas específicas desde la computadora.<br>Estas solicitudes se pueden llevar a cabo a través de interfaces CLI o GUI.]]>
+        </text>
+    </component>
+    
+
+     <component id="ID_titleTxt02">
+        <text>
+            <![CDATA[Kernel]]>
+        </text>
+    </component>
+    <component id="ID_bodyTxt02">
+        <text>
+            <![CDATA[Establece la comunicación entre el hardware y el software de una computadora y administra el uso de los recursos de hardware para cumplir los requisitos del software.]]>
+        </text>
+    </component>
+
+     <component id="ID_titleTxt03">
+        <text>
+            <![CDATA[Hardware]]>
+        </text>
+    </component>
+    <component id="ID_bodyTxt03">
+        <text>
+            <![CDATA[la parte física de una computadora, incluida la electrónica subyacente.]]>
+        </text>
+    </component>
+    <!-- End Slide 1 -->
+    <!-- Slide 2 -->
+    <component id="ID_slide2_title">
+        <text>
+            <![CDATA[<b>Interfaz de línea de comandos (CLI)</b>]]></text>
+    </component>
+    <!-- End Slide 2 -->
+    <!-- Slide 3 -->
+    <component id="ID_slide3_title">
+        <text>
+            <![CDATA[<b>Interfaz gráfica de usuario</b>]]></text>
+    </component>
+    <!-- End Slide 3 -->
+</textcomponents>

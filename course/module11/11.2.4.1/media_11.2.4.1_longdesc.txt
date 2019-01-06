@@ -1,0 +1,1 @@
+The figure shows a PC connected to a network with three routers.  The second router has a laptop connected to it with a console cable. The administrator is logged in and is enter the auto secure command.

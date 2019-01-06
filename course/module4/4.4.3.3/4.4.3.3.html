@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.4.3.3 Métodos de control de acceso al medio</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.4.3.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Métodos de control de acceso al medio</h1>
+        <div>
+          <p>Algunas topologías de red comparten un medio común con varios nodos. Estas se denominan redes de acceso múltiple. Las LAN Ethernet y WLAN son un ejemplo de una red de accesos múltiples. En cualquier momento puede haber una cantidad de dispositivos que intentan enviar y recibir datos utilizando los mismos medios de red.</p>
+          <p>Algunas redes de acceso múltiple requieren reglas que rijan la forma de compartir los medios físicos. Hay dos métodos básicos de control de acceso al medio para medios compartidos: </p>
+          <p>
+            <ul>
+              <li>
+                <b>Acceso por contención:</b> todos los nodos en half-duplex compiten por el uso del medio, pero solo un dispositivo puede enviar a la vez. Sin embargo, existe un proceso en caso de que más de un dispositivo transmita al mismo tiempo. Las LAN Ethernet que utilizan concentradores y las WLAN son un ejemplo de este tipo de control de acceso.  En la figura 1, se muestra el acceso por contención.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Acceso controlado:</b> cada nodo tiene su propio tiempo para utilizar el medio.  Estos tipos deterministas de redes no son eficientes porque un dispositivo debe aguardar su turno para acceder al medio. Las LAN de Token Ring antiguo son un ejemplo de este tipo de control de acceso. En la figura 2, se muestra el acceso controlado. </li>
+            </ul>
+          </p>
+          <p>De forma predeterminada, los switches Ethernet funcionan en el modo de dúplex completo. Esto permite que el switch y el dispositivo conectado a dúplex completo envíen y reciban simultáneamente. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows three computers connected to the same media.  Each has a call out displaying "I try to send when I am ready". Figure 2 shows four computers connected to a ring topology. One says "My turn to send". All the others say “Not my turn yet".</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

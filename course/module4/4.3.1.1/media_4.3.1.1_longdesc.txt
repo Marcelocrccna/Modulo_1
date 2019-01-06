@@ -1,0 +1,1 @@
+Figure 1 shows a user at a computer.  Below is the OSI model with layer two highlighted.  There is a line, representing a connection, going from the user to a router connected to the Internet. Figure 2 shows a PC adding layer 2 source and destination addresses to a frame.

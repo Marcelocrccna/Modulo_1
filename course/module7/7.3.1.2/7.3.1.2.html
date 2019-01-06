@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.3.1.2 Mensajes de solicitud y de anuncio de router de ICMPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.3.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Mensajes de solicitud y de anuncio de router de ICMPv6</h1>
+        <div>
+          <p>Los mensajes informativos y de error que se encuentran en ICMPv6 son muy similares a los mensajes de control y de error que implementa ICMPv4. Sin embargo, ICMPv6 tiene nuevas características y funcionalidad mejorada que no se encuentran en ICMPv4. Los mensajes ICMPv6 están encapsulados en IPv6.</p>
+          <p>ICMPv6 incluye cuatro protocolos nuevos como parte del protocolo de detección de vecino (ND o NDP). </p>
+          <p>Mensajería entre un router IPv6 y un dispositivos IPv6: </p>
+          <p>
+            <ul>
+              <li>Mensaje de solicitud de router (RS)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Mensaje de anuncio de router (RA)</li>
+            </ul>
+          </p>
+          <p>Mensajería entre dispositivos IPv6: </p>
+          <p>
+            <ul>
+              <li>Mensaje de solicitud de vecino (NS)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Mensaje de anuncio de vecino (NA)</li>
+            </ul>
+          </p>
+          <p>
+            <b>Nota</b>: El ND de ICMPv6 también incluye el mensaje de redireccionamiento, que tiene una función similar al mensaje de redireccionamiento utilizado en ICMPv4.</p>
+          <p>En la figura 1, se muestra un ejemplo de una PC y un router que intercambian mensajes de anuncio de router y de solicitud. Haga clic en cada mensaje para obtener más información.</p>
+          <p>Los mensajes de solicitud y anuncio de vecino se usan para la resolución de direcciones y para la detección de direcciones duplicadas (DAD).</p>
+          <p>
+            <b>Resolución de direcciones</b>
+          </p>
+          <p>La resolución de direcciones se utiliza cuando un dispositivo en la LAN conoce la dirección IPv6 de unidifusión de un destino, pero no conoce la dirección MAC de Ethernet. Para determinar la dirección MAC del destino, el dispositivo envía un mensaje de NS a la dirección de nodo solicitado. El mensaje incluye la dirección IPv6 conocida (objetivo). El dispositivo que se destinó a la dirección IPv6 responde con un mensaje NA que contiene la dirección MAC de Ethernet. En la figura 2, se muestran dos PC que intercambian mensajes de NS y NA. Haga clic en cada mensaje para obtener más información.</p>
+          <p>
+            <b>Detección de direcciones duplicadas </b>
+          </p>
+          <p>Cuando se asigna una dirección de unidifusión global o link-local a un dispositivo, se recomienda realizar una operación DAD en la dirección para garantizar que sea única. Para verificar la singularidad de una dirección, el dispositivo envía un mensaje de NS con su propia dirección IPv6 como dirección IPv6 de destino, como se muestra en la figura 3. Si otro dispositivo de la red tiene esta dirección, responde con un mensaje NA. Este mensaje NA notifica al dispositivo emisor que la dirección está en uso. Si no se devuelve un mensaje NA correspondiente dentro de determinado período, la dirección de unidifusión es única y su uso es aceptable.</p>
+          <p>
+            <b>Nota:</b> no es necesaria la operación DAD, pero la RFC 4861 recomienda que se realice una DAD en las direcciones de unidifusión.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a PC is booting and sends out an RS requesting an RA. The router is sending out RAs every 200 seconds. Clicking the two message types opens a textbox with more information. In Figure 2, one PC knows the IPv6 address of another PC but does not know the MAC address. It sends out a NS message, which is a solicited-node multicast. The PC replies with an NS unicast message. Figure 3 shows the DAD process with one PC using a solicited-node multicast to make sure other PCs are not currently using the IPv6 address that the PC wants to use.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

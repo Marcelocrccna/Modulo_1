@@ -1,0 +1,1 @@
+Figure shows a pie chart. Class A addresses are 50%. Class B addresses are 25%. Class C addresses are 12.5%. And Class D and E make up the remaining 12.5%.

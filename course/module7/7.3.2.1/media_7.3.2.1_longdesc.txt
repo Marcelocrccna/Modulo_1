@@ -1,0 +1,1 @@
+The figure shows the command line utility to test the local TCP/IP stack on a computer running IPv4.  The command is ping 127.0.0.1.

@@ -1,0 +1,1 @@
+Figure shows different sizes and configurations for networks.  The first is a small home network. The second is a small office home office, or SOHO.  The third is a medium to large networks in an office building. The fourth is world wide networks.

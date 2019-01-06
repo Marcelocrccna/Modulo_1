@@ -1,0 +1,18 @@
+<textcomponents>
+
+	<component id='ID_title'>
+	<text><![CDATA[Network Media]]></text>
+</component>
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Cobre]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Fibra óptica]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Tecnología inalámbrica]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[<ul><textformat blockindent='-18'><li>¿Cuál es la distancia máxima en la que el medio puede transportar una señal exitosamente?</li><br/><li>¿En qué tipo de entorno se instalará el medio?</li><br/><li>¿Cuál es la cantidad de datos y la velocidad a la que se deben transmitir?</li><br/><li>¿Cuál es el costo del medio y de la instalación?</li><br/></textformat></ul>]]></text>
+	</component>
+</textcomponents>

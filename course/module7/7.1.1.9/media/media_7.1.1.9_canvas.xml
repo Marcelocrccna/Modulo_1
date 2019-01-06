@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+		<element type="IMAGE" x="0" y="0" width="1000" height="490" src="../../../common/images/page_backgrounds/bg_fullsize.jpg" />
+<element type="IMAGE" src="media_7.1.1.9.png" width="1000" height="490" x="0" y="0" />
+<element type="TEXT" compId="ID_txt01" x="368" y="159" width="442.35" expand="up+down" align="left" size="13" color="#67eb2" />
+<element type="TEXT" compId="ID_txt02" x="370" y="190" width="442.35" expand="down" align="left" />
+	</slide>
+</data>

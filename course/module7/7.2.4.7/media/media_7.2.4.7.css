@@ -1,0 +1,10 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_static_1{
+	font-family:"Courier New", Courier, monospace
+}
+#ID_router_txt1{
+	color: #FFFFFF !important;
+}

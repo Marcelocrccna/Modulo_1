@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.3.1.6 Interfaces WAN y LAN</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.3.1.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Interfaces WAN y LAN</h1>
+        <div>
+          <p>Las conexiones de un router Cisco pueden agruparse en dos categorías: Interfaces de router en banda y puertos de administración. Haga clic en las áreas resaltadas en la figura 1 para obtener más información.</p>
+          <p>De manera similar a lo que sucede con un switch Cisco, existen diversas formas de acceder al modo EXEC del usuario en el entorno CLI de un router Cisco. Las más habituales son las siguientes:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Consola:</b> Este es un puerto de administración físico que proporciona acceso fuera de banda a un dispositivo de Cisco. El acceso fuera de banda hace referencia al acceso por un canal de administración exclusivo que se usa únicamente con fines de mantenimiento del dispositivo.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Shell seguro (SSH):</b> SSH es un método para establecer de manera remota una conexión CLI segura a través de una interfaz virtual por medio de una red. A diferencia de las conexiones de consola, las conexiones SSH requieren servicios de red activos en el dispositivo, incluida una interfaz activa configurada con una dirección. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Telnet:</b> Telnet es un método inseguro para establecer una sesión CLI de manera remota a través de una interfaz virtual por medio de una red. A diferencia de las conexiones SSH, Telnet no proporciona una conexión cifrada de manera segura. La autenticación de usuario, las contraseñas y los comandos se envían por la red en texto no cifrado. </li>
+            </ul>
+          </p>
+          <p>
+            <b>Nota:</b> Algunos dispositivos, como los routers, también pueden admitir un puerto auxiliar antiguo que se haya utilizado para establecer una sesión CLI vía remota con un módem. De manera similar a la conexión de consola, el puerto auxiliar está fuera de banda y no se requieren servicios de red para configurarlo o para que esté disponible.</p>
+          <p>Telnet y SSH necesitan una conexión de red en banda, lo que significa que un administrador debe acceder al router a través de una de las interfaces de la red LAN o WAN. Haga clic en las áreas resaltadas en la figura 2 para obtener más información. </p>
+          <p>Las interfaces en banda reciben y envían paquetes IP. Cada interfaz configurada y activa en el router es un miembro o host de una red IP diferente. Se debe configurar cada interfaz con una dirección IPv4 y una máscara de subred de una red diferente. Cisco IOS no permite que dos interfaces activas en el mismo router pertenezcan a la misma red.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the backplane of a 1941 router. Connections and ports highlighted include the management ports and interfaces. Clicking each provides more information. Figure 2 shows the backplane of a 1941 router. Connections and ports highlighted include the serial interfaces (HWICs) and the Gigabit Ethernet interfaces as examples of inband interfaces. Click each provides more information.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

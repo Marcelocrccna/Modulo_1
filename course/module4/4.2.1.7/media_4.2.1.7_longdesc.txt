@@ -1,0 +1,1 @@
+Figure is an interactive activity in which the user matches properties with their cable type.

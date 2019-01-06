@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.1.2.2 Encabezado TCP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.1.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Encabezado TCP</h1>
+        <div>
+          <p>TCP es un protocolo con información de estado. Un protocolo con información de estado es un protocolo que realiza el seguimiento del estado de la sesión de comunicación. Para hacer un seguimiento del estado de una sesión, TCP registra qué información se envió y qué información se reconoció. La sesión con estado comienza con el establecimiento de sesión y finaliza cuando se cierra en la terminación de sesión.</p>
+          <p>Como se muestra en la figura, cada segmento TCP tiene 20 bytes de sobrecarga en el encabezado que encapsula los datos de la capa de aplicación:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Puerto de origen (16 bits) y puerto de destino (16 bits) </b>: se utilizan para identificar la aplicación.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Número de secuencia (32 bits)</b>: se utiliza para rearmar los datos.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Número de reconocimiento (32 bits)</b>: indica los datos que se recibieron.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Longitud del encabezado (4 bits)</b>: conocido como “desplazamiento de datos”. Indica la longitud del encabezado del segmento TCP.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Reservado (6 bits)</b>: este campo está reservado para el futuro.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Bits de control (6 bits)</b>: incluye códigos de bit, o marcadores, que indican el propósito y la función del segmento TCP.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Tamaño de la ventana (16 bits)</b>: indica la cantidad de bytes que se puedan aceptar por vez.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Checksum (16 bits)</b>: se utiliza para la verificación de errores en el encabezado y los datos del segmento.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Urgente (16 bits)</b>: indica si la información es urgente.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the fields of the TCP header including source and destination ports, sequence number, acknowledgment number, header length, and window size.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

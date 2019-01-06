@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.3.5 Transmisión de difusión</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.3.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Transmisión de difusión</h1>
+        <div>
+          <p>El tráfico de difusión se utiliza para enviar paquetes a todos los hosts en la red con la dirección de difusión para la red. En una difusión, el paquete contiene una dirección IPv4 de destino con todos los números uno (1) en la porción de host. Esto significa que todos los hosts de esa red local (dominio de difusión) reciben y ven el paquete. En gran parte de la tecnología impulsada por la red, como DHCP, se utilizan transmisiones por difusión. Cuando un host recibe un paquete enviado a la dirección de difusión de la red, el host procesa el paquete de la misma manera en la que procesaría un paquete dirigido a su dirección de unidifusión. </p>
+          <p>La difusión puede ser dirigida o limitada. Una difusión dirigida se envía a todos los hosts de una red específica. Por ejemplo, un host de la red 172.16.4.0/24 envía un paquete a la dirección 172.16.4.255. Se envía una difusión limitada a 255.255.255.255. De manera predeterminada, los routers no reenvían transmisiones por difusión. </p>
+          <p>A modo de ejemplo, un host dentro de la red 172.16.4.0/24 transmitiría por difusión a todos los hosts de su red utilizando un paquete con una dirección de destino 255.255.255.255.</p>
+          <p>Reproduzca la animación para ver un ejemplo de transmisión de difusión limitada.</p>
+          <p>Cuando se transmite un paquete por difusión, utiliza recursos de la red y hace que cada host receptor de la red procese el paquete. Por lo tanto, se debe limitar el tráfico de difusión para que no afecte negativamente el rendimiento de la red o de los dispositivos. Debido a que los routers separan los dominios de difusión, la subdivisión de redes puede mejorar el rendimiento de la red al eliminar el exceso de tráfico de difusión.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure is an animation showing a broadcast transmission.  A PC with the IP address 172.16.4.1 is sending a broadcast message to all the other devices.  The switch receives the frame and sends it out all other ports except for the port from which it received the frame. .</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

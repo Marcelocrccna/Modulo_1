@@ -1,0 +1,1 @@
+Figure shows the three categories of network components.  The devices shown are a switch, an IP phone, a computer, and a server.  The media button highlights all of the cabling.  The Services button are software running on a computer and the processes and software that run on a network switch.

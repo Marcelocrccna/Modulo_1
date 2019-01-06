@@ -1,0 +1,8 @@
+<textcomponents>
+	<component id="ID_title">
+	<text><![CDATA[<b>El comando <font face="_typewriter"><b>ipconfig</b></font></b>]]></text>
+	</component>
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[&lt;output omitted&gt;]]></text>
+	</component>
+</textcomponents>

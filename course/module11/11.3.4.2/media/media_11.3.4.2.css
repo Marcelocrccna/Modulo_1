@@ -1,0 +1,19 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+
+/*
+#ID_title{
+	left: -130px !important;
+	font-size: 14px !important;
+}
+
+@media only screen and (device-width: 768px) {
+    #ID_router_txt1{
+        letter-spacing:-0.2px !important;
+    }
+}
+*/

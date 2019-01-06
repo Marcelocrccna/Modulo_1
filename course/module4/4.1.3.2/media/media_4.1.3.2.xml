@@ -1,0 +1,52 @@
+﻿<textcomponents>
+    <component id="ID_table">
+        <text>
+            <![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+ 
+             <tr class="mtable_top">
+                <td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='200px'><font color='#FFFFFF'><b>Unidad de ancho de banda</b></font></td>
+                <td bgcolor='#666263' width='130px'><font color='#FFFFFF'><b>Abreviatura</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>Equivalencia</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>Bits por segundo</td>
+                <td bgcolor='#E9E7E8'>bps/s</td>
+                <td bgcolor='#E9E7E8'>1 bps = unidad fundamental de ancho de banda</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>Kilobits por segundo</td>
+                <td bgcolor='#F2F2F2'>kbps/s</td>
+                <td bgcolor='#F2F2F2'>1 kbps = 1000 bps = 10^3 bps</td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'>Megabits por segundo</td>
+                <td bgcolor='#E9E7E8'>Mbps</td>
+                <td bgcolor='#E9E7E8'>1 Mbps = 1 000 000 bps = 10^6 bps</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>Gigabits por segundo</td>
+                <td bgcolor='#F2F2F2'>Gbps</td>
+                <td bgcolor='#F2F2F2'>1 Gbps = 1 000 000 000 bps = 10^9 bps</td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'>Terabits por segundo</td>
+                <td bgcolor='#E9E7E8'>Tbps</td>
+                <td bgcolor='#E9E7E8'>1 Tbps = 1 000 000 000 000 bps = 10^12 bps</td>
+            </tr>
+ 
+            
+            
+        </table>]]>
+        </text>
+    </component>
+</textcomponents>

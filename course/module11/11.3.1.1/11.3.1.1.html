@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.3.1.1 Interpretación de los resultados de ping</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.3.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Interpretación de los resultados de ping</h1>
+        <div>
+          <p>El comando <b>ping</b> es una manera eficaz de probar la conectividad. El comando <b>ping</b> utiliza el protocolo de mensajes de control de Internet (ICMP) y verifica la conectividad de la capa 3. El comando <b>ping</b> no siempre identifica la naturaleza de un problema, pero puede contribuir a identificar su origen, un primer paso importante en la resolución de problemas de una falla de red.</p>
+          <p></p>
+          <p>
+            <b>Indicadores de ping IOS</b>
+          </p>
+          <p></p>
+          <p>Un ping emitido desde el IOS tiene como resultado una de varias indicaciones para cada solicitud de eco ICMP que se envió. Los indicadores más comunes son los siguientes:</p>
+          <p>
+            <ul>
+              <li>
+                <b>!</b> - indica la recepción de un mensaje de respuesta de eco ICMP, como se muestra en la figura 1.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>.</b> : indica que se agotó el tiempo mientras se esperaba un mensaje de respuesta de eco ICMP.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>U</b>: se recibió un mensaje ICMP inalcanzable. </li>
+            </ul>
+          </p>
+          <p>El "<b>.</b>" (punto) puede señalar que se produjo un problema de conectividad en alguna parte de la ruta. También puede indicar que un router de la ruta no contaba con una ruta hacia el destino y no envió un mensaje de ICMP de destino inalcanzable. También puede señalar que el ping fue bloqueado por la seguridad del dispositivo. Cuando se envía un ping en una LAN Ethernet, es habitual que se agote el tiempo de espera del primer pedido de eco si se requiere el proceso ARP.</p>
+          <p>La "<b>U</b>" indica que un router a lo largo de la ruta respondió con un mensaje ICMP inalcanzable. O bien el router no contaba con una ruta hacia la dirección de destino o se bloqueó la solicitud de ping.  </p>
+          <p>
+            <b>Prueba de loopback</b>
+          </p>
+          <p>El comando ping también se puede utilizar para verificar la configuración de IP interna en el host local al hacer ping a la dirección de loopback, 127.0.0.1, como se muestra en la figura 2. Esto verifica que el stack de protocolos funcione correctamente desde la capa de red hasta la capa física y viceversa, sin colocar realmente una señal en los medios.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figures 1 and 2 show the same topology. R1 and R2 are connected through a WAN link. Each router has two LANs with a PC and a switch connected to each LAN. In Figure 1, output is shown for a successful ping from R1 to R2. In Figure 2, output is shown for a successful ping from PC2 to its loopback address, 127.0.0.1.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

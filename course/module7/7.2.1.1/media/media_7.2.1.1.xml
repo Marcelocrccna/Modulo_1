@@ -1,0 +1,26 @@
+<textcomponents>
+
+  <component id="ID_title">
+     <text><![CDATA[<b>Fechas de agotamiento de las direcciones IPv4 de RIR</b>]]></text>
+  </component>
+  <component id="transcript">
+     <text><![CDATA[<b>transcript goes here</b>]]></text> 
+  </component>
+
+  <component id="ID_txt01">
+  	<text><![CDATA[<b>Fecha de agotamiento de IPv4: julio de 2015</b>]]></text>
+  </component>
+  <component id="ID_txt02">
+  	<text><![CDATA[<b>Fecha de agotamiento de IPv4: septiembre de 2012</b>]]></text>
+  </component>
+  <component id="ID_txt03">
+  	<text><![CDATA[<b>Fecha de agotamiento de IPv4: abril de 2011</b>]]></text>
+  </component>
+  <component id="ID_txt04">
+  	<text><![CDATA[<b>Fecha prevista de agotamiento de IPv4: 2019</b>]]></text>
+  </component>
+  <component id="ID_txt05">
+  	<text><![CDATA[<b>Fecha de agotamiento de IPv4: junio de 2014</b>]]></text>
+  </component>
+  
+</textcomponents>

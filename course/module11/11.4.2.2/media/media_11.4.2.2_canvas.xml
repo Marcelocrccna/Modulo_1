@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+         <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_11.4.2.2.png" />
+        <element type="TEXT" compId="ID_txt01" x="222" y="167" width="101" expand="down" align="center" class="orangeCallOut" />
+        <element type="TEXT" compId="ID_txt02" x="367" y="167" width="101" expand="down" align="center" class="orangeCallOut" />
+        <element type="TEXT" id="ID_static_1" text="Fa0/5" x="253" y="96" align="center" width="29" />
+        <element type="TEXT" id="ID_static_2" text="G0/0" x="416" y="96" align="center" width="26" />
+        <element type="TEXT" subType="TITLE" compId="ID_s1_title" />
+        <slide>
+            <element type="ROUTER" textId="ID_router_txt1" x="40" y="235" width="600" height="190" />
+            <!--<text id="ID_router_txt1"><![CDATA[<pre>S1# *Mar 1 01:01:03.858: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0/5 (not half duplex), with R1 GigabitEthernet0/0 (half duplex). *Mar 1 01:01:04.856: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0/5 (not half duplex), with R1 GigabitEthernet0/0 (half duplex). *Mar 1 01:01:05.855: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0/5 (not half duplex), with R1 GigabitEthernet0/0 (half duplex). S1#</pre>]]></text>-->
+        </slide>
+        <slide>
+            <element type="ROUTER" textId="ID_router_txt2" x="40" y="235" width="600" height="190" />
+            <!--<text id="ID_router_txt2"><![CDATA[<pre>S1# show interfaces fastethernet 0/5 FastEthernet0/5 is up, line protocol is up (connected) Hardware is Fast Ethernet, address is 0cd9.96e2.3d05 (bia 0cd9.96e2.3d05) MTU 1500 bytes, BW 100000 Kbit/sec, DLY 100 usec, reliability 255/255, txload 1/255, rxload 1/255 Encapsulation ARPA, loopback not set Keepalive set (10 sec) Full-duplex, Auto-speed, media type is 10/100BaseTX input flow-control is off, output flow-control is unsupported </pre>]]></text>-->
+            <element type="TEXT" compId="ID_s2_txt01" x="50" y="368" width="151" expand="right" align="left" color="#ffffff" />
+        </slide>
+        <slide>
+            <element type="ROUTER" textId="ID_router_txt3" x="40" y="235" width="600" height="190" />
+            <!--<text id="ID_router_txt3"><![CDATA[<pre>R1# show interfaces gigabitethernet 0/0 GigabitEthernet0/0 is up, line protocol is up Hardware is CN Gigabit Ethernet, address is fc99.4775.c3e0 (bia fc99.4775.c3e0) Internet address is 10.0.0.1/24 MTU 1500 bytes, BW 100000 Kbit/sec, DLY 100 usec, reliability 255/255, txload 1/255, rxload 1/255 Encapsulation ARPA, loopback not set Keepalive set (10 sec) Half Duplex, 100Mbps, media type is RJ45 output flow-control is unsupported, input flow-control is unsupported</pre>]]></text>-->
+            <element type="TEXT" compId="ID_s3_txt01" x="50" y="396" width="151" expand="right" align="left" color="#ffffff" />
+        </slide>
+        <text id="ID_router_txt1">
+            <![CDATA[<pre>S1#
+*Mar  1 01:01:03.858: %CDP-4-<span style="color:#F68026"><b>DUPLEX_MISMATCH</b></span>: duplex mismatch discovered <span style="color:#F68026"><b>on<br/>FastEthernet0/5 (not half duplex), with R1 GigabitEthernet0/0 (half duplex).</b></span>
+*Mar  1 01:01:04.856: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on
+FastEthernet0/5 (not half duplex), with R1 GigabitEthernet0/0 (half duplex).
+*Mar  1 01:01:05.855: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on
+FastEthernet0/5 (not half duplex), with R1 GigabitEthernet0/0 (half duplex).
+S1#
+</pre>]]></text>
+
+
+      
+        <text id="ID_router_txt2">
+            <![CDATA[<pre>S1# <b>show interfaces fastethernet 0/5</b>
+FastEthernet0/5 is up, line protocol is up (connected) 
+ Hardware is Fast Ethernet, address is 0cd9.96e2.3d05 (bia 0cd9.96e2.3d05)
+  MTU 1500 bytes, BW 100000 Kbit/sec, DLY 100 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  <span style="color:#F68026"><b>Full-duplex, Auto-speed, media type is 10/100BaseTX</b></span>
+  input flow-control is off, output flow-control is unsupported</pre>]]></text>
+ 
+
+        <text id="ID_router_txt3">
+            <![CDATA[<pre>R1# <b>show interfaces gigabitethernet 0/0</b>
+GigabitEthernet0/0 is up, line protocol is up 
+  Hardware is CN Gigabit Ethernet, address is fc99.4775.c3e0 (bia
+   fc99.4775.c3e0)
+  Internet address is 10.0.0.1/24
+  MTU 1500 bytes, BW 100000 Kbit/sec, DLY 100 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  <span style="color:#F68026"><b>Half Duplex, 100Mbps, media type is RJ45</b></span>
+  output flow-control is unsupported, input flow-control is unsupported</pre>]]></text>
+    
+    </slide>
+</data>

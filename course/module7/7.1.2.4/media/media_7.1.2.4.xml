@@ -1,0 +1,59 @@
+﻿<textcomponents>
+	<component id="txt_instructions">
+		<text><![CDATA[<b>Actividad: Uso de la operación AND para determinar la dirección de red</b>]]></text>
+	</component>
+<component id="ID_titleTxt01">
+    <text><![CDATA[Instrucciones]]></text>
+  </component>
+  <component id="ID_bodyTxt01">
+    <text><![CDATA[Utilice la operación AND para determinar la dirección de red (en formatos binario y decimal).]]></text>
+  </component>
+
+
+
+	<component id="txt_incorrect">
+		<text><![CDATA[<b>Incorrecto</b>]]></text>
+	</component>
+	<component id="txt_correct">
+		<text><![CDATA[<b>Correcto</b>]]></text>
+	</component>
+	<component id="txt_correct_body">
+		<text><![CDATA[Las versiones binarias y decimales de la dirección de red son correctas. Haga clic en Nuevo número para continuar.]]></text>
+	</component>
+	<component id="txt_incorrect_decimal">
+		<text><![CDATA[Las versiones binarias o decimales de la dirección de red son incorrectas. Vuelva a intentarlo.]]></text>
+	</component>
+	<component id="txt_incorrect_binary">
+		<text><![CDATA[Las versiones binarias o decimales de la dirección de red son incorrectas. Vuelva a intentarlo.]]></text>
+	</component>
+	<component id="txt_incorrect_all">
+		<text><![CDATA[Las versiones binarias o decimales de la dirección de red son incorrectas. Vuelva a intentarlo.]]></text>
+	</component>
+	<component id="txt_hostaddress">
+		<text><![CDATA[Dirección de host]]></text>
+	</component>
+	<component id="txt_subnetmask">
+		<text><![CDATA[Máscara de subred]]></text>
+	</component>
+	<component id="txt_hostaddrbin">
+		<text><![CDATA[Dirección de host en formato binario]]></text>
+	</component>
+	<component id="txt_subnetbin">
+		<text><![CDATA[Máscara de subred en formato binario]]></text>
+	</component>
+	<component id="txt_netbin">
+		<text><![CDATA[Dirección de red en formato binario]]></text>
+	</component>
+	<component id="txt_netdec">
+		<text><![CDATA[Dirección de red en formato decimal]]></text>
+	</component>
+	<component id="txt_check">
+		<text><![CDATA[Verificar]]></text>
+	</component>
+	<component id="txt_reset">
+		<text><![CDATA[Restablecer]]></text>
+	</component>
+	<component id="txt_newnumber">
+		<text><![CDATA[Nuevo número]]></text>
+	</component>
+</textcomponents>

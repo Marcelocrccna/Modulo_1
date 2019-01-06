@@ -1,0 +1,10 @@
+<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[Práctica de laboratorio ]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[Armado de una red de switch y router]]></text>
+	</component>
+	
+</textcomponents>

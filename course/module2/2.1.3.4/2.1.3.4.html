@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.1.3.4 Navegación entre los modos de IOS</title>
+    <!-- Activity / Other / Flash PnC -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.1.3.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Navegación entre los modos de IOS</h1>
+        <div>
+          <p>Se utilizan varios comandos para pasar dentro o fuera de los comandos de petición de entrada. Para pasar del modo EXEC del usuario al modo EXEC privilegiado, ingrese el comando <b>enable</b>. Utilice el comando <b>disable</b> del modo EXEC privilegiado para regresar al modo EXEC del usuario.</p>
+          <p></p>
+          <p>
+            <b>Nota</b>: El modo EXEC privilegiado se suele llamar <i>modo enable</i>. </p>
+          <p></p>
+          <p>Para pasar dentro y fuera del modo de configuración global, utilice el comando <b>configure terminal</b> del modo EXEC privilegiado. Para regresar al modo EXEC privilegiado, introduzca el comando <b>exit</b> en el modo de configuración global. </p>
+          <p></p>
+          <p>Existen diversos tipos de modos de subconfiguración. Por ejemplo, para introducir un modo de subconfiguración, debe utilizar el comando <b>line</b> seguido del número y tipo de línea de administración al que desea acceder. Para salir de un modo de subconfiguración y volver al modo de configuración global, utilice el comando <b>exit</b>. Observe los cambios en el comando de petición de entrada.</p>
+          <p></p>
+          <p>
+            <span class="cmd">Switch(config)# </span>
+            <span class="cmd">
+              <b>line console 0</b>
+            </span>
+          </p>
+          <p>
+            <span class="cmd">Switch(config-line)#</span>
+          </p>
+          <p></p>
+          <p>Para pasar de cualquier modo de subconfiguración del modo de configuración global al modo que se encuentra un nivel más arriba en la jerarquía de modos, introduzca el comando exit. </p>
+          <p></p>
+          <p>
+            <span class="cmd">Switch(config-line)# </span>
+            <span class="cmd">
+              <b>exit</b>
+            </span>
+          </p>
+          <p>
+            <span class="cmd">Switch(config)#</span>
+          </p>
+          <p></p>
+          <p>Para pasar de cualquier modo de subconfiguración al modo EXEC privilegiado, introduzca el comando <b>end</b> o presione la combinación de teclas <b>Ctrl+Z</b>.</p>
+          <p></p>
+          <p>
+            <span class="cmd">Switch(config-line)# </span>
+            <span class="cmd">
+              <b>end</b>
+            </span>
+          </p>
+          <p>
+            <span class="cmd">Switch#</span>
+          </p>
+          <p></p>
+          <p>Puede trasladarse directamente desde un modo de subconfiguración a otro. Observe cómo después del nombre del dispositivo de red, el comando de petición de entrada cambia de (config-line)# a (config-if)#.</p>
+          <p></p>
+          <p>
+            <span class="cmd">Switch(config-line)# </span>
+            <span class="cmd">
+              <b>interface FastEthernet 0/1</b>
+            </span>
+          </p>
+          <p>
+            <span class="cmd">Switch(config-if)#</span>
+          </p>
+          <p></p>
+          <p>Haga clic en el botón Reproducir en la figura para ver una demostración en vídeo de la navegación entre los distintos modos de la CLI de IOS.</p>
+          <p></p>
+          <p>Haga clic <a href="../../files/2.1.3.4%20Video%20-%20Navigating%20Between%20IOS%20Modes.pdf" target="_blank">aquí</a> para leer la transcripción de este vídeo.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" src="media/index.html" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a video with the title "Navigating Between IOS Modes".</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

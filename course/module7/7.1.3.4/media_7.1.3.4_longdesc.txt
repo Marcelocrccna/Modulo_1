@@ -1,0 +1,1 @@
+Figure is an animation showing a unicast transmission.  A PC with the IP address 172.16.4.1 needs to send a packet to a network printer at 172.16.4.253.  The packet is sent to a switch and then the packet is forwarded only to the printer.

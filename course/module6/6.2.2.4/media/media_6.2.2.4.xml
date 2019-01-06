@@ -1,0 +1,44 @@
+<textcomponents>
+ <component id="ID_title">
+    <text><![CDATA[<b>Comprensión de las entradas de rutas locales</b>]]></text>
+  </component>
+ 
+
+	 <component id="ID_txt02">
+    <text><![CDATA[- Identifica de qué manera el router detectó la red.]]></text>
+  </component>
+ 
+ 
+ 
+	<component id="ID_txt03">
+    <text><![CDATA[- Identifica la red de destino y cómo está conectada.]]></text>
+  </component>
+	
+	<component id="ID_txt04">
+    <text><![CDATA[- Identifica la interfaz a través de la que los routers llegan a la red de destino.]]></text>
+  </component>
+    
+    <component id="ID_titleTxt01">
+        <text><![CDATA[Origen de la ruta]]></text>
+    </component>
+    
+    <component id="ID_bodyTxt01">
+        <text><![CDATA[Identifica de qué manera el router detectó la red.]]></text>
+    </component>
+    
+    <component id="ID_titleTxt02">
+        <text><![CDATA[Red de destino]]></text>
+    </component>
+    
+    <component id="ID_bodyTxt02">
+        <text><![CDATA[Identifica la red de destino y cómo se detectó.]]></text>
+    </component>
+    
+    <component id="ID_titleTxt03">
+        <text><![CDATA[Interfaz de salida]]></text>
+    </component>
+    
+    <component id="ID_bodyTxt03">
+        <text><![CDATA[Identifica la interfaz de salida que se debe utilizar para reenviar un paquete hacia el destino final.]]></text>
+    </component>
+</textcomponents>

@@ -1,0 +1,10 @@
+﻿<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[Práctica de laboratorio]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[Análisis de Telnet y SSH en Wireshark]]></text>
+	</component>
+	
+</textcomponents>

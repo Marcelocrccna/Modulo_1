@@ -1,0 +1,91 @@
+﻿<textcomponents>
+    <!--Slide 1-->
+    <component id='ID_inst'>
+        <text>
+            <![CDATA[<b>Actividad: El proceso de arranque del router</b>]]></text>
+    </component>
+    <component id='ID_s1_instr_title'>
+        <text>
+            <![CDATA[Instrucciones]]>
+        </text>
+    </component>
+    <component id='ID_s1_instr_body'>
+        <text>
+            <![CDATA[Arrastre cada uno de los pasos de la izquierda al campo apropiado en la tabla de la derecha para ver el orden del proceso de arranque del router.]]>
+        </text>
+    </component>
+    <component id='ID_header01'>
+        <text>
+            <![CDATA[<b>El proceso de arranque del router</b>]]></text>
+    </component>
+    <component id='ID_txt01'>
+        <text>
+            <![CDATA[Paso 1]]>
+        </text>
+    </component>
+    <component id='ID_txt02'>
+        <text>
+            <![CDATA[Paso 2]]>
+        </text>
+    </component>
+    <component id='ID_txt03'>
+        <text>
+            <![CDATA[Paso 3]]>
+        </text>
+    </component>
+    <component id='ID_txt04'>
+        <text>
+            <![CDATA[Paso 4]]>
+        </text>
+    </component>
+    <!--Drag and Drop -->
+    <component id='ID_a01_DS'>
+        <text>
+            <![CDATA[<font color="#393536">Cargue el IOS (archivo del sistema operativo para el router: cargado en la RAM después de que el programa de arranque encuentra el archivo IOS <br/>que se debe usar).</font>]]>
+        </text>
+    </component>
+    <component id='ID_a02_DS'>
+        <text>
+            <![CDATA[<font color="#393536">Realice el POST (control de hardware: realizado por el chip de ROM incorporado).</font>]]>
+        </text>
+    </component>
+    <component id='ID_a03_DS'>
+        <text>
+            <![CDATA[<font color="#393536">Cargue el archivo de configuración de la memoria flash (NVRAM), <br/>un servidor TFTP o ingrese al modo configuración (para generar un archivo de configuración).</font>]]>
+        </text>
+    </component>
+    <component id='ID_a04_DS'>
+        <text>
+            <![CDATA[<font color="#393536">Cargue el programa de arranque <br/>(copiado de la ROM a la RAM: ubica el IOS)</font>]]>
+        </text>
+    </component>
+    <!--Drag and Drop-->
+    <component id='ID_s1_CORRECT_TITLE'>
+        <text>
+            <![CDATA[Correcto]]>
+        </text>
+    </component>
+    <component id='ID_s1_CORRECT_BODY'>
+        <text>
+            <![CDATA[Ordenó correctamente el proceso de arranque del router.]]>
+        </text>
+    </component>
+    <component id='ID_s1_INCORRECT_TITLE'>
+        <text>
+            <![CDATA[Incorrecto]]>
+        </text>
+    </component>
+    <component id='ID_s1_INCORRECT_BODY'>
+        <text>
+            <![CDATA[No ordenó correctamente el proceso de arranque del router. Vuelva a intentarlo.]]>
+        </text>
+    </component>
+    <component id='ID_CHECK'>
+        <text>
+            <![CDATA[Verificar]]></text>
+    </component>
+    <component id='ID_RESET'>
+        <text>
+            <![CDATA[Restablecer]]></text>
+    </component>
+</textcomponents>

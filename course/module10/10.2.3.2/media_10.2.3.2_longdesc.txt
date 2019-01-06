@@ -1,0 +1,1 @@
+Figure 1 shows a client computer using SMB protocol to access documents on a remote Windows server and a printer connected to the remote Windows server. Figure 2 shows two clients using SMB to share files.

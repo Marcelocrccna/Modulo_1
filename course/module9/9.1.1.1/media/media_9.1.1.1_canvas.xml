@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+
+<slide>
+<element type="IMAGE" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" x="0" y="0" width="680" height="490" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_9.1.1.1.png" />
+<element type="TEXT" compId="ID_txt01" x="84" y="285" width="140.7" expand="up+down" align="center" color="#ffffff"  />
+<element type="TEXT" compId="ID_txt02" x="84" y="341" width="140.7" expand="up+down" align="center" color="#ffffff"  />
+<element type="TEXT" compId="ID_txt04" x="84" y="414" width="140.7" expand="up+down" align="center" color="#ffffff"  />
+<element type="TEXT" compId="ID_txt05" x="84" y="457" width="140.7" expand="up+down" align="center"  />
+<element type="TEXT" compId="ID_txt01a" x="456" y="285" width="140.7" expand="up+down" align="center" color="#ffffff"  />
+<element type="TEXT" compId="ID_txt02a" x="456" y="341" width="140.7" expand="up+down" align="center" color="#ffffff"  />
+<element type="TEXT" compId="ID_txt03a" x="456" y="372" width="140.7" expand="up+down" align="center" color="#ffffff"  />
+<element type="TEXT" compId="ID_txt04a" x="456" y="414" width="140.65" expand="up+down" align="center" color="#ffffff"  />
+<element type="TEXT" compId="ID_txt05a" x="456" y="457" width="140.7" expand="up+down" align="center"  />
+<element type="TEXT" compId="ID_txt03" x="84" y="372" width="140.7" expand="up+down" align="center" color="#ffffff"  />
+<element type="TEXT" subType="TITLE" compId="ID_title"/>
+<element type="TEXT" compId="ID_txt06" x="239" y="337" width="195" expand="up+down" align="center" class="orangeCallOut"  />
+</slide>
+
+</data>

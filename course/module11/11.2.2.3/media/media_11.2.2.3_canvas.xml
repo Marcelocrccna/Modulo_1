@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+	
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+		
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+			<element type="IMAGE" x="156" y="50" width="367" height="246" subType="STD" src="11_2_2_3.jpg" />
+			<element type="TEXTBOX" titleId="ID_s1_TB_header" bodyId="ID_s1_TB_body" x="110" y="313" width="460" height="160" animated="1" subType="ROLLOVER" />
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF"/>
+		</slide>
+		
+		<slide>
+			<!-- <element type="IMAGE" x="0" y="0" width="680" height="490" src="11_2_2_3_B.png" /> -->
+			<element type="TEXT" compId="ID_s2_table" x="40" y="50" width="600" height="82" />
+			<!-- <element type="TEXT" compId="ID_s2_txt01" x="190" y="195" width="100" expand="left+right" align="center" />
+			<element type="TEXT" compId="ID_s2_txt03" x="193" y="421" width="100" expand="down" align="center" />
+			<element type="TEXT" compId="ID_s2_txt02" x="511" y="288" width="79" expand="left+right" align="center" /> -->
+			<element type="ACTIVITY" subType="ANIMATION" movieClipId="anim01" totalFrames="586"/>
+			<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+		</slide>
+		
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="11_2_2_3_C.png" />
+			<element type="TEXT" compId="ID_s3_txt01" x="120" y="64" width="72" expand="up" align="center" />
+			<element type="TEXT" compId="ID_s3_txt02" x="179" y="92" width="140" expand="up+down" align="left" color="#cb6d25" />
+			<element type="TEXT" compId="ID_s3_txt04" x="274" y="146" width="141" expand="up" align="center" />
+			<element type="TEXT" compId="ID_s3_txt05" x="365" y="334" width="103" expand="up+down" align="left" color="#cb6d25" />
+			<element type="TEXT" compId="ID_s3_txt06" x="506" y="430" width="71" expand="down" align="center" />
+			<element type="TEXT" subType="TITLE" compId="ID_s3_title"/>
+		</slide>
+
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="11_2_2_3_D.png" />
+			<element type="TEXT" compId="ID_s4_txt03" x="506" y="421" width="96" expand="down" align="center" />
+			<element type="TEXT" compId="ID_s4_txt01" x="28" y="421" width="99" expand="down" align="center" />
+			<element type="TEXT" compId="ID_s4_txt02" x="137" y="380" width="235" expand="down" align="left" />
+			<element type="TEXT" subType="TITLE" compId="ID_s4_title"/>
+		</slide>
+		
+	</slide>
+	
+</data>

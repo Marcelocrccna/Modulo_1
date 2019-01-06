@@ -1,0 +1,1 @@
+Figure shows a diagram of the files copied to RAM during bootup. From Flash, the IOS image file and other system related files are copied to RAM. From NVRAM, the startup-config is copied to RAM.

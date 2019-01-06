@@ -1,0 +1,1 @@
+Figure shows a router connected to a LAN with two hosts and the Internet with a remote server.  There is a note pointing to the router showing that the IP address of the router's LAN interface is the default gateway address for the hosts on that LAN.

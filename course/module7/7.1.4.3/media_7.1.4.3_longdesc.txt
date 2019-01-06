@@ -1,0 +1,1 @@
+Figure shows a Windows command line with the successful replies from the ping 127.0.0.1 command and the 127.1.1.1 command.

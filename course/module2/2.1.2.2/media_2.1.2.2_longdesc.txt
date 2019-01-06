@@ -1,0 +1,1 @@
+Figure 1 shows the setup window for PuTTY, a terminal emulation program. Figure 2 shows the setup window for Tera Term, a terminal emulation program. Figure 3 shows the setup window for Secure CRT., a terminal emulation program.

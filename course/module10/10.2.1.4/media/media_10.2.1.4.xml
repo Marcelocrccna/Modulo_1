@@ -1,0 +1,35 @@
+<textcomponents>
+	<component id="ID_caption01REMOVED">
+		<text><![CDATA[El proceso del agente de transferencia de correo rige el manejo de correo electrónico entre servidores y clientes.]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[<b>SMTP</b>]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[Servidor<br>SMTP/POP3]]></text>
+	</component>
+	<component id="ID_txt06REMOVED">
+		<text><![CDATA[<b>Agente de transferencia de correo<br>(MTA)</b>]]></text>
+	</component>
+	<component id="ID_txt05REMOVED">
+		<text><![CDATA[<b>Agente de transferencia de correo<br>(MTA)</b>]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[Servidor<br>SMTP/POP3]]></text>
+	</component>
+	<component id="ID_txt08">
+		<text><![CDATA[<b>destinatario@dominio.com</b>]]></text>
+	</component>
+	<component id="ID_txt09REMOVED">
+		<text><![CDATA[<b>Agente de usuario de correo<br>(MUA)</b>]]></text>
+	</component>
+	<component id="ID_txt11">
+		<text><![CDATA[Emisor]]></text>
+	</component>
+	<component id="ID_txt12">
+		<text><![CDATA[<b>Enviar correo electrónico</b>]]></text>
+	</component>
+	<component id="ID_bubble1">
+		<text><![CDATA[<p class="ID_bubble1">¿El destinatario está en mi lista de destinatarios?<br>No. Reenviar el correo electrónico a otro servidor.</p>]]></text>
+	</component>
+</textcomponents>

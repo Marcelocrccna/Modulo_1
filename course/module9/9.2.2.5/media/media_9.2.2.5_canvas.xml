@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+  			<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+ 		<element type="IMAGE" src="media_9.2.2.5.png" x="0" y="0" width="680" height="490"/>
+
+<element type="TEXT" compId="ID_txt01" x="219" y="150" width="155.85" expand="up" align="left" />
+<element type="TEXT" subType="TITLE" compId="ID_title"/>
+<element type="TEXT" compId="ID_txt02" x="219" y="181" width="117.15" expand="up" align="left" />
+<element type="TEXT" compId="ID_txt03" x="219" y="216" width="120.6" expand="up" align="left" />
+<element type="TEXT" compId="ID_txt04" x="219" y="246" width="155.85" expand="up" align="left" />
+<element type="TEXT" compId="ID_txt05" x="220" y="278" width="155.85" expand="up" align="left" />
+<element type="TEXT" compId="ID_txt06" x="220" y="310" width="155.85" expand="up" align="left" />
+<element type="TEXT" compId="ID_txt07" x="219" y="340" width="155.85" expand="up" align="left" />
+<element type="TEXT" compId="ID_txt08" x="219" y="369" width="155.85" expand="up" align="left" />
+ <element type="TEXT" id="ID_static_1" text="A" x="121.5" y="141" align="center" width="10.8" color="#FFFFFF" size="14"/>
+<element type="TEXT" id="ID_static_2" text="B" x="502.3" y="141" align="center" width="8.8" color="#FFFFFF" size="14"/>
+<element type="BUBBLE" compId="ID_txt10" x="131" y="49" width="400" height="80" align="center" tailPosition="7" tailFlip="1" />
+<element type="TEXTBOX" titleId="" bodyId="ID_s1_instr_body" x="50" y="407" width="579.95" height="60" />
+
+
+
+</slide>
+</data>

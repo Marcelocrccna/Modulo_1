@@ -1,0 +1,7 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+	<text><![CDATA[<b>CPU del router</b>]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,10 @@
+﻿<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[Práctica de laboratorio]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[Uso de Wireshark para observar el protocolo TCP de enlace de tres vías]]></text>
+	</component>
+	
+</textcomponents>

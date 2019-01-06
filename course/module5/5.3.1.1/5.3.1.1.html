@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.3.1.1 Destino en la misma red</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.3.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Destino en la misma red</h1>
+        <div>
+          <p>Hay dos direcciones primarias asignadas a un dispositivo en una LAN Ethernet: </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección física (dirección MAC):</b> se utiliza para comunicaciones de NIC Ethernet a NIC Ethernet en la misma red. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección lógica (dirección IP):</b> se utiliza para enviar el paquete del origen inicial al destino final. </li>
+            </ul>
+          </p>
+          <p>Las direcciones IP se utilizan para identificar la dirección del origen inicial y del destino final. La dirección IP de destino puede estar en la misma red IP que la de origen o en una red remota.</p>
+          <p>
+            <b>Nota:</b> la mayoría de las aplicaciones utilizan el sistema de nombres de dominio (DNS) para determinar la dirección IP cuando se les indica un nombre de dominio, como “www.cisco.com”. El DNS se analiza en detalle en otro capítulo.</p>
+          <p>Las direcciones de capa 2, o físicas, como las direcciones MAC Ethernet, tienen un propósito diferente: se utilizan para distribuir la trama de enlace de datos con el paquete IP encapsulado de una NIC a otra en la misma red. Si la dirección IP de destino está en la misma red, la dirección MAC de destino es la del dispositivo de destino. </p>
+          <p>En la ilustración, se muestran las direcciones MAC Ethernet y la dirección IP de la PC-A enviando un paquete IP al servidor de archivos en la misma red.</p>
+          <p>La trama de Ethernet de capa 2 contiene lo siguiente:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección MAC de destino:</b> es la dirección MAC de la NIC Ethernet del servidor de archivos.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección MAC de origen:</b> es la dirección MAC de la NIC Ethernet de la PC-A.</li>
+            </ul>
+          </p>
+          <p>El paquete IP de capa 3 contiene lo siguiente:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección IP de origen:</b> es la dirección IP del origen inicial, la PC-A.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección IP de destino:</b> es la dirección IP del destino final, el servidor de archivos. </li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a PC connected to a server. The PC is sending data to the server. The PC puts the Layer 3 source and destination IP addresses in the packet header and then puts the Layer 2 source and destination MAC addresses in the frame header.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

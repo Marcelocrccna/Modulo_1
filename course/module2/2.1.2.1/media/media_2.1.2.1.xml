@@ -1,0 +1,55 @@
+<textcomponents>
+    <!-- Slide 1 -->
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[Opciones de acceso a la CLI]]>
+        </text>
+    </component>
+    <!-- buttons -->
+    <component id="ID_s1_titleTxt01">
+        <text>
+            <![CDATA[Consola]]></text>
+    </component>
+    <component id="ID_s1_titleTxt02">
+        <text>
+            <![CDATA[SSH]]></text>
+    </component>
+    <component id="ID_s1_titleTxt03">
+        <text>
+            <![CDATA[Telnet]]></text>
+    </component>
+    <!-- End buttons -->
+    <!-- textboxes -->
+    <component id="ID_s1_btn01">
+        <text>
+            <![CDATA[Consola]]>
+        </text>
+    </component>
+    <component id="ID_s1_bodyTxt01">
+        <text>
+            <![CDATA[La ventaja de utilizar un puerto de consola es que es posible acceder al dispositivo incluso si no se configuró ningún servicio de red, por ejemplo, cuando se realiza la configuración inicial del dispositivo de red. Al realizar la configuración inicial, una computadora con software de emulación de terminal se conecta al puerto de consola del dispositivo mediante un cable especial. En la computadora conectada pueden ingresarse los comandos de configuración para iniciar el switch o el router.]]>
+        </text>
+    </component>
+    <component id="ID_s1_btn02">
+        <text>
+            <![CDATA[SSH]]>
+        </text>
+    </component>
+    <component id="ID_s1_bodyTxt02">
+        <text>
+            <![CDATA[El SSH es el método recomendado para administración remota ya que proporciona una conexión segura. El SSH proporciona autenticación de contraseña y transporte de datos de la sesión. De esta manera se mantienen en privado la ID del usuario, la contraseña y los detalles de la sesión de administración. La mayoría de las versiones de Cisco IOS incluyen un servidor SSH y un cliente SSH que pueden utilizarse para establecer sesiones SSH con otros dispositivos.]]>
+        </text>
+    </component>
+    <component id="ID_s1_btn03">
+        <text>
+            <![CDATA[Telnet]]>
+        </text>
+    </component>
+    <component id="ID_s1_bodyTxt03">
+        <text>
+            <![CDATA[Las mejores prácticas aconsejan el uso de SSH en lugar de Telnet para las conexiones de administración remota de la CLI. Cisco IOS incluye un servidor Telnet y un cliente Telnet que pueden utilizarse para establecer sesiones Telnet con otros dispositivos.]]>
+        </text>
+    </component>
+    <!-- End textboxes -->
+    <!-- End Slide 1 -->
+</textcomponents>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.5.6 Cuadro de VLSM</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.5.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Cuadro de VLSM</h1>
+        <div>
+          <p>Un cuadro de direccionamiento se puede usar para identificar los bloques de direcciones que están disponibles para usar y cuáles ya se encuentran asignados, tal como se muestra en la figura 1. Este método ayuda a evitar la asignación de direcciones que ya han sido asignadas. </p>
+          <p>Como se muestra en la figura 2, para utilizar el espacio de direcciones de manera más eficaz, se crean subredes /30 para los enlaces WAN. A fin de mantener juntos los bloques de direcciones sin utilizar en un bloque de espacio de direcciones contiguo, la última subred /27 se volvió a subdividir para crear subredes /30. Las primeras 3 subredes se asignaron a enlaces WAN.</p>
+          <p>Diseñar el esquema de direccionamiento de esta manera deja 3 subredes /27 continuas sin utilizar y 5 subredes /30 contiguas sin utilizar. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a chart using basic subnetting to assign equal sized subnets to the LANs and WANs. Figure 2 shows a chart using VLSM subnetting to assign equal sized (slash twenty sevens) subnets to each of the LAN links and different but equal sized (slash thirties) subnets to each of the WAN links.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

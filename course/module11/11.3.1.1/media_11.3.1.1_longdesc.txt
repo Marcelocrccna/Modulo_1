@@ -1,0 +1,1 @@
+Figures 1 and 2 show the same topology. R1 and R2 are connected through a WAN link. Each router has two LANs with a PC and a switch connected to each LAN. In Figure 1, output is shown for a successful ping from R1 to R2. In Figure 2, output is shown for a successful ping from PC2 to its loopback address, 127.0.0.1.

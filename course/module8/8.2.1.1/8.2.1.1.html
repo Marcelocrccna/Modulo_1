@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.2.1.1 Planificación de direcciones de red</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.2.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Planificación de direcciones de red</h1>
+        <div>
+          <p>Como se muestra en la ilustración, es necesario que la asignación del espacio de direcciones de la capa de red dentro de la red de la empresa esté bien diseñada. La asignación de direcciones no debe ser aleatoria. </p>
+          <p>La planificación de las subredes de la red requiere un análisis tanto de las necesidades de uso de red de la organización como de la forma en que se estructurarán las subredes. El punto de partida consiste en llevar a cabo un estudio de los requisitos de la red. Esto significa analizar la totalidad de la red y determinar sus secciones principales y el modo en que se segmentarán. El plan de direcciones incluye la determinación de las necesidades de cada subred en cuanto al tamaño, la cantidad de hosts por subred, la forma en que se asignarán las direcciones de host, cuáles son los hosts que requerirán direcciones IPv4 estáticas y cuáles pueden utilizar DHCP para obtener la información de asignación de direcciones.</p>
+          <p>El tamaño de la subred implica planificar la cantidad de hosts que requerirán direcciones IPv4 de host en cada subred de la red privada subdividida. Por ejemplo, en un diseño de red de campus, sería recomendable considerar cuántos hosts se necesitan en la LAN de la administración, cuántos en la LAN del cuerpo docente y cuántos en la LAN de los estudiantes. En una red doméstica, se podrían considerar la cantidad de hosts en la LAN principal de la casa y la cantidad de hosts en la LAN de la oficina en el hogar.</p>
+          <p>Como ya se mencionó, el administrador de redes decide el rango de direcciones IPv4 privadas utilizado en una LAN, y debe considerarlo cuidadosamente para asegurarse de que haya suficientes direcciones de host disponibles para los hosts conocidos hasta el momento y para futuras expansiones. Recuerde que los rangos de direcciones IPv4 privadas son los siguientes:</p>
+          <p>
+            <ul>
+              <li>De 10.0.0.0 a 10.255.255.255, con la máscara de subred 255.0.0.0 o /8</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>De 172.16.0.0 a 172.31.255.255, con la máscara de subred 255.240.0.0 o /12</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>De 192.168.0.0 a 192.168.255.255, con la máscara de subred 255.255.0.0 o /16</li>
+            </ul>
+          </p>
+          <p>Conocer los requisitos de direcciones IPv4 permite determinar el o los rangos de direcciones de host que se deben implementar. La división en subredes del espacio de direcciones IPv4 privadas seleccionado proporciona las direcciones de host para satisfacer las necesidades de la red.</p>
+          <p>En cuanto a las direcciones públicas que se utilizan para conectarse a Internet, suelen ser asignadas por un proveedor de servicios. Por lo tanto, si bien se aplicarían los mismos principios de la división en subredes, esto generalmente no es responsabilidad del administrador de redes de la organización.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows 3 LANs, the student LAN, Faculty LAN, and Administrative LAN.  This figure has a question mark above it.  This figure demonstrates how important it is to make a plan for subnetting.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

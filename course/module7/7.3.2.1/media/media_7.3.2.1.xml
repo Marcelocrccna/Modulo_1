@@ -1,0 +1,18 @@
+<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Prueba de stack de TCP/IP local</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Hacer ping al host local permite confirmar que el protocolo TCP/IP se encuentra instalado en el host y que funciona.]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Hacer ping a <font color="#00918E"><b>127.0.0.1</b></font> ocasiona que un dispositivo se haga ping a sí mismo.]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[<b>C:\>ping 127.0.0.1</b>]]></text>
+</component>
+
+</textcomponents>

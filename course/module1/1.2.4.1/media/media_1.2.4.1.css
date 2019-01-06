@@ -1,0 +1,17 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+/*
+#canvas, #mediaContainer {
+margin-left: 105px;
+} 
+
+#flashContent {
+width: 470px;
+height: 400px;
+margin: auto;
+}
+*/

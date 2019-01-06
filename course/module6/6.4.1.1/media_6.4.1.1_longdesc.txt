@@ -1,0 +1,1 @@
+Figure 1 reviews the steps to configure a switch with its initial settings including: configure the device name; configure passwords for privilege mode and for the lines; configure a banner; configure the SVI; and save the configuration. Figure 2 shows a topology and example configuration of the switch.

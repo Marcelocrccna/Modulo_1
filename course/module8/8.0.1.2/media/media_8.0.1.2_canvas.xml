@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+<element type="IMAGE" src="media_8.0.1.2.png" width="680" height="490" x="0" y="0" />
+<element type="TEXTBOX" titleId="" bodyId="ID_footer" x="117" y="367" width="450" height="80" animated="1" subType="ROLLOVER" />
+<element type="TEXT" compId="ID_s1_txt09" x="283" y="317" width="110.55" expand="left+right" align="center" />
+
+<element type="TEXT" compId="ID_s1_txt01" x="259" y="74" width="24.75" expand="left+right" align="center" />
+<element type="TEXT" compId="ID_s1_txt02" x="397" y="74" width="24.75" expand="left+right" align="center" />
+<element type="TEXT" compId="ID_s1_txt04" x="280" y="104" width="120.6" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt05" x="418" y="104" width="120.6" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt03" x="141" y="104" width="120.6" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_title" x="186.55" y="50.3" width="307.25" expand="up+down" align="center"/>
+<element type="TEXT" compId="ID_s1_txt08" x="464" y="149" width="35.2" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_s1_txt06" x="185" y="149" width="32.2" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_s1_txt07" x="324" y="149" width="33.15" expand="up+down" align="center" />
+	</slide>
+</data>

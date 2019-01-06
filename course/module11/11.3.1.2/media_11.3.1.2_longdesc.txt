@@ -1,0 +1,1 @@
+Figure shows the process on entering an extended ping command on a router.

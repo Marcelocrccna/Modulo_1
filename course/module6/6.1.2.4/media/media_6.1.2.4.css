@@ -1,0 +1,21 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+/*#ID_txt07,#ID_txt06{
+margin-left:-10px !important;
+}
+
+#canvas, #mediaContainer {
+	margin-left: 105px;
+	margin-top: 35px;
+} 
+
+#ID_title { 
+	margin-left:0 !important; 
+	width: 470px !important; 
+	margin-top: -33px !important;
+}
+*/

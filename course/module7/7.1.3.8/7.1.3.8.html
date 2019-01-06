@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.3.8 Packet Tracer: Investigación del tráfico de unidifusión, difusión y multidifusión</title>
+    <!-- Activity / Packet Tracer / Skills Integration Challenge -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.3.8_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Packet Tracer: Investigación del tráfico de unidifusión, difusión y multidifusión</h1>
+        <div>
+          <p>En esta actividad, se examina el comportamiento de unidifusión, difusión y multidifusión. La mayoría del tráfico de una red es de unidifusión. Cuando una PC envía una solicitud de eco ICMP a un router remoto, la dirección de origen en el encabezado de paquetes IPv4 es la dirección IPv4 de la PC remitente. La dirección de destino en el encabezado de paquetes IPv4 es la dirección IPv4 de la interfaz del router remoto. El paquete se envía solamente al destino deseado.</p>
+          <p>Mediante el comando ping o la característica Add Complex PDU (Agregar PDU compleja) de Packet Tracer, puede hacer ping directamente a las direcciones de difusión para ver el tráfico de difusión.</p>
+          <p>Para el tráfico de multidifusión, debe ver el tráfico EIGRP. Los routers Cisco utilizan EIGRP para intercambiar información de routing entre routers. Los routers que usan EIGRP envían paquetes a la dirección de multidifusión 224.0.0.10, que representa al grupo de routers EIGRP. Si bien otros dispositivos reciben estos paquetes, todos los dispositivos (excepto los routers EIGRP) los descartan en la capa 3, sin requerir otro procesamiento.</p>
+          <p>
+            <a href="../../files/7.1.3.8%20Packet%20Tracer%20-%20Investigate%20Unicast,%20Broadcast,%20and%20Multicast%20Traffic.pdf" target="_blank">Packet Tracer: Investigación del tráfico de unidifusión, difusión y multidifusión (instrucciones)</a>
+          </p>
+          <p>
+            <a href="../../files/7.1.3.8%20Packet%20Tracer%20-%20Investigate%20Unicast,%20Broadcast,%20and%20Multicast%20Traffic.pka" target="_blank">Packet Tracer: Investigación del tráfico de unidifusión, difusión y multidifusión (PKA)</a>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" src="media/index.html" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure is standard graphic for a Packet Tracer page.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

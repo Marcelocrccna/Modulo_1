@@ -1,0 +1,1 @@
+Figure shows that the 16 bits of the subnet ID, represented in hexadecimal, can make 65,536 subnets.  These subnets are 0 0 0 0 through F F F F.  

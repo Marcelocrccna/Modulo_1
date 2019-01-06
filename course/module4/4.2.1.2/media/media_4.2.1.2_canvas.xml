@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+        <element type="IMAGE" x="193" y="301" width="297" height="130.1" subType="STD" src="4_2_1_2a.jpg" />
+        <element type="IMAGE" x="81" y="41" width="274.5" height="202" subType="STD" src="4_2_1_2b.jpg" />
+        <element type="IMAGE" x="413" y="41" width="188" height="202" subType="STD" src="4_2_1_2c.jpg" />
+        <element type="TEXT" compId="ID_txt01" x="89" y="249" width="254.85" expand="down" align="center" color="#ffffff" />
+        <element type="TEXT" compId="ID_txt02" x="428" y="249" width="154.45" expand="down" align="center" color="#ffffff" />
+        <element type="TEXT" compId="ID_txt03" x="196" y="436" width="293.85" expand="down" align="center" color="#ffffff" />
+	</slide>
+</data>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.10 Creación de cuatro subredes</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.10_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Creación de cuatro subredes</h1>
+        <div>
+          <p>Ahora, considere la topología de red que se muestra en la figura 1. La empresa usa el intervalo de direcciones de red privado 192.168.1.0/24 y necesita tres subredes. Tomar prestado un solo bit proporcionó únicamente dos subredes, entonces, se debe tomar prestado otro bit de host, tal como se muestra en la figura 2. Al usar la fórmula <b>2^n</b> para los dos bits que se tomaron prestados, se obtienen <b>2^2 = 4</b> subredes como resultado. Los detalles específicos de las cuatros subredes se muestran en la figura 3. Las cuatro subredes utilizan la máscara de subred resultante /26 o 255.255.255.192. </p>
+          <p>Para calcular la cantidad de hosts, examine el último octeto, que se muestra en la figura 4. Después de tomar prestados 2 bits para la subred, restan 6 bits de host. Aplique la fórmula de cálculo de host <b>2^n - 2</b>, tal como se muestra, para revelar que cada subred puede admitir 62 direcciones de host. Las direcciones significativas de la primera subred (p. ej.: red 0) se muestran en la figura 5.</p>
+          <p>Solamente se requieren las primeras tres subredes, ya que solo hay tres interfaces. En la figura 6, se muestran las especificaciones de las primeras tres subredes que se usarán para cumplir con la topología de la figura 1.  </p>
+          <p>Por último, en la figura 7, se aplica la primera dirección de host válida de cada subred a la interfaz de la red LAN del R1 respectiva.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a topology with router 1 connected to two switches to create two LANs. Router 1 is then connected to router 2 to create a WAN. The subnets 192.168.1.0/26 and 192.168.1.64/25 are assigned to the two LANs. The subnet 192.168.1.128/26 is assigned to the WAN. Figure 2 shows borrowing the first two bits in the fourth octet. Figure 3 shows the four subnets two bits borrowed would create. Figure 4 shows the formula to calculate the number of hosts which is 2 to the 6 power minus two for 62 valid hosts. Figure 5 shows the network address, first host address, last host address, and broadcast address for the 192.168.1.0/26 subnet. The last octet is in binary to show that a network address is all zeros in the host portion. The first host address is all zeros except the least significant bit in the host portion. The last host address is all ones except for the least significant bit in the host portion. And the broadcast address is all ones in the host portion. Figure 6 is a table showing the three subnets that will be used in the topology with the network address, first host address, last host address, and broadcast address for each listed. Figure 7 shows the topology from Figure 1 with IP addresses assigned to the devices from the appropriate subnets. </div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

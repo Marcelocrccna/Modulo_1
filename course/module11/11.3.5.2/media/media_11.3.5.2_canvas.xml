@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+		<element type="IMAGE" src="../../../common/images/page_backgrounds/bg_table_fullsize.jpg" x="0" y="0" width="1000" height="490" />
+		
+		<element type="TEXT" subType="TITLE" compId="ID_s1_title" x="25" y="7" color="#FFFFFF"/>
+		<element type="ACTIVITY" subType="SYNTAX" compId="ID_s1_SC" x="40" y="50" width="600" height="400"  resetId="ID_s1_reset" showMeId="ID_s1_showme" showAllId="ID_s1_showall" align="right"/>
+	</slide>
+</data>
+

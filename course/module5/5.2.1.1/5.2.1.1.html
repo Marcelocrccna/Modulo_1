@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.1.1 Nociones básicas de switches</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Nociones básicas de switches</h1>
+        <div>
+          <p>Un switch Ethernet de capa 2 utiliza direcciones MAC para tomar decisiones de reenvío. Desconoce por completo qué protocolo se transmite en la porción de datos de la trama, como un paquete IPv4. El switch toma decisiones de reenvío solamente según las direcciones MAC Ethernet de capa 2.</p>
+          <p>A diferencia de los hubs Ethernet antiguos, que repiten los bits por todos los puertos excepto el de entrada, un switch Ethernet consulta una tabla de direcciones MAC para tomar una decisión de reenvío para cada trama. En la ilustración, se acaba de encender el switch de cuatro puertos. Todavía no conoce las direcciones MAC de las cuatro PC conectadas.</p>
+          <p>
+            <b>Nota:</b> a veces, la tabla de direcciones MAC se conoce como “tabla de memoria de contenido direccionable (CAM)”. Aunque el término “tabla CAM” es bastante común, en este curso nos referiremos a ella como “tabla de direcciones MAC”.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a four port switch with four PCs attached one to each port. The PCs are named A, B, C, and D. The abbreviated MAC addresses are 00-0A, 00-0B, 00-0C, and 00-0D. The switch MAC address table is also shown. The table is empty.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

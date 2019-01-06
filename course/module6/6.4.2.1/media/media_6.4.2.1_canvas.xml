@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+			<element type="TEXTBOX"  bodyId="ID_s01_txt01" x="90" y="105" width="500" height="120"  />
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF" />
+		</slide>
+
+
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_6.4.2.1_B.png"/>
+			<element type="ROUTER" textId="router_txt" x="40" y="232" width="600" height="235"/>
+		</slide>
+
+		<slide>
+			<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s3_title" color="#FFFFFF" />
+			<element type="ACTIVITY" subType="SYNTAX" compId="ID_SC" x="25" y="60" width="630" height="388" resetId="ID_sc_reset" showMeId="ID_sc_showme" showAllId="ID_sc_showall"/>
+		</slide>
+	</slide>
+<text id="router_txt"><![CDATA[<pre>R1# <b>conf t</b>
+Enter configuration commands, one per line.
+End with CNTL/Z.
+R1(config)# 
+R1(config)# <b>interface gigabitethernet 0/0</b>
+R1(config-if)# <b>ip address 192.168.10.1 255.255.255.0</b>
+R1(config-if)# <b>description Link to LAN-10</b>
+R1(config-if)# <b>no shutdown</b>
+%LINK-5-CHANGED: Interface GigabitEthernet0/0, 
+changed state to up
+%LINEPROTO-5-UPDOWN: Line protocol on Interface 
+GigabitEthernet0/0,changed state to up
+R1(config-if)#<b>exit</b>
+R1(config)# 
+R1(config)#<b>int g0/1</b>
+R1(config-if)#<b>ip add 192.168.11.1 255.255.255.0</b>
+R1(config-if)#<b>des Link to LAN-11</b>
+R1(config-if)#<b>no shut</b>
+%LINK-5-CHANGED: Interface GigabitEthernet0/1,
+changed state to up
+%LINEPROTO-5-UPDOWN: Line protocol on Interface 
+GigabitEthernet0/1, changed state to up
+R1(config-if)#<b>exit</b>
+R1(config)#</pre>]]></text>
+</data>

@@ -1,0 +1,15 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_s1_table1_txt01, #ID_s1_table1_txt02, #ID_s1_table2_txt01, #ID_s1_table2_txt02, #ID_s1_table3_txt01, #ID_s1_table3_txt02, #ID_s1_table4_txt01, #ID_s1_table4_txt02, #ID_s1_table5_txt01, #ID_s1_table5_txt02, #ID_s1_table6_txt01, #ID_s1_table6_txt02, #ID_s1_table7_txt01, #ID_s1_table7_txt02, #ID_s1_table8_txt01, #ID_s1_table8_txt02 {
+	letter-spacing: 2.7px;
+	font-family: 'Courier New';
+}
+
+.orange {
+	background-color: transparent;
+	color: #F68026;
+	font-weight: bold;
+}

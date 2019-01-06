@@ -1,0 +1,1 @@
+The figure shows the logos for IEEE, ANSI, ITU, and ISO. If the user clicks a logo, the website for the standards organization opens in another tab.

@@ -1,0 +1,1 @@
+This interactive activity allows the reader to match the wire color with its correct location for both the T568A and T568B standards.

@@ -1,0 +1,56 @@
+<textcomponents>
+    <component id="ID_footer">
+        <text>
+            <![CDATA[Las direcciones de red IP pueden estructurarse para representar grupos más pequeños de números...]]></text>
+    </component>
+    <!--Slide 1-->
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<b>Bloque de direcciones IPv6 /48</b>]]></text>
+    </component>
+    <component id="ID_s1_txt01">
+        <text>
+            <![CDATA[/48]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt02">
+        <text>
+            <![CDATA[/64]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt03">
+        <text>
+            <![CDATA[Prefijo de routing global]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt04">
+        <text>
+            <![CDATA[ID de subred]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt05">
+        <text>
+            <![CDATA[ID de interfaz]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt06">
+        <text>
+            <![CDATA[48<br>bits]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt07">
+        <text>
+            <![CDATA[16<br>bits]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt08">
+        <text>
+            <![CDATA[64<br>bits]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt09">
+        <text>
+            <![CDATA[65 536 subredes]]>
+        </text>
+    </component>
+</textcomponents>

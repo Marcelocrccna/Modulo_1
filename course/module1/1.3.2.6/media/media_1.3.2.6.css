@@ -1,0 +1,18 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+#mc_table{
+	height: 380px !important;
+}
+
+
+.spaceLeft{
+	margin-left: 14px !important;
+}
+#txt_q4,#txt_q8
+{
+	margin-top: 8px !important;
+}

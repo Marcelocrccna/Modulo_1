@@ -1,0 +1,1 @@
+Figure 1 shows a physical topology map showing the physical location of devices, such as computers, servers, hubs, switches, and routers.  Figure 2 shows a logical topology map that includes interface labels and network addresses.

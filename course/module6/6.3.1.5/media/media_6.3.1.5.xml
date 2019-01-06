@@ -1,0 +1,60 @@
+<textcomponents>
+    <component id="ID_title">
+        <text>
+            <![CDATA[<b>Placa de circuito Cisco 1941</b>]]></text>
+    </component>
+    <component id="ID_titleTxt01">
+        <text>
+            <![CDATA[<b>Ranuras para tarjetas de interfaz WAN de alta velocidad mejorada (eHWIC)</b>]]></text>
+    </component>
+    <component id="ID_bodyTxt01">
+        <text>
+            <![CDATA[con el rótulo eHWIC 0 y eHWIC 1 para proporcionar modularidad y flexibilidad al permitir que el router admita distintos tipos de módulos de interfaz, incluidos serial, línea de suscriptor digital (DSL), puerto de switch y tecnología inalámbrica.]]>
+        </text>
+    </component>
+    <component id="ID_titleTxt02">
+        <text>
+            <![CDATA[<b>Ranuras CompactFlash</b>]]></text>
+    </component>
+    <component id="ID_bodyTxt02">
+        <text>
+            <![CDATA[con el rótulo CF0 y CF1 para proporcionar una mayor cantidad de espacio de almacenamiento en memoria flash expansible con tarjetas CompactFlash de hasta 4 GB por ranura. De manera predeterminada, la ranura CF0 tiene una tarjeta CompactFlash de 256 MB y es la ubicación predeterminada de arranque.]]>
+        </text>
+    </component>
+    <component id="ID_titleTxt03">
+        <text>
+            <![CDATA[<b>Puertos de consola</b>]]></text>
+    </component>
+    <component id="ID_bodyTxt03">
+        <text>
+            <![CDATA[para acceder a la administración de la configuración inicial y de la interfaz de línea de comandos (CLI). Hay dos puertos disponibles, el puerto de uso más frecuente (puerto RJ-45 común) y un nuevo conector USB de tipo B (USB mini-B). Sin embargo, solo se puede acceder a la consola por un puerto por vez.]]>
+        </text>
+    </component>
+    <component id="ID_titleTxt04">
+        <text>
+            <![CDATA[<b>Auxiliar (AUX)</b>]]></text>
+    </component>
+    <component id="ID_bodyTxt04">
+        <text>
+            <![CDATA[un puerto RJ-45 para el acceso a la administración remota, similar al puerto de consola. Ahora se considera un puerto antiguo, ya que se lo usaba para admitir los módems dial up.]]>
+        </text>
+    </component>
+    <component id="ID_titleTxt05">
+        <text>
+            <![CDATA[<b>Gigabit Ethernet</b>]]></text>
+    </component>
+    <component id="ID_bodyTxt05">
+        <text>
+            <![CDATA[Interfaces  con el rótulo GE0/0 y GE0/1. Por lo general, se usan para proporcionar acceso LAN mediante la conexión con switches y usuarios, o para interconectarse a otro router.]]>
+        </text>
+    </component>
+    <component id="ID_titleTxt06">
+        <text>
+            <![CDATA[<b>USB</b>]]></text>
+    </component>
+    <component id="ID_bodyTxt06">
+        <text>
+            <![CDATA[Puertos  con el rótulo USB 0 y USB 1 para proporcionar espacio de almacenamiento adicional, similar a la memoria flash.]]>
+        </text>
+    </component>
+</textcomponents>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+        <slide>
+
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#ffffff" />
+            <element type="ROUTER" textId="ID_router_txt1" x="40" y="55" width="600" height="400" />
+            <element type="TEXT" compId="ID_s1_txt01" x="47.8" y="120.85" width="104" expand="right" align="left" color="#ffffff" />
+            <text id="ID_router_txt1">
+                <![CDATA[<pre>C:\> <b>ipconfig /all</b>
+
+
+Ethernet adapter Local Area Connection:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Realtek PCIe GBE Family Controller
+   Physical Address. . . . . . . . . : F0-4D-A2-DD-A7-B2
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::449f:c2:de06:ebad%10(Preferred)
+   IPv4 Address. . . . . . . . . . . : 10.0.0.10(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Monday, November 09, 2015 7:49:48 PM
+   Lease Expires . . . . . . . . . . : Thursday, November 19, 2015 7:49:51 AM
+   Default Gateway . . . . . . . . . : 10.0.0.1
+   DHCP Server . . . . . . . . . . . : 10.0.0.1
+   <span class="orangeText">DNS Servers . . . . . . . . . . . : 8.8.8.8</span>
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+</pre>]]></text>
+        </slide>
+        <slide>
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#ffffff" />
+            <element type="ROUTER" textId="ID_router_txt2" x="40" y="55" width="600" height="400" />
+            
+            <text id="ID_router_txt2">
+                <![CDATA[<pre>C:\> <b>nslookup</b>
+Default Server:  dns-cac-lb-01.rr.com
+Address:  209.18.47.61
+
+> <b>cisco.com</b>
+Server:  dns-cac-lb-01.rr.com
+Address:  209.18.47.61
+
+Non-authoritative answer:
+Name:    <b>cisco.com</b>
+Addresses:  2001:420:1101:1::a
+          72.163.4.161
+
+> <b>quit</b>
+
+C:\></pre>]]></text>
+        </slide>
+    </slide>
+</data>

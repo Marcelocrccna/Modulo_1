@@ -1,0 +1,59 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Eliminación de la asignación de direcciones MAC a direcciones IP</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[192.168.1.110<br/>MAC 00-0A]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[192.168.1.120<br/>MAC 00-0B]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[192.168.1.50<br/>MAC 00-0C]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[192.168.1.1<br/>MAC 00-0D]]></text>
+</component>
+
+<component id="ID_bubble01">
+<text><![CDATA[Si no uso esta entrada ARP en dos minutos, la eliminaré.]]></text>
+</component>
+
+
+<component id='ID_table'>
+<text><![CDATA[
+				<table header='none' bordercolor='#FFFFFF' borderwidth='2' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+				
+				<tr class="mtable_title">
+					<td colspan="2" bgcolor='#FFFFFF'><font size="13"><b>Caché ARP de la PC A</b></font></td>
+					
+				</tr>				
+				<tr class="mtable_top">
+					<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#666263'class="msubtitle" width="130"><font color='#FFFFFF'><b>Dirección IPv4</b></font></td>
+					<td bgcolor='#666263'class="msubtitle" width="130"><font color='#FFFFFF'><b>Dirección MAC</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top" ><font size="11" >192.168.1.1</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size="11" >00-0D</font></td>
+				</tr>
+			</table>]]>
+		</text>
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[Red]]></text>
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[Las direcciones MAC están acortadas con fines de demostración.]]></text>
+</component>
+
+</textcomponents>

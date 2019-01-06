@@ -1,0 +1,125 @@
+<textcomponents>
+	<component id='ID_title'>
+	   <text><![CDATA[División de una red /24 en subredes ]]></text>
+   </component>
+
+	<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+	
+		<tr class="mtable_title">
+			<td colspan="5" bgcolor='#FFFFFF'><font size="5"></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='5' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>		  
+		<tr>
+			<td bgcolor='#666263' width='60' valign="middle"><font color='#FFFFFF'><p align="center"><b>Longitud de prefijo</b></p></font></td>
+			<td bgcolor='#666263' width='120' valign="middle"><font color='#FFFFFF'><p align="center"><b>Máscara de subred</b></p></font></td>
+			<td bgcolor='#666263'  valign="middle"><font color='#FFFFFF'><p align="center"><b>Dirección de red<br/>(n = red, h = host)</b></p></font></td>
+			<td bgcolor='#666263' width='65' valign="middle"><font color='#FFFFFF'><p align="center"><b>Cantidad de<br/>subredes</b></p></font></td>
+			<td bgcolor='#666263' width='65' valign="middle"><font color='#FFFFFF'><p align="center"><b>Cantidad de<br/> hosts</b></p></font></td>
+		</tr> 
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">/17</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">255.255.128.0</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center"><b>nnnnnnnn.nnnnnnnn<font color='#F68026'>.n</font>hhhhhhh.hhhhhhhh<br/>11111111.11111111<font color='#F68026'>.1</font>0000000.00000000</b></p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">2</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">32766</p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">/18</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">255.255.192.0</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center"><b>nnnnnnnn.nnnnnnnn<font color='#F68026'>.nn</font>hhhhhh.hhhhhhhh<br/>11111111.11111111<font color='#F68026'>.11</font>000000.00000000</b></p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">4</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">16382</p></td>
+		</tr>		 
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">/19</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">255.255.224.0</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center"><b>nnnnnnnn.nnnnnnnn<font color='#F68026'>.nnn</font>hhhhh.hhhhhhhh<br/>11111111.11111111<font color='#F68026'>.111</font>00000.00000000</b></p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">8</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">8190</p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">/20</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">255.255.240.0</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center"><b>nnnnnnnn.nnnnnnnn<font color='#F68026'>.nnnn</font>hhhh.hhhhhhhh<br/>11111111.11111111<font color='#F68026'>.1111</font>0000.00000000</b></p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">16</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">4094</p></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">/21</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">255.255.248.0</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center"><b>nnnnnnnn.nnnnnnnn<font color='#F68026'>.nnnnn</font>hhh.hhhhhhhh<br/>11111111.11111111<font color='#F68026'>.11111</font>000.00000000</b></p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">32</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">2046</p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">/22</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">255.255.252.0</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center"><b>nnnnnnnn.nnnnnnnn<font color='#F68026'>.nnnnnn</font>hh.hhhhhhhh<br/>11111111.11111111<font color='#F68026'>.111111</font>00.00000000</b></p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">64</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">1022</p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">/23</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">255.255.254.0</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center"><b>nnnnnnnn.nnnnnnnn<font color='#F68026'>.nnnnnnn</font>h.hhhhhhhh<br/>11111111.11111111<font color='#F68026'>.1111111</font>0.00000000</b></p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">128</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">510</p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">/24</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">255.255.255.0</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center"><b>nnnnnnnn.nnnnnnnn<font color='#F68026'>.nnnnnnnn</font>.hhhhhhhh<br/>11111111.11111111<font color='#F68026'>.11111111</font>.00000000</b></p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">256</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">254</p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">/25</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">255.255.255.128</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center"><b>nnnnnnnn.nnnnnnnn<font color='#F68026'>.nnnnnnnn.n</font>hhhhhhh<br/>11111111.11111111<font color='#F68026'>.11111111.1</font>0000000</b></p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">512</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">126</p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">/26</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">255.255.255.192</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center"><b>nnnnnnnn.nnnnnnnn<font color='#F68026'>.nnnnnnnn.nn</font>hhhhhh<br/>11111111.11111111<font color='#F68026'>.11111111.11</font>000000</b></p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">1024</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">62</p></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">/27</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">255.255.255.224</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center"><b>nnnnnnnn.nnnnnnnn<font color='#F68026'>.nnnnnnnn.nnn</font>hhhhh<br/>11111111.11111111<font color='#F68026'>.11111111.111</font>00000</b></p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">2048</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">30</p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">/28</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">255.255.255.240</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center"><b>nnnnnnnn.nnnnnnnn<font color='#F68026'>.nnnnnnnn.nnnn</font>hhhh<br/>11111111.11111111<font color='#F68026'>.11111111.1111</font>0000</b></p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">4096</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">14</p></td>
+		</tr>	 
+				<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">/29</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">255.255.255.248</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center"><b>nnnnnnnn.nnnnnnnn<font color='#F68026'>.nnnnnnnn.nnnnn</font>hhh<br/>11111111.11111111<font color='#F68026'>.11111111.11111</font>000</b></p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">8192</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">6</p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">/30</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">255.255.255.252</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center"><b>nnnnnnnn.nnnnnnnn<font color='#F68026'>.nnnnnnnn.nnnnnn</font>hh<br/>11111111.11111111<font color='#F68026'>.11111111.111111</font>00</b></p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">16384</p></td>
+			<td bgcolor='#F2F2F2' valign="middle"><p align="center">2</p></td>
+		</tr>
+	</table>]]></text>
+	</component>
+</textcomponents>

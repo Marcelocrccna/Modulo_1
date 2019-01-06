@@ -1,0 +1,63 @@
+<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Ataque por fuerza bruta</b>]]></text>
+	</component>
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Contraseñas débiles y seguras</b>]]></text> 
+	</component>
+	 <component id="ID_s2_table01">
+        <text>
+            <![CDATA[
+			<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+				<tr class="mtable_top">
+					<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+				</tr>					
+				<tr>
+					<td bgcolor='#666263' width='180' valign="top"><font size='11' color='#F2F2F2'><b>Contraseña débil</b></font></td>
+					<td bgcolor='#666263' width='420' valign="top"><font size='11' color='#F2F2F2'><b>Por qué es débil</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11'color='#393536'>secreto</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>Contraseña de diccionario simple</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>perez</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Apellido de soltera de una mujer</font></td>
+				</tr>	
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11'color='#393536'>toyota</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>Marca de un auto</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>bob1967</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Nombre y fecha de nacimiento de un usuario</font></td>
+				</tr>			
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11'color='#393536'>Blueleaf23</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>Palabras y números simples</font></td>
+				</tr>				
+			</table>]]>
+        </text>
+    </component>
+    <component id="ID_s2_table02">
+        <text>
+            <![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+				<tr class="mtable_top">
+					<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+				</tr>					
+				<tr>
+					<td bgcolor='#666263' width='180' valign="top"><font size='11' color='#F2F2F2'><b>Contraseña segura</b></font></td>
+					<td bgcolor='#666263' width='420' valign="top"><font size='11' color='#F2F2F2'><b>Por qué es segura</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11'color='#393536'>b67n42d39c</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>Combinación de caracteres alfanuméricos</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>12^h u4@1p7</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Combinación de caracteres alfanuméricos, símbolos y un espacio</font></td>
+				</tr>	
+			</table>]]>
+        </text>
+    </component>
+</textcomponents>

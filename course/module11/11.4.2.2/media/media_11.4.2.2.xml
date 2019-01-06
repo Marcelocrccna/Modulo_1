@@ -1,0 +1,15 @@
+<textcomponents><!-- slide 1 --><component id="ID_s1_title">
+		<text><![CDATA[<b>Topología de ⁪diferencia entre dúplex</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[Dúplex completo]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[Dúplex medio]]></text>
+	</component><!-- end slide 1 --><component id="ID_s3_txt01">
+		<text><![CDATA[&lt;se omitió el resultado&gt;]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[&lt;se omitió el resultado&gt;]]></text>
+	</component>
+</textcomponents>

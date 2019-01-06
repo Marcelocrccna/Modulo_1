@@ -1,0 +1,42 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+#htmlMedia {
+	width: 600px;
+	height: 400px;
+}
+
+
+#ID_s2_txt04{
+	margin-top: 
+}
+
+#moveLeft{
+	margin:0 11px!important;
+}
+#moveLeft1{
+	margin:0 11px!important;
+}
+#moveLeft2{
+	margin:0 11px!important;
+}
+#moveLeft3{
+	margin:0 11px!important;
+}
+#moveLeft4{
+	margin:0 11px!important;
+}
+#moveLeft5{
+	margin:0 11px!important;
+}
+#moveLeft6{
+	margin: 0 11px!important;
+}
+
+#ID_router_txt1{
+	letter-spacing: 0.5px!important;
+}
+
+#ID_static_5{
+	letter-spacing: -0.4px!important;
+}

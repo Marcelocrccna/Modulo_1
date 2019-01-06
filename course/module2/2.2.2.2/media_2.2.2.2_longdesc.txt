@@ -1,0 +1,1 @@
+Figure 1 demonstrates how to configure an encrypted privileged exec mode password using the "enable secret" command. Figure 2 demonstrates how to configure a password for the console line. Figure 3 demonstrates how to configure a password for the vty lines. Both console and vty lines are configured using the “password” and “login” commands.

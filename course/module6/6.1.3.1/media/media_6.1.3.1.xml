@@ -1,0 +1,83 @@
+﻿<textcomponents>
+
+<component id="ID_txt01">
+	<text><![CDATA[Byte 1]]></text>
+</component>
+
+<component id="ID_txt02">
+	<text><![CDATA[Byte 2]]></text> 
+</component>
+
+<component id="ID_txt03">
+	<text><![CDATA[Byte 3]]></text> 
+</component>
+
+<component id="ID_txt04">
+	<text><![CDATA[Byte 4]]></text>
+</component>
+
+<component id="ID_txt05">
+	<text><![CDATA[Versión]]></text> 
+</component>
+  
+<component id="ID_txt06">
+	<text><![CDATA[Longitud del encabe<br>zado de Internet]]></text> 
+</component>
+  
+<component id="ID_txt07">
+	<text><![CDATA[Servicios diferenciados (DS)]]></text>
+</component>
+
+<component id="ID_txt08">
+	<text><![CDATA[DSCP]]></text> 
+  </component>
+  
+<component id="ID_txt09">
+	<text><![CDATA[ECN]]></text> 
+</component>
+  
+<component id="ID_txt10">
+	<text><![CDATA[Longitud total]]></text>
+</component>
+
+<component id="ID_txt11">
+	<text><![CDATA[Identificación]]></text> 
+</component>
+
+<component id="ID_txt12">
+	<text><![CDATA[Señalador]]></text> 
+</component>
+
+<component id="ID_txt13">
+	<text><![CDATA[Desplazamiento de fragmentos]]></text> 
+</component>
+  
+<component id="ID_txt14">
+	<text><![CDATA[Tiempo de duración]]></text>
+</component>
+
+<component id="ID_txt15">
+	<text><![CDATA[Protocolo]]></text> 
+</component>
+
+<component id="ID_txt16">
+	<text><![CDATA[Checksum del encabezado]]></text> 
+</component>
+  
+<component id="ID_txt17">
+	<text><![CDATA[Dirección IP de origen]]></text>
+</component>
+
+<component id="ID_txt18">
+	<text><![CDATA[Dirección IP de destino]]></text> 
+</component>
+  
+<component id="ID_txt19">
+	<text><![CDATA[...]]></text> 
+</component>
+
+<component id="ID_txt20">
+	<text><![CDATA[20 bytes]]></text> 
+</component>
+
+</textcomponents>

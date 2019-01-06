@@ -1,0 +1,11 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+	<text><![CDATA[<b>Funciones del gateway predeterminado</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+	<text><![CDATA[<b>Un gateway predeterminado…</b><br/><br/><textformat blockindent='-17'><ul><li>Enruta el tráfico a otras redes</li><br/><li>Tiene una dirección IP local en el mismo intervalo de direcciones que otros hosts de la red </li><br/><li>Puede llevar datos y reenviarlos</li></ul></textformat>]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,18 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+/*html, body {
+	margin:0;
+	height:100%;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#ID_table {
+	box-shadow: 0 0 2px 2px #999999 !important; 
+	width: 425px !important; 
+	border-radius:5px !important;
+}
+}*/

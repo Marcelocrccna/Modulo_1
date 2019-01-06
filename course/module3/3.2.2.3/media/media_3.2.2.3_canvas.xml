@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	
+<slide type="MBUTTON">
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />										
+<element type="IMAGE" src="3_2_2_3.png" x="0" y="0" width="680" height="490"/>			
+					
+<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+<element type="TEXT" compId="ID_s1_txt01" x="81" y="107" width="114.55" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_s1_txt02" x="208" y="52" width="60.3" expand="down" align="center" />
+<element type="TEXT" compId="ID_s1_txt03" x="135 " y="52" width="362.4" expand="down" align="center" />
+<element type="TEXT" compId="ID_s1_txt04" x="369" y="52" width="74.05" expand="down" align="center" />
+<element type="TEXT" compId="ID_s1_txt05" x="452" y="52" width="50.3" expand="down" align="center" />
+<element type="TEXT" compId="ID_s1_txt06" x="526" y="52" width="64.3" expand="down" align="center" />
+<element type="TEXT" compId="ID_s1_txt07" x="81" y="191" width="114.5" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_s1_txt08" x="81" y="250" width="114.5" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_s1_txt09" x="308" y="225" width="60.3" expand="down" align="center" />
+<element type="TEXT" compId="ID_s1_txt10" x="383" y="223" width="206" expand="down" align="center" />
+<element type="TEXT" compId="ID_s1_txt11" x="90" y="317" width="100" expand="up+down" align="center" />
+
+<slide buttonType="BLUE" buttonX="212" buttonY="98" buttonWidth="50" buttonHeight="23" compId="ID_btn01" selected="true" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt01" bodyId="ID_bodyTxt01"/>		
+		</slide> 
+<slide buttonType="BLUE" buttonX="294" buttonY="98" buttonWidth="50" buttonHeight="23" compId="ID_btn02" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt02" bodyId="ID_bodyTxt02"/>			
+		</slide> 
+<slide buttonType="BLUE" buttonX="294" buttonY="127" buttonWidth="50" buttonHeight="23" compId="ID_btn03" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt03" bodyId="ID_bodyTxt03"/>		
+		</slide>
+<slide buttonType="BLUE" buttonX="379" buttonY="98" buttonWidth="50" buttonHeight="23" compId="ID_btn04" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt04" bodyId="ID_bodyTxt04"/>		
+		</slide> 
+<slide buttonType="BLUE" buttonX="379" buttonY="127" buttonWidth="50" buttonHeight="23" compId="ID_btn05" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt05" bodyId="ID_bodyTxt05"/>		
+		</slide>
+<slide buttonType="BLUE" buttonX="379" buttonY="155" buttonWidth="50" buttonHeight="23" compId="ID_btn06" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt06" bodyId="ID_bodyTxt06"/>		
+		</slide>
+<slide buttonType="BLUE" buttonX="459" buttonY="98" buttonWidth="50" buttonHeight="23" compId="ID_btn07" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt07" bodyId="ID_bodyTxt07"/>		
+		</slide>	
+<slide buttonType="BLUE" buttonX="459" buttonY="127" buttonWidth="50" buttonHeight="23" compId="ID_btn08" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt08" bodyId="ID_bodyTxt08"/>		
+		</slide>
+<slide buttonType="BLUE" buttonX="533" buttonY="98" buttonWidth="50" buttonHeight="23" compId="ID_btn09" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt09" bodyId="ID_bodyTxt09"/>		
+		</slide>	
+<slide buttonType="BLUE" buttonX="231" buttonY="188" buttonWidth="130" buttonHeight="23" compId="ID_btn10" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt10" bodyId="ID_bodyTxt10"/>		
+		</slide>
+<slide buttonType="BLUE" buttonX="399" buttonY="188" buttonWidth="125" buttonHeight="23" compId="ID_btn11" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt11" bodyId="ID_bodyTxt11"/>		
+		</slide>		
+<slide buttonType="BLUE" buttonX="239" buttonY="241" buttonWidth="50" buttonHeight="23" compId="ID_btn12" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt12" bodyId="ID_bodyTxt12"/>		
+		</slide>
+<slide buttonType="BLUE" buttonX="239" buttonY="270" buttonWidth="50" buttonHeight="23" compId="ID_btn13" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt13" bodyId="ID_bodyTxt13"/>		
+		</slide>	
+<slide buttonType="BLUE" buttonX="313" buttonY="270" buttonWidth="50" buttonHeight="23" compId="ID_btn14" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt14" bodyId="ID_bodyTxt14"/>		
+		</slide>
+<slide buttonType="BLUE" buttonX="403" buttonY="255" buttonWidth="75" buttonHeight="23" compId="ID_btn15" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt15" bodyId="ID_bodyTxt15"/>		
+		</slide>	
+<slide buttonType="BLUE" buttonX="493" buttonY="255" buttonWidth="75" buttonHeight="23" compId="ID_btn16" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt16" bodyId="ID_bodyTxt16"/>		
+		</slide>
+<slide buttonType="BLUE" buttonX="229" buttonY="306" buttonWidth="65" buttonHeight="38" compId="ID_btn17" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt17" bodyId="ID_bodyTxt17"/>		
+		</slide>	
+<slide buttonType="BLUE" buttonX="298" buttonY="306" buttonWidth="65" buttonHeight="38" compId="ID_btn18" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt18" bodyId="ID_bodyTxt18"/>		
+		</slide>
+<slide buttonType="BLUE" buttonX="367" buttonY="306" buttonWidth="80" buttonHeight="38" compId="ID_btn19" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt19" bodyId="ID_bodyTxt19"/>		
+		</slide>	
+<slide buttonType="BLUE" buttonX="452" buttonY="306" buttonWidth="140" buttonHeight="38" compId="ID_btn20" selected="false" >
+			<element type="TEXTBOX" x="75" y="362" width="517" height="110" titleId="ID_titleTxt20" bodyId="ID_bodyTxt20"/>		
+		</slide>
+</slide>
+	
+</data>

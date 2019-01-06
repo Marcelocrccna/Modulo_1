@@ -1,0 +1,24 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+ 
+.green{
+	color:#60BD22;
+	font-weight:bold;
+	background:none;
+}
+.orange{
+	color:#F78D3D;
+	font-weight:bold;
+	background:none;	
+}
+.purple{
+	color:#662D8B;
+	font-weight:bold;
+	background:none;
+	margin-left:-1px !important;
+}
+ 

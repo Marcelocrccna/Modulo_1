@@ -1,0 +1,1 @@
+Figures 1 through 4show an example of using the binary positional notation table to convert a binary IP address to the dotted decimal address, 192.168.11.10. Each figure shows one of the four octets being converted to decimal.

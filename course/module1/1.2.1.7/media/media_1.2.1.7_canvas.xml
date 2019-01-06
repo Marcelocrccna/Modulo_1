@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide>
+        <element type="IMAGE" x="0" y="0" width="1000" height="490" src="../../../common/images/page_backgrounds/bg_activity.jpg" />
+        <element type="TEXT" subType="TITLE" compId="ID_title" color="#FFFFFF" />
+        <element type="ACTIVITYLocal" actid="1" subType="DRAGDROP" method="NORMAL" replicate="false" compWidth="156" compHeight="72" dragIcon="" dropIcon="" tickPosition="right" dragAlpha="0">
+            <subelement type="TEXT" subType="TITLE" compId="ID_title" color="#FFFFFF" />
+            <subelement type="IMAGE" x="0" y="0" width="1000" height="490" src="table.png" />
+            <subelement type="TEXT" compId="ID_table01" x="329" y="39" width="83.4" expand="up+down" align="center" size="10" color="#ffffff" />
+            <subelement type="TEXT" compId="ID_table02" x="420" y="39" width="146.7" expand="up+down" align="center" size="10" color="#ffffff" />
+            <subelement type="TEXT" compId="ID_table03" x="575" y="39" width="294.45" expand="up+down" align="center" size="10" color="#ffffff" />
+            <subelement type="TEXT" compId="ID_table04" x="329" y="133" width="84.4" expand="up+down" align="center" size="10" color="#ffffff" />
+            <subelement type="TEXT" compId="ID_table05" x="329" y="302" width="84.4" expand="up+down" align="center" size="10" color="#ffffff" />
+            <subelement type="TEXT" compId="ID_table06" x="329" y="424" width="84.4" expand="up+down" align="center" size="10" color="#ffffff" />
+            <element type="TEXTBOX" titleId="ID_s1_instr_title" bodyId="ID_s1_instr_body" x="59" y="30" width="220" height="145" animated="1" subType="ROLLOVER" />
+            <subelement type="DRAG" compId="ID_s1_drag03" x="93" clipName="drag03" y="193" />
+            <subelement type="DRAG" compId="ID_s1_drag01" x="93" clipName="drag01" y="273" />
+            <subelement type="DRAG" compId="ID_s1_drag02" x="93" clipName="drag02" y="351" />
+            <subelement type="DROP" x="417" y="110" match="1" />
+            <subelement type="DROP" x="417" y="270.5" match="2" />
+            <subelement type="DROP" x="417" y="395.45" match="0" />
+            <subelement type="CHECK" x="57" y="437" width="110" height="21" compId="ID_s1_CHECK" />
+            <subelement type="RESET" x="175" y="437" width="110" height="21" compId="ID_s1_RESET" />
+            <subelement type="FEEDBACK" x="453" y="141" width="240" height="170" correctTitleId="ID_s1_CORRECT_TITLE" correctBodyId="ID_s1_CORRECT_BODY" wrongTitleId="ID_s1_INCORRECT_TITLE" wrongBodyId="ID_s1_INCORRECT_BODY" />
+        </element>
+        <element type="ACTIVITYLocal" actid="2" subType="DRAGDROP" method="NORMAL" replicate="false" compWidth="102" compHeight="40" dragIcon="" dropIcon="" tickPosition="down" dragAlpha="0" matchType="group">
+            <subelement type="TEXT" subType="TITLE" compId="ID_title" color="#FFFFFF" />
+            <subelement type="IMAGE" x="0" y="0" width="1000" height="490" src="1_3_1_7_B.png" />
+            <!-- <subelement type="TEXT" compId="ID_s2_inst" x="103" y="40" width="220" expand="bottom" align="left" /> -->
+            <subelement type="TEXT" compId="ID_table01" x="329" y="39" width="83.4" expand="up+down" align="center" size="10" color="#ffffff" />
+            <subelement type="TEXT" compId="ID_table02" x="420" y="39" width="146.7" expand="up+down" align="center" size="10" color="#ffffff" />
+            <subelement type="TEXT" compId="ID_table03" x="575" y="39" width="294.45" expand="up+down" align="center" size="10" color="#ffffff" />
+            <subelement type="TEXT" compId="ID_table04" x="329" y="133" width="84.4" expand="up+down" align="center" size="10" color="#ffffff" />
+            <subelement type="TEXT" compId="ID_table05" x="329" y="302" width="84.4" expand="up+down" align="center" size="10" color="#ffffff" />
+            <subelement type="TEXT" compId="ID_table06" x="329" y="424" width="84.4" expand="up+down" align="center" size="10" color="#ffffff" />
+            <subelement type="TEXT" compId="ID_s3_existing01" x="421" y="119" width="146.7" expand="up+down" align="left" size="10" />
+            <subelement type="TEXT" compId="ID_s3_existing02" x="421" y="269" width="146.7" expand="up+down" align="left" size="10" />
+            <subelement type="TEXT" compId="ID_s3_existing03" x="421" y="420" width="146.7" expand="up+down" align="left" size="10" />
+            <subelement type="DRAG" img="icon_workgroup_switch.png" x="75" y="125" group="B" />
+            <subelement type="DRAG" img="icon_WAN_media.png" x="75" y="170" group="C" />
+            <subelement type="DRAG" img="icon_tablet.png" x="75" y="215" group="A" />
+            <subelement type="DRAG" img="computer.png" x="75" y="260" group="A" />
+            <subelement type="DRAG" img="Router.png" x="75" y="305" group="B" />
+            <subelement type="DRAG" img="icon_telepresence.png" x="75" y="350" group="A" />
+            <subelement type="DRAG" img="icon_wireless_router.png" x="75" y="395" group="B" />
+            <subelement type="DRAG" img="icon_ip_phone.png" x="182" y="125" group="A" />
+            <subelement type="DRAG" img="security.png" x="182" y="170" group="B" />
+            <subelement type="DRAG" img="icon_laptop.png" x="182" y="215" group="A" />
+            <subelement type="DRAG" img="icon_wireless_media.png" x="182" y="260" group="C" />
+            <subelement type="DRAG" img="icon_printer.png" x="182" y="305" group="A" />
+            <subelement type="DRAG" img="Switch-Layer3.png" x="182" y="350" group="B" />
+            <subelement type="DRAG" img="Symbol2.png" x="182" y="395" group="C" />
+            <subelement type="DROP" x="570.5" y="88" group="A" />
+            <subelement type="DROP" x="672.5" y="88" group="A" />
+            <subelement type="DROP" x="774.5" y="88" group="A" />
+            <subelement type="DROP" x="570.5" y="165" group="A" />
+            <subelement type="DROP" x="672.5" y="165" group="A" />
+            <subelement type="DROP" x="774.5" y="165" group="A" />
+            <subelement type="DROP" x="570.5" y="246" group="B" />
+            <subelement type="DROP" x="672.5" y="246" group="B" />
+            <subelement type="DROP" x="774.5" y="246" group="B" />
+            <subelement type="DROP" x="570.5" y="322" group="B" />
+            <subelement type="DROP" x="672.5" y="322" group="B" />
+            <subelement type="DROP" x="570.5" y="402" group="C" />
+            <subelement type="DROP" x="672.5" y="402" group="C" />
+            <subelement type="DROP" x="774.5" y="402" group="C" />
+            <subelement type="CHECK" x="65" y="450" width="110" height="21" compId="ID_s1_CHECK" />
+            <subelement type="RESET" x="185" y="450" width="110" height="21" compId="ID_s1_RESET" />
+            <subelement type="FEEDBACK" x="453" y="141" width="240" height="170" correctTitleId="ID_s2_CORRECT_TITLE" correctBodyId="ID_s2_CORRECT_BODY" wrongTitleId="ID_s2_INCORRECT_TITLE" wrongBodyId="ID_s2_INCORRECT_BODY" />
+        </element>
+        <element type="ACTIVITYLocal" actid="3" subType="DRAGDROP" method="NORMAL" replicate="false" compWidth="102" compHeight="38" dragIcon="" dropIcon="" tickPosition="up" dragAlpha="0">
+            <subelement type="IMAGE" x="0" y="0" width="1000" height="490" src="1_3_1_7_C.png" />
+            <!-- <subelement type="TEXT" compId="ID_s3_inst" x="103" y="40" width="220" expand="bottom" align="left" /> -->
+            <subelement type="TEXT" subType="TITLE" compId="ID_title" color="#FFFFFF" />
+            <subelement type="TEXT" compId="ID_table01" x="329" y="35" width="83" expand="down" align="center" color="#ffffff" />
+            <subelement type="TEXT" compId="ID_table02" x="421.3" y="49.8" width="146" expand="up+down" align="center" color="#ffffff" />
+            <subelement type="TEXT" compId="ID_table03" x="576.3" y="49.8" width="293.05" expand="up+down" align="center" color="#ffffff" />
+            <subelement type="TEXT" compId="ID_table04" x="330.3" y="133.8" width="84" expand="up+down" align="center" color="#ffffff" />
+            <subelement type="TEXT" compId="ID_table05" x="330.3" y="283.8" width="84" expand="up+down" align="center" color="#ffffff" />
+            <subelement type="TEXT" compId="ID_table06" x="330.3" y="402.8" width="84" expand="down" align="center" color="#ffffff" />
+            <subelement type="TEXT" compId="ID_s3_existing01" x="422.3" y="133.8" width="146" expand="up+down" align="left" />
+            <subelement type="TEXT" compId="ID_s3_existing02" x="422.3" y="283.85" width="146" expand="up+down" align="left" />
+            <subelement type="TEXT" compId="ID_s3_existing03" x="422.3" y="402.85" width="146" expand="down" align="left" />
+            <subelement type="DRAG" compId="ID_s3_drag14" x="75" y="130.25" />
+            <subelement type="DRAG" compId="ID_s3_drag02" x="75" y="176.55" />
+            <subelement type="DRAG" compId="ID_s3_drag08" x="75" y="221.85" />
+            <subelement type="DRAG" compId="ID_s3_drag04" x="75" y="269.15" />
+            <subelement type="DRAG" compId="ID_s3_drag05" x="75" y="315.45" />
+            <subelement type="DRAG" compId="ID_s3_drag10" x="75" y="361.75" />
+            <subelement type="DRAG" compId="ID_s3_drag07" x="75" y="408.05" />
+            <subelement type="DRAG" compId="ID_s3_drag03" x="182" y="130.25" />
+            <subelement type="DRAG" compId="ID_s3_drag09" x="182" y="176.55" />
+            <subelement type="DRAG" compId="ID_s3_drag13" x="182" y="221.85" />
+            <subelement type="DRAG" compId="ID_s3_drag11" x="182" y="269.15" />
+            <subelement type="DRAG" compId="ID_s3_drag12" x="182" y="315.45" />
+            <subelement type="DRAG" compId="ID_s3_drag01" x="182" y="361.75" />
+            <subelement type="DRAG" compId="ID_s3_drag06" x="182" y="408.05" />
+            <subelement type="DROP" x="571" y="108" match="4" />
+            <subelement type="DROP" x="673.5" y="108" match="12" />
+            <subelement type="DROP" x="775" y="108" match="7" />
+            <subelement type="DROP" x="571" y="184" match="3" />
+            <subelement type="DROP" x="673.5" y="184" match="1" />
+            <subelement type="DROP" x="775" y="184" match="13" />
+            <subelement type="DROP" x="571" y="275" match="8" />
+            <subelement type="DROP" x="673.5" y="275" match="5" />
+            <subelement type="DROP" x="775" y="275" match="2" />
+            <subelement type="DROP" x="571" y="349" match="6" />
+            <subelement type="DROP" x="673.5" y="349" match="10" />
+            <subelement type="DROP" x="571" y="428.55" match="11" />
+            <subelement type="DROP" x="673.5" y="428.55" match="9" />
+            <subelement type="DROP" x="775" y="428.55" match="0" />
+            <subelement type="CHECK" x="98.7" y="458.8" width="80" height="17" compId="ID_s1_CHECK" />
+            <subelement type="RESET" x="200.9" y="458.8" width="80" height="17" compId="ID_s1_RESET" />
+            <subelement type="FEEDBACK" x="453" y="141" width="240" height="170" correctTitleId="ID_s3_CORRECT_TITLE" correctBodyId="ID_s3_CORRECT_BODY" wrongTitleId="ID_s3_INCORRECT_TITLE" wrongBodyId="ID_s3_INCORRECT_BODY" />
+        </element>
+    </slide>
+</data>

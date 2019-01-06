@@ -1,0 +1,10 @@
+@import url('../../../common/styles/media2.css');
+
+#ID_txt04{
+	box-shadow: 1px 1px 1px 1px #888888;
+	background-color: #FFFFFF;
+	padding-left: 25px !important;
+	padding-right: 25px !important;
+	padding-top: 5px !important;
+	padding-bottom: 4px !important; 
+}

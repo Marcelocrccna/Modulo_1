@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+		
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+		
+
+<element type="IMAGE" x="87" y="147" width="512.8" height="227.45" subType="STD" src="4.2.1.4.jpg" />
+		<element type="IMAGE" x="-10" y="50" width="680" height="490" src="arrows.png" />
+
+<element type="TEXT" compId="ID_txt01" x="61" y="65" width="133.95" expand="up" align="center" class="orangeCallOut" />
+<element type="TEXT" compId="ID_txt02" x="207" y="66" width="133.95" expand="up" align="center" class="orangeCallOut" />
+<element type="TEXT" compId="ID_txt03" x="356" y="65" width="133.95" expand="up" align="center" class="orangeCallOut" />
+<element type="TEXT" compId="ID_txt04" x="504" y="65" width="133.95" expand="up" align="center" class="orangeCallOut" />
+	</slide>
+</data>

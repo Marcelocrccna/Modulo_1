@@ -1,0 +1,187 @@
+<textcomponents>
+    <!--Slide 1-->
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<b>Ataque a la contraseña</b>]]></text>
+    </component>
+    <component id="ID_s1_TB_header">
+        <text>
+            <![CDATA[Los atacantes pueden implementar ataques a la contraseña mediante diversos métodos:]]>
+        </text>
+    </component>
+    <component id="ID_s1_TB_body">
+        <text>
+            <![CDATA[<textformat blockindent="-18"><li>Ataques por fuerza bruta</li><li>Caballos de Troya</li><li>Programas detectores de paquetes</li></textformat>]]>
+        </text>
+    </component>
+    <!--Slide 2-->
+    <component id="ID_s2_title">
+        <text>
+            <![CDATA[<b>Explotación de confianza</b>]]></text>
+    </component>
+   <component id='ID_s2_table'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>				
+			<tr>
+				<td bgcolor='#666263' width='180' valign="top"><font size='11' color='#ffffff'><b>Network OS</b></font></td>
+					<td bgcolor='#666263' valign="top"><font size='11' color='#ffffff'><b>Trust Models</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11'color='#393536'>Windows</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>Domains Active Directory (AD)</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Linux and UNIX</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Network File System (NFS) Network Information Service Plus (NIS+)</font></td>
+				</tr>	
+			</table>]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt04">
+        <text>
+            <![CDATA[El sistema A confía en el sistema B]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt01">
+        <text>
+            <![CDATA[Sistema A]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt052">
+        <text>
+            <![CDATA[El sistema B confía en todos]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt02">
+        <text>
+            <![CDATA[Sistema B]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt05">
+        <text>
+            <![CDATA[Comprometido por atacante<br/>usuario=psmith; Pat Smith]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt06">
+        <text>
+            <![CDATA[El atacante obtiene el acceso al sistema A]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt07">
+        <text>
+            <![CDATA[usuario=psmith;<br/>Pat Smith]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt03">
+        <text>
+            <![CDATA[Atacante]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt09">
+        <text>
+            <![CDATA[Objetivo:<br/>un atacante quiere obtener acceso al sistema A.]]>
+        </text>
+    </component>
+    <component id="ID_s2_bubble02">
+        <text>
+            <![CDATA[<font color="#FFFFFF">No puedo obtener acceso al sistema A, pero el sistema B está abierto.</font>]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt11">
+        <text>
+            <![CDATA[usuario=psmith; Pat Smith]]>
+        </text>
+    </component>
+    <component id="ID_s2_bubble01">
+        <text>
+            <![CDATA[<font color="#FFFFFF">Soy dueño del sistema B y ahora tengo acceso al sistema A.</font>]]>
+        </text>
+    </component>
+    <!--Slide 3-->
+    <component id="ID_s3_title">
+        <text>
+            <![CDATA[<b>Redireccionamiento de puertos</b>]]></text>
+    </component>
+    <component id="ID_s3_TB_body">
+        <text>
+            <![CDATA[El redireccionamiento de puertos es un tipo de ataque de explotación de confianza que utiliza un host comprometido para pasar tráfico que de otra manera se descartaría a través un firewall. Se mitiga principalmente con el uso de modelos de confianza adecuados. El software antivirus y los IDS basados en host pueden ayudar a detectar y prevenir que un atacante instale utilidades de redireccionamiento de puertos en el host.]]>
+        </text>
+    </component>
+    <component id="ID_s3_txt01">
+        <text>
+            <![CDATA[<b>Atacante</b>]]></text>
+    </component>
+    <component id="ID_s3_txt02">
+        <text>
+            <![CDATA[<b>El atacante instala un software en el host A</b>]]></text>
+    </component>
+    <component id="ID_s3_txt03REMOVED">
+        <text>
+            <![CDATA[<b>Fuente: atacante<br/>Destino: B<br/>Puerto: 23</b>]]></text>
+    </component>
+    <component id="ID_s3_txt04">
+        <text>
+            <![CDATA[<b>Host A comprometido</b>]]></text>
+    </component>
+    <component id="ID_s3_txt05">
+        <text>
+            <![CDATA[<b>El atacante accede al host B en un puerto diferente</b>]]></text>
+    </component>
+    <component id="ID_s3_txt06">
+        <text>
+            <![CDATA[<b>Host B</b>]]></text>
+    </component>
+    <!--Slide 4-->
+    <component id="ID_s4_title">
+        <text>
+            <![CDATA[<b>Ataque man-in-the-middle</b>]]></text>
+    </component>
+    <component id="ID_s4_txt01">
+        <text>
+            <![CDATA[Víctima]]>
+        </text>
+    </component>
+    <component id="ID_s4_txt02">
+        <text>
+            <![CDATA[La víctima hace clic en el enlace del correo electrónico de suplantación de identidad.]]>
+        </text>
+    </component>
+    <component id="ID_s4_txt03">
+        <text>
+            <![CDATA[Servidor web]]>
+        </text>
+    </component>!--ANIMATION CONTROLLER--&gt;
+    <component id="end">
+        <text>
+            <![CDATA[Fin]]>
+        </text>
+    </component>
+    <component id="fforward">
+        <text>
+            <![CDATA[Adelantar]]>
+        </text>
+    </component>
+    <component id="pause">
+        <text>
+            <![CDATA[Pausa]]>
+        </text>
+    </component>
+    <component id="play">
+        <text>
+            <![CDATA[Reproducir]]>
+        </text>
+    </component>
+    <component id="rewind">
+        <text>
+            <![CDATA[Regresar]]>
+        </text>
+    </component>
+    <component id="start">
+        <text>
+            <![CDATA[Inicio]]>
+        </text>
+    </component>
+</textcomponents>

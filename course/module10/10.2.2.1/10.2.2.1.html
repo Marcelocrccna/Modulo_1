@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.2.2.1 Servicio de nombres de dominios</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.2.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Servicio de nombres de dominios</h1>
+        <div>
+          <p>En las redes de datos, los dispositivos se etiquetan con direcciones IP numéricas para enviar y recibir datos a través de las redes. Los nombres de dominio se crearon para convertir las direcciones numéricas en un nombre sencillo y reconocible.</p>
+          <p>En Internet, estos nombres de dominio, como <a href="http://www.cisco.com/" target="_blank">http://www.cisco.com</a>, son mucho más fáciles de recordar que algo como 198.133.219.25, que es la dirección numérica real de ese servidor. Si Cisco decide cambiar la dirección numérica de <a href="http://www.cisco.com/" target="_blank">www.cisco.com</a>, no afecta al usuario porque el nombre de dominio se mantiene. Simplemente se une la nueva dirección al nombre de dominio existente y se mantiene la conectividad. </p>
+          <p>El protocolo DNS define un servicio automatizado que coincide con nombres de recursos que tienen la dirección de red numérica solicitada. Incluye el formato de consultas, respuestas y datos. Las comunicaciones del protocolo DNS utilizan un único formato llamado “mensaje”. Este formato de mensaje se utiliza para todos los tipos de solicitudes de clientes y respuestas del servidor, mensajes de error y para la transferencia de información de registro de recursos entre servidores.</p>
+          <p>En las figuras 1 a 5, se muestran los pasos relacionados con la resolución DNS.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a client computer and a server connected to a network.  The client is attempting to reach Cisco’s website using a web browser.  The client makes a DNS query to a DNS server. Figure 2 shows an NS record matching www dot cisco dot com to an IP address Figure 3 shows the client sending the DNS request to the server. Figure 4 shows the DNS server responding to the DNS query with the IP address for www dot cisco dot com Figure 5 shows the client now has the IP address to put in the layer 3 header as the destination IP for the HTTP request.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

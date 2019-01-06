@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>      
+	<slide>
+	    <element type="IMAGE" x="-4" y="-4" width="331" height="248" src="../../../common-ext/styles/images/packet_tracer/2529A.jpg" />
+		  
+		 <element type="IMAGE" x="322" y="-28" width="450" height="338" src="../../../common-ext/styles/images/packet_tracer/2529B.jpg" />
+		  <element type="IMAGE" x="312" y="227" width="435" height="299" src="../../../common-ext/styles/images/packet_tracer/2529D.jpg" />
+		  <element type="IMAGE" x="210" y="392" width="440" height="294" src="../../../common-ext/styles/images/packet_tracer/2529C.jpg" rotation="180"  maskX="-210" maskY="-150" maskWidth="340" maskHeight="301"/>
+		 <element type="IMAGE" x="0" y="0" width="680" height="490" src="centerbg.png" />
+		 <element type="TEXT" compId="ID_type" x="12" y="227" width="210" align="right" expand="up+down" color="#ffffff" size="21"/>
+		 <element type="TEXT" compId="ID_title" x="246" y="231" width="416" align="left" expand="up+down" color="#ffffff" size="11"/>
+	</slide>  
+</data>

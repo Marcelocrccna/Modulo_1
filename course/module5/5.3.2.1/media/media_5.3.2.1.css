@@ -1,0 +1,12 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_static_5, #ID_static_6, #ID_static_7, #ID_static_8 {
+	font-weight: bold;
+}
+
+#ID_txt01 {
+	color: #FFF;
+}

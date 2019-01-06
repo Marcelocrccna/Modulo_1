@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.4.3 Ejemplo basado en requisitos de la red</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.4.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Ejemplo basado en requisitos de la red</h1>
+        <div>
+          <p>Los administradores de redes deben diseñar un esquema de direccionamiento de red que admita la cantidad máxima de hosts para cada red y la cantidad de subredes. El esquema de direccionamiento debe permitir el crecimiento tanto de la cantidad de direcciones de host por subred como de la cantidad total de subredes.</p>
+          <p>En este ejemplo, las oficinas centrales de la empresa asignaron la dirección de red privada 172.16.0.0/22 (10 bits de host) a una sucursal. Como se muestra en la figura 1, esto proporciona 1022 direcciones de host.</p>
+          <p>La topología para las sucursales, descrita en la figura 2, consiste en 5 segmentos LAN y 4 conexiones de interconexión de redes entre routers. Por lo tanto, se requieren 9 subredes. La subred más grande requiere 40 hosts. </p>
+          <p>La dirección de red 172.16.0.0/22 tiene 10 bits de host, tal como se muestra en la figura 3. Debido a que la subred más grande requiere 40 hosts, se debe tomar prestado un mínimo de 6 bits de host para proporcionar el direccionamiento de los 40 hosts. Esto se determina mediante la fórmula 2^6 – 2 = 62 hosts. </p>
+          <p>La fórmula para determinar subredes da un resultado de 16 subredes: 2^4 = 16. Dado que la interconexión de redes que se utilizó como ejemplo requiere 9 subredes, esto cumple con el requisito y permite cierto crecimiento adicional. </p>
+          <p>Por lo tanto, los primeros 4 bits de host se pueden utilizar para asignar subredes, tal como se muestra en la figura 4. Cuando se piden prestados 4 bits, la nueva longitud de prefijo es /26, con la máscara de subred 255.255.255.192.</p>
+          <p>Como se muestra en la figura 5, las subredes se pueden asignar a los segmentos LAN y a conexiones de router a router.</p>
+       
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows how a slash 22 has ten host bits which allows for 1022 valid hosts. Figure 2 shows a corporate network divided by department. The host requirements for each department are listed. Figure 3 shows the 172.16.0.0/22 address in binary. The network portion is highlighted in green and the host portion is highlighted in orange. Figure 4 shows the 16 subnets that are formed when creating borrowing four bits from 172.16.0.0/22.  You can see that by alternating bits 23, 24, 25, and 26 in a logical order, you can easily determine the network IDs for all sixteen subnets. Figure 5 shows how these subnets might be assigned to the departments in a corporate network.  Each subnet is the same size.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

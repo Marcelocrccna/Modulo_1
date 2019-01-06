@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.2.3.3 Captura de configuración a un archivo de texto</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.2.3.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Captura de configuración a un archivo de texto</h1>
+        <div>
+          <p>Los archivos de configuración pueden guardarse y archivarse en un documento de texto. Esta secuencia de pasos asegura la disponibilidad de una copia utilizable del archivo de configuración para su modificación o reutilización en otra oportunidad.</p>
+          <p></p>
+          <p>Por ejemplo, suponga que se configuró un switch y que la configuración en ejecución se guardó en el dispositivo.</p>
+          <p>
+            <ul>
+              <li>Abra un software de emulación de terminal como PuTTY o Tera Term (figura 1) conectado a un switch.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Habilite el inicio de sesión al software de terminal, como PuTTY o Tera Term y asigne un nombre y ubicación de archivo donde guardar el archivo de registro. La figura 2 muestra que <b>todos los resultados de sesión</b> se capturarán en el archivo especificado (es decir, MySwitchLogs).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Ejecute el comando <b>show running-config</b> o <b>show startup-config</b> ante la petición de entrada de EXEC privilegiado. El texto que aparece en la ventana del terminal se colocará en el archivo elegido.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Desactive el inicio de sesión en el software del terminal. En la figura 3 se muestra desactivar el inicio de sesión mediante la selección de la opción de inicio de sesión <b>None</b>.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>El archivo de texto creado se puede utilizar como un registro del modo en que se implementa actualmente el dispositivo. El archivo puede requerir edición antes de poder utilizarse para restaurar una configuración guardada a un dispositivo.</p>
+          <p></p>
+          <p>Para restaurar un archivo de configuración a un dispositivo:</p>
+          <p>
+            <ul>
+              <li>Ingrese al modo de configuración global en el dispositivo.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Copie y pegue el archivo de texto en la ventana del terminal conectada al switch. </li>
+            </ul>
+          </p>
+          <p></p>
+          <p>El texto en el archivo estará aplicado como comandos en la CLI y pasará a ser la configuración en ejecución en el dispositivo. Este es un método conveniente para configurar manualmente un dispositivo.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1, 2 and 3 are a screen captures of PuTTY. Figure 1 is a the Session window. In Figure 2, “Logging” is selected, “All session output” is selected, and the log filename entered is “MySwitchLogs”. Figure 3 shows how to disable session logging by choosing “None”.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

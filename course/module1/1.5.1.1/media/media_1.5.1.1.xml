@@ -1,0 +1,12 @@
+<textcomponents>
+
+<component id="ID_titletxt">
+<text><![CDATA[Exploración de la red…]]></text>
+</component>
+
+
+<component id="ID_Bodytxt">
+<text><![CDATA[<textformat blockindent="-14"><ul><li>La comunicación en un mundo centrado en la red</li><li>La red como plataforma</li><li>LAN, WAN e Internet</li><li>El cambiante entorno de red</li></ul></textformat>]]></text>
+</component>
+
+</textcomponents>

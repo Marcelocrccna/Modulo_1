@@ -1,0 +1,1 @@
+Figure shows the commands to configure SSH. The steps are listed in a text box.

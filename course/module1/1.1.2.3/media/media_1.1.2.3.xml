@@ -1,0 +1,22 @@
+<textcomponents>
+	<component id="ID_txt01">
+		<text><![CDATA[<font color="#ffffff">Tengo una impresora para compartir.</font>]]></text> 
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[<font color="#ffffff">Tengo archivos para compartir.</font>]]></text> 
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Uso compartido de impresora]]></text> 
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[Uso compartido de archivos]]></text> 
+	</component>
+
+	<component id="ID_table01">
+		<text><![CDATA[<font size="13"><b>Las ventajas de las redes entre pares:</b></font><br /><textformat blockindent="-14"><ul><li>Configuración sencilla</li><li>Menor complejidad</li><li>Menor costo, dado que es posible que no se necesiten dispositivos de red ni servidores dedicados</li><li>Se pueden utilizar para tareas sencillas como transferir archivos y compartir impresoras</li></textformat><br/><font size="13"><b>Las desventajas de las redes entre pares:</b></font><br /><textformat blockindent="-14"><li>Administración descentralizada</li><li>No son tan seguras</li><li>No son escalables</li><li>Todos los dispositivos pueden funcionar como clientes y como servidores, lo que puede lentificar el rendimiento</li></ul></textformat>]]></text>
+	</component>
+
+</textcomponents>

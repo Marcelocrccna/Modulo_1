@@ -1,0 +1,9 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_box3{
+	letter-spacing: -0.2px !important;
+}
+

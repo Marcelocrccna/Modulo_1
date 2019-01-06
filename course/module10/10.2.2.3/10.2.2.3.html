@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.2.2.3 Jerarquía DNS</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.2.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Jerarquía DNS</h1>
+        <div>
+          <p>El protocolo DNS utiliza un sistema jerárquico para crear una base de datos que proporcione la resolución de nombres. La jerarquía es similar a un árbol invertido con la raíz en la parte superior y las ramas por debajo (consulte la figura). DNS utiliza nombres de domino para formar la jerarquía.</p>
+          <p>La estructura de nomenclatura se divide en zonas pequeñas y manejables. Cada servidor DNS mantiene un archivo de base de datos específico y sólo es responsable de administrar las asignaciones de nombre a IP para esa pequeña porción de toda la estructura DNS. Cuando un servidor DNS recibe una solicitud para una traducción de nombre que no se encuentra dentro de esa zona DNS, el servidor DNS reenvía la solicitud a otro servidor DNS dentro de la zona adecuada para su traducción. </p>
+          <p>
+            <b>Nota</b>: DNS es escalable, porque la resolución de los nombres de hosts se distribuye entre varios servidores.</p>
+          <p>Los diferentes dominios de primer nivel representan el tipo de organización o el país de origen. Entre los ejemplos de dominios del nivel superior se encuentran:</p>
+          <p>
+            <ul>
+              <li>
+                <b>.com</b>: una empresa o industria</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>.org</b>: una organización sin fines de lucro</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>.au</b>: Australia</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>.co</b>: Colombia</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows the DNS hierarchy.  A client communicates with a local DNS server.  That server can communicate with Top-level domain servers for records it does not have in its DNS database.  The Top-Level servers can communicate with the Root servers for any records they do not have.  The Root servers have All DNS records.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

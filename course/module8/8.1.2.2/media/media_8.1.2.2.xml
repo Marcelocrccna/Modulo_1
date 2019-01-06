@@ -1,0 +1,185 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<b>División de la red <u>10.x</u>.0.0/16 en subredes</b>]]></text>
+    </component>
+    <component id="ID_s2_title">
+        <text>
+            <![CDATA[<b>División de la red <u>10.x</u>.0/24 en subredes</b>]]></text>
+    </component>
+    <component id='ID_s1_table'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+	
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="5"></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>		 
+		<tr>
+			<td bgcolor='#666263' width='200' valign="middle"><font color='#FFFFFF'><b>Dirección de subred<br/>(256 subredes posibles)</b></font></td>
+			<td bgcolor='#666263' width='220' valign="middle"><font color='#FFFFFF'><b>Rango de host<br/>(65 534 hosts posibles por subred)</b></font></td>
+			<td bgcolor='#666263' width='180' valign="middle"><font color='#FFFFFF'><b>Difusión</b></font></td>
+		</tr> 
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.0</u>.0.0/16</td>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.0</u>.0.1 – <u>10.0</u>.255.254</td>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.0</u>.255.255</td>
+		</tr>		 
+
+
+
+		<tr>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.1</u>.0.0/16</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.1</u>.0.1 – <u>10.1</u>.255.254</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.1</u>.255.255</td>
+		</tr>	
+		
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.2</u>.0.0/16</td>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.2</u>.0.1 – <u>10.2</u>.255.254</td>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.2</u>.255.255</td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.3</u>.0.0/16</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.3</u>.0.1 – <u>10.3</u>.255.254</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.3</u>.255.255</td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.4</u>.0.0/16</td>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.4</u>.0.1 – <u>10.4</u>.255.254</td>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.4</u>.255.255</td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.5</u>.0.0/16</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.5</u>.0.1 – <u>10.5</u>.255.254</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.5</u>.255.255</td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.6</u>.0.0/16</td>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.6</u>.0.1 – <u>10.6</u>.255.254</td>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.6</u>.255.255</td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.7</u>.0.0/16</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.7</u>.0.1 – <u>10.7</u>.255.254</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.7</u>.255.255</td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle">...</td>
+			<td bgcolor='#E9E7E8' valign="middle">...</td>
+			<td bgcolor='#E9E7E8' valign="middle">...</td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.255</u>.0.0/16</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.255</u>.0.1 – <u>10.255</u>.255.254</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.255</u>.255.255</td>
+		</tr>	 
+		
+	</table>]]>
+        </text>
+    </component>
+    <component id='ID_s2_table'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+	
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="5"></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>		 
+		<tr>
+			<td bgcolor='#666263' width='200' valign="middle"><font color='#FFFFFF'><b>Dirección de subred<br/>(65 536 subredes posibles)</b></font></td>
+			<td bgcolor='#666263' width='220' valign="middle"><font color='#FFFFFF'><b>Rango de host<br/>(254 hosts posibles por subred)</b></font></td>
+			<td bgcolor='#666263' width='180' valign="middle"><font color='#FFFFFF'><b>Difusión</b></font></td>
+		</tr> 
+		
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.0.0</u>.0/24</td>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.0.0</u>.1 – <u>10.0.0</u>.254</td>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.0.0</u>.255</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.0.1</u>.0/24</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.0.1</u>.1 – <u>10.0.1</u>.254</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.0.1</u>.255</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.0.2</u>.0/24</td>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.0.2</u>.1 – <u>10.0.2</u>.254</td>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.0.1</u>.255</td>
+		</tr>		 
+
+		<tr>
+			<td bgcolor='#F2F2F2' valign="middle">...</td>
+			<td bgcolor='#F2F2F2' valign="middle">...</td>
+			<td bgcolor='#F2F2F2' valign="middle">...</td>
+		</tr> 
+		
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.0.255</u>.0/24</td>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.0.255</u>.1 – <u>10.0.255</u>.254</td>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.0.255</u>.255</td>
+		</tr>	
+		
+		<tr>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.1.0</u>.0/24</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.1.0</u>.1 – <u>10.1.0</u>.254</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.1.0</u>.255</td>
+		</tr>	
+		
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.1.1</u>.0/24</td>
+			<td bgcolor='#E9E7E8' valign="middle"><u>10.1.1</u>.1 – <u>10.1.1</u>.254</td>
+			<td bgcolor='#E9E7E8' valign="middle"><u>1.1.1.0</u>.255</td>
+		</tr>	
+		
+		<tr>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.1.2</u>.0/24</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.1.2</u>.1 – <u>10.1.2</u>.254</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.1.2.0</u>.255</td>
+		</tr>	
+		
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle">...</td>
+			<td bgcolor='#E9E7E8' valign="middle">...</td>
+			<td bgcolor='#E9E7E8' valign="middle">...</td>
+		</tr> 
+		
+		<tr>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.100.0</u>.0/24</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.100.0</u>.1 – <u>10.100.0</u>.254</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.100.0</u>.255</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle">...</td>
+			<td bgcolor='#E9E7E8' valign="middle">...</td>
+			<td bgcolor='#E9E7E8' valign="middle">...</td>
+		</tr> 
+		
+		<tr>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.255.255</u>.0/24</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.255.255</u>.1 – <u>10.255.255</u>.254</td>
+			<td bgcolor='#F2F2F2' valign="middle"><u>10.255.255</u>.255</td>
+		</tr>
+		
+		
+		
+	</table>]]>
+        </text>
+    </component>
+</textcomponents>

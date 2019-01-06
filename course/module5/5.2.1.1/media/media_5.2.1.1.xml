@@ -1,0 +1,91 @@
+<textcomponents>
+    <!-- <component id="ID_s0_txt01">
+        <text>
+            <![CDATA[Las direcciones MAC están acortadas con fines de demostración.]]>
+        </text>
+    </component>
+    <component id="ID_s0_txt02">
+        <text>
+            <![CDATA[Tipo]]>
+        </text>
+    </component>
+    <component id="ID_s0_txt03">
+        <text>
+            <![CDATA[Datos]]>
+        </text>
+    </component>
+    <component id="ID_s0_txt04">
+        <text>
+            <![CDATA[FCS]]>
+        </text>
+    </component> -->
+    <component id="ID_txt01">
+        <text>
+            <![CDATA[MAC<br/>00-0A]]>
+        </text>
+    </component>
+    <component id="ID_txt02">
+        <text>
+            <![CDATA[MAC<br/>00-0B]]>
+        </text>
+    </component>
+    <component id="ID_txt03">
+        <text>
+            <![CDATA[MAC<br/>00-0C]]>
+        </text>
+    </component>
+    <component id="ID_txt04">
+        <text>
+            <![CDATA[MAC<br/>00-0D]]>
+        </text>
+    </component>
+    <component id="ID_title">
+        <text>
+            <![CDATA[<b>Aprendizaje: Examinar la dirección MAC de origen</b>]]></text>
+    </component>
+    <component id="ID_txt05">
+        <text>
+            <![CDATA[Las direcciones MAC están acortadas con fines de demostración.]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt02">
+        <text>
+            <![CDATA[MAC de origen<br/>00-0A]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt03">
+        <text>
+            <![CDATA[Puerto y dirección MAC de destino agregados]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt04">
+        <text>
+            <![CDATA[No tengo esta dirección MAC de origen ni el puerto de entrada en mi tabla, así que los agregaré.]]>
+        </text>
+    </component>
+    <component id="ID_table">
+        <text>
+            <![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable" >
+
+	<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="12" color="#393536"><b>Tabla de direcciones MAC</b></font></td>
+			</tr>
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#434321'>.</font></td>
+			</tr>
+			<tr>
+                <td bgcolor='#666263' width="170px" ><font color="#FFFFFF" align="center"><b>Puerto</b></font></td>
+                <td bgcolor='#666263'><font color="#FFFFFF"><b>Dirección MAC</b></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'><font color='#E9E7E8'>.</font></td>
+				<td bgcolor='#E9E7E8'><font color='#E9E7E8'>.</font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2'><font color='#E9E7E8'>.</font></td>
+				<td bgcolor='#F2F2F2'><font color='#E9E7E8'>.</font></td>
+			</tr>
+		</table>]]>
+        </text>
+    </component>
+</textcomponents>

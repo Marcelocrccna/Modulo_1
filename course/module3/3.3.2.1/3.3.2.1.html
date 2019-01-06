@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.3.2.1 Direcciones de red</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.3.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Direcciones de red</h1>
+        <div>
+          <p>La capa de red y la capa de enlace de datos son responsables de enviar los datos desde el dispositivo de origen o emisor hasta el dispositivo de destino o receptor. Como se muestra en la figura 1, los protocolos de las dos capas contienen las direcciones de origen y de destino, pero sus direcciones tienen objetivos distintos.</p>
+          <p>
+            <ul>
+              <li>
+                <b>Direcciones de origen y de destino de la capa de red:</b> son responsables de enviar el paquete IP desde el dispositivo de origen hasta el dispositivo final, ya sea en la misma red o a una red remota.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Direcciones de origen y de destino de la capa de enlace de datos:</b> son responsables de enviar la trama de enlace de datos desde una tarjeta de interfaz de red (NIC) a otra en la misma red.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Una dirección lógica de la capa de red, o capa 3, se utiliza para enviar el paquete IP desde el dispositivo de origen hasta el dispositivo de destino, como se muestra en la figura 2. </p>
+          <p></p>
+          <p>Los paquetes IP contienen dos direcciones IP:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección IP de origen:</b> la dirección IP del dispositivo emisor, el origen del paquete.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección IP de destino:</b> la dirección IP del dispositivo receptor, es decir, el destino final del paquete.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the network address and the data link address contained in a message.  The physical layer contains the timing and synchronization bits.  The data link layer contains the destination and source physical addresses.  The network layer contains the destination and source logical network addresses.  The transport layer contains the destination and source port numbers and the upper layers contain the encoded application data. Figure 2 shows an IP packet traversing several routers. The source and destination IP address are inserted into the packet header.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

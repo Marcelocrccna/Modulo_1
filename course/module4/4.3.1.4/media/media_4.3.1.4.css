@@ -1,0 +1,11 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+#ID_txt03,#ID_txt01,#ID_txt01a,#ID_txt02,#ID_txt04{
+	color: #ffffff !important;
+}
+#ID_txt04{
+	letter-spacing: -0.2px !important;
+	margin-left: 4px !important;
+}

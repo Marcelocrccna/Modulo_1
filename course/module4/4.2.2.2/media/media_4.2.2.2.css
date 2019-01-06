@@ -1,0 +1,8 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+#ID_title{
+width: 460px !important;
+font-size:14px !important;
+}

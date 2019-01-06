@@ -1,0 +1,1 @@
+Figure 1 shows the binary representation of the eight subnets formed by borrowing 3 bits from a slash twenty four making slash twenty sevens. Figure 2 shows the binary representation of the eight subnets formed by borrowing 3 bits from a slash twenty seven making slash thirties.

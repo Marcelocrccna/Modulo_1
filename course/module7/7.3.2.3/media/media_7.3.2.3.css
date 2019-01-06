@@ -1,0 +1,17 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+
+#ID_txt02{
+border:2px solid #652C8A;
+border-radius:5px;
+padding:5px 0 5px 3px;
+background:#E0D5E6;
+}
+
+#ID_txt01{
+	padding:5px 0 5px 3px !important;
+}

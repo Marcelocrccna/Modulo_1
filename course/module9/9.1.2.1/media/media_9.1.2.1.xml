@@ -1,0 +1,53 @@
+﻿<textcomponents>
+    <!--SLIDE0 1-->
+    <component id="ID_title">
+        <text>
+            <![CDATA[<b>Servicios TCP</b>]]></text>
+    </component>
+    <component id="ID_txt01">
+        <text>
+            <![CDATA[Para: usted@ejemplo.com<br>De: yo@ejemplo.com<br>Asunto: Vacaciones]]>
+        </text>
+    </component>
+    <component id="ID_txt02">
+        <text>
+            <![CDATA[Correo electrónico]]>
+        </text>
+    </component>
+    <component id="ID_txt03">
+        <text>
+            <![CDATA[Mensajería<br/> instantánea]]>
+        </text>
+    </component>
+    <component id="ID_txt04">
+        <text>
+            <![CDATA[Varias páginas web]]>
+        </text>
+    </component>
+    <component id="ID_txt05">
+        <text>
+            <![CDATA[Telefonía IP<br/>(VoIP)]]>
+        </text>
+    </component>
+    <component id="ID_txt06">
+        <text>
+            <![CDATA[Transmisión de]]>
+        </text>
+    </component>
+    <component id="ID_txt07">
+        <text>
+            <![CDATA[<b>Red</b>]]></text>
+    </component>
+    
+
+     <component id="ID_titleTxt01">
+        <text>
+            <![CDATA[]]>
+        </text>
+    </component>
+    <component id="ID_bodyTxt01">
+        <text>
+            <![CDATA[<textformat blockindent="-16"><ul><li><b>El establecimiento de una sesión</b> garantiza que la aplicación está lista para recibir los datos.</li><li><b>La entrega en el mismo orden</b> garantiza que los segmentos se rearmen en el orden correcto.</li><li><b>La entrega confiable</b> implica el reenvío de segmentos perdidos para que se reciban los datos en forma completa.</li><li><b>El control de flujo</b> garantiza que el receptor puede procesar los datos recibidos.</li></ul></textformat>]]>
+        </text>
+    </component>
+</textcomponents>

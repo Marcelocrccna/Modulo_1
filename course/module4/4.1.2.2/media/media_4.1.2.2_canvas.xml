@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+	<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_title"/>
+<element type="IMAGE" x="93" y="49" width="322.35" height="106.8" subType="STD" src="4_1_2_2_A.jpg" />
+<element type="TEXT" compId="ID_txt01" x="424" y="90" width="166.5" expand="up+down" align="left" color="#ffffff" />
+<element type="IMAGE" x="90" y="199" width="326.65" height="37.95" subType="STD" src="4_1_2_2_B.jpg" />
+<element type="TEXT" compId="ID_txt03" x="424" y="210" width="166.55" expand="up+down" align="left" color="#ffffff" />
+<element type="IMAGE" x="93" y="277" width="323.45" height="167.25" subType="STD" src="4_1_2_2_C.jpg" />
+<element type="TEXT" compId="ID_txt04" x="424" y="359" width="166.5" expand="up+down" align="left" color="#ffffff" />
+<element type="TEXT" compId="ID_txt02" x="99" y="52" width="112.45" expand="right" align="left" size="12" />
+<element type="TEXT" compId="ID_txt05" x="94" y="315" width="94.1" expand="up+down" align="right" size="10" />
+<element type="TEXT" compId="ID_txt06" x="94" y="346" width="94.1" expand="up+down" align="right" size="10" />
+<element type="TEXT" compId="ID_txt07" x="94" y="376" width="94.1" expand="up+down" align="right" size="10" />
+<element type="TEXT" compId="ID_txt08" x="94" y="407" width="94.1" expand="up+down" align="right" size="10" />
+<element type="TEXT" id="ID_static_1" text="0" x="202.45" y="289.2" align="center" width="13.5" bold="1" />
+<element type="TEXT" id="ID_static_2" text="0" x="256.05" y="289.2" align="center" width="13.5" bold="1" />
+<element type="TEXT" id="ID_static_3" text="0" x="336.95" y="289.2" align="center" width="13.5" bold="1" />
+<element type="TEXT" id="ID_static_4" text="1" x="229.6" y="289.2" align="center" width="13.1" bold="1" />
+<element type="TEXT" id="ID_static_5" text="1" x="283.45" y="289.2" align="center" width="13.1" bold="1" />
+<element type="TEXT" id="ID_static_6" text="1" x="310.9" y="289.2" align="center" width="13.1" bold="1" />
+<element type="TEXT" id="ID_static_7" text="1" x="363.3" y="289.2" align="center" width="13.1" bold="1" />
+<element type="TEXT" id="ID_static_8" text="1" x="390.5" y="289.2" align="center" width="13.1" bold="1" />
+	</slide>
+</data>
+
+

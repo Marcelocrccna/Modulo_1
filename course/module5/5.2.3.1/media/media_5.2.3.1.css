@@ -1,0 +1,15 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+.orangeCallOut {
+    background: #fde6d4 none repeat scroll 0 0;
+    border: 2px solid #f68026;
+    border-radius: 5px;
+    padding: 2px 5px 3px 5px!important;
+}
+
+#ID_s2_bubbletxt02,#ID_s2_bubbletxt01
+{
+	color: #FFFFFF !important;
+}

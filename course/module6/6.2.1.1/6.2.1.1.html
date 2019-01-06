@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.2.1.1 La decisión de reenvío de host</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.2.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>La decisión de reenvío de host</h1>
+        <div>
+          <p>Otra función de la capa de red es dirigir los paquetes entre hosts. Un host puede enviar un paquete a alguno de los siguientes:</p>
+          <p>
+            <ul>
+              <li>
+                <b>A sí mismo:</b> Un host puede hacerse ping a sí mismo al enviar un paquete a una dirección IPv4 127.0.0.1, denominada "interfaz de bucle invertido". El hacer ping a la interfaz de bucle invertido, pone a prueba la pila del protocolo TCP/IP en el host. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Al host local:</b> Este es un host que está en la misma red local que el host emisor. Los hosts comparten la misma dirección de red. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>A un módulo remoto de E/S:</b> Este es un host en una red remota. Los hosts no comparten la misma dirección de red. </li>
+            </ul>
+          </p>
+          <p>Que un paquete tenga como destino un host local o un módulo remoto de E/S lo determina la combinación de máscara de subred y dirección IPv4 del dispositivo de origen (emisor) en comparación con la máscara de subred y la dirección IPv4 del dispositivo de destino.</p>
+          <p>En una red doméstica o comercial puede haber varios dispositivos cableados o inalámbricos interconectados que utilizan un dispositivo intermediario, como un switch LAN o un punto de acceso inalámbrico (WAP). Este dispositivo intermediario proporciona interconexiones entre los hosts de la red local. Los hosts locales pueden conectarse y compartir información sin la necesidad de dispositivos adicionales. Si un host envía un paquete a un dispositivo configurado con la misma red IP que el dispositivo host, el paquete se reenvía por la interfaz de host a través del dispositivo intermediario y se dirige directamente al dispositivo de destino. </p>
+          <p>Por supuesto, en la mayoría de las situaciones queremos que nuestros dispositivos se conecten más allá del segmento de red local, por ejemplo, que vayan a otras casas, empresas y a Internet. Los dispositivos que no están en el segmento de red local se denominan "módulo remoto de E/S". Cuando un dispositivo de origen envía un paquete a un dispositivo de destino remoto, se necesita la ayuda de los routers y del routing. El routing es el proceso de identificación de la mejor ruta para llegar a un destino. El router conectado al segmento de red local se denomina <b>gateway predeterminado</b>.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a router connected to a LAN with two hosts and the Internet with a remote server.  There is an arrow from one host to another host on the same network.  There is also an arrow from one host to the remote server.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

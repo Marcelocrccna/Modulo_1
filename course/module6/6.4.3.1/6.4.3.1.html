@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.4.3.1 Gateway predeterminado para un host</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.4.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Gateway predeterminado para un host</h1>
+        <div>
+          <p>Para que un terminal se comunique a través de la red, se debe configurar con la información de dirección IP correcta, incluida la dirección de gateway predeterminado. El gateway predeterminado se usa solamente cuando el host desea enviar un paquete a un dispositivo de otra red. En general, la dirección de gateway predeterminado es la dirección de la interfaz de router conectada a la red local del host. La dirección IP del dispositivo host y la dirección de interfaz de router deben estar en la misma red. </p>
+          <p>La topología de red en la Figura 1 y 2 consta de un router que interconecta las dos LAN separadas. G0/0 se conecta a la red 192.168.10.0, mientras que G0/1 se conecta a la red 192.168.11.0. Cada dispositivo host está configurado con la dirección de gateway predeterminado apropiada. </p>
+          <p>En la figura 1, la PC1 envía un paquete a la PC2. En este ejemplo, no se utiliza el gateway predeterminado. En cambio, PC1 dirige el paquete con la dirección IP de PC2 y lo reenvía directamente a PC2 a través del switch. </p>
+          <p>En la figura 2, la PC1 envía un paquete a la PC3. En este ejemplo, la PC1 dirige un paquete con la dirección IP de la PC3, pero luego envía el paquete al router. El router acepta el paquete, accede a su tabla de routing para determinar la interfaz de salida apropiada según la dirección de destino y, luego, envía el paquete por la interfaz apropiada para que llegue a la PC3.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a router with two LANs.  Each LAN has 2 PCs.  This figure shows how a host can communicate with another host on the same LAN without the use of the gateway. Figure 2 shows a router with two LANs.  Each LAN has 2 PCs . This figure shows how a host requires the gateway to communicate with a host on another LAN.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+Figure 1 shows a router connected to the Internet and to another switch. The switch is connected to three other switches. A box encompasses all the switches and the router interface and is labeled “LAN1: 172.16.0.0/16 (400 users)”. Figure 2 shows a router connected to the Internet and two switches. Each switch is its on LAN with 200 users each.

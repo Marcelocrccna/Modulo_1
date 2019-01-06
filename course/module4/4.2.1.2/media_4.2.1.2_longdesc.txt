@@ -1,0 +1,1 @@
+Figure shows three pictures of cables.  One of UTP which has four pairs of twisted wires.  One of STP which has the same four pairs of twisted wires and a covering or shielding. And one of Coaxial cable which is a single copper wire inside an insulating material surrounded by a shielding.  

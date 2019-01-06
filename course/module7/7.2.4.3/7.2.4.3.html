@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.4.3 Configuración dinámica: SLAAC</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.4.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configuración dinámica: SLAAC</h1>
+        <div>
+          <p>La configuración automática de dirección independiente del estado (SLAAC) es un método que permite que un dispositivo obtenga su prefijo, la longitud de prefijo, la dirección de gateway predeterminado y otra información de un <i>router IPv6</i>, sin usar un servidor DHCPv6. Mediante SLAAC, los dispositivos dependen de los mensajes de anuncio de router (RA) de ICMPv6 del router local para obtener la información necesaria.</p>
+          <p>Los routers IPv6 envían mensajes RA de ICMPv6 periódicamente, cada 200 segundos, a todos los dispositivos con IPv6 habilitado en la red. También se envía un mensaje RA en respuesta a un host que envía un mensaje ICMPv6 de solicitud de router (RS).</p>
+          <p>El routing IPv6 no está habilitado de manera predeterminada. Para habilitar un router como router IPv6, se debe usar el comando de configuración global <b>ipv6 unicast-routing</b>. </p>
+          <p>
+            <b>Nota:</b> se pueden configurar direcciones IPv6 en un router sin que sea un router IPv6.</p>
+          <p>El mensaje RA de ICMPv6 es una sugerencia a un dispositivo sobre cómo obtener una dirección IPv6 de unidifusión global. La decisión final la tiene el sistema operativo del dispositivo. El mensaje RA de ICMPv6 incluye lo siguiente:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Prefijo de red y longitud de prefijo:</b> indica al dispositivo a qué red pertenece.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección de gateway predeterminado:</b> es una dirección IPv6 link-local, la dirección IPv6 de origen del mensaje RA.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Direcciones DNS y nombre de dominio:</b> direcciones de los servidores DNS y un nombre de dominio.</li>
+            </ul>
+          </p>
+          <p>Como se muestra en la figura 1, existen tres opciones para los mensajes RA:</p>
+          <p>
+            <ul>
+              <li>Opción 1: SLAAC</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Opción 2: SLAAC con un servidor DHCPv6 sin información de estado</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Opción 3: DHCPv6 con información de estado (no SLAAC)</li>
+            </ul>
+          </p>
+          <p>
+            <b>Opción 1 de RA: SLAAC</b>
+          </p>
+          <p>De manera predeterminada, el mensaje RA sugiere que el dispositivo receptor use la información de dicho mensaje para crear su propia dirección IPv6 de unidifusión global y para toda la demás información. No se requieren los servicios de un servidor DHCPv6. </p>
+          <p>SLAAC es independiente del estado, o sea que no existe un servidor central (por ejemplo, un servidor DHCPv6 con información de estado) que asigne direcciones de unidifusión globales y mantenga una lista de los dispositivos y sus direcciones. Con SLAAC, el dispositivo cliente usa la información del mensaje RA para crear su propia dirección de unidifusión global. Como se muestra en la figura 2, las dos partes de la dirección se crean del siguiente modo:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Prefijo:</b> se recibe en el mensaje RA.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>ID de interfaz:</b> usa el proceso EUI-64 o genera un número aleatorio de 64 bits.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the router solicitation process by displaying a computer sending a request for IPv6 addressing information from all IPv6 routers.  The figure also shows a router advertisement message being sent by a router.  This message can have one of three options configured, option one gives all the necessary addressing information, option two sets some addressing options but relies on a DHCPv6 server for some settings, and option three relies solely on a DHCPv6 server for all addressing information.  The router advertisement in the figure is using option one and it is telling the computer the prefix, prefix-length, and default gateway to use. Figure 2 shows an example of SLAAC. A computer uses the IPv6 global unicast of the router to construct its own global unicast  address. The computer uses the prefix from the router's address, which is 2001:DB8:ACAD:1 in the example. And then the computer either uses EUI-64 or generates a random 64-bit number to fill in the interface ID portion of the address.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

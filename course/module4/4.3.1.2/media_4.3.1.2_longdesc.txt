@@ -1,0 +1,1 @@
+Figure shows layers one, two and three of the OSI model.  Layer two is divided into its two sub-layers, the upper sub-layer is LLC and the lower is MAC.  The figure also shows that 802.3, 802.11 and 802.15 standards span layer 1 and the MAC sublayer of layer 2.

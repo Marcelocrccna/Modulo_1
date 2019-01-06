@@ -1,0 +1,12 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_router_txt1{
+	line-height:13.5px;
+	}
+	.color
+{
+	color: #F68026 !important;
+}

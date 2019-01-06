@@ -1,0 +1,1 @@
+Figure shows the Ethernet frame format. Clicking on each field opens a text box for more information.

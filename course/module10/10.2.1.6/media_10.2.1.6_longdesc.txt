@@ -1,0 +1,1 @@
+Figure shows client sending email using SMTP to a server, which uses SMTP to send to another server. The second server uses IMAP to deliver the email to the recipient.

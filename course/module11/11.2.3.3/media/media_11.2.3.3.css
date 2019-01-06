@@ -1,0 +1,16 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_titleTxt02{
+	letter-spacing: -0.8px !important;
+}
+
+@media only screen and (device-width: 768px) {
+#ID_titleTxt02{
+	letter-spacing: -0.8px !important;
+}
+
+
+}

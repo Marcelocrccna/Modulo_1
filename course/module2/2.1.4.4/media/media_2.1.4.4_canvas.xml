@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+		<element type="TEXT" subType="TABLE"  compId="ID_table01" x="40" y="50" width="600" height="119" />
+<element type="TEXT" compId="ID_txt01" x="40" y="173.25" width="600" expand="down" align="left" color="#ffffff" />
+<element type="TEXT" subType="TABLE"  compId="ID_table02" x="40" y="213.95" width="600" height="90" />
+<element type="TEXT" subType="TABLE"  compId="ID_table03" x="40" y="310.15" width="600" height="114" />
+<element type="TEXT" compId="ID_txt02" x="40" y="429.45" width="600" expand="down" align="left" color="#ffffff" />
+<element type="TEXT" subType="TITLE" compId="ID_title" color="#FFFFFF"/>
+
+
+		<!-- <element type="TEXT" subType="TABLE" compId="ID_table01" x="50" y="56.95" width="580" height="117" />
+		<element type="TEXT"  compId="ID_txt01" x="50" y="178.85" width="582.8" expand="down" align="left" size="11" />
+		<element type="TEXT" subType="TABLE" compId="ID_table02" x="50" y="209.35" width="580" height="90" />
+		<element type="TEXT" subType="TABLE" compId="ID_table03" x="50" y="325.35" width="580" height="109.05" />
+		<element type="TEXT" compId="ID_txt02" x="50" y="438.85" width="582.8" expand="down" align="left" size="11" />
+		<element type="TEXT" subType="TITLE" compId="ID_title"/> -->
+	</slide>
+</data>

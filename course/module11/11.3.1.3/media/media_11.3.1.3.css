@@ -1,0 +1,15 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+#ID_s1_txt01,#ID_s1_txt02,#ID_s2_txt01,#ID_s2_txt02,#ID_s3_txt01,#ID_s3_txt02 {
+    background-color: #164F6A !important;
+    height: 20px !important;
+}
+
+.color {
+    color: #F68026 !important;
+}
+
+#ID_router_txt1,#ID_router_txt2,#ID_router_txt3,#ID_router_txt4,#ID_router_txt5,#ID_router_txt6{
+	line-height: 12px !important;
+}

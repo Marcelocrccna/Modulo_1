@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+        <slide>
+            <element type="IMAGE" src="media_7.1.2.6_s1.png" x="0" y="0" width="680" height="490" />
+            <element type="TEXT" compId="ID_s1_txt01" x="41.6" y="80.85" width="194.65" expand="up+down" align="center" />
+            <element type="TEXT" compId="ID_s1_txt02" x="47.6" y="125.85" width="106.5" expand="up+down" align="center" color="#ffffff" />
+            <element type="TEXT" compId="ID_s1_txt03" x="99.6" y="186.85" width="112.15" expand="up+down" align="center" />
+            <element type="TEXT" compId="ID_s1_txt04" x="96.6" y="230.85" width="106.5" expand="up+down" align="center" color="#ffffff" />
+            <element type="TEXT" compId="ID_s1_txt05" x="96.6" y="312" width="106.5" expand="up+down" align="center" color="#ffffff" />
+            <element type="TEXT" compId="ID_s1_txt06" x="96.6" y="391.85" width="106.5" expand="up+down" align="center" color="#ffffff" />
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title" />
+        </slide>
+        <slide>
+            <element type="IMAGE" src="media_7.1.2.6_s2.png" x="0" y="0" width="680" height="490" />
+            <element type="TEXT" compId="ID_s2_txt01" x="41.6" y="80.85" width="194.65" expand="up+down" align="center" />
+            <element type="TEXT" compId="ID_s2_txt02" x="47.6" y="125.85" width="106.5" expand="up+down" align="center" color="#ffffff" />
+            <element type="TEXT" id="ID_static_1" text="192.168.10.0 /24" x="272.2" y="126" align="center" width="110" color="#ffffff" />
+            <element type="TEXT" id="ID_static_2" text=".00000000" x="330.2" y="139.5" align="center" width="54.55" color="#ffffff" />
+            <element type="TEXT" id="ID_static_3" text="192.168.10.1 /24" x="272.2" y="230" align="center" width="110" color="#ffffff" />
+            <element type="TEXT" id="ID_static_4" text=".00000001" x="330.2" y="243.5" align="center" width="54.55" color="#ffffff" />
+            <element type="TEXT" id="ID_static_5" text="192.168.10.254 /24" x="272.2" y="314" align="center" width="120" color="#ffffff" />
+            <element type="TEXT" id="ID_static_6" text=".11111110" x="330.2" y="327.5" align="center" width="54.55" color="#ffffff" />
+            <element type="TEXT" id="ID_static_7" text="192.168.10.255 /24" x="272.2" y="391" align="center" width="120" color="#ffffff" />
+            <element type="TEXT" id="ID_static_8" text=".11111111" x="330.2" y="403.5" align="center" width="54.55" color="#ffffff" />
+            <element type="TEXT" compId="ID_s2_txt03" x="99.6" y="186.85" width="112.15" expand="up+down" align="center" />
+            <element type="TEXT" compId="ID_s2_txt04" x="96.6" y="230.85" width="106.5" expand="up+down" align="center" color="#ffffff" />
+            <element type="TEXT" compId="ID_s2_txt05" x="96.6" y="312" width="106.5" expand="up+down" align="center" color="#ffffff" />
+            <element type="TEXT" compId="ID_s2_txt06" x="96.6" y="391.85" width="106.5" expand="up+down" align="center" color="#ffffff" />
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title" />
+        </slide>
+        <slide>
+            <element type="IMAGE" src="media_7.1.2.6_s3.png" x="0" y="0" width="680" height="490" />
+            <element type="TEXT" id="ID_static_9" text="10.1.1.1" x="215.75" y="178.6" align="center" width="52.9" size="11" />
+            <element type="TEXT" id="ID_static_10" text="10.1.1.10" x="293.9" y="279.9" align="center" width="60" size="11" />
+            <element type="TEXT" id="ID_static_11" text="10.1.1.12" x="362" y="152.1" align="center" width="60" size="11" />
+            <element type="TEXT" id="ID_static_12" text="10.1.1.11" x="362" y="227.8" align="center" width="59.05" size="11" />
+            <element type="TEXT" id="ID_static_13" text="10.1.1.254" x="282" y="95.55" align="center" width="67.1" size="11" />
+            <element type="TEXT" id="ID_static_14" text="10 00001010" x="193.25" y="383.6" align="center" width="59.3" size="11" color="#FFFFFF" />
+            <element type="TEXT" id="ID_static_15" text="1 00000001" x="279.75" y="383.6" align="center" width="59.3" size="11" color="#FFFFFF" />
+            <element type="TEXT" id="ID_static_16" text="1 00000001" x="366.25" y="383.6" align="center" width="59.3" size="11" color="#FFFFFF" />
+            <element type="TEXT" id="ID_static_17" text="10 00001010" x="449" y="383.6" align="center" width="59.3" size="11" color="#FFFFFF" />
+            <element type="TEXT" compId="ID_s3_txt01" x="183.55" y="350" width="235" expand="up" align="center" size="11" />
+            <element type="TEXT" compId="ID_s3_txt02" x="434.8" y="350" width="81.9" expand="left+right" align="center" size="11" />
+            <element type="TEXT" compId="ID_s3_bubble01" x="455.9" y="280.15" width="114.6" expand="up+down" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" subType="TITLE" compId="ID_s3_title" />
+        </slide>
+        <slide>
+            <element type="IMAGE" src="media_7.1.2.6_s4.png" x="0" y="0" width="680" height="490" />
+            <element type="TEXT" id="ID_static_18" text="10.1.1.10" x="289.9" y="279.9" align="center" width="60.4" size="11" color="#F68026" />
+            <element type="TEXT" id="ID_static_19" text="10.1.1.12" x="362" y="152.1" align="center" width="60" size="11" />
+            <element type="TEXT" id="ID_static_20" text="10.1.1.11" x="362" y="227.8" align="center" width="59.05" size="11" />
+            <element type="TEXT" id="ID_static_21" text="10.1.1.254" x="282" y="95.55" align="center" width="67.1" size="11" />
+            <element type="TEXT" id="ID_static_22" text="10 00001010" x="193.25" y="383.6" align="center" width="59.3" size="11" color="#FFFFFF" />
+            <element type="TEXT" id="ID_static_23" text="1 00000001" x="279.75" y="383.6" align="center" width="59.3" size="11" color="#FFFFFF" />
+            <element type="TEXT" id="ID_static_24" text="1 00000001" x="366.25" y="383.6" align="center" width="59.3" size="11" color="#FFFFFF" />
+            <element type="TEXT" id="ID_static_25" text="10 00001010" x="449" y="383.6" align="center" width="59.3" size="11" color="#FFFFFF" />
+            <element type="TEXT" compId="ID_s4_txt01" x="183.55" y="348.85" width="235" expand="up" align="center" size="11" />
+            <element type="TEXT" compId="ID_s4_txt02" x="434.8" y="348.85" width="81.9" expand="left+right" align="center" size="11" />
+            <element type="TEXT" compId="ID_s4_bubble01" x="462.9" y="280.15" width="105.55" expand="up+down" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" id="ID_static_26" text="10.1.1.1" x="215.75" y="178.6" align="center" width="52.9" size="11" />
+            <element type="TEXT" subType="TITLE" compId="ID_s4_title" />
+        </slide>
+        <slide>
+            <element type="IMAGE" src="media_7.1.2.6_s5.png" x="0" y="0" width="680" height="490" />
+            <element type="TEXT" compId="ID_s5_bubble01" x="462.9" y="283.15" width="105.55" expand="up+down" align="center" class="orangeCallOut" />
+            <element type="TEXT" id="ID_static_27" text="10.1.1.1" x="215.75" y="178.6" align="center" width="53.3" size="11" color="#F68026" />
+            <element type="TEXT" id="ID_static_28" text="10.1.1.254" x="282" y="95.55" align="center" width="67.1" size="11" />
+            <element type="TEXT" id="ID_static_29" text="10.1.1.10" x="292" y="279.9" align="center" width="60" size="11" />
+            <element type="TEXT" id="ID_static_30" text="10.1.1.12" x="362" y="152.1" align="center" width="60" size="11" />
+            <element type="TEXT" id="ID_static_31" text="10.1.1.11" x="362" y="227.8" align="center" width="59.05" size="11" />
+            <element type="TEXT" compId="ID_s5_txt01" x="183.55" y="350" width="235" expand="up" align="center" size="11" />
+            <element type="TEXT" compId="ID_s5_txt02" x="434.8" y="350" width="81.9" expand="left+right" align="center" size="11" />
+            <element type="TEXT" id="ID_static_32" text="10 00001010" x="193.05" y="383.75" align="center" width="59.3" size="11" color="#FFFFFF" />
+            <element type="TEXT" id="ID_static_33" text="1 00000001" x="279.55" y="383.75" align="center" width="59.3" size="11" color="#FFFFFF" />
+            <element type="TEXT" id="ID_static_34" text="1 00000001" x="366.05" y="383.75" align="center" width="59.3" size="11" color="#FFFFFF" />
+            <element type="TEXT" id="ID_static_35" text="10 00001010" x="448.8" y="383.75" align="center" width="59.3" size="11" color="#FFFFFF" />
+            <element type="TEXT" subType="TITLE" compId="ID_s5_title" />
+        </slide>
+        <slide>
+            <element type="IMAGE" src="media_7.1.2.6_s5.png" x="0" y="0" width="680" height="490" />
+            <element type="TEXT" compId="ID_s6_bubble01" x="462.9" y="283.15" width="105.55" expand="up+down" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" id="ID_static_36" text="10.1.1.1" x="215.75" y="178.6" align="center" width="52.9" size="11" />
+            <element type="TEXT" id="ID_static_37" text="10.1.1.10" x="292" y="279.9" align="center" width="60" size="11" />
+            <element type="TEXT" id="ID_static_38" text="10.1.1.12" x="362" y="152.1" align="center" width="60" size="11" />
+            <element type="TEXT" id="ID_static_39" text="10.1.1.11" x="362" y="227.8" align="center" width="59.05" size="11" />
+            <element type="TEXT" id="ID_static_40" text="10.1.1.254" x="282" y="95.55" align="center" width="67.5" size="11" color="#F68026" />
+            <element type="TEXT" id="ID_static_41" text="10 00001010" x="193.05" y="383.75" align="center" width="59.3" size="11" color="#FFFFFF" />
+            <element type="TEXT" id="ID_static_42" text="1 00000001" x="279.55" y="383.75" align="center" width="59.3" size="11" color="#FFFFFF" />
+            <element type="TEXT" id="ID_static_43" text="1 00000001" x="366.05" y="383.75" align="center" width="59.3" size="11" color="#FFFFFF" />
+            <element type="TEXT" id="ID_static_44" text="10 00001010" x="448.8" y="383.75" align="center" width="53.4" size="11" color="#FFFFFF" />
+            <element type="TEXT" compId="ID_s6_txt01" x="183.55" y="350" width="235" expand="up" align="center" size="11" />
+            <element type="TEXT" compId="ID_s6_txt02" x="434.8" y="350" width="81.9" expand="left+right" align="center" size="11" />
+            <element type="TEXT" subType="TITLE" compId="ID_s6_title" />
+        </slide>
+        <slide>
+            <element type="IMAGE" src="media_7.1.2.6_s7.png" x="0" y="0" width="680" height="490" />
+            <element type="TEXT" compId="ID_static_45" x="215.75" y="178.6" align="center" width="53.3" size="11" />
+            <element type="TEXT" compId="ID_static_46" x="291.9" y="279.9" align="center" width="60.4" size="11" />
+            <element type="TEXT" compId="ID_static_47" x="360" y="152.1" align="center" width="60.4" size="11" />
+            <element type="TEXT" compId="ID_static_48" x="360" y="227.8" align="center" width="59.45" size="11" />
+            <element type="TEXT" compId="ID_static_49" x="280" y="95.55" align="center" width="67.5" size="11" />
+            <element type="TEXT" id="ID_static_50" text="10 00001010" x="193.25" y="383.6" align="center" width="59.3" size="11" color="#FFFFFF" />
+            <element type="TEXT" id="ID_static_51" text="1 00000001" x="279.75" y="383.6" align="center" width="59.3" size="11" color="#FFFFFF" />
+            <element type="TEXT" id="ID_static_52" text="1 00000001" x="366.25" y="383.6" align="center" width="59.3" size="11" color="#FFFFFF" />
+            <element type="TEXT" id="ID_static_53" text="10 00001010" x="449" y="383.6" align="center" width="52.5" size="11" color="#FFFFFF" />
+            <element type="TEXT" compId="ID_s7_txt01" x="183.55" y="350" width="235" expand="up" align="center" size="11" />
+            <element type="TEXT" compId="ID_s7_bubble01" x="454.9" y="280.15" width="115.65" expand="up+down" align="center" class="orangeCallOut" size="11" />
+            <element type="TEXT" compId="ID_s7_txt02" x="434.8" y="350" width="81.9" expand="left+right" align="center" size="11" />
+            <element type="TEXT" subType="TITLE" compId="ID_s7_title" />
+        </slide>
+    </slide>
+</data>

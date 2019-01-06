@@ -1,0 +1,105 @@
+﻿<textcomponents><!--Slide 1--><component id="ID_s1_title">
+  <text><![CDATA[<b>Limitación del acceso de los dispositivos</b>]]></text>
+</component>
+
+<component id="ID_s01_txt01">
+  <text><![CDATA[<textformat blockindent='-20'><ul><li><b>Configurar el nombre del dispositivo</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>hostname</b> <i>nombre</i></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Proteger el modo EXEC del usuario</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>line console 0</b></li><li id="space"><b>password</b> <i>contraseña</i></li><li id="space"><b>login</b></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Proteger el acceso remoto por Telnet y SSH</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>line vty 0 15</b></li><li id="space"><b>password</b> <i>contraseña</i></li><li id="space"><b>login</b></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Proteger el modo EXEC privilegiado</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>enable secret</b> <i>contraseña</i></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Proteger todas las contraseñas en el archivo de configuración</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>service password-encryption</b></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Proporcionar la notificación legal</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>banner motd</b> <i>delimitador mensaje delimitador</i></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Guardar la configuración</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>copy running-config startup-config</b></li></ul></textformat>]]></text>
+</component><!--End Slide 1--><component id="ID_txt01">
+		<text><![CDATA[O]]></text>
+	</component>
+	 <component id="ID_title02">
+    <text><![CDATA[<b>Configuración del nombre de host</b>]]></text>
+  </component>
+     <component id="ID_title03">
+    <text><![CDATA[<b>Protección del acceso de administración</b>]]></text>
+  </component>
+	  <component id="ID_title04">
+    <text><![CDATA[<b>Cómo proporcionar la notificación legal</b>]]></text>
+  </component>
+  <component id="ID_title05">
+    <text><![CDATA[<b>Cómo guardar la configuración</b>]]></text>
+  </component><!--Slide 6--><component id="ID_s6_title">
+        <text><![CDATA[<b>Tareas básicas en la configuración de un router</b>]]></text>
+	</component><!--Syntax Checker Button Text--><component id="ID_s6_reset">
+		<text><![CDATA[Restablecer]]></text>
+	</component>
+	
+	<component id="ID_s6_showme">
+		<text><![CDATA[Mostrar]]></text>
+	</component>
+	
+	<component id="ID_s6_showall">
+		<text><![CDATA[Mostrar todo]]></text>
+	</component><!--End Syntax Checker Button Text--><!--Syntax Checker Body Text--><component id="ID_s6_SC" fontSize="12" fontFace='_typewriter'  fontColor="#ffffff">
+		<feedback id="fb"><![CDATA[<b><font face="_sans" color="#FFFFFF">***Debe introducir el comando exacto y completo. Los comandos que incluyen un nombre o una contraseña distinguen mayúsculas de minúsculas.***</font></b> ]]></feedback>
+		
+		<existingcommands><![CDATA[<font face="_sans"><b><ul>Configuración básica de un router<li>Configurar el nombre del dispositivo</li><li>Proteger el modo EXEC privilegiado</li><li>Proteger el acceso remoto por Telnet y SSH</li><li>Proteger todas las contraseñas en el archivo de configuración</li><li>Proporcionar la notificación legal</li><br>Ingrese al modo de configuración global para configurar el nombre del router como “R1”.</b></font>]]></existingcommands>
+		
+		<command prompt="Router>">
+			<correctresponse><![CDATA[ enable]]></correctresponse>
+		</command>
+		
+		<command prompt="Router#">
+			<correctresponse><![CDATA[ configure terminal]]></correctresponse>
+			<deviceresponse><![CDATA[Introduzca los comandos de configuración, uno por línea. Finalice con CNTL/Z.]]></deviceresponse>
+		</command>
+
+		<command prompt="Router(config)#">
+			<correctresponse><![CDATA[ hostname R1]]></correctresponse>
+			<instruction><![CDATA[<font face="_sans"><b>Configure “class” como contraseña secreta.</font>]]></instruction>
+		</command>
+
+		<command prompt="R1(config)#">
+			<correctresponse><![CDATA[ enable secret class]]></correctresponse>
+			<instruction><![CDATA[<font face="_sans"><b>Configure “cisco” como contraseña de la línea de consola y solicite a los usuarios que inicien sesión.</font>]]></instruction>
+		</command>
+
+		<command prompt="R1(config)#">
+			<correctresponse><![CDATA[ line console 0]]></correctresponse>
+		</command>
+
+		<command prompt="R1(config-line)#">
+			<correctresponse><![CDATA[ password cisco]]></correctresponse>
+		</command>
+
+		<command prompt="R1(config-line)#">
+			<correctresponse><![CDATA[ login]]></correctresponse>
+			<instruction><![CDATA[<font face="_sans"><b>Configure “cisco” como contraseña de vty para las líneas 0 a 4 y solicite a los usuarios que inicien sesión. Luego, salga del modo de configuración de línea.</font>]]></instruction>
+		</command>
+
+		<command prompt="R1(config-line)#">
+			<correctresponse><![CDATA[ line vty 0 4]]></correctresponse>
+		</command>
+
+		<command prompt="R1(config-line)#">
+			<correctresponse><![CDATA[ password cisco]]></correctresponse>
+		</command>
+
+		<command prompt="R1(config-line)#">
+			<correctresponse><![CDATA[ login]]></correctresponse>
+		</command>
+
+		<command prompt="R1(config-line)#">
+			<correctresponse><![CDATA[ exit]]></correctresponse>
+			<instruction><![CDATA[<font face="_sans"><b>Cifre todas las contraseñas de texto no cifrado.</font>]]></instruction>
+		</command>
+
+		<command prompt="R1(config)#">
+			<correctresponse><![CDATA[ service password-encryption]]></correctresponse>
+			<instruction><![CDATA[<font face="_sans"><b>Introduzca el aviso “¡Acceso autorizado únicamente!” y utilice # como carácter delimitador.</font>]]></instruction>
+		</command>
+
+		<command prompt="R1(config)#">
+			<correctresponse><![CDATA[ banner motd #¡Acceso autorizado únicamente!#]]></correctresponse>
+			<instruction><![CDATA[<font face="_sans"><b>Salga del modo de configuración global.</font>]]></instruction>
+		</command>
+
+		<command prompt="R1(config)#">
+			<correctresponse><![CDATA[ exit]]></correctresponse>
+			<deviceresponse><![CDATA[R1#<br>]]></deviceresponse>
+			<instruction><![CDATA[<font face="_sans"><b>Configuró correctamente el R1 con los parámetros iniciales.</font>]]></instruction>
+		</command>
+
+		<command prompt=""/>
+
+	</component><!--End Syntax Checker Body Text--><!--End Slide 6--></textcomponents>

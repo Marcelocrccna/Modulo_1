@@ -1,0 +1,1 @@
+Figure 1, 2, and 3 show a topology with a PC, a switch, and three routers. The PC is connected to the switch, which is connected to router R1, which is connected to router R2, which is connected to router R3. Figure 1 shows ping command output. Figure 2 shows traceroute output. Figure 3 shows output for the ‘show ip interface brief’ command.

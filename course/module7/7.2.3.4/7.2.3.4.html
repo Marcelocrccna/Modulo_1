@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.3.4 Direcciones IPv6 de unidifusión link-local</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.3.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Direcciones IPv6 de unidifusión link-local</h1>
+        <div>
+          <p>Una dirección IPv6 link-local permite que un dispositivo se comunique con otros dispositivos con IPv6 habilitado en el mismo enlace y solo en ese enlace (subred). Los paquetes con direcciones link-local de origen o destino no pueden enrutarse más allá del enlace en el que se originó el paquete.</p>
+          <p>La dirección de unidifusión global no es un requisito. Sin embargo, cada interfaz de red con IPv6 habilitado debe tener una dirección link-local. </p>
+          <p>Si en una interfaz no se configura una dirección link-local de forma manual, el dispositivo crea automáticamente su propia dirección sin comunicarse con un servidor DHCP. Los hosts con IPv6 habilitado crean una dirección IPv6 link-local incluso si no se asignó una dirección IPv6 de unidifusión global al dispositivo. Esto permite que los dispositivos con IPv6 habilitado se comuniquen con otros dispositivos con IPv6 habilitado en la misma subred. Esto incluye la comunicación con el gateway predeterminado (router). </p>
+          <p>Las direcciones IPv6 link-local están en el rango de FE80::/10. /10 indica que los primeros 10 bits son 1111 1110 10xx xxxx. El primer hexteto tiene un rango de 1111 1110 10<b>00 0000</b> (FE80) a 1111 1110 10<b>11 1111</b> (FEBF). </p>
+          <p>En la figura 1, se muestra un ejemplo de comunicación mediante direcciones IPv6 link-local.</p>
+          <p>En la figura 2, se muestran algunos usos de las direcciones IPv6 link-local.</p>
+          <p>
+            <b>Nota</b>: Generalmente, es la dirección de enlace local del router, y no la dirección de unidifusión global, que se usa como gateway predeterminado para otros dispositivos del enlace. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a router with a switch connected. The router also has two other networks attached. The router is configured with the same FE80::1/64 IPv6 link-local address on all three interfaces. On one of the LANs, there are two computers, a server, and a printer attached to the switch.  A computer is using link-local source and destination addresses to send a job to the printer. The router would not forward this job to another LAN because link-local addresses is local to the link. Figure 2 show a router connected to another router. One of the routers has a PC connected. The two routers are using the link-local address to send routing updates. The PC is using the router's link-local address as its default gateway.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

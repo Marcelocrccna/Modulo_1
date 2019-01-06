@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	
+<slide type="MBAR">
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_7.2.4.3_s1.png" />
+<element type="TEXT" subType="TITLE" compId="ID_title"/>
+<element type="TEXT" compId="ID_txt01" x="483" y="194" width="97" expand="down" align="center" />
+<element type="TEXT" compId="ID_txt02" x="231" y="76" width="300" expand="up" align="left" class="orangeCallOut" />
+<element type="TEXT" compId="ID_txt03" x="100" y="212" width="313" expand="down" align="left" class="orangeCallOut" />
+<element type="TEXTBOX" titleId="ID_titleTxt01" bodyId="ID_bodyTxt01" x="40" y="291" width="596.85" height="180" animated="0" subType="ROLLOVER" />
+</slide>
+
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_7.2.4.3_s2.png" />
+<element type="TEXT" compId="ID_s1_txt01" x="172" y="125" width="90" expand="down" align="center" />
+<element type="TEXT" compId="ID_s1_txt03" x="368" y="325" width="181" expand="up" align="center" />
+<element type="TEXT" compId="ID_s1_txt02" x="160" y="325" width="140" expand="up" align="center" />
+<element type="TEXT" compId="ID_s1_txt04" x="170" y="383" width="121" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt06" x="347" y="425" width="201" expand="down" align="center" />
+<element type="TEXT" compId="ID_s1_txt07" x="316" y="325" width="45" expand="up+down" align="center" />
+<element type="BUBBLE" compId="ID_bubble01" x="361" y="137" width="180" height="50" align="center" tailPosition="9" tailFlip="0"  />
+<element type="TEXT" compId="ID_s1_txt08" x="161" y="86" width="183" expand="right" align="left" />
+<element type="TEXT" compId="ID_s1_txt09" x="378" y="199" width="183" expand="right" align="left" />
+<element type="TEXT" compId="ID_s1_txt10" x="142" y="425" width="183" expand="down" align="center" />
+<element type="TEXT" compId="ID_s1_txt05" x="384" y="383" width="121" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+</slide>
+
+</slide>
+
+</data>

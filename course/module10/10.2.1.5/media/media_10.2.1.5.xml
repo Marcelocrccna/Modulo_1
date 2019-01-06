@@ -1,0 +1,41 @@
+<textcomponents>
+	<component id="ID_caption01">
+		<text><![CDATA[El proceso del agente de entrega de correo rige la entrega de correos electrónicos entre servidores y clientes.]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[<b>POP3</b>]]></text>
+	</component>
+	<component id="ID_txt09REMOVED">
+		<text><![CDATA[<b>Agente de usuario de correo<br>(MUA)</b>]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[Destinatario]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[Servidor<br>SMTP/POP3]]></text>
+	</component>
+	<component id="ID_txt05REMOVED">
+		<text><![CDATA[<b>Agente de entrega de correo (MDA)</b>]]></text>
+	</component>
+	<component id="ID_txt06REMOVED">
+		<text><![CDATA[<b>Agente de transferencia de correo<br>(MTA)</b>]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[Servidor<br>SMTP/POP3]]></text>
+	</component>
+	<component id="ID_txt01REMOVED">
+		<text><![CDATA[<b>Agente de usuario de correo<br>(MUA)</b>]]></text>
+	</component>
+	<component id="ID_txt11">
+		<text><![CDATA[Emisor]]></text>
+	</component>
+	<component id="ID_txt12">
+		<text><![CDATA[<b>Enviar correo electrónico</b>]]></text>
+	</component>
+	<component id="ID_bubble01">
+		<text><![CDATA[<p class="ID_bubble01">No tengo al receptor en la lista.<br/>Reenvié el correo electrónico a otro servidor.</p>]]></text>
+	</component>
+	<component id="ID_bubble02">
+		<text><![CDATA[<p class="ID_bubble02 left">Tengo a receptor@dominio.com en la lista.<br/>Colocaré este correo electrónico en el buzón del receptor.</p>]]></text>
+	</component>
+</textcomponents>

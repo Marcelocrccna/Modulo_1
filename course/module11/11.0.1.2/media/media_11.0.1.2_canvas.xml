@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+		
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_11.0.2.png" />
+
+
+<element type="TEXT" compId="ID_title02" x="82" y="224" width="518" expand="down" align="center" size="13" />
+<element type="TEXT" compId="ID_title01" x="286" y="37" width="107" expand="left+right" align="center" size="13" />
+<element type="TEXT" compId="ID_txt02" x="140" y="146" width="109" expand="left+right" align="center" />
+<element type="TEXT" compId="ID_txt03" x="238" y="103" width="109" expand="down" align="center" />
+<element type="TEXT" compId="ID_txt04" x="348" y="103" width="100" expand="down" align="center" />
+<element type="TEXT" compId="ID_txt05" x="425" y="143" width="115" expand="left+right" align="center" />
+<element type="TEXT" compId="ID_txt06" x="62" y="327" width="84" expand="right" align="center" />
+<element type="TEXT" compId="ID_txt07" x="154" y="313" width="88" expand="right" align="center" />
+<element type="TEXT" compId="ID_txt08" x="235" y="287" width="68" expand="right" align="right" />
+<element type="TEXT" compId="ID_txt09" x="388" y="285" width="86" expand="right" align="left" />
+<element type="TEXT" compId="ID_txt10" x="477" y="292" width="96" expand="right" align="center" />
+<element type="TEXT" compId="ID_txt13" x="482" y="397" width="91" expand="down" align="center" />
+<element type="TEXT" compId="ID_txt12" x="389" y="401" width="91" expand="down" align="center" />
+<element type="TEXT" compId="ID_txt11" x="287" y="401" width="93" expand="down" align="center" />
+<element type="TEXT" compId="ID_txt14" x="173" y="422" width="493" expand="left" align="right" size="50" color="#cb6d25" />
+<element type="TEXT" compId="ID_txt01" x="2" y="69" width="128" expand="down" align="right" size="18" color="#cb6d25" />
+<element type="TEXT" compId="ID_txt01B" x="54" y="174" width="423" expand="left+right" align="center" size="25" color="#cb6d25" />
+
+	</slide>
+</data>

@@ -1,0 +1,35 @@
+<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Control de congestión de TCP</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[Segmento TCP 1]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[Segmento TCP 2]]></text>
+	</component>
+	<component id="ID_txt08">
+		<text><![CDATA[Segmento TCP 3]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[Segmento TCP 4]]></text>
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[Segmento  de confirmación 1]]></text>
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[Segmento  de confirmación 2]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[Segmento TCP 2]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[Segmento TCP 3]]></text>
+	</component>
+	<component id="ID_s1_instr_body">
+		<text><![CDATA[Los números de confirmación son para el próximo byte esperado y no para un segmento. Los números de segmentos utilizados se simplifican con fines ilustrativos.]]></text>
+	</component>
+	<component id="ID_txt10">
+		<text><![CDATA[<font color="#FFFFFF">No recibo la confirmación que espero de la PC B. Entonces reduzco la cantidad de bytes que envío antes de una confirmación.</font>]]></text>
+	</component>
+</textcomponents>

@@ -1,0 +1,1 @@
+Figure shows the basic IOS command structure identifying the part that is the prompt (Switch>), command (ping), space between commands, and the keyword or argument (192.168.10.5).

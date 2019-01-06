@@ -1,0 +1,1 @@
+Figure shows the source and destination MAC addresses being added to an Ethernet frame.  PC 1 is the source and the server is the destination.

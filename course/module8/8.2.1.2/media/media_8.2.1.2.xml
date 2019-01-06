@@ -1,0 +1,23 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Consideraciones principales al planificar las asignaciones de direcciones</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[Evitar la duplicación de direcciones]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Proporcionar y controlar el acceso]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Supervisar la seguridad y el rendimiento]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[<b>Planificación de la asignación de direcciones</b>]]></text>
+	</component>
+	
+</textcomponents>

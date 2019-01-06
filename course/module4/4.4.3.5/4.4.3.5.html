@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.4.3.5 Acceso por contención: CSMA/CA</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.4.3.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Acceso por contención: CSMA/CA</h1>
+        <div>
+          <p>Otra forma de CSM que utilizan las redes WLAN del IEEE 802.11 es el acceso múltiple por detección de portadora con prevención de colisiones (CSMA/CA). CSMA/CA utiliza un método similar a CSMA/CD para detectar si el medio está libre. CSMA/CA también utiliza técnicas adicionales. CSMA/CA no detecta colisiones pero intenta evitarlas ya que aguarda antes de transmitir. Cada dispositivo que transmite incluye la duración que necesita para la transmisión. Todos los demás dispositivos inalámbricos reciben esta información y saben por cuanto tiempo el medio no estará disponible, como se muestra en la figura. Luego de que un dispositivos inalámbricos envía una trama 802.11, el receptor devuelve un acuso de recibo para que el emisor sepa que se recibió la trama. </p>
+          <p>Ya sea que es una red LAN Ethernet con concentradores o una red WLAN, los sistemas por contención no escalan bien bajo un uso intensivo de los medios. Es importante tener en cuenta que las redes LAN Ethernet con switches no utilizan sistemas por contención porque el switch y la NIC de host operan en el modo de dúplex completo.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows three laptops wireless connected to a wireless router. One laptop says “I’m receiving this wireless frame.” The other two laptops say “I see in the wireless frame that the channel is going to be unavailable for a specific amount of time so I can not send.”</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

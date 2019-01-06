@@ -1,0 +1,27 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Longitud de prefijo IPv6</b>]]></text>
+</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[64 bits]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[64 bits]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[Prefijo ]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[ID de interfaz]]></text>
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[<b>Ejemplo: 2001:DB8:A::/64</b>]]></text>
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[2001:0DB8:000A:0000]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[0000:0000:0000:0000]]></text>
+	</component>
+</textcomponents>

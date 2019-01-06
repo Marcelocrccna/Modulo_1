@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.4.3.4 Solución de problemas de DNS</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.4.3.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Solución de problemas de DNS</h1>
+        <div>
+          <p>El Servicio de Nombres de Dominio (DNS) es un servicio automatizado que hace coincidir los nombres, como www.cisco.com, con la dirección IP. Aunque la resolución de DNS no es fundamental para la comunicación del dispositivo, es muy importante para el usuario final.</p>
+          <p></p>
+          <p>Es común que los usuarios relacionen erróneamente el funcionamiento de un enlace de Internet con la disponibilidad del servicio DNS. Las quejas de los usuarios como “la red está inactiva” o “Internet está inactiva” se deben a menudo a un servidor DNS al que no se puede acceder. Aunque los servicios de routing de paquetes y cualquier otro tipo de servicios de red estén todavía operativos, los errores de DNS generalmente llevan al usuario a la conclusión incorrecta. Si un usuario escribe un nombre de dominio como www.cisco.com en un navegador web y no se puede acceder al servidor DNS, el nombre no será traducido a una dirección IP y la página web no se mostrará.</p>
+          <p></p>
+          <p>Las direcciones del servidor DNS pueden asignarse de manera manual o automática. Los administradores de redes a menudo son responsables de asignar manualmente las direcciones del servidor DNS en servidores y otros dispositivos, mientras que el DHCP se usa para asignar automáticamente las direcciones del servidor DNS a los clientes.</p>
+          <p></p>
+          <p>Si bien es común que las empresas y las organizaciones administren sus propios servidores DNS, cualquier servidor DNS accesible puede utilizarse para solucionar nombres. Los usuarios de oficinas pequeñas y oficinas en el hogar con frecuencia dependen del servidor DNS que mantiene su ISP para la resolución de nombres. Los servidores DNS mantenidos por un ISP son asignados a los clientes de SOHO mediante DHCP. Por ejemplo, Google mantiene un servidor DNS público que puede ser utilizado por cualquier persona y es muy útil para realizar pruebas. La dirección IPv4 del servidor DNS público de Google es 8.8.8.8 y 2001:4860:4860::8888 para su dirección IPv6 DNS.</p>
+          <p></p>
+          <p>Use el comando <b>ipconfig /all</b>, como se muestra en la Figura 1, para verificar qué servidor DNS utiliza la computadora con Windows. </p>
+          <p></p>
+          <p>El comando <b>nslookup</b> es otra herramienta útil para la solución de problemas de DNS para PC. Con <b>nslookup</b> un usuario puede configurar manualmente las consultas de DNS y analizar la respuesta de DNS. En la Figura 2, se muestra el resultado de <b>nslookup</b> al realizar una consulta para www.cisco.com.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a topology with a PC, a switch, and three routers. The PC is connected to the switch, which is connected to router R1, which is connected to router R2, which is connected to router R3. Below the topology is the command output for ‘show ip route’ with gateway of last resort highlighted.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

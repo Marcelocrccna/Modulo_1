@@ -1,0 +1,1 @@
+The figure shows a switch connected to five PCs and a router.  The output of the Windows command, “arp -a” is shown displaying the IP address and MAC address pairs that the PC knows about. 

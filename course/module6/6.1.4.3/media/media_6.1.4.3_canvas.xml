@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+		<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_6.1.4.3.A.png" />
+<element type="TEXT" compId="ID_s1_txt01" x="67" y="80" width="58.9" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt02" x="132" y="80" width="65.35" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt04" x="343" y="80" width="272.1" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt13" x="69" y="324" width="404.8" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt06" x="340" y="131" width="88.2" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt07" x="436" y="131" width="176.35" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt11" x="68" y="220" width="546.55" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt12" x="68" y="271" width="547.15" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt08" x="68" y="174" width="124.95" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt10" x="344" y="174" width="270" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt09" x="202" y="174" width="134.25" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt14" x="479" y="324" width="134.25" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt03" x="204" y="80" width="134.25" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt05" x="68" y="131" width="270" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt05" x="128" y="385" width="46.55" expand="left+right" align="center" />
+<element type="TEXT" compId="ID_txt01" x="172" y="405" width="133.5" expand="right" align="left" />
+<element type="TEXT" compId="ID_txt03" x="172" y="427" width="133.5" expand="right" align="left" />
+<element type="TEXT" compId="ID_txt02" x="173" y="449" width="133.5" expand="right" align="left" />
+<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+</slide>
+
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_6.1.4.3.B.png" />
+
+<element type="TEXT" compId="ID_s2_txt05" x="66" y="74" width="73.3" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s2_txt06" x="146" y="74" width="112.2" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s2_txt07" x="266" y="74" width="349" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s2_txt08" x="67" y="120" width="270" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s2_txt09" x="338" y="120" width="131.6" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s2_txt10" x="472" y="120" width="144.75" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s2_txt11" x="68" y="192" width="546.65" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s2_txt12" x="69" y="293" width="547.2" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt08" x="173" y="449" width="133.5" expand="right" align="left" />
+<element type="TEXT" compId="ID_txt04" x="128" y="385" width="46.55" expand="left+right" align="center" />
+<element type="TEXT" compId="ID_txt06" x="172" y="405" width="133.5" expand="right" align="left" />
+<element type="TEXT" compId="ID_txt07" x="172" y="427" width="133.5" expand="right" align="left" />
+<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+</slide>
+
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+<element type="TEXTBOX" titleId="ID_titleTxt01" bodyId="ID_bodyTxt01" x="90" y="108" width="500" height="211.7" animated="1" subType="ROLLOVER" />
+<element type="TEXT" subType="TITLE" compId="ID_s3_title" color="#FFFFFF"/>
+</slide>
+
+	</slide>
+</data>

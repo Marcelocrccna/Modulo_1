@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide>	
+	<element type="IMAGE" src="../../../common/images/activity_intro_backgrounds/pt.jpg" x="0" y="0" width="1000" height="490" />
+	<element type="IMAGE" src="../../../common/images/activity_intro_backgrounds/activity_text_bg.png" x="0" y="0" width="1000" height="490" />
+
+	<element type="TEXT" compId="ID_type" x="11" y="229" width="210" align="right" expand="left+right" color="#FFFFFF" size="21"/>
+	<element type="TEXT" compId="ID_title" x="245" y="237" width="416" align="left" expand="up+down" color="#FFFFFF" size="13"/>
+</slide>
+</data>

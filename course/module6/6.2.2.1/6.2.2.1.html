@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.2.2.1 Decisión de envío de paquetes del router</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.2.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Decisión de envío de paquetes del router</h1>
+        <div>
+          <p>Cuando un host envía un paquete a otro, utiliza su tabla de routing para determinar a dónde enviarlo. Si el host de destino está en una red remota, el paquete se envía al gateway predeterminado. </p>
+          <p>¿Qué sucede cuando un paquete llega al gateway predeterminado, que es, por lo general, un router? El router observa su tabla de routing para determinar a dónde enviar los paquetes.</p>
+          <p>La tabla de routing de un router almacena información sobre lo siguiente:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Rutas conectadas directamente:</b> Estas rutas provienen de interfaces de router activas. Los routers agregan una ruta conectada directamente cuando una interfaz se configura con una dirección IP y se activa. Cada una de las interfaces del router está conectada a un segmento de red diferente. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Rutas remotas:</b> Estas rutas provienen de redes remotas conectadas a otros routers. El administrador de redes puede configurar las rutas a estas redes manualmente en el router local o dichas rutas pueden configurarse de manera dinámica al permitir que el router local intercambie información routing con otros routers mediante el protocolo de routing dinámico.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Ruta predeterminada:</b> Al igual que un host, los routers también utilizan las rutas predeterminadas como último recurso si no hay otra ruta para llegar hasta la red deseada en la tabla de routing.    </li>
+            </ul>
+          </p>
+          <p>En la ilustración, se identifican las redes conectadas directamente y las redes remotas del router R1.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows two routers connected by a serial connection.  Each router has two LANs attached.  This figure shows that a router has its own routing table to consult should a packet be destined for a remote network.  The routing table consists of directly connected networks and remote networks.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

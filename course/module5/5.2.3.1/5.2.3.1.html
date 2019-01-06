@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.3.1 Configuración de dúplex y velocidad</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configuración de dúplex y velocidad</h1>
+        <div>
+          <p>Dos de los parámetros más básicos de un switch son el ancho de banda y los parámetros de dúplex para cada puerto de switch individual. Es fundamental que los parámetros de dúplex y de ancho de banda coincidan entre el puerto de switch y los dispositivos conectados, como una computadora u otro switch. </p>
+          <p>Existen dos tipos de parámetros de dúplex utilizados para las comunicaciones en una red Ethernet: dúplex medio y dúplex completo.</p>
+          <p>
+            <ul>
+              <li>
+                <b>Dúplex completo:</b> ambos extremos de la conexión pueden enviar y recibir datos simultáneamente. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dúplex medio:</b> solo uno de los extremos de la conexión puede enviar datos por vez. </li>
+            </ul>
+          </p>
+          <p>La autonegociación es una función optativa que se encuentra en la mayoría de los switches Ethernet y NIC, que permite que dos dispositivos intercambien automáticamente información sobre velocidad y funcionalidades de dúplex. El switch y el dispositivo conectado seleccionan el modo de mayor rendimiento. Si ambos dispositivos tienen la funcionalidad, se selecciona dúplex completo, junto con el ancho de banda común más alto.</p>
+          <p>Por ejemplo, en la figura 1, la NIC Ethernet de la PC-A puede funcionar en dúplex completo o en dúplex medio, y a 10 Mb/s o 100 Mb/s. La PC-A está conectada al switch S1 en el puerto 1, que puede funcionar en dúplex completo o en dúplex medio, y a 10 Mb/s, 100 Mb/s o 1000 Mb/s (1 Gb/s). Si ambos dispositivos utilizan la autonegociación, el modo de funcionamiento será en dúplex completo y a 100 Mb/s.</p>
+          <p>
+            <b>Nota:</b> de manera predeterminada, la mayoría de los switches Cisco y NIC Ethernet utilizan la autonegociación para la configuración de velocidad y dúplex. Los puertos Gigabit Ethernet solamente funcionan en dúplex completo.</p>
+          <p>
+            <b>Incompatibilidad de dúplex</b>
+          </p>
+          <p>Una de las causas más comunes de problemas de rendimiento en enlaces Ethernet de 10 o 100 Mb/s ocurre cuando un puerto del enlace funciona en dúplex medio, mientras el otro puerto funciona en dúplex completo, como se muestra en la figura 2. Esto sucede cuando uno o ambos puertos de un enlace se restablecen, y el proceso de autonegociación no configura ambos participantes del enlace de la misma manera. También puede ocurrir cuando los usuarios reconfiguran un lado del enlace y olvidan reconfigurar el otro. Ambos lados de un enlace deben tener activada la autonegociación, o bien ambos deben tenerla desactivada.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a PC connected to a switch. The two devices have autonegotiated to operate at full duplex and at 100 Mb/s. Figure 2 shows a PC connected to a switch. The PC is operating at full duplex but the switch is operating at half-duplex and is getting collisions.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

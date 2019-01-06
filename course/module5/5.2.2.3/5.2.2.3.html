@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.2.3 Almacenamiento en búfer de memoria en los switches</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Almacenamiento en búfer de memoria en los switches</h1>
+        <div>
+          <p>Un switch Ethernet puede usar una técnica de almacenamiento en búfer para almacenar tramas antes de enviarlas. El almacenamiento en búfer también se puede utilizar cuando el puerto de destino está ocupado debido a una congestión. En este caso, el switch almacena la trama hasta que se pueda transmitir.</p>
+          <p>Como se muestra en la ilustración, existen dos métodos de almacenamiento en búfer de memoria: memoria basada en puerto y memoria compartida.</p>
+          <p>
+            <b>Búfer de memoria basada en puerto</b>
+          </p>
+          <p>En el búfer de memoria basada en puerto, las tramas se almacenan en colas conectadas a puertos de entrada y de salida específicos. Una trama se transmite al puerto de salida una vez que todas las que están delante de ella en la cola se hayan transmitido correctamente. Es posible que una sola trama demore la transmisión de todas las tramas almacenadas en la memoria debido al tráfico del puerto de destino. Esta demora se produce aunque las demás tramas se puedan transmitir a puertos de destino abiertos.</p>
+          <p>
+            <b>Búfer de memoria compartida </b>
+          </p>
+          <p>El búfer de memoria compartida deposita todas las tramas en un búfer de memoria común que comparten todos los puertos del switch. La cantidad de memoria de búfer que requiere un puerto se asigna de forma dinámica. Las tramas que están en el búfer se enlazan de forma dinámica al puerto de destino. Esto permite que se pueda recibir el paquete por un puerto y que se pueda transmitir por otro, sin necesidad de colocarlo en otra cola.</p>
+          <p>El switch conserva un mapa de enlaces de trama a puerto que indica adónde debe transmitirse el paquete. El enlace se elimina del mapa una vez que la trama se transmite correctamente. La cantidad de tramas almacenadas en el búfer está limitada por el tamaño del búfer de memoria en su totalidad y no se limita a un solo búfer de puerto. Esto permite que se transmitan tramas más grandes y que se descarte una menor cantidad de ellas. Esto es de especial importancia para el switching asimétrico. El switching asimétrico permite diferentes índices de datos en diferentes puertos. Esto permite dedicar un mayor ancho de banda a ciertos puertos, como a un puerto conectado a un servidor.</p>
+          
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a table with 2 terms, port-based memory and shared memory.  Each is listed with its description.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

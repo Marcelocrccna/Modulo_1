@@ -1,0 +1,1 @@
+Figure 1 shows the Windows IPv4 Properties window with the option “Obtain an IP address automatically” selected.

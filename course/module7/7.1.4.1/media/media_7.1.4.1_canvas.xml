@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_7.1.4.1.png" />
+<element type="TEXT" id="ID_static_1" text="10.0.0.0/8" x="88" y="262.95" align="center" width="54.5" />
+<element type="TEXT" id="ID_static_2" text="172.16.0.0/16" x="287" y="353.05" align="center" width="72.8" />
+<element type="TEXT" id="ID_static_3" text="192.168.0.0/24" x="535" y="267.45" align="center" width="78.9" />
+<element type="TEXT" id="ID_static_4" text="ISP1" x="246.05" y="134.55" align="center" width="25.4" bold="1" color="#FFFFFF"/>
+<element type="TEXT" id="ID_static_5" text="ISP2" x="329.4" y="156.2" align="center" width="27.2" bold="1" color="#FFFFFF"/>
+<element type="TEXT" id="ID_static_6" text="ISP3" x="426.4" y="134.55" align="center" width="27.15" bold="1" color="#FFFFFF"/>
+<element type="TEXT" subType="TITLE" compId="ID_title"/>
+<element type="TEXT" compId="ID_txt02" x="61" y="280" width="108.2" expand="down" align="center" bold="1"/>
+<element type="TEXT" compId="ID_txt03" x="266" y="367" width="108.2" expand="down" align="center" bold="1"/>
+<element type="TEXT" compId="ID_txt04" x="521" y="282" width="108.2" expand="down" align="center" bold="1"/>
+<element type="TEXT" compId="ID_txt01" x="298" y="104" width="87.05" expand="up+down" align="center" bold="1"/>
+		<!-- <element type="IMAGE" x="0" y="0" width="470" height="400" src="media_7.1.4.1.png" />
+		<element type="TEXT" id="ID_static_1" text="10.0.0.0/8" x="24.8" y="208.05" align="center" width="54.5" size="11" />
+		<element type="TEXT" id="ID_static_2" text="172.16.0.0/16" x="180.3" y="280" align="center" width="72.8" size="11" />
+		<element type="TEXT" id="ID_static_3" text="192.168.0.0/24" x="377.9" y="211.5" align="center" width="78.9" size="11" />
+		<element type="TEXT" subType="TITLE" compId="ID_title"/>
+		<element type="TEXT" compId="ID_txt02" x="12" y="229" width="84.4" expand="down" align="center" size="11" />
+		<element type="TEXT" compId="ID_txt03" x="175" y="299" width="84.4" expand="down" align="center" size="11" />
+		<element type="TEXT" compId="ID_txt04" x="376" y="231" width="84.4" expand="down" align="center" size="11" />
+		<element type="TEXT" compId="ID_txt01" x="195" y="86" width="84.4" expand="up+down" align="center" size="11" /> -->
+	</slide>
+</data>

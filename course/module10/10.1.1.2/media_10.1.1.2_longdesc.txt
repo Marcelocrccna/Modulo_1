@@ -1,0 +1,1 @@
+Figure shows the TCP/IP and OSI models side by side. Examples for the OSI model Presentation layer include Quick Time, Motion Picture Experts Group (MPEG), Graphics Interchange Format (GIF), Joint Photographic Experts Group (JPEG), and Portable Network Graphics (PNG).

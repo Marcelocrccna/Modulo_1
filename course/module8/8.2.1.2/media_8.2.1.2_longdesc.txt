@@ -1,0 +1,1 @@
+Figure shows the primary consideration when planning address allocations. These are: "Prevent Duplication of Addresses", "Provide and Control Access", and "Monitor Security and Performance". 

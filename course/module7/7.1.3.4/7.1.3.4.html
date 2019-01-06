@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.3.4 Transmisión de unidifusión</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.3.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Transmisión de unidifusión</h1>
+        <div>
+          <p>La comunicación de unidifusión se usa para la comunicación normal de host a host, tanto en redes cliente/servidor como en redes punto a punto. Los paquetes de unidifusión usan la dirección del dispositivo de destino como la dirección de destino y pueden enrutarse en una interconexión de redes. </p>
+          <p>Reproduzca la animación para ver un ejemplo de transmisión de unidifusión.</p>
+          <p>En una red IPv4, la dirección de unidifusión aplicada a un terminal se denomina "dirección de host". En la comunicación de unidifusión, las direcciones asignadas a los dos terminales se usan como las direcciones IPv4 de origen y de destino. Durante el proceso de encapsulamiento, el host de origen usa su dirección IPv4 como dirección de origen y la dirección IPv4 del host de destino como dirección de destino. Sin importar si en el destino se especificó un paquete como unidifusión, difusión o multidifusión, la dirección de origen de cualquier paquete siempre es la dirección de unidifusión del host de origen. </p>
+          <p>
+            <b>Nota:</b> en este curso, todas las comunicaciones entre dispositivos es de unidifusión, a menos que se indique lo contrario.</p>
+          <p>Las direcciones de host IPv4 de unidifusión se encuentran en el intervalo de direcciones de 0.0.0.0 a 223.255.255.255. Sin embargo, dentro de este intervalo existen muchas direcciones reservadas para fines específicos. Estas direcciones con fines específicos se analizan más adelante en este capítulo.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure is an animation showing a unicast transmission.  A PC with the IP address 172.16.4.1 needs to send a packet to a network printer at 172.16.4.253.  The packet is sent to a switch and then the packet is forwarded only to the printer.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

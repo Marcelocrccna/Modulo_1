@@ -1,0 +1,150 @@
+<textcomponents><!-- slide 1 --><component id="ID_s1_title">
+		<text><![CDATA[<b>¿Es 192 >= 128?</b>]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[<b>Ejemplo: <font color='#F68026'>192</font>.168.10.11</b>]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[192 >= 128]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[Sí]]></text>
+	</component>
+	<component id="ID_s2_txt04">
+		<text><![CDATA[Valor de posición]]></text>
+	</component>
+	<component id="ID_s2_txt05">
+		<text><![CDATA[Sume 1]]></text>
+	</component>
+	<component id="ID_s1_txt06">
+		<text><![CDATA[192 - 128 = 64]]></text>
+	</component><!-- end slide 1 --><!-- slide 2 --><component id="ID_s2_title">
+		<text><![CDATA[<b>¿Es 64 >= 64?</b>]]></text>
+	</component>
+	<component id="ID_s1_txt01">
+		<text><![CDATA[<b>Ejemplo: <font color='#F68026'>192</font>.168.10.11</b>]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[64 >= 64]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Sí]]></text>
+	</component>
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Valor de posición]]></text>
+	</component>
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Sume 1]]></text>
+	</component>
+	<component id="ID_s2_txt06">
+		<text><![CDATA[64 - 64 = 0]]></text>
+	</component><!-- end slide 2 --><!-- slide 3 --><component id="ID_s3_title">
+		<text><![CDATA[<b>192 = 11000000</b>]]></text>
+	</component>
+	<component id="ID_s4_txt01">
+		<text><![CDATA[<b>Ejemplo: <font color='#F68026'>192</font>.168.10.11</b>]]></text>
+	</component>
+	<component id="ID_s4_txt04">
+		<text><![CDATA[Valor de posición]]></text>
+	</component><!-- end slide 3 --><!-- slide 4 --><component id="ID_s4_title">
+		<text><![CDATA[<b>¿El valor de n decimal es mayor de 16 o igual?</b>]]></text>
+	</component>
+	<component id="ID_s3_txt01">
+		<text><![CDATA[<b>Ejemplo: 192.<font color='#F68026'>168</font>.10.11</b>]]></text>
+	</component>
+	<component id="ID_s4_txt02">
+		<text><![CDATA[168 >= 128]]></text>
+	</component>
+	<component id="ID_s6_txt03">
+		<text><![CDATA[Sí]]></text>
+	</component>
+	<component id="ID_s3_txt02">
+		<text><![CDATA[Valor de posición]]></text>
+	</component>
+	<component id="ID_s6_txt05">
+		<text><![CDATA[Sume 1]]></text>
+	</component>
+	<component id="ID_s4_txt06">
+		<text><![CDATA[168 – 128 = 40]]></text>
+	</component><!-- end slide 4 --><!-- slide 5 --><component id="ID_s5_title">
+		<text><![CDATA[<b>¿Es 40 >= 64?</b>]]></text>
+	</component>
+	<component id="ID_s6_txt01">
+		<text><![CDATA[<b>Ejemplo: 192.<font color='#F68026'>168</font>.10.11</b>]]></text>
+	</component>
+	<component id="ID_s5_txt02">
+		<text><![CDATA[No]]></text>
+	</component>
+	<component id="ID_s5_txt03">
+		<text><![CDATA[40 >= 64]]></text>
+	</component>
+	<component id="ID_s6_txt04">
+		<text><![CDATA[Valor de posición]]></text>
+	</component>
+	<component id="ID_s5_txt05">
+		<text><![CDATA[Sume 0]]></text>
+	</component><!-- end slide 5 --><!-- slide 6 --><component id="ID_s6_title">
+		<text><![CDATA[<b>¿El valor de n decimal es mayor de 4 o igual?</b>]]></text>
+	</component>
+	<component id="ID_s5_txt01">
+		<text><![CDATA[<b>Ejemplo: 192.<font color='#F68026'>168</font>.10.11</b>]]></text>
+	</component>
+	<component id="ID_s6_txt02">
+		<text><![CDATA[40 >= 32]]></text>
+	</component>
+	<component id="ID_s4_txt03">
+		<text><![CDATA[Sí]]></text>
+	</component>
+	<component id="ID_s5_txt04">
+		<text><![CDATA[Valor de posición]]></text>
+	</component>
+	<component id="ID_s4_txt05">
+		<text><![CDATA[Sume 1]]></text>
+	</component>
+	<component id="ID_s6_txt06">
+		<text><![CDATA[40 – 32 = 8]]></text>
+	</component><!-- end slide 6 --><!-- slide 7 --><component id="ID_s7_title">
+		<text><![CDATA[<b>¿Es 8 >= 8?</b>]]></text>
+	</component>
+	<component id="ID_s8_txt01">
+		<text><![CDATA[<b>Ejemplo: 192.<font color='#F68026'>168</font>.10.11</b>]]></text>
+	</component>
+	<component id="ID_s7_txt02">
+		<text><![CDATA[8 >= 8]]></text>
+	</component>
+	<component id="ID_s7_txt03">
+		<text><![CDATA[Sí]]></text>
+	</component>
+	<component id="ID_s8_txt02">
+		<text><![CDATA[Valor de posición]]></text>
+	</component>
+	<component id="ID_s7_txt05">
+		<text><![CDATA[Sume 1]]></text>
+	</component><!-- end slide 7 --><!-- slide 8 --><component id="ID_s8_title">
+		<text><![CDATA[<b>168 = 10101000</b>]]></text>
+	</component>
+	<component id="ID_s7_txt01">
+		<text><![CDATA[<b>Ejemplo: 192.<font color='#F68026'>168</font>.10.11</b>]]></text>
+	</component>
+	<component id="ID_s7_txt04">
+		<text><![CDATA[Valor de posición]]></text>
+	</component><!-- end slide 8 --><!-- slide 9 --><component id="ID_s9_title">
+		<text><![CDATA[<b>10 = 00001010</b>]]></text>
+	</component>
+	<component id="ID_s10_txt01">
+		<text><![CDATA[<b>Ejemplo: 192.168.<font color='#F68026'>10</font>.11</b>]]></text>
+	</component>
+	<component id="ID_s10_txt02">
+		<text><![CDATA[Valor de posición]]></text>
+	</component><!-- end slide 9 --><!-- slide 10 --><component id="ID_s10_title">
+		<text><![CDATA[<b>11 = 00001011</b>]]></text>
+	</component>
+	<component id="ID_s9_txt01">
+		<text><![CDATA[<b>Ejemplo: 192.168.10.<font color='#F68026'>11</font></b>]]></text>
+	</component>
+	<component id="ID_s9_txt02">
+		<text><![CDATA[Valor de posición]]></text>
+	</component>
+	<component id="ID_s10_txt04">
+		<text><![CDATA[Valor de posición]]></text>
+	</component><!-- end slide 10 --></textcomponents>

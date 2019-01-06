@@ -1,0 +1,72 @@
+<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Actividad: Ordenar los pasos para la solución de problemas</b>]]></text>
+	</component>
+	<component id="ID_s1_instr_title">
+		<text><![CDATA[Instrucciones]]></text>
+	</component>
+	<component id="ID_s1_instr_body">
+		<text><![CDATA[Arrastre cada paso al campo que se encuentra junto a la descripción correspondiente.]]></text>
+	</component>
+	<component id="ID_s1_CORRECT_TITLE">
+		<text><![CDATA[Correcto]]></text>
+	</component>
+	<component id="ID_s1_CORRECT_BODY">
+		<text><![CDATA[Unió correctamente cada paso con su descripción.]]></text>
+	</component>
+	<component id="ID_s1_INCORRECT_TITLE">
+		<text><![CDATA[Incorrecto]]></text>
+	</component>
+	<component id="ID_s1_INCORRECT_BODY">
+		<text><![CDATA[No unió correctamente cada paso con su descripción. Haga clic en Restablecer para intentarlo nuevamente.]]></text>
+	</component>
+	<component id="ID_s1_CHECK">
+		<text><![CDATA[Verificar]]></text>
+	</component>
+	<component id="ID_s1_RESET">
+		<text><![CDATA[Restablecer]]></text>
+	</component><!--Drag Items--><component id="ID_s1_target_header">
+		<text><![CDATA[<font size="15">Pasos</font>]]></text>
+	</component>
+	<component id="ID_s1_drag01">
+		<text><![CDATA[Paso 2]]></text>
+	</component>
+	<component id="ID_s1_drag02">
+		<text><![CDATA[Paso 4]]></text>
+	</component>
+	<component id="ID_s1_drag03">
+		<text><![CDATA[Paso 6]]></text>
+	</component>
+	<component id="ID_s1_drag04">
+		<text><![CDATA[Paso 1]]></text>
+	</component>
+	<component id="ID_s1_drag05">
+		<text><![CDATA[Paso 3]]></text>
+	</component>
+	<component id="ID_s1_drag06">
+		<text><![CDATA[Paso 5]]></text>
+	</component><!--Questions--><component id="ID_s1_drag_header">
+		<text><![CDATA[<font size="15">Pasos</font>]]></text>
+	</component>
+	<component id="ID_s1_text_header">
+		<text><![CDATA[<font size="15">Descripción</font>]]></text>
+	</component>
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Establecer una teoría de causas probables.]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Establecer un plan de acción para resolver el problema e implementar la solución.]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Registrar hallazgos, acciones y resultados.]]></text>
+	</component>
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Identificar el problema.]]></text>
+	</component>
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Poner a prueba la teoría para determinar la causa.]]></text>
+	</component>
+	<component id="ID_s1_txt06">
+		<text><![CDATA[Verificar la funcionalidad total del sistema e implementar medidas preventivas.]]></text>
+	</component>
+</textcomponents>

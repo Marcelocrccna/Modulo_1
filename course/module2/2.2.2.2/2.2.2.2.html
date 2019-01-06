@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.2.2.2 Configuración de contraseñas</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.2.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configuración de contraseñas</h1>
+        <div>
+          <p>La contraseña más importante para configurar es la de acceso al modo EXEC privilegiado, como se muestra en la figura 1. Para proteger el acceso a EXEC privilegiado, utilice el comando de configuración global<b></b><b> enable secret </b><i>password</i>. </p>
+          <p></p>
+          <p>Para proteger el acceso a EXEC de usuario, el puerto de consola debe estar configurado, como se muestra en la figura 2. Ingrese al modo de configuración de consola de línea con el comando de configuración global <b>line console 0</b>. El cero se utiliza para representar la primera (y en la mayoría de los casos la única) interfaz de consola. Luego, configure la contraseña de modo EXEC de usuario con el comando <b>password </b><i>password</i>. Finalmente, habilite el acceso EXEC de usuario con el comando <b>login</b>. El acceso a la consola ahora requerirá una contraseña antes de poder acceder al modo EXEC del usuario. </p>
+          <p></p>
+          <p>Las líneas de terminal virtual (VTY) habilitan el acceso remoto al dispositivo. Para proteger las líneas VTY que se utilizan para SSH y Telnet, ingrese al modo de línea VTY con el comando de configuración global <b>line vty 0 15</b>, como se muestra en la figura 3. Muchos switches de Cisco admiten hasta 16 líneas VTY que se numeran del 0 al 15. Luego, especifique la contraseña de VTY con el comando <b>password </b><i>password</i>. Por último, habilite el acceso a VTY con el comando <b>login</b>.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 demonstrates how to configure an encrypted privileged exec mode password using the "enable secret" command. Figure 2 demonstrates how to configure a password for the console line. Figure 3 demonstrates how to configure a password for the vty lines. Both console and vty lines are configured using the “password” and “login” commands.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,722 @@
+        /*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+#content {
+    width: 37%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+#wrapper {
+    left: 40px;
+    top: 60px;
+    width: 602px;
+    height: 362px;
+    background: #FFFFFF;
+    box-shadow: none !important;
+    margin: 0 -5px !important;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+#slidetitile {
+    position: absolute;
+    width: 602px;
+    top: 0;
+    padding-top: 7px;
+    height: 26px;
+    font-size: 14px;
+    display: block;
+    text-align: left;
+    color: black;
+    background: #FFFFFF;
+}
+
+#imageflow {
+    position: absolute;
+    left: 0px;
+    top: 76px;
+    width: 501px;
+    height: 12px;
+    background-image: url(envelop_flow.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#flowbg {
+    position: absolute;
+    left: 0px;
+    top: 66px;
+    width: 440px;
+    height: 32px;
+}
+
+#year {
+    position: absolute;
+    left: 0px;
+    top: 182px;
+    width: 60px;
+    height: 19px;
+    text-align: right;
+    padding-top: 2px;
+    padding-right: 5px;
+    border-top: solid 2px #FFF;
+    background-color: #666263;
+    color: #FFFFFF;
+    padding-bottom: 3px !important;
+}
+
+#standard {
+    position: absolute;
+    left: 0px;
+    top: 208px;
+    padding-right: 5px;
+    width: 60px;
+    height: 17px;
+    text-align: right;
+    padding-top: 2px;
+    border-top: solid 4px #FFFFFF;
+    background-color: #666263;
+    color: #FFFFFF;
+    padding-bottom: 27px;
+}
+
+#description {
+    position: absolute;
+    left: 0px;
+    top: 258px;
+    padding-right: 5px;
+    width: 60px;
+    height: 17px;
+    text-align: right;
+    padding-top: 2px;
+    border-top: solid 4px #FFFFFF;
+    background-color: #666263;
+    color: #FFFFFF;
+    padding-bottom: 81px;
+}
+
+#wrapper table td {
+    border: none;
+}
+
+#wrapper1 {
+    position: relative;
+    height: 185px;
+    top: -16px;
+    left: 65px;
+    width: 533px;
+    border-left: solid 2px #FFFFFF;
+    border-right: solid 2px #FFFFFF;
+    border-top: solid 2px #FFFFFF;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 16px;
+}
+
+#div1 {
+    width: 2015px;
+    height: 20px;
+}
+
+#tablediv table {
+    border-collapse: collapse;
+}
+
+#tablediv {
+    width: 537px;
+    position: relative;
+    height: 180px;
+    top: 182px;
+    left: 65px;
+    background-color: #fff;
+    display: block;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.row1 {
+    width: 175px;
+    margin: 0px;
+    float: left;
+    display: block;
+    height: 22px;
+    text-align: left;
+    padding: 1px;
+    border: solid 2px #FFFFFF;
+    background-color: #666263 !important;
+    color: #FFFFFF !important;
+}
+
+.row2 {
+    width: 175px;
+    margin-left: 0px;
+    float: left;
+    display: block;
+    height: 44px;
+    background-color: #E9E7E8 !important;
+    text-align: left;
+    padding: 1px;
+    border: solid 2px #FFFFFF;
+}
+
+.row3 {
+    width: 175px;
+    float: left;
+    display: block;
+    height: 140px !important;
+    background-color: #F2F2F2 !important;
+    text-align: left;
+    padding: 1px;
+    border: solid 2px #FFFFFF;
+}
+
+#pointer {
+    position: relative;
+    left: 0px;
+    display: block;
+    top: 0px;
+    width: 41px;
+    height: 26px;
+    background-color: #99d5ef;
+    border-radius: 4px;
+    text-align: right;
+}
+
+#slidebar {
+    position: absolute;
+    width: 380px;
+    left: 72px;
+    display: block;
+    top: 132px;
+    height: 26px;
+}
+
+#yeardiv {
+    position: absolute;
+    width: 430px;
+    left: 82px;
+    display: block;
+    top: 140px;
+    height: 23px;
+}
+
+.xmltables {
+    border-collapse: collapse;
+}
+
+.xmltables tbody tr {
+    border-color: #98D3D1;
+}
+
+.xmltables tbody tr td {
+    border-color: #a2aa23;
+    font-size: 11px !important;
+    font-weight: normal;
+    border: 3px solid #98D3D1;
+    border-collapse: collapse;
+    padding: 1px 5px;
+}
+
+.xmltables tbody tr td b {
+    font-size: 11px !important;
+    font-weight: bold !important;
+    border-collapse: collapse;
+    padding: 0 1px;
+}
+
+.xmltables tbody tr td font {
+    line-height: 0 !important;
+    height: 0px !important;
+    margin: 0px;
+    padding: 0px;
+    text-align: top;
+}
+
+.table_font {
+    border-color: #a2aa23;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    width: 33% !important;
+}
+
+.font_title_mid {
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+
+.col_1 {
+    line-height: 0;
+    /*display:block;*/
+    margin-top: -41px;
+    padding-bottom: 5px;
+}
+
+.title_none {
+    height: 1px !important;
+}
+
+.liner {
+    line-height: 0 !important;
+    height: 0px !important;
+    margin: 0px;
+    padding: 1px;
+}
+
+.liner_thin {
+    line-height: 0 !important;
+    height: 0px !important;
+    margin: 0px;
+    padding: 1px;
+}
+
+li {
+    margin-left: 2em !important;
+    padding-left: 8px;
+}
+
+.liner_top {
+    line-height: 0 !important;
+    height: 0px !important;
+    margin: 0px;
+    padding: 1px 0 1px 0;
+}
+
+.subnetId {
+    font-size: 9px;
+    font-weight: bold !important;
+    border-collapse: collapse;
+}
+
+.titleFont {
+    font-size: 10px;
+    font-weight: bold !important;
+    border-collapse: collapse;
+}
+
+.col1 {
+    width: 30px !important;
+}
+
+.col2 {
+    width: 30px !important;
+}
+
+.col3 {
+    width: 30px !important;
+}
+
+.col4 {
+    width: 30px !important;
+}
+
+.col5 {
+    width: 30px !important;
+}
+
+.col6 {
+    width: 70px !important;
+}
+
+.col7 {
+    width: 30px !important;
+}
+
+#ID_s2_txt01 {
+    background: #FDE6D4;
+    border: 2px solid #F68026;
+    border-radius: 5px;
+    padding: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.wider {
+    width: 18% !important;
+}
+
+@media only screen and (device-width: 768px) {
+    #wrapper {
+        left: 10px;
+    }
+    #tablediv {
+        width: 374px;
+        position: relative;
+        height: 174px;
+        top: 182px;
+        left: 64px;
+        background-color: #fff;
+        display: block;
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    #wrapper1 {
+        display: none;
+    }
+    #yeardiv {
+        position: absolute;
+        width: 340px;
+        left: 82px;
+        display: block;
+        top: 152px;
+        height: 23px;
+    }
+    #pointer {
+        position: relative;
+        left: 0px;
+        display: block;
+        top: 12px;
+        width: 41px;
+        height: 26px;
+        background-color: #99d5ef;
+        border-radius: 4px;
+        text-align: right;
+    }
+    .thead {
+        color: #000000;
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        #ID_s2_txt01 {
+            width: 155px !important
+        }
+    }
+    @media only screen and (device-width: 768px) {
+        #content {
+            width: 37%;
+            margin: 0 auto;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 11px;
+        }
+        #wrapper {
+            left: 40px;
+            top: 60px;
+            width: 602px;
+            height: 362px;
+            background: #FFFFFF;
+            box-shadow: none !important;
+            margin-left: 35px !important;
+        }
+        #slidetitile {
+            position: absolute;
+            width: 602px;
+            top: 0;
+            padding-top: 7px;
+            height: 26px;
+            padding-left: 7px;
+            font-size: 14px;
+            display: block;
+            text-align: left;
+            color: black;
+            background: #FFFFFF;
+        }
+        #imageflow {
+            position: absolute;
+            left: 0px;
+            top: 76px;
+            width: 501px;
+            height: 12px;
+            background-image: url(envelop_flow.gif);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        #flowbg {
+            position: absolute;
+            left: 0px;
+            top: 66px;
+            width: 440px;
+            height: 32px;
+        }
+        #year {
+            position: absolute;
+            left: 0px;
+            top: 182px;
+            width: 60px;
+            height: 17px;
+            text-align: center;
+            padding-top: 2px;
+            padding-left: 5px;
+            border-top: solid 4px #FFFFFF;
+        }
+        #standard {
+            position: absolute;
+            left: 0px;
+            top: 208px;
+            padding-right: 5px;
+            width: 60px;
+            height: 17px;
+            text-align: right;
+            padding-top: 2px;
+            border-top: solid 4px #FFFFFF;
+        }
+        #description {
+            position: absolute;
+            left: 0px;
+            top: 258px;
+            padding-right: 5px;
+            width: 60px;
+            height: 17px;
+            text-align: right;
+            padding-top: 2px;
+            border-top: solid 4px #FFFFFF;
+        }
+        #wrapper table td {
+            border: none;
+        }
+        #wrapper1 {
+            position: relative;
+            height: 185px;
+            top: -16px;
+            left: 65px;
+            width: 533px;
+            border-left: solid 2px #FFFFFF;
+            border-right: solid 2px #FFFFFF;
+            border-top: solid 2px #FFFFFF;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            height: 16px;
+        }
+        #div1 {
+            width: 2015px;
+            height: 20px;
+        }
+        #tablediv table {
+            border-collapse: collapse;
+        }
+        #tablediv {
+            width: 537px;
+            position: relative;
+            height: 180px;
+            top: 182px;
+            left: 65px;
+            background-color: #fff;
+            display: block;
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+        .row1 {
+            width: 175px;
+            margin: 0px;
+            float: left;
+            display: block;
+            height: 22px;
+            background-color: #fff;
+            text-align: left;
+            padding: 1px;
+            border: solid 2px #FFFFFF;
+        }
+        .row2 {
+            width: 175px;
+            margin-left: 0px;
+            float: left;
+            display: block;
+            height: 44px;
+            background-color: #E9E7E8 !important;
+            text-align: left;
+            padding: 1px;
+            border: solid 2px #FFFFFF;
+        }
+        .row3 {
+            width: 175px;
+            float: left;
+            display: block;
+            height: 140px !important;
+            background-color: #F2F2F2 !important;
+            text-align: left;
+            padding: 1px;
+            border: solid 2px #FFFFFF;
+        }
+        #pointer {
+            position: relative;
+            left: 0px;
+            display: block;
+            top: 0px;
+            width: 41px;
+            height: 26px;
+            background-color: #99d5ef;
+            border-radius: 4px;
+            text-align: right;
+        }
+        #slidebar {
+            position: absolute;
+            width: 380px;
+            left: 72px;
+            display: block;
+            top: 132px;
+            height: 26px;
+        }
+        #yeardiv {
+            position: absolute;
+            width: 430px;
+            left: 82px;
+            display: block;
+            top: 140px;
+            height: 23px;
+        }
+        .xmltables {
+            border-collapse: collapse;
+        }
+        .xmltables tbody tr {
+            border-color: #98D3D1;
+        }
+        .xmltables tbody tr td {
+            border-color: #a2aa23;
+            font-size: 11px !important;
+            font-weight: normal;
+            border: 3px solid #98D3D1;
+            border-collapse: collapse;
+            padding: 1px 5px;
+        }
+        .xmltables tbody tr td b {
+            font-size: 11px !important;
+            font-weight: bold !important;
+            border-collapse: collapse;
+            padding: 0 1px;
+        }
+        .xmltables tbody tr td font {
+            line-height: 0 !important;
+            height: 0px !important;
+            margin: 0px;
+            padding: 0px;
+            text-align: top;
+        }
+        .table_font {
+            border-color: #a2aa23;
+            font-size: 11px !important;
+            font-weight: bold !important;
+            width: 33% !important;
+        }
+        .font_title_mid {
+            font-size: 10px !important;
+            font-weight: bold !important;
+        }
+        .col_1 {
+            line-height: 0;
+            /*display:block;*/
+            margin-top: -41px;
+            padding-bottom: 5px;
+        }
+        .title_none {
+            height: 1px !important;
+        }
+        .liner {
+            line-height: 0 !important;
+            height: 0px !important;
+            margin: 0px;
+            padding: 1px;
+        }
+        .liner_thin {
+            line-height: 0 !important;
+            height: 0px !important;
+            margin: 0px;
+            padding: 1px;
+        }
+        li {
+            margin-left: 2em !important;
+            padding-left: 8px;
+        }
+        .liner_top {
+            line-height: 0 !important;
+            height: 0px !important;
+            margin: 0px;
+            padding: 1px 0 1px 0;
+        }
+        .subnetId {
+            font-size: 9px;
+            font-weight: bold !important;
+            border-collapse: collapse;
+        }
+        .titleFont {
+            font-size: 10px;
+            font-weight: bold !important;
+            border-collapse: collapse;
+        }
+        .col1 {
+            width: 30px !important;
+        }
+        .col2 {
+            width: 30px !important;
+        }
+        .col3 {
+            width: 30px !important;
+        }
+        .col4 {
+            width: 30px !important;
+        }
+        .col5 {
+            width: 30px !important;
+        }
+        .col6 {
+            width: 70px !important;
+        }
+        .col7 {
+            width: 30px !important;
+        }
+        #ID_s2_txt01 {
+            background: #FDE6D4;
+            border: 2px solid #F68026;
+            border-radius: 5px;
+            padding: 2px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+        }
+        .wider {
+            width: 18% !important;
+        }
+        @media only screen and (device-width: 768px) {
+            #wrapper {
+                left: 10px;
+            }
+            #tablediv {
+                width: 374px;
+                position: relative;
+                height: 174px;
+                top: 182px;
+                left: 64px;
+                background-color: #fff;
+                display: block;
+                overflow-y: hidden;
+                overflow-x: scroll;
+            }
+            #wrapper1 {
+                display: none;
+            }
+            #yeardiv {
+                position: absolute;
+                width: 340px;
+                left: 82px;
+                display: block;
+                top: 152px;
+                height: 23px;
+            }
+            #pointer {
+                position: relative;
+                left: 0px;
+                display: block;
+                top: 12px;
+                width: 41px;
+                height: 26px;
+                background-color: #99d5ef;
+                border-radius: 4px;
+                text-align: right;
+            }
+            .thead {
+                color: #000000;
+            }
+            @media screen and (-webkit-min-device-pixel-ratio:0) {
+                #ID_s2_txt01 {
+                    width: 155px !important
+                }
+                #tablediv {
+                    width: 537px;
+                }
+                #yeardiv {
+                    width: 450px;
+                }
+            }
+        }

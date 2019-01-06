@@ -1,0 +1,13 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+#canvas, #mediaContainer {
+	/*margin-left: 105px;*/
+} 
+
+#ID_title{
+    width: 470px !important;
+    margin: auto;
+	font-size:14px !important;
+}

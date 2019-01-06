@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide width="1000">
+		<element type="IMAGE" x="0" y="0" width="1000" height="490" src="../../../common/images/page_backgrounds/bg_activity.jpg" />
+		<element type="TEXT" subType="TITLE" compId="ID_title" color="#fff" />
+		<element type="TEXTBOX" titleId="ID_s1_instr_title" bodyId="ID_s1_instr_body" x="40" y="67.95" width="250" height="300" animated="0" subType="ROLLOVER" />
+		<element type="TEXT" compId="ID_txt02" x="504.25" y="69.05" width="147.45" expand="left+right" align="center" color="#FFFFFF" />
+		<element type="IMAGE" x="503.05" y="66" width="150" height="62" src="score_bg.png" />
+		<element type="TEXT" compId="ID_score" x="505.7" y="92" width="147.45" expand="left+right" align="center" color="#020000" bold="0" size="25"/>
+		<element type="SHAPE" subType="LINE" x="357" y="290" x1="820" y1="290" stroke="2" strokeColor="#000"/>
+		<element type="IMAGE" x="853.6" y="258.05" width="100" height="60" src="Cloud.png" />
+		<element type="TEXT" compId="ID_txt04" x="860" y="282" width="88" expand="up+down" align="center"/>
+		<element type="TEXT" compId="ID_txt03" x="805" y="312" width="51" expand="down" align="center"/>
+	</slide>
+</data>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.2.2 Regla 1: omitir los 0 iniciales</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Regla 1: omitir los 0 iniciales</h1>
+        <div>
+          <p>La primera regla para ayudar a reducir la notación de las direcciones IPv6 consiste en omitir los 0 (ceros) iniciales en cualquier sección de 16 bits o hexteto. Por ejemplo:</p>
+          <p>
+            <ul>
+              <li>01AB puede representarse como 1AB.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>09F0 puede representarse como 9F0.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>0A00 puede representarse como A00.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>00AB puede representarse como AB.</li>
+            </ul>
+          </p>
+          <p>Esta regla solo es válida para los ceros iniciales, y NO para los ceros finales; de lo contrario, la dirección sería ambigua. Por ejemplo, el hexteto "ABC" podría ser "0ABC" o "ABC0", pero estos no representan el mismo valor.</p>
+          <p>En las figuras 1 a 8, se muestran varios ejemplos de cómo se puede utilizar la omisión de ceros iniciales para reducir el tamaño de una dirección IPv6. Para cada ejemplo, se muestra el formato preferido. Advierta cómo la omisión de ceros iniciales en la mayoría de los ejemplos da como resultado una representación más pequeña de la dirección.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figures 1 through 8 show examples Rule 1, which takes the preferred format of an IPv6 address and omitting the leading zeros. For example, the address 2001:0DB8:0000:1111:0000:0000:0000:0200 becomes 2001:DB8:0:1111:0:0:0:200.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

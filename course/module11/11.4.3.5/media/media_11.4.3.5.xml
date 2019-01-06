@@ -1,0 +1,10 @@
+﻿<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[Práctica de laboratorio]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[Solución de problemas de conectividad]]></text>
+	</component>
+	
+</textcomponents>

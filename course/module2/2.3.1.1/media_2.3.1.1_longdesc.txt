@@ -1,0 +1,1 @@
+Figure 1 lists some devices that require IP addresses including: computers (work stations, laptops, file servers, web servers); network printers; VoIP phones; security cameras; smart phones; mobile handheld devices (such as wireless barcode scanners). Figure 2 shows the Windows TCP/IPv4 Properties window with IP address information statically configured.

@@ -1,0 +1,13 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+.spaceLeft{
+margin-left: 15px !important;
+}
+
+
+.align{
+	margin-left: 13px !important;
+}

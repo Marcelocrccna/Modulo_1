@@ -1,0 +1,1 @@
+Figure shows how quality of service will guarantee proper data delivery.  For example, web pages will have a lower priority and streaming media will be given higher priority to ensure uninterrupted user experience.

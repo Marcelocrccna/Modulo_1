@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.3.1.3 Capítulo 9: Capa de transporte</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.3.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Capítulo 9: Capa de transporte</h1>
+        <div>
+          <p>La capa de transporte proporciona servicios relacionados con el transporte de las siguientes maneras:</p>
+          <p>
+            <ul>
+              <li>La división en segmentos de los datos que se reciben de una aplicación</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>La adición de un encabezado para identificar y administrar cada segmento</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>El uso de la información del encabezado para reensamblar los segmentos de nuevo en datos de aplicación</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>El paso de los datos ensamblados hacia la aplicación correcta</li>
+            </ul>
+          </p>
+          <p>UDP y TCP son protocolos de la capa de transporte comunes.</p>
+          <p>Los datagramas de UDP y los segmentos TCP tienen encabezados que se agregan delante de los datos, los cuales incluyen un número de puerto de origen y un número de puerto de destino. Estos números de puerto permiten que los datos se dirijan a la aplicación correcta que se ejecuta en el equipo de destino.</p>
+          <p>TCP pasa datos a la red hasta que conoce el destino y está lista para recibirlos. Luego TCP administra el flujo de datos y reenvía todos los segmentos de datos de los que recibió reconocimiento a medida que se reciben en el destino. TCP utiliza mecanismos de enlace, temporizadores, mensajes de reconocimiento y control del flujo mediante mecanismo de ventana dinámico para lograr la confiabilidad. El proceso de confiabilidad, sin embargo, impone una sobrecarga en la red en términos de encabezados de segmentos mucho más grandes y más tráfico de la red entre el origen y el destino.</p>
+          <p>Si se deben entregar los datos de aplicación a través de la red de manera rápida, o si el ancho de banda de la red no admite la sobrecarga de mensajes de control que se intercambian entre los sistemas de origen y destino, UDP es el protocolo de la capa de transporte preferido por los desarrolladores. UDP no ofrece ninguna de las características de confiabilidad de TCP. Sin embargo, esto no significa necesariamente que la comunicación misma no sea confiable; puede haber mecanismos en los protocolos de la capa de aplicación y servicios que procesen datagramas perdidos o retrasados si la aplicación tiene estos requisitos.</p>
+          <p>El desarrollador de la aplicación decide cuál es el protocolo de capa de transporte que más se ajusta a los requisitos de la aplicación. Es importante recordar que el resto de las capas cumplen una función en las comunicaciones de red de datos y afectan el rendimiento de estas.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a standard graphic for the introduction and conclusion pages.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

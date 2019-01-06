@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.4.7 Direcciones link-local estáticas</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.4.7_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Direcciones link-local estáticas</h1>
+        <div>
+          <p>Configurar la dirección link-local manualmente permite crear una dirección reconocible y más fácil de recordar. Por lo general, solo es necesario crear direcciones de enlace local reconocibles en los routers. Esto es útil, ya que utilizan direcciones de enlace local del router como direcciones de gateway predeterminado y en los mensajes routing de anuncios.</p>
+          <p>Las direcciones link-local pueden configurarse manualmente mediante el mismo comando de interfaz utilizado para crear las direcciones IPv6 de unidifusión globales, pero con un parámetro <b>link-local</b> adicional. Cuando una dirección comienza con este hexteto dentro del rango de FE80 a FEBF, el parámetro de link-local debe seguir a la dirección.</p>
+          <p>En la ilustración, se muestra la configuración de una dirección link-local con el comando de interfaz <b>ipv6 address</b>. La dirección link-local FE80::1 se utiliza para que sea posible reconocer fácilmente que pertenece al router R1. Se configura la misma dirección IPv6 link-local en todas las interfaces del R1. Se puede configurar FE80::1 en cada enlace, debido a que solamente tiene que ser única en ese enlace.</p>
+          <p>De manera similar al R1, el router R2 se configura con FE80::2 como la dirección IPv6 link-local en todas las interfaces.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the command syntax for configure the link-local address on a router interface. Also shown is an example of configuring three interfaces on a router with the same link-local command, which is “ipv6 address fe80::1 link-local”.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

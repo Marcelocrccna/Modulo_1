@@ -1,0 +1,1 @@
+Figure 1 shows an example of Manchester encoding. The transition from a 1 to a 0 or a 0 to a 1 occurs at the middle of each bit period. Figure 2 shows examples of FM and AM.

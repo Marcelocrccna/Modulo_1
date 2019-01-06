@@ -1,0 +1,181 @@
+<textcomponents>
+    <component id="ID_s0_txt01">
+        <text>
+            <![CDATA[Las direcciones MAC están acortadas con fines de demostración.]]>
+        </text>
+    </component>
+    <component id="ID_s0_txt02">
+        <text>
+            <![CDATA[Tipo]]>
+        </text>
+    </component>
+    <component id="ID_s0_txt03">
+        <text>
+            <![CDATA[Datos]]>
+        </text>
+    </component>
+    <component id="ID_s0_txt04">
+        <text>
+            <![CDATA[FCS]]>
+        </text>
+    </component>
+    <component id="ID_txt01">
+		<text><![CDATA[MAC<br/>00-0A]]></text>
+	</component>
+
+	<component id="ID_txt02">
+		<text><![CDATA[MAC<br/>00-0B]]></text>
+	</component>
+
+	<component id="ID_txt03">
+		<text><![CDATA[MAC<br/>00-0C]]></text>
+	</component>
+
+	<component id="ID_txt04">
+		<text><![CDATA[MAC<br/>00-0D]]></text>
+	</component>
+    <component id="ID_s3_title">
+        <text>
+            <![CDATA[<b>Aprendizaje: Examinar la dirección MAC de origen</b>]]></text>
+    </component>
+    <component id="ID_s2_txt01">
+        <text>
+            <![CDATA[MAC de destino<br/>00-0A]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt02">
+        <text>
+            <![CDATA[MAC de origen<br/>00-0D]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt03">
+        <text>
+            <![CDATA[Puerto y dirección MAC de destino agregados]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt04">
+        <text>
+            <![CDATA[No tengo esta dirección MAC de origen ni el puerto de entrada en mi tabla, así que los agregaré.]]>
+        </text>
+    </component>
+    <component id="ID_s1_table">
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="12"><b>Tabla de direcciones MAC</b></font></td>
+			</tr>
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+			<tr>
+                <td bgcolor='#666263' width="140px"><font color="#FFFFFF" align="center"><b>Puerto</b></font></td>
+                <td bgcolor='#666263' width="140px"><font color="#FFFFFF"><b>Dirección MAC</b></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'>1</td>
+				<td bgcolor='#E9E7E8'>00-0A</td>	
+			</tr>
+
+			<tr>
+				<td bgcolor='#F2F2F2'>4</td>
+				<td bgcolor='#F2F2F2'>00-0D</td>	
+			</tr>
+			
+		</table>]]></text> 
+	</component>
+    <component id="ID_s2_title">
+        <text>
+            <![CDATA[<b>Reenvío: Examinar la dirección MAC de destino</b>]]></text>
+    </component>
+    <component id="ID_s1_txt01">
+        <text>
+            <![CDATA[MAC de destino<br/>00-0A]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt02">
+        <text>
+            <![CDATA[MAC de origen<br/>00-0D]]>
+        </text>
+    </component>
+    <component id="ID_s3_txt03">
+        <text>
+            <![CDATA[]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt04">
+        <text>
+            <![CDATA[Conozco la dirección MAC de destino, así que solamente reenviaré la trama a través del puerto 1.]]>
+        </text>
+    </component>
+    <component id="ID_s2_table">
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#4E4C4D'><font size="14" color='#FFFFFF'><b>Tabla de direcciones MAC</b></font></td>
+			</tr>
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#0E6360'><font size='1' color='#434321'>.</font></td>
+			</tr>
+			<tr>
+                <td bgcolor='#666263' width="140px"><font color="#FFFFFF" align="center"><b>Puerto</b></font></td>
+                <td bgcolor='#666263' width="140px"><font color="#FFFFFF"><b>Dirección MAC/b></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'><b>1</b></td>
+				<td bgcolor='#E9E7E8'><b>00-0A</b></td>	
+			</tr>
+
+			<tr>
+				<td bgcolor='#F2F2F2'><b>4</b></td>
+				<td bgcolor='#F2F2F2'><b>00-0D</b></td>	
+			</tr>
+			
+		</table>]]></text> 
+	</component>
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<b>Aprendizaje: Examinar la dirección MAC de origen</b>]]></text>
+    </component>
+    <component id="ID_s3_txt01">
+        <text>
+            <![CDATA[MAC de destino<br/>00-0D]]>
+        </text>
+    </component>
+    <component id="ID_s3_txt02">
+        <text>
+            <![CDATA[MAC de origen<br/>00-0A]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt03">
+        <text>
+            <![CDATA[]]>
+        </text>
+    </component>
+    <component id="ID_s3_txt04">
+        <text>
+            <![CDATA[]]>
+        </text>
+    </component>
+    <component id="ID_s3_table">
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#4E4C4D'><font size="14" color='#FFFFFF'><b>Tabla de direcciones MAC</b></font></td>
+			</tr>
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#0E6360'><font size='1' color='#434321'>.</font></td>
+			</tr>
+			<tr>
+                <td bgcolor='#666263' width="140"><font color="#FFFFFF" align="center"><b>Puerto</b></font></td>
+                <td bgcolor='#666263' width="140"><font color="#FFFFFF"><b>Dirección MAC</b></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'><b>1</b></td>
+				<td bgcolor='#E9E7E8'><b>00-0A</b></td>	
+			</tr>
+
+			<tr>
+				<td bgcolor='#F2F2F2'><b>4</b></td>
+				<td bgcolor='#F2F2F2'><b>00-0D</b></td>	
+			</tr>
+			
+		</table>]]></text> 
+	</component>
+</textcomponents>

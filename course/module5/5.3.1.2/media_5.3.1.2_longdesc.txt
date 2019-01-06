@@ -1,0 +1,1 @@
+Figure shows PC A connected to router 1, which is connected to R2. R2 is connected to a file server. PC A is sending data to the file server. PC A builds a packet with its own IP address as the source and the destination IP address of the file server. PC A then builds a frame with its own MAC address as the source and the MAC address for R1 as the destination.

@@ -1,0 +1,1 @@
+Figure shows three PCs connected to a switch. The switch is connected to router 1. Router 1 is connected to a cloud labeled “network” PC A has sent data in the past to router 1 and has an entry for R1 in its ARP cache. PC A will remove the ARP entry in 2 minutes if it has not used it.

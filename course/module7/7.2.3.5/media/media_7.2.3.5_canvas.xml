@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide>
+        <element type="IMAGE" x="0" y="0" width="1000" height="490" src="../../../common/images/page_backgrounds/bg_activity.jpg" />
+        <element type="IMAGE" x="-3" y="0" width="1000" height="490" src="media_7.2.3.5_topo.png" />
+        <element type="TEXTBOX" titleId="ID_s1_instr_title" bodyId="ID_s1_instr_body" x="18" y="51" width="270" height="160" />
+        <element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF"/>
+        <element type="TEXT" compId="ID_s1_text_header" x="496" y="69" width="466" expand="up" align="left" size="14" />
+        <element type="TEXT" compId="ID_s1_target_header" x="354" y="69" width="141" expand="up" align="left" size="14" />
+        <element type="TEXT" compId="ID_s1_txt02" x="495" y="158" width="466" expand="down" align="left" />
+        <element type="TEXT" compId="ID_s1_txt03" x="495" y="227" width="466" expand="down" align="left" />
+        <element type="TEXT" compId="ID_s1_txt01" x="495" y="94" width="466" expand="down" align="left" />
+        <element type="TEXT" compId="ID_s1_txt04" x="495" y="291" width="466" expand="down" align="left" />
+        <element type="TEXT" compId="ID_s1_txt05" x="495" y="356" width="466" expand="down" align="left" />
+
+       
+        
+        <element type="ACTIVITY" subType="DRAGDROP" method="NORMAL" dragAlign="center" replicate="true" compWidth="137" compHeight="45" dragIcon="" dropIcon="" tickPosition="left" dragAlpha="1">
+            <subelement type="DROP" x="344" y="88" match="0"/>
+            <subelement type="DROP" x="344" y="155" match="1"/>
+            <subelement type="DROP" x="344" y="223" match="0"/>
+            <subelement type="DROP" x="344" y="282" match="2"/>
+            <subelement type="DROP" x="344" y="351" match="1"/>
+            
+            
+            <subelement type="DRAG" compId="ID_s1_drag01"  x="80" y="244" />
+            <subelement type="DRAG" compId="ID_s1_drag02" x="80" y="301" />
+            <subelement type="DRAG" compId="ID_s1_drag03" x="80" y="357" />
+            
+           
+            <subelement type="CHECK" x="22" y="439.1" width="130" height="21" compId="ID_s1_CHECK"/>
+            <subelement type="RESET" x="157" y="439.1" width="130" height="21" compId="ID_s1_RESET"/>		
+            <subelement type="FEEDBACK" x="433" y="141" width="300" height="200" correctTitleId="ID_s1_CORRECT_TITLE" correctBodyId="ID_s1_CORRECT_BODY" wrongTitleId="ID_s1_INCORRECT_TITLE" wrongBodyId="ID_s1_INCORRECT_BODY"/>
+        </element>
+    </slide>
+</data>

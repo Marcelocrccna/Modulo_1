@@ -1,0 +1,38 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+#ID_txt04{
+border:2px solid #FFFFFF;
+padding:2px 0 3px 3px;
+background:#7C6D34;
+color: #FFFFFF !important;
+}
+#ID_txt13{
+border:2px solid #FFFFFF;
+padding:2px 0 3px 3px;
+background:#652C8A;
+color: #FFFFFF !important;
+}
+ #ID_txt11{
+border:2px solid #FFFFFF;
+padding:2px 0 3px 3px;
+background:#067EB2;
+color: #FFFFFF !important;
+}
+ #ID_txt09{
+border:2px solid #FFFFFF;
+padding:2px 0 3px 3px;
+background:#666263;
+color: #FFFFFF !important;
+}
+ #NONE{
+border:2px solid #FFFFFF;
+background:#077A77;
+height: 16px !important;
+}
+.orangeCallOut{
+	padding: 6px !important;
+}

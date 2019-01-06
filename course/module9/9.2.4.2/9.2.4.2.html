@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.2.4.2 Aplicaciones que utilizan UDP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.2.4.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Aplicaciones que utilizan UDP</h1>
+        <div>
+          <p>Existen tres tipos de aplicaciones que son las más adecuadas para UDP:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Aplicaciones multimedia y vídeo en vivo:</b> pueden tolerar cierta pérdida de datos, pero requieren retrasos cortos o que no haya retrasos. Los ejemplos incluyen VoIP y la transmisión de vídeo en vivo.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Aplicaciones con solicitudes y respuestas simples</b>: aplicaciones con transacciones simples en las que un host envía una solicitud y existe la posibilidad de que reciba una respuesta o no. Por ejemplo, DNS y DHCP.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Aplicaciones que manejan la confiabilidad por su cuenta</b>: comunicaciones unidireccionales que no requieran control de flujo, detección de errores, reconocimientos ni recuperación de errores o que puedan ser manejados por la aplicación. Por ejemplo, SNMP y TFTP.</li>
+            </ul>
+          </p>
+          <p>Aunque DNS y SNMP utilizan UDP de manera predeterminada, ambos también pueden utilizar TCP. DNS utilizará TCP si la solicitud DNS o la respuesta DNS tiene más de 512 bytes, como cuando una respuesta DNS incluye un gran número de resoluciones de nombres. Del mismo modo, en algunas situaciones, el administrador de redes puede querer configurar SNMP para utilizar TCP.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows common applications that use UDP including DHCP, DNS, SNMP, TFTP, VoIP, and IPTV.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

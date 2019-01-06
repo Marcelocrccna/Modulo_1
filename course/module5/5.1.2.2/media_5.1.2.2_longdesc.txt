@@ -1,0 +1,1 @@
+Figure shows how a MAC address is divided into two 24 bit halves.  The first 24 bits represent the Organizationally Unique Identifier (OUI) and the second 24 bits represent the unique device (network interface).

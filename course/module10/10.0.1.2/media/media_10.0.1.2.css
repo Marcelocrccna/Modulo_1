@@ -1,0 +1,9 @@
+/*   load the main media CSS file    */
+@import url('../../../common/styles/media2.css');
+
+
+#ID_txt01 {color:#393536;}
+
+#ID_footer{
+	line-height:16px;
+}

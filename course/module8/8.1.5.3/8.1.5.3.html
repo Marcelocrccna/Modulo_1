@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.5.3 VLSM básica</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.5.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>VLSM básica</h1>
+        <div>
+          <p>Para comprender mejor el proceso de VLSM, vuelva al ejemplo anterior que se muestra en la figura 1. La red 192.168.20.0/24 se dividió en ocho subredes del mismo tamaño. Se asignaron siete de las ocho subredes. Cuatro subredes se utilizaron para las LAN, y tres se utilizaron para las conexiones WAN entre los routers. Recuerde que el espacio de direcciones desperdiciado estaba en las subredes utilizadas para las conexiones WAN, dado que esas subredes requerían solo dos direcciones utilizables: una para cada interfaz de router. Para evitar este desperdicio, se puede utilizar VLSM para crear subredes más pequeñas para las conexiones WAN.</p>
+          <p>Para crear subredes más pequeñas para los enlaces WAN, se dividirá una de las subredes. En este ejemplo, la última subred, 192.168.20.224/27, puede subdividirse aún más.</p>
+          <p>Recuerde que cuando se conoce la cantidad de direcciones de host necesarias, puede utilizarse la fórmula 2^n - 2 (donde “n” es igual a la cantidad de bits de host restantes). Para proporcionar dos direcciones utilizables, se deben dejar 2 bits de host en la porción de host. </p>
+          <p>Debido a que hay 5 bits de host en el espacio de direcciones 192.168.20.224/27 subdividido, se pueden tomar prestados 3 bits más y dejar 2 bits en la porción de host, tal como se muestra en la figura 2. Los cálculos que se realizan llegado este punto son exactamente los mismos que se utilizan para la división en subredes tradicional: Se toman prestados los bits, y se determinan los rangos de subred.</p>
+          <p>Este esquema de división en subredes VLSM reduce la cantidad de direcciones por subred a un tamaño adecuado para las WAN. La división de la subred 7 para las WAN permite que las subredes 4, 5 y 6 estén disponibles para redes futuras y que haya 5 subredes más disponibles para las WAN.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the binary representation of the eight subnets formed by borrowing 3 bits from a slash twenty four making slash twenty sevens. Figure 2 shows the binary representation of the eight subnets formed by borrowing 3 bits from a slash twenty seven making slash thirties.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

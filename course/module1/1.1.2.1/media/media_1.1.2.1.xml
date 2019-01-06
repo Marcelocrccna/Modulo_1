@@ -1,0 +1,41 @@
+<textcomponents>
+	<component id="ID_titleTxt01">
+		<text><![CDATA[Redes domésticas pequeñas]]></text>
+	</component>
+	<component id="ID_title01">
+		<text><![CDATA[Redes domésticas pequeñas]]></text>
+	</component>
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[Las redes domésticas pequeñas conectan algunas computadoras entre sí y con Internet.]]></text>
+	</component>
+	<component id="ID_titleTxt02">
+		<text><![CDATA[Redes de oficinas pequeñas y oficinas en el hogar]]></text>
+	</component>
+	<component id="ID_title02">
+		<text><![CDATA[Redes de oficinas pequeñas y oficinas en el hogar]]></text>
+	</component>
+	<component id="ID_bodyTxt02">
+		<text><![CDATA[Las redes de oficinas pequeñas y oficinas en el hogar, o redes SOHO, permiten que las computadoras de una oficina en el hogar o una oficina remota se conecten a una red corporativa y tengan acceso a recursos compartidos centralizados.]]></text>
+	</component>
+	<component id="ID_titleTxt03">
+		<text><![CDATA[Redes medianas a grandes]]></text>
+	</component>
+	<component id="ID_title03">
+		<text><![CDATA[Redes medianas a grandes]]></text>
+	</component>
+	<component id="ID_bodyTxt03">
+		<text><![CDATA[Las redes medianas a grandes, como las que se utilizan en corporaciones y escuelas, pueden tener muchas ubicaciones con cientos o miles de computadoras interconectadas.]]></text>
+	</component>
+	<component id="ID_titleTxt04">
+		<text><![CDATA[Redes mundiales]]></text>
+	</component>
+	<component id="ID_title04">
+		<text><![CDATA[Redes mundiales]]></text>
+	</component>
+	<component id="ID_bodyTxt04">
+		<text><![CDATA[Internet es una red de redes que conecta cientos de millones de computadoras en todo el mundo.]]></text>
+	</component>
+	<component id="ID_inst">
+		<text><![CDATA[Haga clic en las imágenes resaltadas en azul para obtener más información.]]></text>
+	</component>
+</textcomponents>

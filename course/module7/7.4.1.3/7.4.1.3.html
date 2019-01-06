@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.1.3 Capítulo 7: Asignación de direcciones IP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Capítulo 7: Asignación de direcciones IP</h1>
+        <div>
+          <p>Las direcciones IP son jerárquicas y tienen porciones de red, subred y host. Una dirección IP puede representar una red completa, un host específico o la dirección de difusión de la red.</p>
+          <p>Es importante entender la notación binaria para determinar si dos hosts están en la misma red. Los bits dentro de la porción de red de la dirección IP deben ser idénticos para todos los dispositivos que residen en la misma red. La máscara de subred o el prefijo se utilizan para determinar la porción de red de una dirección IP. Las direcciones IP pueden asignarse de manera estática o dinámica. El protocolo DHCP permite la asignación automática de información de direccionamiento, como una dirección IP, una máscara de subred, un gateway predeterminado y otra información de configuración.</p>
+          <p>Los hosts de IPv4 se pueden comunicar en una de tres maneras diferentes: unidifusión, difusión o multidifusión. Además, los bloques de direcciones que se utilizan en redes que requieren acceso limitado o inexistente a Internet se denominan “direcciones privadas”. Los bloques de direcciones IPv4 privadas son 10.0.0.0/8, 172.16.0.0/12 y 192.168.0.0/16.</p>
+          <p>El agotamiento del espacio de direcciones IPv4 es el factor que motivó la migración a IPv6. Cada dirección IPv6 tiene 128 bits, en comparación con los 32 bits de una dirección IPv4. IPv6 no utiliza la notación decimal punteada de máscara de subred. La longitud de prefijo se utiliza para indicar la porción de red de una dirección IPv6 mediante el siguiente formato: dirección IPv6/longitud de prefijo. </p>
+          <p>Existen tres tipos de direcciones IPv6: de unidifusión, de multidifusión y de difusión por proximidad. Una dirección IPv6 link-local permite que un dispositivo se comunique con otros dispositivos con IPv6 habilitado en el mismo enlace y solo en ese enlace (subred). Los paquetes con direcciones link-local de origen o destino no pueden enrutarse más allá del enlace en el que se originó el paquete. Las direcciones IPv6 link-local están en el rango de FE80::/10.</p>
+          <p>El protocolo ICMP está disponible tanto para IPv4 como para IPv6. El protocolo de mensajes para IPv4 es ICMPv4. ICMPv6 proporciona los mismos servicios para IPv6, pero incluye funcionalidad adicional.</p>
+          <p>Una vez implementada, la red IP se debe probar para verificar la conectividad y el rendimiento operativo.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a standard graphic for the introduction and conclusion pages.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

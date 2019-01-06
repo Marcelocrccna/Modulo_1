@@ -1,0 +1,1 @@
+Figure shows 3 connections: switch to switch, switch to router, and switch to P.C.  Auto-MIDX auto detects the type of cable and configures the interface accordingly.

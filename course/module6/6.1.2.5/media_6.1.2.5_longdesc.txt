@@ -1,0 +1,1 @@
+Figure shows a network with different media at each hop.  An IP packet has no trouble with this because IP is media independent.

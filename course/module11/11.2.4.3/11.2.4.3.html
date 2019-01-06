@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.2.4.3 Prácticas de seguridad básicas</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.2.4.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Prácticas de seguridad básicas</h1>
+        <div>
+          <p>
+            <b>Seguridad adicional de contraseñas</b>
+          </p>
+          <p>Las contraseñas seguras resultan útiles en la medida en que sean secretas. Se pueden tomar diversas medidas para asegurar que las contraseñas sigan siendo secretas. Mediante el comando de configuración global <b>service password-encryption</b>, se evita que las personas no autorizadas vean las contraseñas como texto no cifrado en el archivo de configuración, como se muestra en la ilustración. Este comando provoca el cifrado de todas las contraseñas sin cifrar. </p>
+          <p>Además, para asegurar que todas las contraseñas configuradas tengan una longitud mínima específica, utilice el comando <b>security passwords min-length</b> del modo de configuración global.</p>
+          <p>Otra forma en la que los piratas informáticos descubren las contraseñas es simplemente mediante ataques de fuerza bruta, es decir, probando varias contraseñas hasta que una funcione. Es posible evitar este tipo de ataques si se bloquean los intentos de inicio de sesión en el dispositivo cuando se produce una determinada cantidad de errores en un lapso específico. </p>
+          <p>Router(config)# <b>login block-for 120 attempts 3 within 60</b></p>
+          <p>Este comando bloquea los intentos de inicio de sesión durante 120 segundos si hay tres intentos de inicio de sesión fallidos en 60 segundos. </p>
+          <p>
+            <b>Exec Timeout</b>
+          </p>
+          <p>Otra recomendación es configurar tiempos de espera de ejecución. Al configurar el tiempo de espera de ejecución, le ordena al dispositivo Cisco que desconecte automáticamente a los usuarios en una línea después de que hayan estado inactivos durante el valor de tiempo de espera de ejecución. Los tiempos de espera de ejecución se pueden configurar en los puertos de consola, VTY y auxiliares con el comando <b>exec-timeout</b> en el modo de configuración de línea. </p>
+          <p>Router(config)# <b>line vty 0 4</b></p>
+          <p>Router(config-line)# <b>exec-timeout 10 </b></p>
+          <p>Este comando configura el dispositivo para desconectar a los usuarios inactivos después de 10 minutos.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows router output for configuring encrypted line passwords and setting restrictions on password length or failed attempts. Commands entered include “security password-encryption”, “security password min-length 8”, login block-for 120 attempts 3 within 60”, and “exec-timeout 10” on the VTY lines.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

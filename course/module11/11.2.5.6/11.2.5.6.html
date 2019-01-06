@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.2.5.6 Backing Up and Restoring Using a USB</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.2.5.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Backing Up and Restoring Using a USB</h1>
+        <div>
+          <p>
+            <b>Backup Configurations with a USB Flash Drive</b>
+          </p>
+          <p></p>
+          <p>When backing up to a USB port, it is a good idea to issue the <b>show file systems</b> command to verify that the USB drive is there and confirm the name, as shown in Figure 1. </p>
+          <p></p>
+          <p>Next, use the <b>copy run usbflash0:</b><i>/</i> command to copy the configuration file to the USB flash drive. Be sure to use the name of the flash drive, as indicated in the file system. The slash is optional but indicates the root directory of the USB flash drive. </p>
+          <p></p>
+          <p>The IOS will prompt for the filename. If the file already exists on the USB flash drive, the router will prompt to overwrite, as seen in Figure 2.</p>
+          <p></p>
+          <p>Use the <b>dir</b> command to see the file on the USB drive and use the <b>more</b> command to see the contents, as seen in Figure 3.</p>
+          <p></p>
+          <p>
+            <b>Restore Configurations with a USB Flash Drive</b>
+          </p>
+          <p></p>
+          <p>In order to copy the file back, it will be necessary to edit the USB R1-Config file with a text editor.  Assuming the file name is <b>R1-Config</b>, use the command <b>copy usbflash0:/R1-Config </b><i>running-config</i> to restore a running configuration.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Resize" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

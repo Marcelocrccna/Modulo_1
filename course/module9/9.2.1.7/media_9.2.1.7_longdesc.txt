@@ -1,0 +1,1 @@
+Figure 1 is an interactive activity where the learner matches descriptors for the TCP session establishment to the proper place in the sequence. Figure 2 is an interactive activity where the learner matches descriptors for the TCP session termination to the proper place in the sequence 

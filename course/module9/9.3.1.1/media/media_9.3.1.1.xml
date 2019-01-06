@@ -1,0 +1,7 @@
+<textcomponents>
+
+<component id="ID_txt01">
+<text><![CDATA[<b>TCP y UDP son protocolos de capa de transporte que cumplen un papel decisivo en garantizar que...</b><br/><br/><textformat blockindent="-14"><ul><li>El tipo de datos afectará el hecho de que se utilice TCP o UDP como método de envío.</li><li>La temporización es un factor importante y afecta el tiempo que se tarda en enviar y recibir transmisiones de datos TCP/UDP.</li></ul></textformat>]]></text>
+</component>
+
+</textcomponents>

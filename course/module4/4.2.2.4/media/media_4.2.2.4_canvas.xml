@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_4.2.2.4.png" />
+
+
+<element type="TEXT" compId="ID_table" x="40" y="294" width="600" height="190" />
+
+
+<element type="TEXT" compId="ID_txt06" x="435" y="16" width="105.5" expand="left+right" align="center" color="#0" />
+<element type="TEXT" compId="ID_txt01" x="139" y="16" width="105.5" expand="left+right" align="center" color="#0" />
+<element type="TEXT" compId="ID_txt04" x="236" y="51" width="58.3" expand="up" align="left" color="#0" />
+<element type="TEXT" compId="ID_txt03" x="162" y="51" width="58.3" expand="up" align="center" color="#0" />
+<element type="TEXT" compId="ID_txt02" x="87" y="51" width="58.3" expand="up" align="right" color="#0" />
+<element type="TEXT" compId="ID_txt05" x="118" y="258" width="150.7" expand="left+right" align="center" color="#0" />
+<element type="TEXT" compId="ID_txt10" x="413" y="258" width="150.7" expand="left+right" align="center" color="#0" />
+<element type="TEXT" compId="ID_txt09" x="530" y="51" width="58.3" expand="up" align="left" color="#0" />
+<element type="TEXT" compId="ID_txt08" x="457" y="51" width="58.3" expand="up" align="center" color="#0" />
+<element type="TEXT" compId="ID_txt07" x="382" y="51" width="58.3" expand="up" align="right" color="#0" />
+
+
+
+
+
+
+
+<!-- 		
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+		<element type="IMAGE" src="4_2_2_4.jpg" x="0" y="0" width="470" height="400" />
+		<element type="TEXT" subType="TABLE" compId="ID_table" x="0" y="200" width="486" height="208" />
+
+		<element type="TEXT" compId="ID_txt06" x="312" y="3" width="104.5" expand="left+right" align="center" color="#0" size="8" />
+		<element type="TEXT" compId="ID_txt01" x="52" y="3" width="104.5" expand="left+right" align="center" color="#0" size="8" />
+		<element type="TEXT" compId="ID_txt04" x="132" y="32" width="48.2" expand="up+down" align="left" color="#0"  size="8"/>
+		<element type="TEXT" compId="ID_txt03" x="81" y="32" width="48.2" expand="up+down" align="center" color="#0" size="8"/>
+		<element type="TEXT" compId="ID_txt02" x="30" y="32" width="48.2" expand="up+down" align="right" color="#0"  size="8"/>
+		<element type="TEXT" compId="ID_txt05" x="30" y="173" width="150.7" expand="left+right" align="center" color="#0" size="8" />
+		<element type="TEXT" compId="ID_txt10" x="290" y="173" width="150.7" expand="left+right" align="center" color="#0" size="8"/>
+		<element type="TEXT" compId="ID_txt09" x="392" y="32" width="48.2" expand="up+down" align="left" color="#0" size="8" />
+		<element type="TEXT" compId="ID_txt08" x="341" y="32" width="48.2" expand="up+down" align="center" color="#0" size="8" />
+		<element type="TEXT" compId="ID_txt07" x="290" y="32" width="48.2" expand="up+down" align="right" color="#0"  size="8"/> -->
+	</slide>
+</data>

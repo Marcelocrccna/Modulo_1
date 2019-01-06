@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide type="MBAR">
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+<slide>
+<element type="TEXT" compId="ID_s1_txt01" x="89" y="178" width="203.95" expand="down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt02" x="388" y="178" width="203.95" expand="down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt03" x="89" y="339" width="203.95" expand="down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s1_txt04" x="389" y="339" width="200.95" expand="down" align="center" color="#ffffff" />
+<element type="IMAGE" x="89" y="52" width="202.95" height="121.75" subType="STD" src="9_4_3_4_A.jpg" />
+<element type="IMAGE" x="387" y="52" width="202.95" height="121.75" subType="STD" src="9_4_3_4_B.jpg" />
+<element type="IMAGE" x="89" y="210" width="202.95" height="121.75" subType="STD" src="9_4_3_4_C.jpg" />
+<element type="IMAGE" x="387" y="210" width="202.95" height="121.75" subType="STD" src="9_4_3_4_D.jpg" />
+
+<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF"/>
+</slide>
+
+
+
+<slide>
+<element type="IMAGE" x="117" y="62" width="184.2" height="147.4" subType="STD" src="9_4_3_4_E.jpg" />
+<element type="IMAGE" x="378" y="62" width="184.2" height="147.4" subType="STD" src="9_4_3_4_F.jpg" />
+<element type="IMAGE" x="378" y="266" width="184.2" height="147.4" subType="STD" src="9_4_3_4_H.jpg" />
+<element type="IMAGE" x="117" y="266" width="184.2" height="147.4" subType="STD" src="9_4_3_4_G.jpg" />
+<element type="TEXT" compId="ID_s2_txt01" x="117" y="214" width="185.1" expand="down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s2_txt02" x="378" y="216" width="185.1" expand="down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s2_txt03" x="117" y="419" width="185.1" expand="down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s2_txt04" x="378" y="420" width="185.05" expand="down" align="center" color="#ffffff" />
+<element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#FFFFFF"/>
+</slide>
+	</slide>
+</data>

@@ -1,0 +1,1 @@
+Figure shows what happens when some segments get lost. PC 1 sends segments 1, 2, 3, and 4. Segments 2 and 3 were lost. PC B sends ACKs for 1 and 2. PC A says “I’m not getting the acknowledgments I expect for PC B so I will reduce the number of bytes I send before getting an acknowledgment.”

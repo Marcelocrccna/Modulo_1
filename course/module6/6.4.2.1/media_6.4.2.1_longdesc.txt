@@ -1,0 +1,1 @@
+Figure 1 shows the commands to configure a router interface including: interface type and number; ip address; description; and the no shutdown command. Figure 2 show an example of configuring these commands. Figure 3 is a Syntax Checker allowing the learner to practice configuring router interfaces.

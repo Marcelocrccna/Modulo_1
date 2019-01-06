@@ -1,0 +1,34 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+
+/* ============== NEW STYLES =============== */
+.activityTitle{
+	font-size:11px !important;
+}
+.labelTitle{
+	color:#fff !important;
+	font-size:11px !important;
+}
+#ipAddress_txt{
+	color:#000 !important;
+	font-size:14px !important;
+	font-weight:bold !important;
+}
+#timer_txt{
+	color:#000 !important;
+	font-size:18px !important;
+	font-weight:bold !important;
+}
+.pcIMG{
+	cursor:pointer;
+}
+
+@media only screen and (device-width: 768px) {
+#ID_txt01{
+letter-spacing:-0.8px !important;
+}
+}

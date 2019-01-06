@@ -1,0 +1,35 @@
+<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Asignación de direcciones IP</b>]]></text>
+	</component>
+	<component id="ID_s1_titleTxt04">
+		<text><![CDATA[AfriNIC]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt04">
+		<text><![CDATA[El Centro de Información de Redes Africanas (AfriNIC) administra y mantiene las direcciones IPv4 e IPv6 en África. Para obtener más información, ingrese a http://www.afrinic.net.]]></text>
+	</component>
+	<component id="ID_s1_titleTxt03">
+		<text><![CDATA[APNIC]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt03">
+		<text><![CDATA[El Centro de Información de Redes de Asia-Pacífico (APNIC) administra y mantiene las direcciones IPv4 e IPv6 en la región Asia-Pacífico, incluida Australia. Para obtener más información, ingrese a http://www.apnic.net.]]></text>
+	</component>
+	<component id="ID_s1_titleTxt01">
+		<text><![CDATA[ARIN]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[El Registro Americano para Números de Internet (ARIN) administra y mantiene las direcciones IPv4 e IPv6 en América del Norte. Para obtener más información, ingrese a hhttp://www.arin.net.]]></text>
+	</component>
+	<component id="ID_s1_titleTxt05">
+		<text><![CDATA[LACNIC]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt05">
+		<text><![CDATA[El Registro de Direcciones IP Para América Latina y el Caribe (LACNIC) administra y controla las direcciones IPv4 e IPv6 en América Latina y en algunas islas del Caribe. Para obtener más información, ingrese a http://www.lacnic.net.]]></text>
+	</component>
+	<component id="ID_s1_titleTxt02">
+		<text><![CDATA[RIPE NCC]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt02">
+		<text><![CDATA[Redes IP Europeas (RIPE) administra y controla las direcciones IPv4 e IPv6 en Europa, Medio Oriente y Asia Central (http://www.ripe.net).]]></text>
+	</component>
+</textcomponents>

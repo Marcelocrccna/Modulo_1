@@ -1,0 +1,56 @@
+<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Topología de la red: subredes básicas</b>]]></text>
+	</component>
+	<component id="ID_s1_txt01">
+		<text><![CDATA[<b>Edificio A </b><br/>25 hosts]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[<b>Edificio B </b><br/>20 hosts]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[<b>Edificio C </b><br/>15 hosts]]></text>
+	</component>
+	<component id="ID_s1_txt04">
+		<text><![CDATA[<b>Edificio D </b><br/>28 hosts]]></text>
+	</component>
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Esquema de subredes básico</b>]]></text>
+	</component>
+	<component id="ID_s3_txt02">
+		<text><![CDATA[Porción de red]]></text>
+	</component>
+	<component id="ID_s3_txt03">
+		<text><![CDATA[Porción de host]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[Redes LAN del edificio A, B, C y D]]></text>
+	</component>
+	<component id="ID_s2_txt04">
+		<text><![CDATA[Redes WAN de sitio a sitio]]></text>
+	</component>
+	<component id="ID_s2_txt05">
+		<text><![CDATA[Sin utilizar/disponible]]></text>
+	</component>
+	<component id="ID_s2_txt06">
+		<text><![CDATA[Porción de subred<br/>2^3 = 8 subredes]]></text>
+	</component>
+	<component id="ID_s2_txt07">
+		<text><![CDATA[Porción de host<br/>2^5 – 2 = 30 hosts por subred]]></text>
+	</component>
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Direcciones sin utilizar en subredes WAN</b>]]></text>
+	</component>
+	<component id="ID_s3_txt01">
+		<text><![CDATA[Porción de host<br/>2^5 – 2 = 30 hosts por subred<br/><br/>30 – 2 = 28<br/>Cada subred WAN desperdicia 28 direcciones<br/><br/>28 x 3 = 84<br/>84 direcciones no se utilizan]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Porción de red]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Porción de host]]></text>
+	</component>
+	<component id="ID_s3_txt04">
+		<text><![CDATA[Decimal punteada]]></text>
+	</component>
+</textcomponents>

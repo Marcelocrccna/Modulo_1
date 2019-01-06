@@ -1,0 +1,1 @@
+Figures shows a window size example. PC B has specified that the window size is 10,000 and the maximum segment size is 1460. PC A sends the first 1460 bytes and then the send 1460 bytes. PC B sends an ACK 2921 and confirms window size is still 10,000. PC A sends another 1460 bytes. PC B send an ACK 4381 and confirms window size is still 10,000.

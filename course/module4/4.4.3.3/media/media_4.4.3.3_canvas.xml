@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide type="MBAR">
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_4.4.3.3.A.png" />
+<element type="BUBBLE" compId="ID_bubble01" x="76" y="87" width="137" height="80" align="left" tailPosition="7" tailFlip="1" />
+<element type="BUBBLE" compId="ID_bubble02" x="365" y="268" width="171" height="80" align="left" tailPosition="9" tailFlip="0" />
+<element type="BUBBLE" compId="ID_bubble03" x="462" y="87" width="137" height="80" align="left" tailPosition="5" tailFlip="0" />
+<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+<element type="TEXT" compId="ID_txt03" x="134" y="224" width="95.5" expand="up" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt02" x="114" y="253" width="131.5" expand="down" align="center" />
+<element type="TEXT" compId="ID_txt04" x="432" y="224" width="95.5" expand="up" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_txt09" x="288" y="221" width="104.5" expand="right" align="center" size="14" />
+</slide>
+
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_4.4.3.3.B.png" />
+<element type="BUBBLE" compId="ID_bubble04" x="363" y="-3" width="120" height="80" align="center" tailPosition="9" tailFlip="0" />
+<element type="BUBBLE" compId="ID_bubble05" x="504" y="148" width="120" height="80" align="center" tailPosition="6" tailFlip="0" />
+<element type="BUBBLE" compId="ID_bubble06" x="363" y="349" width="120" height="80" align="center" tailPosition="9" tailFlip="0" />
+<element type="BUBBLE" compId="ID_bubble07" x="42" y="148" width="120" height="80" align="center" tailPosition="6" tailFlip="0" />
+<element type="TEXT" compId="ID_txt10" x="294" y="233" width="90.4" expand="up+down" align="center" size="14" />
+<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+</slide>	
+	</slide>
+
+</data>

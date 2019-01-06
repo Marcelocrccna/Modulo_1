@@ -1,0 +1,46 @@
+﻿<textcomponents>
+    <!-- Slide 1 -->
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<b>Pautas para seleccionar un nombre del host</b>]]></text>
+    </component>
+    <component id="ID_ins_title">
+        <text>
+            <![CDATA[Los nombres del host deben:]]>
+        </text>
+    </component>
+
+
+    <component id="ID_ins_body">
+        <text>
+            <![CDATA[<textformat blockindent='-16'><ul><LI>Comenzar con una letra</LI><LI>No contener espacios</LI><LI>Finalizar con una letra o dígito</LI><LI>Utilizar solamente letras, dígitos y guiones</LI><LI>Tener menos de 64 caracteres de longitud</LI></ul></textformat>]]>
+        </text>
+    </component>
+    <!-- End Slide 1 -->
+    <!-- Slide 2 -->
+    <component id="ID_s2_title">
+        <text>
+            <![CDATA[<b>Configuración de nombres de dispositivos</b>]]></text>
+    </component>
+    <component id="ID_txt01">
+        <text>
+            <![CDATA[Sw-Piso-3]]>
+        </text>
+    </component>
+    <component id="ID_txt02">
+        <text>
+            <![CDATA[Sw-Piso-2]]>
+        </text>
+    </component>
+    <component id="ID_txt03">
+        <text>
+            <![CDATA[Sw-Piso-1]]>
+        </text>
+    </component>
+    <component id="ID_txt04">
+        <text>
+            <![CDATA[Con nombres, es fácil identificar los dispositivos de red para propósitos de configuración.]]>
+        </text>
+    </component>
+    <!-- End Slide 2 -->
+</textcomponents>

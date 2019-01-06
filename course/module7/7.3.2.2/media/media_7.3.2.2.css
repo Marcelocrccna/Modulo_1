@@ -1,0 +1,13 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_txt03{
+	padding: 5px 0 5px 5px;
+}
+
+#ID_txt04{
+	letter-spacing: -0.8px !important;
+	left: 33px !important;
+}

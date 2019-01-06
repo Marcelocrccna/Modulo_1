@@ -1,0 +1,59 @@
+<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Ejemplo de tamaño de ventana de TCP</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[<b>TMS = tamaño máximo de segmento</b>]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[Durante el protocolo de enlace de tres vías, tamaño de<br/>ventana 10.000, TMS 1.460]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[1460 bytes]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[1460 bytes]]></text>
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[ACK 2.921<br/>Tamaño de ventana 10.000]]></text>
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[1460 bytes]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[ACK 4.381<br/>Tamaño de ventana 10.000]]></text>
+	</component>
+	<component id="ID_txt08">
+		<text><![CDATA[Ventana de envío 10.000]]></text>
+	</component>
+	<component id="ID_txt09">
+		<text><![CDATA[Número de secuencia: 1]]></text>
+	</component>
+	<component id="ID_txt10">
+		<text><![CDATA[Número de secuencia: 1461]]></text>
+	</component>
+	<component id="ID_txt11">
+		<text><![CDATA[Recibir reconocimiento <br/>Ventana de envío 12.920]]></text>
+	</component>
+	<component id="ID_txt12">
+		<text><![CDATA[Número de secuencia: 2.921]]></text>
+	</component>
+	<component id="ID_txt13">
+		<text><![CDATA[Recibir reconocimiento<br/>Ventana de envío 14.380]]></text>
+	</component>
+	<component id="ID_txt14">
+		<text><![CDATA[Recibir 1 – 1460]]></text>
+	</component>
+	<component id="ID_txt15">
+		<text><![CDATA[Recibir 1461 – 2920]]></text>
+	</component>
+	<component id="ID_txt16">
+		<text><![CDATA[Recibir 2921 – 4380]]></text>
+	</component>
+	<component id="ID_s1_instr_body">
+		<text><![CDATA[El <b>tamaño de la ventana</b> determina la cantidad de bytes que se pueden enviar para recibir un reconocimiento.<br/>El número de <b>reconocimiento</b> es el número del siguiente byte esperado.]]></text>
+	</component>
+	<component id="ID_txt21">
+		<text><![CDATA[]]></text>
+	</component>
+</textcomponents>

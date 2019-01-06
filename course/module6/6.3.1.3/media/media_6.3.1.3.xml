@@ -1,0 +1,53 @@
+<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Memoria del router</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[Los comandos <font face="_typewriter"><b>show</b></font> del IOS pueden proporcionar información sobre la configuración, el funcionamiento y el estado de las partes de un switch o router Cisco.]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[IOS en ejecución]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[Tabla de routing<br/><br/>Tabla ARP]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[Archivo de configuración en ejecución]]></text>
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[Búfer de paquetes]]></text>
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[Archivo de configuración de inicio]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[Archivos del IOS]]></text>
+	</component>
+	<component id="ID_txt08">
+		<text><![CDATA[POST<br/><br/>Firmware controlador de ROM (IOS limitado)]]></text>
+	</component>
+	<component id="ID_titleTxt01">
+		<text><![CDATA[RAM]]></text>
+	</component>
+	<component id="ID_txt10">
+		<text><![CDATA[NVRAM]]></text>
+	</component>
+	<component id="ID_txt11">
+		<text><![CDATA[Memoria flash]]></text>
+	</component>
+	<component id="ID_titleTxt02">
+		<text><![CDATA[ROM]]></text>
+	</component>
+	<component id="ID_txt09">
+		<text><![CDATA[RAM]]></text>
+	</component>
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[La memoria RAM utiliza las siguientes aplicaciones y procesos:<ul><li>El archivo de configuración en ejecución y la imagen de IOS.</li><li>La tabla de routing se utiliza para determinar el mejor camino para reenviar paquetes.</li><li>La caché ARP que se usa para asignar direcciones IPv4 a las direcciones MAC.</li><li>El búfer de paquetes que se usa de manera temporal para almacenar paquetes antes de reenviarlos al destino.</li></ul>]]></text>
+	</component>
+	<component id="ID_txt12">
+		<text><![CDATA[ROM]]></text>
+	</component>
+	<component id="ID_bodyTxt02">
+		<text><![CDATA[La memoria ROM almacena lo siguiente:<ul><li>Información de arranque que proporciona las instrucciones de inicio.</li><li>Autodiagnóstico al encender (POST) que evalúa todos los componentes de hardware.</li><li>IOS limitado para proporcionar una versión de respaldo del IOS. Se usa para cargar el IOS con todas las funciones si este se daña o elimina.</li></ul>]]></text>
+	</component>
+</textcomponents>

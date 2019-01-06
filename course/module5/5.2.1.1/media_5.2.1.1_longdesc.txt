@@ -1,0 +1,1 @@
+Figure shows a four port switch with four PCs attached one to each port. The PCs are named A, B, C, and D. The abbreviated MAC addresses are 00-0A, 00-0B, 00-0C, and 00-0D. The switch MAC address table is also shown. The table is empty.

@@ -1,0 +1,1 @@
+The figure shows examples of OSI layer functionality.  Name System (DNS), Host Config (BootP, DHCP), E Mail (SMTP, POP and IMAP), File Transfer (FTP and TFTP) and Web (HTTP).  Clicking on any one of them displays a description.

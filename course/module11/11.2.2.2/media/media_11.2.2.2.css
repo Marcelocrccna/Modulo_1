@@ -1,0 +1,11 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+
+#ID_txt08{
+height: 80px !important;
+color: #FFFFFF !important;
+}

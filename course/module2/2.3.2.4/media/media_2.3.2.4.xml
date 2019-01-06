@@ -1,0 +1,49 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<b>Configuración de una interfaz virtual de switch</b>]]></text>
+    </component>
+    <!--Syntax Checker Button Text-->
+    <component id="ID_s1_reset">
+        <text>
+            <![CDATA[Restablecer]]>
+        </text>
+    </component>
+    <component id="ID_s1_showme">
+        <text>
+            <![CDATA[Mostrar]]>
+        </text>
+    </component>
+    <component id="ID_s1_showall">
+        <text>
+            <![CDATA[Mostrar todo]]>
+        </text>
+    </component>
+    <!--End Syntax Checker Button Text-->
+    <component id="ID_s1_SC" fontSize="12" fontFace='_typewriter' fontColor="#ffffff">
+        <feedback id="fb">
+            <![CDATA[<b><font face="_sans" color="#FFFFFF">***Debe ingresar todo el comando exacto. Los comandos que incluyen un nombre o una contraseña distinguen mayúsculas de minúsculas.***</font></b>]]></feedback>
+        <existingcommands>
+            <![CDATA[<font face="_sans"><b><ul>Configuración de una interfaz virtual de switch<li>Ingrese el modo de configuración de interfaz para la VLAN 1.</li><li>Configure la dirección IPv4 como 192.168.10.2 y la máscara de subred como 255.255.255.0.</li><li>Habilitar la interfaz.</li></b></font>]]>
+        </existingcommands>
+        <command prompt="Switch(config)#">
+            <correctresponse>
+                <![CDATA[interface vlan 1]]>
+            </correctresponse>
+        </command>
+        <command prompt="Switch(config-if)#">
+            <correctresponse>
+                <![CDATA[ip address 192.168.10.2 255.255.255.0]]>
+            </correctresponse>
+        </command>
+        <command prompt="Switch(config-if)#">
+            <correctresponse>
+                <![CDATA[no shutdown]]>
+            </correctresponse>
+            <deviceresponse>
+                <![CDATA[%LINK-5-CHANGED: Interface Vlan1, changed state to up<br>Switch(config-if)#<br><font face="_sans"><b>Configuró correctamente la interfaz virtual de switch para VLAN 1.</b></font><br>]]>
+            </deviceresponse>
+        </command>
+        <command prompt="" />
+    </component>
+</textcomponents>

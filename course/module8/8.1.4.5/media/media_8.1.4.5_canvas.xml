@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+
+	<slide>
+		<element type="IMAGE" x="0" y="0" width="1000" height="490" src="../../../common/images/page_backgrounds/bg_activity.jpg" />
+		<element type="IMAGE" src="media_8.1.4.5.png" x="0" y="0" width="1000" height="490" />
+		<element type="TEXT" subType="TITLE" compId="ID_title" color="#FFFFFF" />
+		<element type="TEXTBOX" titleId="ID_s1_instr_title" bodyId="ID_s1_instr_body" x="49.25" y="83" size="10" width="240" height="215" />
+		
+		<element type="TEXT" compId="ID_txt02" x="380" y="93.55" width="60" expand="up+down" align="center" bold="1" />
+		<element type="TEXT" compId="ID_txt03" x="456.05" y="93.55" width="249.8" expand="up+down" align="center" bold="1" />
+		<element type="TEXT" compId="ID_txt04" x="728.75" y="93.55" width="125.8" expand="up+down" align="center"  bold="1" />
+		<element type="TEXT" compId="ID_txt05" x="850.55" y="93.55" width="100.75" expand="up+down" align="center"  bold="1" />
+		
+		<element type="TEXT" id="ID_static" text="250" x="390.25" y="133.1" align="center" width="30" />
+		<element type="TEXT" id="ID_static1" text="11111111.11111111.11111111.00000000" x="448.2" y="132.1" align="center" width="251.8" bold="1" />
+		<element type="TEXT" id="ID_static" text="255.255.255.0" x="735.2" y="132.1" align="center" width="100" bold="1" />
+		<element type="TEXT" id="ID_static" text="/24" x="873.7" y="132.1" align="center" width="30" bold="1" />
+		
+		<element type="TEXT" id="ID_static" text="25" x="390.25" y="159.1" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="1000" x="390.25" y="187.1" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="75" x="390.25" y="213.1" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="10" x="390.25" y="241.1" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="500" x="390.25" y="267.1" align="center" width="30" />
+        
+	</slide>
+
+</data>

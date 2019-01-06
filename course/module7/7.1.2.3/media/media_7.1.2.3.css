@@ -1,0 +1,9 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+#ID_static_86, #ID_static_87, #ID_static_88, #ID_static_89, #ID_static_90, #ID_static_91, #ID_static_92, #alignment{
+	color:#F68026 !important;
+	}

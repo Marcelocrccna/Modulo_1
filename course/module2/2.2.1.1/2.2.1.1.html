@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.2.1.1 Nombres de los dispositivos</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.2.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Nombres de los dispositivos</h1>
+        <div>
+          <p>Al configurar un dispositivo de red, uno de los primeros pasos es la configuración de un nombre de dispositivo único o nombre de host. Los nombres de host aparecen en las peticiones de entrada de la CLI, pueden utilizarse en varios procesos de autenticación entre dispositivos y deben utilizarse en los diagramas de topologías.</p>
+          <p></p>
+          <p>Si el nombre del dispositivo no se configura explícitamente, Cisco IOS utiliza un nombre de dispositivo predeterminado de fábrica. El nombre predeterminado de los switches Cisco IOS es “Switch”. Si se dejara el nombre predeterminado en todos los dispositivos de red, sería difícil identificar un dispositivo determinado. Por ejemplo, al acceder a un dispositivo remoto mediante SSH, es importante tener la confirmación de que se está conectado al dispositivo correcto.</p>
+          <p></p>
+          <p>Al elegir nombres atinadamente, resulta más fácil recordar, analizar e identificar los dispositivos de red. En la figura 1 se enumeran pautas para la configuración de nombres de host.</p>
+          <p></p>
+          <p>Los nombres de host utilizados en el IOS del dispositivo conservan el uso de caracteres en mayúscula y minúscula. Por lo tanto, es posible escribir un nombre con mayúsculas como se haría normalmente. Esto contrasta con la mayoría de los esquemas de denominación de Internet, donde los caracteres en mayúsculas y minúsculas reciben igual trato. </p>
+          <p></p>
+          <p>Por ejemplo, en la figura 2, tres switches que se encuentran en tres pisos diferentes están interconectados en una red. La convención de denominación que se utilizó tuvo en cuenta la ubicación y el propósito de los dispositivos. La documentación de red debe explicar cómo se seleccionaron estos nombres para que se pueda seguir el mismo criterio en la denominación de los dispositivos adicionales.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the guidelines for choosing a hostname. Hostnames should: start with a letter; contain no spaces; end with a letter or digit; use only letters, digits, and dashes; and be less than 64 characters in length. Figure 2 a technician connected to a switch that is part of a network of three switches. Each switch is named with a descriptive name so it is easy to know which device you are configuring.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_titleTxt01,#ID_titleTxt02,#ID_titleTxt03,#ID_titleTxt04,#ID_titleTxt05,#ID_titleTxt06,#ID_titleTxt07
+{
+font-weight: bold;
+}
+#ID_txt01,#ID_txt02,#ID_txt03,#ID_txt04,#ID_txt05,#ID_txt06, #ID_txt07 {
+	pointer-events:none;
+}

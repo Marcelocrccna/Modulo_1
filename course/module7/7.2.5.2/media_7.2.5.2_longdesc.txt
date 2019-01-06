@@ -1,0 +1,1 @@
+Figure shows four PCs attached to a switch. One PC is sending out a solicited-node multicast out on the LAN. The destination MAC address is a multicast and the destination IPv6 address is a solicited-node multicast. Only one PC in the topology is configured to receive the multicast. 

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.3.2 Creación de 100 subredes con una red /16</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Creación de 100 subredes con una red /16</h1>
+        <div>
+          <p>Imagine una gran empresa que requiere, como mínimo, 100 subredes y eligió la dirección privada 172.16.0.0/16 como su dirección de red interna. </p>
+          <p>Al tomar prestados bits de una dirección /16, comience a tomarlos del tercer octeto, de izquierda a derecha. Tome prestado un solo bit por vez hasta que se alcance la cantidad de bits necesarios para crear 100 subredes. </p>
+          <p>En la figura 1, se muestra la cantidad de subredes que se pueden crear cuando se toman prestados bits del tercer y del cuarto octetos. Observe que ahora hay hasta 14 bits de host que se pueden tomar prestados.</p>
+          <p>Para cumplir con los requisitos de la empresa, se tendrían que tomar prestados 7 bits (p. ej.: 2^7 = 128 subredes), tal como se muestra en la figura 2. </p>
+          <p>Recuerde que la máscara de subred debe modificarse para que se muestren los bits que se tomaron prestados. En este ejemplo, cuando se toman prestados 7 bits, la máscara se extiende 7 bits en el tercer octeto. En formato decimal, la máscara se representa como 255.255.254.0, o como el prefijo /23, debido a que, en formato binario, el tercer octeto es 11111110 y el cuarto octeto es 00000000. </p>
+          <p>En la figura 3, se muestran las subredes resultantes desde 172.16.0.0 /23 hasta 172.16.254.0 /23. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the formula for calculating the number of subnets based on the bits borrowed from 1 bit borrowed all the way to 14 bits borrowed. For example borrowing 7 bits gets you 2 to the power of 7 or 128 subnets. Figure 2 shows the network address 172.16.0.0/23. The last two octets are in binary. The subnet mask is shown below the network address with the seven bits borrowed now as one bits. Figure 3 shows the first three subnets and the last subnet created by borrowing 7 bits. The last two octets are shown in binary.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

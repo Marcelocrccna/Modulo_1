@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.3.3 Comunicación IPv4</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.3.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Comunicación IPv4</h1>
+        <div>
+          <p>Un host conectado correctamente a una red puede comunicarse con otros dispositivos de alguna de estas tres maneras:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Unidifusión:</b> es el proceso de enviar un paquete de un host a otro host individual, como se muestra en la figura 1.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Difusión:</b> es el proceso de enviar un paquete de un host a todos los hosts de la red, como se muestra en la figura 2.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Multidifusión:</b> es el proceso de enviar un paquete de un host a un grupo seleccionado de hosts, probablemente en diferentes redes, como se muestra en la figura 3.</li>
+            </ul>
+          </p>
+          <p>Estos tres tipos de comunicación se utilizan con distintos objetivos en las redes de datos. En los tres casos, se coloca la dirección IPv4 del host de origen en el encabezado del paquete como la dirección de origen. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 is an animation showing a unicast transmission.  A PC with the IP address 172.16.4.1 needs to send a packet to a network printer at 172.16.4.253.  The packet is sent to a switch and then the packet is forwarded onl to the printer. Figure 2 is an animation showing a broadcast transmission.  A PC with the IP address 172.16.4.1 is sending a broadcast message to all the other devices.  The switch receives the frame and sends it out all other ports except for the port from which it received the frame. Figure 3 is an animation of a multicast transmission.  A PC with the IP address 172.16.4.1 is sending a multicast message to the multicast address of 224.10.10.5.  Two of the devices on the network are members of this multicast group and they each receive a copy of the frame.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

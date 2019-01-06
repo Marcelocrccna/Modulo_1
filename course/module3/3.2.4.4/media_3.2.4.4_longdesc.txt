@@ -1,0 +1,1 @@
+Figure lines up the two models and shows the correlation between layers.  The application, presentation and session layers of the OSI model line up with the Application layer of TCP/IP model.  The Transport layers align together.  The OSI network layer aligns with the Internet layer of TCP/IP and the OSI data link and physical align with the TCP/IP network access layer.

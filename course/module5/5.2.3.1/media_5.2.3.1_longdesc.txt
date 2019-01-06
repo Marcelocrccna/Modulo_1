@@ -1,0 +1,1 @@
+Figure 1 shows a PC connected to a switch. The two devices have autonegotiated to operate at full duplex and at 100 Mb/s. Figure 2 shows a PC connected to a switch. The PC is operating at full duplex but the switch is operating at half-duplex and is getting collisions.

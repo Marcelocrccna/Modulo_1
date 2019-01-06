@@ -1,0 +1,16 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+#ID_txt05{
+	margin-left: 15px !important;
+	margin-top: -20px !important;
+}
+
+
+#ID_bubble_01{
+	color: #FFFFFF !important;
+	padding-left: 3px !important;
+}

@@ -1,0 +1,55 @@
+<textcomponents>
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Internet]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[<b>ISP 1</b>]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[<b>ISP 2</b>]]></text>
+	</component>
+	<component id="ID_s1_txt05">
+		<text><![CDATA[FTP]]></text>
+	</component>
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Granja de servidores]]></text>
+	</component>
+	<component id="ID_s1_txt06">
+		<text><![CDATA[Se envía un archivo a un servidor con la aplicación del protocolo de transferencia de archivos (FTP). TCP hace un seguimiento de la conversación y segmenta los datos para enviarlos en seis segmentos.]]></text>
+	</component>
+	<component id="ID_s1_txt08">
+		<text><![CDATA[El servidor de archivos reconoce los tres primeros segmentos recibidos.]]></text>
+	</component>
+	<component id="ID_s1_txt09">
+		<text><![CDATA[El cliente reenvía los siguientes tres segmentos.]]></text>
+	</component>
+	<component id="ID_s1_txt10">
+		<text><![CDATA[No se recibe ningún segmento; no se envía ningún reconocimiento.]]></text>
+	</component>
+	<component id="ID_s1_txt11">
+		<text><![CDATA[El cliente reenvía los últimos tres segmentos.]]></text>
+	</component>
+	<component id="ID_s1_txt12">
+		<text><![CDATA[Se reciben los últimos tres segmentos y se los reconoce]]></text>
+	</component>
+	<component id="ID_s1_txt07">
+		<text><![CDATA[De seis segmentos, se reenvían al servidor los primeros tres.]]></text>
+	</component><!-- controller --><component id="end">
+		<text><![CDATA[Fin]]></text>
+	</component>
+	<component id="fforward">
+		<text><![CDATA[Adelantar]]></text>
+	</component>
+	<component id="pause">
+		<text><![CDATA[Pausa]]></text>
+	</component>
+	<component id="play">
+		<text><![CDATA[Reproducir]]></text>
+	</component>
+	<component id="rewind">
+		<text><![CDATA[Regresar]]></text>
+	</component>
+	<component id="start">
+		<text><![CDATA[Inicio]]></text>
+	</component>
+</textcomponents>

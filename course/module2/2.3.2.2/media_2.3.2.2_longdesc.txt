@@ -1,0 +1,1 @@
+Figure 1 shows the Windows TCP/IPv4 Properties window with “Obtain an IP address automatically” and “Obtain DNS server address automatically” selected. Figure 2 is a Syntax Checker allowing the learner to practice verifying Windows PC IP configuration.

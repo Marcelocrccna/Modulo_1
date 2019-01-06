@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.1.2.2 Dirección MAC: Identidad de Ethernet</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.1.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Dirección MAC: Identidad de Ethernet</h1>
+        <div>
+          <p>En Ethernet, cada dispositivo de red está conectado al mismo medio compartido. En el pasado, Ethernet era, en mayor medida, una topología de dúplex medio que utilizaba un bus de acceso múltiple o, más recientemente, hubs Ethernet. Es decir que todos los nodos recibían cada trama transmitida. Para evitar la sobrecarga excesiva que implicaba el procesamiento de cada trama, se crearon las direcciones MAC a fin de identificar el origen y el destino reales. El direccionamiento MAC proporciona un método de identificación de dispositivos en el nivel inferior del modelo OSI. Aunque actualmente Ethernet utiliza NIC y switches de dúplex completo, todavía es posible que un dispositivo que no es el destino deseado reciba una trama de Ethernet.</p>
+          <p>
+            <b>Estructura de la dirección MAC</b>
+          </p>
+          <p>El valor de la dirección MAC es el resultado directo de las normas implementadas por el IEEE para proveedores con el objetivo de garantizar direcciones únicas para cada dispositivo Ethernet. Las normas establecidas por el IEEE obligan a los proveedores de dispositivos Ethernet a registrarse en el IEEE. El IEEE asigna al proveedor un código de 3 bytes (24 bits), llamado “identificador único de organización (OUI)”. </p>
+          <p>El IEEE requiere que un proveedor siga dos sencillas reglas, como se muestra en la ilustración: </p>
+          <p>
+            <ul>
+              <li>Todas las direcciones MAC asignadas a una NIC o a otro dispositivo Ethernet deben utilizar el OUI que se le asignó a dicho proveedor como los tres primeros bytes.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Todas las direcciones MAC con el mismo OUI deben tener asignado un valor único en los tres últimos bytes. </li>
+            </ul>
+          </p>
+          <p>
+            <b>Nota:</b> es posible que existan direcciones MAC duplicadas debido a errores de fabricación o en algunos métodos de implementación de máquinas virtuales. En cualquier caso, será necesario modificar la dirección MAC con una nueva NIC o en el software.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows how a MAC address is divided into two 24 bit halves.  The first 24 bits represent the Organizationally Unique Identifier (OUI) and the second 24 bits represent the unique device (network interface).</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

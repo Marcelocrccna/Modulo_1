@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+
+	<slide>
+			<element type="TEXTBOX" titleId="ID_titleTxt01" bodyId="ID_bodyTxt01" x="40" y="65.55" width="250" height="300" animated="0" subType="ROLLOVER" />
+			<element type="TEXT" subType="TITLE" compId="ID_txt01" color="#FFFFFF"/>
+
+		<element type="IMAGE" x="0" y="0" width="1040" height="490" src="../../../common/images/page_backgrounds/bg_activity.jpg" />
+		<element type="IMAGE" src="7_1_1_5.png" x="0" y="0" width="1000" height="490" />
+		<!-- <element type="TEXT" compId="ID_txt01" x="1" y="1" width="220" expand="down" align="left" /> -->
+		<element type="TEXT" compId="ID_txt02" x="380.2" y="111.5" width="113.8" expand="up+down" align="right" />
+		<element type="TEXT" compId="ID_txt09" x="380.2" y="139" width="113.8" expand="up+down" align="right" />
+		<element type="TEXT" compId="ID_txt03" x="380.2" y="168" width="113.8" expand="up+down" align="right" />
+		<element type="TEXT" compId="ID_txt04" x="380.2" y="196.55" width="113.8" expand="up+down" align="right" />
+		<element type="TEXT" compId="ID_txt05" x="380.2" y="221" width="113.8" expand="up+down" align="right" />
+		<element type="TEXT" compId="ID_txt06" x="500.55" y="247.6" width="368" expand="down" align="center" />
+		<element type="TEXT" compId="ID_txt07" x="501" y="91" width="368" expand="up" align="center" />
+		<element type="TEXT" id="ID_static" text="128" x="507" y="196" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="64" x="552" y="196" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="32" x="600" y="196" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="16" x="645" y="196" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="8" x="690" y="196" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="4" x="737" y="196" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="2" x="785" y="196" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="1" x="830" y="196" align="center" width="30" />
+		
+		<element type="TEXT" id="ID_static" text="7" x="507" y="170" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="6" x="552" y="170" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="5" x="600" y="170" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="4" x="645" y="170" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="3" x="690" y="170" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="2" x="737" y="170" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="1" x="785" y="170" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="0" x="830" y="170" align="center" width="30" />
+		
+		<element type="TEXT" id="ID_static" text="2" x="507" y="141" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="2" x="552" y="141" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="2" x="600" y="141" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="2" x="645" y="141" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="2" x="690" y="141" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="2" x="737" y="141" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="2" x="785" y="141" align="center" width="30" />
+		<element type="TEXT" id="ID_static" text="2" x="830" y="141" align="center" width="30" />
+		
+		
+	</slide>
+
+</data>

@@ -1,0 +1,22 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#mc_table
+{
+	height: 280px !important;
+}
+.align
+{
+	margin-left: 12px !important;
+}
+#txt_q6
+{
+	margin-top: 8px !important;
+}
+#ID_static_1,#ID_static_2,#ID_static_3,#ID_static_4
+{
+	color: #FFFFFF !important;
+	font-weight: bold !important;
+}

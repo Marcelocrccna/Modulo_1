@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.2.3.2 Modificación de la configuración en ejecución</title>
+    <!-- Activity / Other / Flash PnC -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.2.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Modificación de la configuración en ejecución</h1>
+        <div>
+          <p>Si los cambios realizados en la configuración en ejecución no tienen el efecto deseado y el archivo running-config aún no se ha guardado, puede restablecer el dispositivo a su configuración anterior eliminando los comandos modificados, o bien volver a cargar el dispositivo con el comando <b>reload</b> en el modo EXEC con privilegios para restablecer la configuración de inicio.</p>
+          <p></p>
+          <p>La desventaja de utilizar el comando reload para eliminar una configuración en ejecución sin guardar es el breve tiempo que el dispositivo estará sin conexión, lo que provoca tiempo de inactividad de la red.</p>
+          <p></p>
+          <p>Cuando se inicia una recarga, el IOS detectará que la configuración en ejecución tiene cambios que no se guardaron en la configuración de inicio. Aparecerá una petición de entrada para preguntar si se desean guardar los cambios. Para descartar los cambios, ingrese <b>n</b> o <b>no</b>.</p>
+          <p></p>
+          <p>Como alternativa, si se guardan cambios no deseados en la configuración de inicio, posiblemente sea necesario eliminar todas las configuraciones. Esto requiere borrar la configuración de inicio y reiniciar el dispositivo. La configuración de inicio se elimina con el uso del comando <b>erase startup-config</b> en el modo EXEC privilegiado. Una vez que se emite el comando, el switch le solicita confirmación. Presione <b>Intro </b>para aceptar.</p>
+          <p></p>
+          <p>Después de eliminar la configuración de inicio de la NVRAM, recargue el dispositivo para eliminar el archivo de configuración actual en ejecución de la memoria RAM. En la recarga, un switch cargará la configuración de inicio predeterminada que se envió originalmente con el dispositivo.  </p>
+          <p></p>
+          <p>Haga clic en el botón Reproducir en la figura para ver una demostración en vídeo sobre cómo guardar archivos de configuración.</p>
+          <p></p>
+          <p>Haga clic <a href="../../files/2.2.3.2%20Video%20-%20Saving%20Configurations.pdf" target="_blank">aquí</a> para leer la transcripción de este vídeo.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" src="media/index.html" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a video with the title "Saving Configurations".</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

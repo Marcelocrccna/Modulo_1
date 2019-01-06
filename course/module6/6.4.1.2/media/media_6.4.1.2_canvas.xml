@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide type="MBAR">
+<slide>
+	<element type="IMAGE" src="../../../common/images/page_backgrounds/bg_table_fullsize.jpg" x="0" y="0" width="1000" height="490" />
+	<element type="TEXTBOX" bodyId="ID_s01_txt01" x="90" y="55" width="500" height="400" animated="0" subType="ROLLOVER" />
+	<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFF"/>
+</slide>
+
+
+
+<slide>
+<element type="IMAGE" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" x="0" y="0" width="680" height="490" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_6.4.1.2.png" />
+<element type="TEXT" id="ID_static_1" text=".10" x="84.65" y="92.7" align="center" width="21.15" />
+<element type="TEXT" id="ID_static_2" text=".10" x="84.65" y="169.6" align="center" width="21.15" />
+<element type="TEXT" id="ID_static_3" text=".10" x="579.15" y="93.5" align="center" width="21.15" />
+<element type="TEXT" id="ID_static_4" text=".1" x="433.2" y="117.9" align="center" width="15.05" />
+<element type="TEXT" id="ID_static_5" text=".1" x="433.2" y="160.3" align="center" width="15.05" />
+<element type="TEXT" id="ID_static_6" text="G0/0 .1" x="223.65" y="103.65" align="right" width="30.1" />
+<element type="TEXT" id="ID_static_7" text=".225 S0/0/0" x="298.75" y="144" align="left" width="38.15" />
+<element type="TEXT" id="ID_static_8" text=".226" x="365.25" y="136.1" align="center" width="27.25" />
+<element type="TEXT" id="ID_static_9" text=".1 G0/1" x="223.65" y="161.45" align="right" width="30.1" />
+<element type="TEXT" id="ID_static_10" text=".10" x="579.15" y="170.9" align="center" width="21.15" />
+<element type="TEXT" id="ID_static_11" text="209.165.200.224/30" x="256.35" y="114.9" align="center" width="104.25" bold="1" />
+<element type="TEXT" id="ID_static_12" text="192.168.10.0/24" x="133.75" y="76.35" align="center" width="85.35" bold="1" />
+<element type="TEXT" id="ID_static_13" text="192.168.11.0/24" x="129.55" y="204.15" align="center" width="85.35" bold="1" />
+<element type="TEXT" id="ID_static_14" text="10.1.1.0/24 " x="481.6" y="78.25" width="64.75" align="left" bold="1" />
+<element type="TEXT" id="ID_static_15" text="64.100.0.1" x="389.8" y="86.6" align="center" width="58.35" />
+<element type="TEXT" id="ID_static_16" text="10.1.2.0/24 " x="480.9" y="204.15" width="64.75" align="left" bold="1" />
+<element type="TEXT" id="ID_static_17" text="PC1" x="48.9" y="93.35" width="25.6" align="center" color="#FFF" />
+<element type="TEXT" id="ID_static_18" text="PC2" x="48.9" y="171.7" width="25.6" align="center" color="#FFF" />
+<element type="ROUTER" textId="ID_router_txt1" x="102.15" y="247.7" width="227" height="120.8" />
+<text id="ID_router_txt1"><![CDATA[<pre>Router> enable 
+Router# configure terminal
+Enter configuration
+commands, one per line.
+End with CNTL/Z.
+Router(config)# hostname R1
+R1(config)#</pre>]]></text>
+<element type="ROUTER" textId="ID_router_txt2" x="387.65" y="248.8" width="212" height="120.7" />
+<text id="ID_router_txt2"><![CDATA[<pre>Router> en
+Router# conf t
+Enter configuration 
+commands, one per line.
+End with CNTL/Z.
+Router(config)# ho R2
+R2(config)#</pre>]]></text>
+<element type="TEXT" compId="ID_txt01" x="331" y="294" width="44.7" expand="up+down" align="center" />
+<element type="TEXT" compId="ID_title02" x="25" y="7" width="633" expand="down" align="center" size="17" />
+</slide>
+
+
+<slide>
+<element type="IMAGE" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" x="0" y="0" width="680" height="490" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_6.4.1.2.png" />
+<element type="TEXT" id="ID_static_17" text=".10" x="84.65" y="92.7" align="center" width="21.15" />
+<element type="TEXT" id="ID_static_18" text=".10" x="84.65" y="169.6" align="center" width="21.15" />
+<element type="TEXT" id="ID_static_19" text=".10" x="579.15" y="93.5" align="center" width="21.15" />
+<element type="TEXT" id="ID_static_20" text=".1" x="433.2" y="117.9" align="center" width="15.05" />
+<element type="TEXT" id="ID_static_21" text=".1" x="433.2" y="160.3" align="center" width="15.05" />
+<element type="TEXT" id="ID_static_22" text="G0/0 .1" x="223.65" y="103.65" align="right" width="30.1" />
+<element type="TEXT" id="ID_static_23" text=".225 S0/0/0" x="298.75" y="144" align="left" width="38.15" />
+<element type="TEXT" id="ID_static_24" text=".226" x="365.25" y="136.1" align="center" width="27.25" />
+<element type="TEXT" id="ID_static_25" text=".1 G0/1" x="223.65" y="161.45" align="right" width="30.1" />
+<element type="TEXT" id="ID_static_26" text=".10" x="579.15" y="170.9" align="center" width="21.15" />
+<element type="TEXT" id="ID_static_27" text="209.165.200.224/30" x="256.35" y="114.9" align="center" width="104.25" bold="1" />
+<element type="TEXT" id="ID_static_28" text="192.168.10.0/24" x="133.75" y="76.35" align="center" width="85.35" bold="1" />
+<element type="TEXT" id="ID_static_29" text="192.168.11.0/24" x="129.55" y="204.15" align="center" width="85.35" bold="1" />
+<element type="TEXT" id="ID_static_30" text="10.1.1.0/24 " x="481.6" y="78.25" width="64.75" align="left" bold="1" />
+<element type="TEXT" id="ID_static_31" text="64.100.0.1" x="389.8" y="86.6" align="center" width="58.35" />
+<element type="TEXT" id="ID_static_32" text="10.1.2.0/24 " x="480.9" y="204.15" width="64.75" align="left" bold="1" />
+<element type="ROUTER" textId="ID_router_txt3" x="148.3" y="226.25" width="414" height="254.9" />
+<element type="TEXT" id="ID_static_101" text="PC1" x="48.9" y="93.35" width="25.6" align="center" color="#FFF" />
+<element type="TEXT" id="ID_static_102" text="PC2" x="48.9" y="171.7" width="25.6" align="center" color="#FFF" />
+<text id="ID_router_txt3"><![CDATA[<pre>R1(config)# enable secret class
+R1(config)#
+R1(config)# line console 0
+R1(config-line)# password cisco
+R1(config-line)# login
+R1(config-line)# exit
+R1(config)#
+R1(config)# line vty 0 4 
+R1(config-line)# password cisco 
+R1(config-line)# login 
+R1(config-line)# exit 
+R1(config)# 
+R1(config)# service password-encryption 
+R1(config)# </pre>]]></text>
+<element type="TEXT" compId="ID_title03" x="25" y="7" width="633" expand="down" align="center" size="17" />
+</slide>
+
+
+<slide>
+	<element type="IMAGE" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" x="0" y="0" width="680" height="490" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_6.4.1.2.png" />
+<element type="TEXT" id="ID_static_33" text=".10" x="84.65" y="92.7" align="center" width="21.15" />
+<element type="TEXT" id="ID_static_34" text=".10" x="84.65" y="169.6" align="center" width="21.15" />
+<element type="TEXT" id="ID_static_35" text=".10" x="579.15" y="93.5" align="center" width="21.15" />
+<element type="TEXT" id="ID_static_36" text=".1" x="433.2" y="117.9" align="center" width="15.05" />
+<element type="TEXT" id="ID_static_37" text=".1" x="433.2" y="160.3" align="center" width="15.05" />
+<element type="TEXT" id="ID_static_38" text="G0/0 .1" x="223.65" y="103.65" align="right" width="30.1" />
+<element type="TEXT" id="ID_static_39" text=".225 S0/0/0" x="298.75" y="144" align="left" width="38.15" />
+<element type="TEXT" id="ID_static_40" text=".226" x="365.25" y="136.1" align="center" width="27.25" />
+<element type="TEXT" id="ID_static_41" text=".1 G0/1" x="223.65" y="161.45" align="right" width="30.1" />
+<element type="TEXT" id="ID_static_42" text=".10" x="579.15" y="170.9" align="center" width="21.15" />
+<element type="TEXT" id="ID_static_43" text="209.165.200.224/30" x="256.35" y="114.9" align="center" width="104.25" bold="1" />
+<element type="TEXT" id="ID_static_44" text="192.168.10.0/24" x="133.75" y="76.35" align="center" width="85.35" bold="1" />
+<element type="TEXT" id="ID_static_45" text="192.168.11.0/24" x="129.55" y="204.15" align="center" width="85.35" bold="1" />
+<element type="TEXT" id="ID_static_46" text="10.1.1.0/24 " x="481.6" y="78.25" width="64.75" align="left" bold="1" />
+<element type="TEXT" id="ID_static_47" text="64.100.0.1" x="389.8" y="86.6" align="center" width="58.35" />
+<element type="TEXT" id="ID_static_48" text="10.1.2.0/24 " x="480.9" y="204.15" width="64.75" align="left" bold="1" />
+<element type="TEXT" id="ID_static_103" text="PC1" x="48.9" y="93.35" width="25.6" align="center" color="#FFF" />
+<element type="TEXT" id="ID_static_104" text="PC2" x="48.9" y="171.7" width="25.6" align="center" color="#FFF" />
+<element type="ROUTER" textId="ID_router_txt4" x="148.3" y="226" width="413.8" height="201.2" />
+<text id="ID_router_txt4"><![CDATA[<pre>R1(config)# banner motd #
+Enter TEXT message. End with the character '#'.
+
+*********************************************** 
+      WARNING: Unauthorized access is 
+prohibited! 
+
+*********************************************** 
+# 
+
+R1(config)#</pre>]]></text>
+<element type="TEXT" compId="ID_title04" x="25" y="7" width="633" expand="down" align="center" size="17" />
+</slide>
+
+
+<slide>
+	<element type="IMAGE" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" x="0" y="0" width="680" height="490" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_6.4.1.2.png" />
+<element type="TEXT" id="ID_static_49" text=".10" x="84.65" y="92.7" align="center" width="21.15" />
+<element type="TEXT" id="ID_static_50" text=".10" x="84.65" y="169.6" align="center" width="21.15" />
+<element type="TEXT" id="ID_static_51" text=".10" x="579.15" y="93.5" align="center" width="21.15" />
+<element type="TEXT" id="ID_static_52" text=".1" x="433.2" y="117.9" align="center" width="15.05" />
+<element type="TEXT" id="ID_static_53" text=".1" x="433.2" y="160.3" align="center" width="15.05" />
+<element type="TEXT" id="ID_static_54" text="G0/0 .1" x="223.65" y="103.65" align="right" width="30.1" />
+<element type="TEXT" id="ID_static_55" text=".225 S0/0/0" x="298.75" y="144" align="left" width="38.15" />
+<element type="TEXT" id="ID_static_56" text=".226" x="365.25" y="136.1" align="center" width="27.25" />
+<element type="TEXT" id="ID_static_57" text=".1 G0/1" x="223.65" y="161.45" align="right" width="30.1" />
+<element type="TEXT" id="ID_static_58" text=".10" x="579.15" y="170.9" align="center" width="21.15" />
+<element type="TEXT" id="ID_static_59" text="209.165.200.224/30" x="256.35" y="114.9" align="center" width="104.25" bold="1" />
+<element type="TEXT" id="ID_static_60" text="192.168.10.0/24" x="133.75" y="76.35" align="center" width="85.35" bold="1" />
+<element type="TEXT" id="ID_static_61" text="192.168.11.0/24" x="129.55" y="204.15" align="center" width="85.35" bold="1" />
+<element type="TEXT" id="ID_static_62" text="10.1.1.0/24 " x="481.6" y="78.25" width="64.75" align="left" bold="1" />
+<element type="TEXT" id="ID_static_63" text="64.100.0.1" x="389.8" y="86.6" align="center" width="58.35" />
+<element type="TEXT" id="ID_static_64" text="10.1.2.0/24 " x="480.9" y="204.15" width="64.75" align="left" bold="1" />
+<element type="TEXT" id="ID_static_106" text="PC1" x="48.9" y="93.35" width="25.6" align="center" color="#FFF" />
+<element type="TEXT" id="ID_static_107" text="PC2" x="48.9" y="171.7" width="25.6" align="center" color="#FFF" />
+<element type="ROUTER" textId="ID_router_txt5" x="148.3" y="226" width="414" height="109.75" />
+<text id="ID_router_txt5"><![CDATA[<pre>R1# copy running-config startup-config 
+Destination filename [startup-config]? 
+Building configuration... 
+[OK] 
+R1#</pre>]]></text>
+<element type="TEXT" compId="ID_title05" x="25" y="7" width="633" expand="down" align="center" size="17" />
+</slide>
+
+
+<slide>
+	<element type="IMAGE" src="../../../common/images/page_backgrounds/bg_table_fullsize.jpg" x="0" y="0" width="1000" height="490" />
+<element type="TEXT" subType="TITLE" compId="ID_s6_title" color="#FFF"/>
+<element type="ACTIVITY" subType="SYNTAX" compId="ID_s6_SC" x="26" y="60" width="630" height="388" resetId="ID_s6_reset" showMeId="ID_s6_showme" showAllId="ID_s6_showall"/>	
+</slide>
+
+</slide>
+
+<text id="ID_s1_txt01"><![CDATA[<div>Router><span class='staticTxt'><b>enable</b></span><br/>Router#<span class='staticTxt'><b>configure terminal</b> </span><br/>Enter configuration <br/>commands, one per line.  <br/>End with CNTL/Z.<br/>Router(config)<span class='staticTxt'>#<b>hostname R1</b></span><br/>R1(config)#</div>]]></text>
+
+<text id="ID_s1_txt02"><![CDATA[<div>Router><span class='staticTxt'><b>en</b></span><br/>Router#<span class='staticTxt'><b>conf t</b></span><br/>Enter configuration <br/>commands, one per line.  <br/>End with CNTL/Z.<br/>Router(config)#<span class='staticTxt'><b>ho R1</b></span><br/>R2(config)#</div>]]></text>
+
+<text id="ID_s2_txt01"><![CDATA[<div>R1(config)#<span class='staticTxt'><b>enable secret class</b></span><br/>R1(config)#<br/>R1(config)#<spanclass='staticTxt'><span class='staticTxt'><b>line console 0</b></span></span><br/>R1(config-line)#<span class='staticTxt'><b>password cisco</b></span><br/>R1(config-line)#<span class='staticTxt'><b>login</b></span><br/>R1(config-line)#<span class='staticTxt'><b>exit</b></span><br/>R1(config)#<br/>R1(config)#<span class='staticTxt'><b>line vty 0 4</b></span><br/>R1(config-line)#<span class='staticTxt'><b>password cisco</b></span><br/>R1(config-line)#<span class='staticTxt'><b>login</b></span><br/>R1(config-line)#<span class='staticTxt'><b>exit</b></span><br/>R1(config)#<br/>R1(config)#<span class='staticTxt'><b>service password-encryption</b></span><br/>R1(config)#</div>]]></text>
+
+<text id="ID_s3_txt01"><![CDATA[<div>R1(config)#<span class='staticTxt'><b>banner motd </b>#</span><br/>Enter TEXT message.  End with the character '#'.<br/><br/>*********************************************<br/><br/><span style='margin-left:10px'>WARNING: Unauthorized access is prohibited !<br/><br/>*********************************************<br/>#<br/><br/>R1(config)#</div>]]></text>
+
+<text id="ID_s4_txt01"><![CDATA[<div>R1#<span class='staticTxt'><b>copy running-config startup-config</b></span><br/>Destination filename [startup-config]?<br/>Building configuration...<br/>[OK]<br/>R1#</div>]]></text>
+
+</data>

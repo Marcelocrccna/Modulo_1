@@ -1,0 +1,15 @@
+<textcomponents>
+    
+    <component id="ID_title">
+      <text><![CDATA[Difusiones de ARP y seguridad]]></text>
+      </component>
+<component id="ID_txt01">
+    <text><![CDATA[<b>Todos los dispositivos encendidos al mismo tiempo</b>]]></text>
+   </component>
+<component id="ID_txt02">
+   <text><![CDATA[Medios compartidos (acceso múltiple)]]></text>
+   </component>
+<component id="ID_txt03">
+   <text><![CDATA[Las difusiones de ARP pueden saturar los medios locales.]]></text>
+   </component>
+</textcomponents>

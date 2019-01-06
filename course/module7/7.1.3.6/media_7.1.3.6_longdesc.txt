@@ -1,0 +1,1 @@
+Figure is an animation of a multicast transmission.  A PC with the IP address 172.16.4.1 is sending a multicast message to the multicast address of 224.10.10.5.  Two of the devices on the network are members of this multicast group and they each receive a copy of the frame.

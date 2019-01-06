@@ -1,0 +1,1 @@
+Figure shows an 1900 series router with the functions of a router Security, Routing, QoS., Addressing, Interface, and managing Resources.

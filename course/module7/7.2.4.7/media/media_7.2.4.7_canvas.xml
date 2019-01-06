@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_7.2.4.7.png" />
+<element type="TEXT" id="ID_static_1" text="Router(config-if)#" x="47" y="72" align="center" width="125" color="#FFFFFF" />
+<element type="ROUTER" textId="ID_router_txt1" x="40" y="145.05" width="600" height="300" />
+<element type="TEXT" subType="TITLE" compId="ID_title" color="#FFFFFF" />
+</slide>
+
+
+<text id="ID_router_txt1"><![CDATA[<pre>R1(config)# <b>interface gigabitethernet 0/0</b>
+R1(config-if)# <b>ipv6 address fe80::1 ?</b>
+  link-local  Use link-local address
+
+R1(config-if)# <b>ipv6 address fe80::1 link-local</b>
+R1(config-if)# <b>exit</b>
+R1(config)# <b>interface gigabitethernet 0/1</b>
+R1(config-if)# <b>ipv6 address fe80::1 link-local</b>
+R1(config-if)# <b>exit</b>
+R1(config)# <b>interface serial 0/0/0</b>
+R1(config-if)# <b>ipv6 address fe80::1 link-local</b>
+R1(config-if)#</pre>]]></text>
+
+
+
+</data>

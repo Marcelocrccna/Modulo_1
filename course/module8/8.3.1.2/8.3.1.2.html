@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.3.1.2 División en subredes mediante la ID de subred</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.3.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>División en subredes mediante la ID de subred</h1>
+        <div>
+          <p>La sección de ID de subred de 16 bits de la dirección IPv6 de unidifusión global puede ser utilizada por una organización para crear subredes internas. </p>
+          <p>La ID de subred proporciona más subredes que las necesarias y admite más hosts de los que puedan llegarse a necesitar para una subred. Por ejemplo, la sección de 16 bits permite realizar lo siguiente:</p>
+          <p>
+            <ul>
+              <li>Crear hasta 65 536 subredes /64. Esto no incluye la posibilidad de tomar prestados bits de la ID de interfaz de la dirección. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Admitir hasta 18 trillones de direcciones IPv6 de host por subred (p. ej.: 18 000 000 000 000 000 000). </li>
+            </ul>
+          </p>
+          <p>
+            <b>Nota:</b> también se puede dividir en subredes en la ID de interfaz de 64 bits (o porción de host), pese a que no suele ser necesario.</p>
+          <p>La división en subredes IPv6 también es más fácil de implementar que la IPv4, ya que no se requiere la conversión al sistema binario. Para determinar la siguiente subred disponible, simplemente se suman los valores en el sistema hexadecimal. </p>
+          <p>Por ejemplo, suponga que a una organización se le asignó el prefijo de routing global 2001:0DB8:ACAD::/48 con una ID de subred de 16 bits. Esto permitiría a la organización crear subredes /64, tal como se muestra en la ilustración. Observe que el prefijo de routing global es igual para todas las subredes. Solo se incrementa el hexteto de la ID de subred en sistema hexadecimal para cada subred. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows that the 16 bits of the subnet ID, represented in hexadecimal, can make 65,536 subnets.  These subnets are 0 0 0 0 through F F F F.  </div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

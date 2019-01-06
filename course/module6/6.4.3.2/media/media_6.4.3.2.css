@@ -1,0 +1,19 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+
+.colo {color:#F26200 !important;}
+#ID_router_txt1
+{
+	line-height:11.7px;
+	margin-left: -6px;
+	margin-top: -3px;
+}
+#ID_txt03,#ID_txt04{letter-spacing:-0.6px;}
+
+#ID_static_11 , #ID_static_13{
+	letter-spacing:-0.75px;
+}

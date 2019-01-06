@@ -1,0 +1,1 @@
+Figure shows devices easily being added to existing network, demonstrating scalability.

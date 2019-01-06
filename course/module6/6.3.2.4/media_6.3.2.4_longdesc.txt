@@ -1,0 +1,1 @@
+Figure shows sample output from the “show version” command. Highlighted information includes: The IOS version; ROM version; image file location; amount of RAM; number and type of interfaces; and the amount of NVRAM and Flash used.

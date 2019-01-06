@@ -1,0 +1,1 @@
+Figures 1, 2, and 3 show two ping tests run from one of the PCs on different dates.  By comparing the ping times, you can measure the network performance as part of troubleshooting steps.

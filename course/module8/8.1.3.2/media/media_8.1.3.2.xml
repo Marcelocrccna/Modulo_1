@@ -1,0 +1,109 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Cantidad de subredes creadas</b>]]></text>
+	</component>  
+
+	<component id="ID_s1_txt01">
+	  <text><![CDATA[Si se toma prestado <font color='#F26200'><b>1</b></font> bit:]]></text>
+	</component>  
+		<component id="ID_s1_txt01B">
+		  <text><![CDATA[2^<font color='#F26200'><b>1</b></font> = <font color='#46A040'><b>2</b></font>]]></text>
+		</component> 	
+	<component id="ID_s1_txt02">
+	  <text><![CDATA[Si se toman prestados <font color='#F26200'><b>2</b></font> bits:]]></text>
+	</component>  
+		<component id="ID_s1_txt02B">
+		  <text><![CDATA[2^<font color='#F26200'><b>2</b></font> = <font color='#46A040'><b>4</b></font>]]></text>
+		</component>
+	<component id="ID_s1_txt03">
+	  <text><![CDATA[Si se toman prestados <font color='#F26200'><b>3</b></font> bits:]]></text>
+	</component>  
+		<component id="ID_s1_txt03B">
+		  <text><![CDATA[2^<font color='#F26200'><b>3</b></font> = <font color='#46A040'><b>8</b></font>]]></text>
+		</component>
+	<component id="ID_s1_txt04">
+	  <text><![CDATA[Si se toman prestados <font color='#F26200'><b>4</b></font> bits:]]></text>
+	</component>  
+		<component id="ID_s1_txt04B">
+		  <text><![CDATA[2^<font color='#F26200'><b>4</b></font> = <font color='#46A040'><b>16</b></font>]]></text>
+		</component>
+	<component id="ID_s1_txt05">
+	  <text><![CDATA[Si se toman prestados <font color='#F26200'><b>5</b></font> bits:]]></text>
+	</component>  
+		<component id="ID_s1_txt05B">
+		  <text><![CDATA[2^<font color='#F26200'><b>5</b></font> = <font color='#46A040'><b>32</b></font>]]></text>
+		</component>
+	<component id="ID_s1_txt06">
+	  <text><![CDATA[Si se toman prestados <font color='#F26200'><b>6</b></font> bits:]]></text>
+	</component>  
+		<component id="ID_s1_txt06B">
+		  <text><![CDATA[2^<font color='#F26200'><b>6</b></font> = <font color='#46A040'><b>64</b></font>]]></text>
+		</component>
+	<component id="ID_s1_txt07">
+	  <text><![CDATA[Si se toman prestados <font color='#F26200'><b>7</b></font> bits:]]></text>
+	</component>  
+		<component id="ID_s1_txt07B">
+		  <text><![CDATA[2^<font color='#F26200'><b>7</b></font> = <font color='#46A040'><b>128</b></font>]]></text>
+		</component>
+	<component id="ID_s1_txt08">
+	  <text><![CDATA[Si se toman prestados <font color='#F26200'><b>8</b></font> bits:]]></text>
+	</component>  
+		<component id="ID_s1_txt08B">
+		  <text><![CDATA[2^<font color='#F26200'><b>8</b></font> = <font color='#46A040'><b>256</b></font>]]></text>
+		</component>
+	<component id="ID_s1_txt09">
+	  <text><![CDATA[Si se toman prestados <font color='#F26200'><b>9</b></font> bits:]]></text>
+	</component>  
+		<component id="ID_s1_txt09B">
+		  <text><![CDATA[2^<font color='#F26200'><b>9</b></font> = <font color='#46A040'><b>512</b></font>]]></text>
+		</component>
+	<component id="ID_s1_txt10">
+	  <text><![CDATA[Si se toman prestados <font color='#F26200'><b>10</b></font> bits:]]></text>
+	</component>  
+		<component id="ID_s1_txt10B">
+		  <text><![CDATA[2^<font color='#F26200'><b>10</b></font> = <font color='#46A040'><b>1024</b></font>]]></text>
+		</component>
+	<component id="ID_s1_txt11">
+	  <text><![CDATA[Si se toman prestados <font color='#F26200'><b>11</b></font> bits:]]></text>
+	</component>  
+		<component id="ID_s1_txt11B">
+		  <text><![CDATA[2^<font color='#F26200'><b>11</b></font> = <font color='#46A040'><b>2048</b></font>]]></text>
+		</component>
+	<component id="ID_s1_txt12">
+	  <text><![CDATA[Si se toman prestados <font color='#F26200'><b>12</b></font> bits:]]></text>
+	</component>  
+		<component id="ID_s1_txt12B">
+		  <text><![CDATA[2^<font color='#F26200'><b>12</b></font> = <font color='#46A040'><b>4096</b></font>]]></text>
+		</component>
+	<component id="ID_s1_txt13">
+	  <text><![CDATA[Si se toman prestados <font color='#F26200'><b>13</b></font> bits:]]></text>
+	</component>  
+		<component id="ID_s1_txt13B">
+		  <text><![CDATA[2^<font color='#F26200'><b>13</b></font> = <font color='#46A040'><b>8192</b></font>]]></text>
+		</component>
+	<component id="ID_s1_txt14">
+	  <text><![CDATA[Si se toman prestados <font color='#F26200'><b>14</b></font> bits:]]></text>
+	</component>  
+		<component id="ID_s1_txt14B">
+		  <text><![CDATA[2^<font color='#F26200'><b>14</b></font> = <font color='#46A040'><b>16 384</b></font>]]></text>
+		</component>		
+	
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Red 172.16.0.0/23</b>]]></text>
+	</component>
+		
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Resultado: subredes de /23</b>]]></text>
+	</component>
+
+	<component id="ID_s3_txt01">
+	<text><![CDATA[Si se toman prestados 7 bits, se crean 128 subredes.]]></text>
+	</component>
+	
+	<component id="ID_s3_txt02">
+	<text><![CDATA[. a .]]></text>
+	</component>
+
+</textcomponents>

@@ -1,0 +1,1 @@
+Figures 1, 2, and 3 demonstrate the concept that layer 2 address change at every hop while the layer 3 addresses stay the same. In Figure 1, the layer 2 addresses are for the original source and router 1. In Figure 2, the layer 2 addresses are for router 1 and router 2. In Figure 3, the layer 2 addresses are for router 2 and the final destination, the web server.

@@ -1,0 +1,1 @@
+Figure 1 shows a network consisting of a PC connected to a switch, which is connected to a router, which is connected to a cloud. Figure 2 shows the output of the show ip interface brief command on the router and on the switch. 

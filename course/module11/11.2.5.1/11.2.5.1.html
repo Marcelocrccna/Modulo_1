@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.2.5.1 Router File Systems</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.2.5.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Router File Systems</h1>
+        <div>
+          <p>The Cisco IOS File System (IFS) allows the administrator to navigate to different directories and list the files in a directory, and to create subdirectories in flash memory or on a disk. The directories available depend on the device.</p>
+          <p></p>
+          <p>Figure 1 displays the output of the <b>show file systems</b> command, which lists all of the available file systems on a Cisco 1941 router. This command provides useful information such as the amount of available and free memory, the type of file system, and its permissions. Permissions include read only (ro), write only (wo), and read and write (rw), shown in the Flags column of the command output.</p>
+          <p></p>
+          <p>Although there are several file systems listed, of interest to us will be the tftp, flash, nvram, and usbflash file systems. </p>
+          <p></p>
+          <p>Notice that the flash file system also has an asterisk preceding it. This indicates that flash is the current default file system. The bootable IOS is located in flash; therefore, the pound symbol (#) is appended to the flash listing, indicating that it is a bootable disk.</p>
+          <p></p>
+          <p>
+            <b>The Flash File System</b>
+          </p>
+          <p></p>
+          <p>Figure 2 displays the output from the <b>dir</b> command. Because flash is the default file system, the <b>dir</b> command lists the contents of flash. Several files are located in flash, but of specific interest is the last listing. This is the name of the current Cisco IOS file image that is running in RAM.</p>
+          <p></p>
+          <p>
+            <b>The NVRAM File System</b>
+          </p>
+          <p></p>
+          <p>To view the contents of NVRAM, you must change the current default file system using the <b>cd</b> (change directory) command, as shown in Figure 3. The <b>pwd</b> (present working directory) command verifies that we are viewing the NVRAM directory. Finally, the <b>dir</b> (directory) command lists the contents of NVRAM. Although there are several configuration files listed, of specific interest is the startup-configuration file.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Resize" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Please log into <a href="http://netacad.com">netacad.com</a> before accessing this course.</div>
+  </body>
+</html>

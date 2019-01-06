@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.3.2.3 Dispositivos en la misma red</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.3.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Dispositivos en la misma red</h1>
+        <div>
+          <p>Para comprender la forma en que los dispositivos se comunican en la red, es importante entender las funciones de las direcciones de la capa de red y de las direcciones del enlace de datos.</p>
+          <p></p>
+          <p>
+            <b>Función de las direcciones de la capa de red</b>
+          </p>
+          <p></p>
+          <p>Las direcciones de la capa de red, o direcciones IP, indican el origen y el destino final. Un paquetes IP contienen dos partes:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Porción de red:</b> la sección más a la izquierda de la dirección que indica la red de la que es miembro la dirección IP. Todos los dispositivos de la misma red tienen la misma porción de red de la dirección.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Porción de host:</b> la sección restante de la dirección que identifica a un dispositivo específico en la red. La sección de host es única para cada dispositivo en la red.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>
+            <b>Nota</b>: la máscara de subred se utiliza para identifica la porción de red de una dirección de la porción del host. La máscara de subred se analiza en capítulos más adelante.</p>
+          <p></p>
+          <p>En este ejemplo, tenemos un equipo cliente, PC1, que se comunica con un servidor FTP, en la misma red IP.</p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección IP de origen:</b> la dirección IP del dispositivo emisor, es decir, el equipo cliente PC1: 192.168.1.110.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección IP de destino:</b> la dirección IP del dispositivo receptor, el servidor FTP: 192.168.1.9.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>En la figura, observe que la porción de red de las direcciones IP de origen y de destino se encuentran en la misma red.</p>
+          <p></p>
+          <p>
+            <b>Función de las direcciones de la capa de enlace de datos</b>
+          </p>
+          <p></p>
+          <p>Cuando el emisor y el receptor del paquete IP están en la misma red, la trama de enlace de datos se envía directamente al dispositivo receptor. En una red Ethernet, las direcciones de enlace de datos se conocen como direcciones MAC de Ethernet. Las direcciones MAC están integradas físicamente a la NIC Ethernet. </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección MAC de origen:</b> la dirección de enlace de datos, o la dirección MAC de Ethernet, del dispositivo que envía la trama de enlace de datos con el paquete IP encapsulado. La dirección MAC de la NIC Ethernet de PC1 es AA-AA-AA-AA-AA-AA, redactada en notación hexadecimal.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección MAC de destino:</b> cuando el dispositivo receptor está en la misma red que el dispositivo emisor, la dirección MAC de destino es la dirección de enlace de datos del dispositivo receptor. En este ejemplo, la dirección MAC de destino es la dirección MAC del servidor FTP: CC-CC-CC-CC-CC-CC, redactada en notación hexadecimal.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>La trama con el paquete IP encapsulado ahora se puede transmitir desde PC1 directamente hasta el servidor FTP.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the source and destination MAC addresses being added to an Ethernet frame.  PC 1 is the source and the server is the destination.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

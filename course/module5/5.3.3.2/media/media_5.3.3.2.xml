@@ -1,0 +1,42 @@
+<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Todos los dispositivos encendidos al mismo tiempo</b>]]></text>
+	</component>
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Red]]></text>
+	</component>
+	
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Las direcciones MAC están acortadas con fines de demostración.]]></text>
+	</component>
+
+	<component id='ID_s1_bubble01'>
+		<text><![CDATA[Solicitud de ARP: necesito la dirección MAC del gateway predeterminado (192.168.1.1).]]></text>
+	</component>
+	
+	<component id='ID_s1_bubble02'>
+		<text><![CDATA[Enviaré una respuesta de ARP y me haré pasar por el gateway predeterminado.]]></text>
+	</component>
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[192.168.1.120<br/>MAC 00-0B]]></text>
+	</component>
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[192.168.1.110<br/>MAC 00-0A]]></text>
+	</component>
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[192.168.1.1<br/>MAC 00-0D]]></text>
+	</component>
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[192.168.1.50<br/>MAC 00-0C]]></text>
+	</component>
+	
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[G0/0]]></text>
+	</component>
+	
+</textcomponents>

@@ -1,0 +1,25 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+/*html, body {
+	margin:0;
+	
+
+}
+
+#htmlMedia {
+    margin-left: -50px;
+}
+
+.alignment{
+	margin-left:15px !important;
+	}
+	
+#txt_q2, #txt_q3, #txt_q4{
+	margin-top:2px;
+	}*/
+	.alignment{
+	margin-left:15px !important;
+	}

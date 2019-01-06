@@ -1,0 +1,36 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>UDP</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Telefonía IP<br/>(VoIP)]]></text> 
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Transmisión de vídeo]]></text> 
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[<b>Reconstrucción de datos no ordenada</b><br/>Los datos se reconstruyen en el orden en que se recibieron.]]></text> 
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[<b>Entrega no confiable</b><br/>Los segmentos perdidos no se vuelven a enviar.]]></text> 
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[<b>Sin conexión</b><br/>No hay establecimiento de sesión.]]></text> 
+
+</component><component id="ID_txt06">
+<text><![CDATA[<b>Sin control de flujo</b><br/>No le informa al emisor sobre la disponibilidad de recursos.]]></text> 
+</component>  
+<component id="ID_titleTxt01">
+		<text><![CDATA[Features of UDP]]></text>
+	</component>
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[<li>Los datos se reconstruyen en el orden en que se recibieron.</li><li>Los segmentos perdidos no se vuelven a enviar.</li><li>No hay establecimiento de sesión.</li><li>No le informa al emisor sobre la disponibilidad de recursos.</li>]]></text>
+	</component>  
+
+</textcomponents>

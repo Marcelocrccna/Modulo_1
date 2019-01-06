@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide type="MBAR">
+	<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<slide>
+
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="8.1.5.1_A.png" />
+<element type="TEXT" compId="ID_s1_txt01" x="80" y="191" width="104.5" expand="up" align="center" />
+<element type="TEXT" compId="ID_s1_txt02" x="220" y="191" width="104.5" expand="up" align="center" />
+<element type="TEXT" compId="ID_s1_txt03" x="361" y="191" width="104.5" expand="up" align="center" />
+<element type="TEXT" compId="ID_s1_txt04" x="501" y="191" width="104.5" expand="up" align="center" />
+<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+</slide>
+
+
+
+	
+	<slide>
+	
+	<element type="IMAGE" src="8.1.5.1_B.png" x="0" y="0" width="680" height="490" />
+	<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+    <element type="TEXT" compId="ID_s2_txt03" x="508.8" y="191.4" width="76" expand="up+down" align="left" />
+    <element type="TEXT" compId="ID_s2_txt04" x="508.8" y="257.4" width="154" expand="up+down" align="left" />
+
+
+
+<element type="TEXT" compId="ID_s2_txt05" x="509" y="294" width="156.8" expand="down" align="left" />
+<element type="TEXT" compId="ID_s2_txt01" x="167" y="96" width="125.6" expand="up" align="center" />
+<element type="TEXT" compId="ID_s2_txt02" x="318" y="96" width="74.3" expand="up" align="center" />
+<element type="TEXT" compId="ID_s2_txt06" x="186.4" y="347.15" width="150.75" expand="down" align="left" class="orangeCallOut" />
+<element type="TEXT" compId="ID_s2_txt07" x="348.7" y="347" width="170.8" expand="down" align="left" class="orangeCallOut" />
+	</slide>
+	
+	
+	<slide>
+
+	<element type="IMAGE" src="8.1.5.1_C.png" x="0" y="0" width="680" height="490" />
+	<element type="TEXT" id="ID_static_45" text="5" x="135.25" y="150.55" align="center" width="6" />
+<element type="TEXT" id="ID_static_46" text=".101" x="319.45" y="149.85" align="center" width="21.05"  color="#fff"/>
+<element type="TEXT" id="ID_static_47" text="00000" x="354.75" y="149.85" align="center" width="32.9" color="#fff" />
+<element type="TEXT" id="ID_static_48" text="11000000.10101000.00010100" x="148.95" y="149.85" align="center" width="161.85" color="#fff"/>
+<element type="TEXT" id="ID_static_49" text="192.168.20.160/27" x="401.25" y="149.85" align="center" width="97.15" />
+<element type="TEXT" id="ID_static_50" text="6" x="135.25" y="169.9" align="center" width="5.8" />
+<element type="TEXT" id="ID_static_51" text=".110" x="319.45" y="169.2" align="center" width="22.75"  color="#fff"/>
+<element type="TEXT" id="ID_static_52" text="00000" x="354.75" y="169.2" align="center" width="32.9" color="#fff" />
+<element type="TEXT" id="ID_static_53" text="11000000.10101000.00010100" x="148.95" y="169.2" align="center" width="161.85" color="#fff"/>
+<element type="TEXT" id="ID_static_54" text="192.168.20.192/27" x="401.25" y="169.2" align="center" width="97.15" />
+<element type="TEXT" id="ID_static_55" text="11000000.10101000.00010100" x="148.95" y="130.5" align="center" width="161.85" color="#fff"/>
+<element type="TEXT" id="ID_static_56" text=".100" x="319.45" y="130.5" align="center" width="22.75"  color="#fff"/>
+<element type="TEXT" id="ID_static_57" text="00000" x="354.75" y="130.5" align="center" width="32.9"  color="#fff"/>
+<element type="TEXT" id="ID_static_58" text="4" x="135.25" y="131.2" align="center" width="6.1" />
+<element type="TEXT" id="ID_static_59" text="192.168.20.128/27" x="401.25" y="130.5" align="center" width="97.15" />
+<element type="TEXT" compId="ID_s3_txt02" x="167" y="96" width="125.6" expand="up" align="center" />
+<element type="TEXT" compId="ID_s3_txt03" x="318" y="96" width="74.3" expand="up" align="center" />
+<element type="TEXT" subType="TITLE" compId="ID_s3_title"/>
+<element type="TEXT" compId="ID_s3_txt01" x="247" y="237" width="251.2" expand="down" align="left" class="orangeCallOut" />
+<element type="TEXT" compId="ID_s3_txt04" x="400" y="96" width="104.5" expand="up" align="center" />
+	</slide>
+</slide>
+</data>

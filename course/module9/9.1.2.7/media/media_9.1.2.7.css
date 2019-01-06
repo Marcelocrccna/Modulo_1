@@ -1,0 +1,6 @@
+/*   load the main media CSS file    */
+@import url('../../../common/styles/media2.css');
+
+#ID_txt37,#ID_txt38{
+	text-shadow: 0 0 4px #FFFFFF;
+}

@@ -1,0 +1,1 @@
+Figure shows common applications that use UDP including DHCP, DNS, SNMP, TFTP, VoIP, and IPTV.

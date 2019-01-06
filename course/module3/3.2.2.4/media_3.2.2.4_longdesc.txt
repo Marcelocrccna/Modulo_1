@@ -1,0 +1,1 @@
+Figure 1 is an animation that shows the protocol encapsulation process involved when a web server sends a web page to a client across a network. Figure 2 is an animation that shows the protocol de-encapsulation process involved when a web client receives a web page from a web server across a network.

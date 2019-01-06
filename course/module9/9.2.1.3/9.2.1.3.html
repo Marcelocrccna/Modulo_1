@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.2.1.3 Finalización de la sesión TCP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.2.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Finalización de la sesión TCP</h1>
+        <div>
+          <p>Para cerrar una conexión, se debe establecer el marcador de control de finalización (FIN) en el encabezado del segmento. Para finalizar todas las sesiones TCP de una vía, se utiliza un enlace de dos vías, que consta de un segmento FIN y un segmento de reconocimiento (ACK). Por lo tanto, para terminar una conversación simple admitida por TCP, se requieren cuatro intercambios para finalizar ambas sesiones.</p>
+          <p>En la figura, haga clic en los botones 1 a 4 para ver la finalización de la conexión TCP.</p>
+          <p>
+            <b>Nota</b>:  En esta explicación, los términos “cliente” y “servidor” se utilizan como referencia con fines de simplificación, pero el proceso de finalización puede ser iniciado por dos hosts cualesquiera que tengan una sesión abierta:</p>
+          <p>
+            <b>Paso 1</b>: cuando el cliente no tiene más datos para enviar en la transmisión, envía un segmento con el marcador FIN establecido.</p>
+          <p>
+            <b>Paso 2</b>: el servidor envía un ACK para reconocer el marcador FIN y terminar la sesión de cliente a servidor.</p>
+          <p>
+            <b>Paso 3</b>: el servidor envía un FIN al cliente para terminar la sesión de servidor a cliente.</p>
+          <p>
+            <b>Paso 4</b>: el cliente responde con un ACK para reconocer el recibo del FIN desde el servidor.</p>
+          <p>Una vez reconocidos todos los segmentos, la sesión se cierra.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the four exchanges required to close a connection.  The first step shown is when client A is ready to close the connection therefore it sends a segment with the FIN flag set and it is received by client B.  Step two has client B sending an ACK to client A.  Step three is also from client B and it sends a FIN to client A to terminate the server to client session and the client receives the FIN.  The final step is when client A responds to client B by sending an ACK to client B.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

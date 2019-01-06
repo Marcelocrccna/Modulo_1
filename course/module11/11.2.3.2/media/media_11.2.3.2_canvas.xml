@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide>
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+        <element type="IMAGE" x="267" y="60" width="318.9" height="388.5" subType="STD" src="11_2_3_2_B.jpg" />
+        <element type="IMAGE" x="85" y="194" width="147" height="110" subType="STD" src="11_2_3_2_A.jpg" />
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="bubble.png" />
+        <element type="BUBBLE" compId="ID_txt_01" x="140" y="154" width="109" height="80" align="center" tailPosition="7" tailFlip="0" bgColor="#FDE6D4" borderColor="#F68026" />
+        <element type="BUBBLE" compId="ID_txt_02" x="305" y="126" width="147.05" height="80" align="center" tailPosition="7" tailFlip="0" bgColor="#FDE6D4" borderColor="#F68026" />
+        <element type="BUBBLE" compId="ID_txt_03" x="92" y="423" width="159" height="26" align="center" tailPosition="2" tailFlip="0" bgColor="#FDE6D4" borderColor="#F68026" />
+        <element type="TEXT" subType="TITLE" compId="ID_title" color="#fff" />
+    </slide>
+</data>

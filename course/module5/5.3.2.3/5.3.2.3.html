@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.3.2.3 Demostración en vídeo: Solicitud de ARP</title>
+    <!-- Activity / Other / Flash PnC -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.3.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Demostración en vídeo: Solicitud de ARP</h1>
+        <div>
+          <p>Una solicitud de ARP se envía cuando un dispositivo necesita asociar una dirección MAC a una dirección IPv4 y no tiene una entrada para la dirección IPv4 en su tabla ARP. </p>
+          <p>Los mensajes de ARP se encapsulan directamente dentro de una trama de Ethernet. No se utiliza un encabezado de IPv4. El mensaje de solicitud de ARP incluye lo siguiente:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección IPv4 objetivo:</b> esta es la dirección IPv4 que requiere una dirección MAC correspondiente. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección MAC objetivo:</b> esta es la dirección MAC desconocida; en el mensaje de solicitud de ARP, está vacía.</li>
+            </ul>
+          </p>
+          <p>La solicitud de ARP se encapsula en una trama de Ethernet con la siguiente información de encabezado:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección MAC de destino:</b> esta es una dirección de difusión que requiere que todas las NIC Ethernet de la LAN acepten y procesen la solicitud de ARP.  </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección MAC de origen:</b> este es el remitente de la dirección MAC de la solicitud de ARP.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Tipo:</b> los mensajes de ARP tienen un campo de tipo de 0x806. Esto informa a la NIC receptora que la porción de datos de la trama se debe enviar al proceso ARP.</li>
+            </ul>
+          </p>
+          <p>Como las solicitudes de ARP son de difusión, el switch las envía por todos los puertos, excepto el de recepción. Todas las NIC Ethernet de la LAN procesan difusiones. Cada dispositivo debe procesar la solicitud de ARP para ver si la dirección IPv4 objetivo coincide con la suya. Un router no reenvía difusiones por otras interfaces.</p>
+          <p>Solo un dispositivo de la LAN tiene la dirección IPv4 que coincide con la dirección IPv4 objetivo de la solicitud de ARP. Todos los demás dispositivos no envían una respuesta.</p>
+          <p>Haga clic en Reproducir para ver una demostración de una solicitud de ARP para una dirección IPv4 de destino que está en la red local.</p>
+          <p>Haga clic <a href="../../files/5.3.2.3%20Video%20Slides%20-%20ARP%20Operation%20-%20ARP%20Request.pdf" target="_blank">aquí</a> para descargar el vídeo de diapositivas de la demostración.</p>
+          <p>Haga clic <a href="../../files/5.3.2.3%20Video%20-%20ARP%20Operation%20-%20ARP%20Request.pdf" target="_blank">aquí</a> para leer la transcripción de este vídeo.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" src="media/index.html" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a video with the title "ARP Request".</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

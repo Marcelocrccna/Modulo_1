@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.9 Fórmulas de división en subredes</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.9_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Fórmulas de división en subredes</h1>
+        <div>
+          <p>Para calcular la cantidad de subredes que se pueden crear a partir de los bits que se piden prestados, utilice la fórmula que se muestra en la figura 1. En la figura 2, se muestra la cantidad posible de subredes que se pueden crear cuando se piden prestados 1, 2, 3, 4, 5 o 6 bits. </p>
+          <p>
+            <b>Nota:</b> los últimos dos bits no se pueden tomar prestados del último octeto, ya que no habría direcciones de host disponibles. Por lo tanto, la longitud de prefijo más extensa posible cuando se divide en subredes es /30 o 255.255.255.252.</p>
+          <p>Para calcular la cantidad de hosts que se pueden admitir, utilice la fórmula que se muestra en la figura 3. Existen dos direcciones de subred que no se pueden asignar a un host: la dirección de red y la dirección de difusión, de modo que debemos restar 2.</p>
+          <p>Tal como se muestra en la figura 4, existen 7 bits de host restantes, por lo que el cálculo es 2^7 = 128 - 2 = 126. Esto significa que cada una de las subredes tiene 126 direcciones de host válidas.</p>
+          <p>Por lo tanto, si se toma prestado 1 bit de host para la red, se crean 2 subredes, y cada una de estas puede tener un total de 126 hosts asignados.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the formula “2 to the power of n” where “n” is the number of bits borrowed. Figure 2 shows the formula calculation from 1 bit borrowed up to 6 bits borrowed. 2 to the 1 power equals 1, 2 to the 2 power equals four, and so on until 2 to the 6 power equals 64. Figure 3 shows the formula “2 to power of n minus 2” where “ne” is the number bits remaining in the host portion. Figure 4 shows the 192.168.1.0/25 subnet. The host bits are highlighted. The formula for the number of valid hosts per subnet is 2 to the 7 minus 2 which equals 126.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

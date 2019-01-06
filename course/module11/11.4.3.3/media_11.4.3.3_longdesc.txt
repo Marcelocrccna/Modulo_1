@@ -1,0 +1,1 @@
+Figure shows a topology with a PC, a switch, and three routers. The PC is connected to the switch, which is connected to router R1, which is connected to router R2, which is connected to router R3. Below the topology is the command output for ‘ipconfig’ with the default gateway highlighted.

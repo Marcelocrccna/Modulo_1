@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.2.2.6 Dirección del siguiente salto</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.2.2.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Dirección del siguiente salto</h1>
+        <div>
+          <p>Cuando un paquete destinado a una red remota llega al router, el router hace coincidir la red de destino con una ruta de la tabla de routing. Si encuentra una coincidencia, el router envía el paquete a la dirección de siguiente salto de la interfaz identificada.</p>
+          <p>Consulte la topología de red de ejemplo de la figura 1. Suponga que la PC1 o la PC2 enviaron un paquete destinado a la red 10.1.1.0 o 10.1.2.0. Cuando el paquete llega a la interfaz Gigabit del R1, el R1 compara la dirección IPv4 de destino del paquete con las entradas de su tabla de routing. La tabla de routing se muestra en la figura 2. Según el contenido de su routing, el R1 envía el paquete por su interfaz serial 0/0/0 a la dirección de siguiente salto 209.165.200.226.</p>
+          <p>Observe cómo las redes conectadas directamente con un origen de ruta <b>C</b> y <b>L</b> no tienen dirección de siguiente salto. Esto se debe a que un router puede enviar paquetes directamente a los hosts de estas redes con la interfaz designada.</p>
+          <p>También es importante entender que los routers no pueden enviar paquetes sin una ruta a la red de destino en la tabla de routing. Si una ruta que representa la red de destino no está en la tabla de routing, el paquete se descarta (es decir, no se envía). Sin embargo, del mismo modo que un host puede usar un gateway predeterminado para reenviar un paquete a un destino desconocido, un router también puede incluir una ruta predeterminada para generar un gateway de último recurso. La ruta predeterminada puede configurarse manualmente u obtenerse de manera dinámica.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows two routers connected by a serial connection.  Each router has two LANs attached.  Figure 2 shows the output from "show ip route" command issued on router 1. The two routes learned by EIGRP have the next hop interface highlighted in orange.  The next hop is the IP address of the WAN interface on the remote router.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

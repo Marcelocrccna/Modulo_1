@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.1.2 Problemas con los dominios de difusión grandes</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Problemas con los dominios de difusión grandes</h1>
+        <div>
+          <p>Un dominio de difusión grande es una red que conecta muchos hosts. Un problema con un dominio de difusión grande es que estos hosts pueden generar difusiones excesivas y afectar la red de manera negativa. En la figura 1, la LAN 1 conecta 400 usuarios que podrían generar tráfico de difusión que tenga como resultado lo siguiente:</p>
+          <p>
+            <ul>
+              <li>Operaciones de red lentas a causa de la cantidad significativa de tráfico que se puede generar </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Operaciones de dispositivos lentas debido a que un dispositivo debe aceptar y procesar cada paquete de difusión.</li>
+            </ul>
+          </p>
+          <p>La solución es reducir el tamaño de la red para crear dominios de difusión más pequeños en un proceso que se denomina <i>división en subredes</i>. Estos espacios de red más pequeños se denominan <i>subredes</i>. </p>
+          <p>En la figura 2, por ejemplo, se dividieron los 400 usuarios de la LAN 1 con la dirección de red 172.16.0.0 /16 en dos subredes de 200 usuarios cada una: 172.16.0.0 /24 y 172.16.1.0 /24. Las difusiones solo se propagan dentro de los dominios de difusión más pequeños. Por lo tanto, una difusión en la LAN 1 no se propagaría a la LAN 2. </p>
+          <p>Observe cómo la longitud del prefijo cambió de /16 a /24. Esta es la base de la división en subredes: el uso de bits de host para crear subredes adicionales. </p>
+          <p>
+            <b>Nota:</b> los términos <i>subred</i> y <i>red</i> se suelen usar indistintamente. La mayoría de las redes son una subred de un bloque de direcciones más grande.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a router connected to the Internet and to another switch. The switch is connected to three other switches. A box encompasses all the switches and the router interface and is labeled “LAN1: 172.16.0.0/16 (400 users)”. Figure 2 shows a router connected to the Internet and two switches. Each switch is its on LAN with 200 users each.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

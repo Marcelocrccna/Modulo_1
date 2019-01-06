@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_10.2.2.3.png" />
+<element type="TEXT" compId="ID_txt07" x="484" y="180" width="101" expand="left+right" align="center" />
+<element type="TEXT" compId="ID_txt07a" x="484" y="296" width="101" expand="left+right" align="center" />
+<element type="TEXT" compId="ID_txt07b" x="484" y="371" width="101" expand="left+right" align="center" />
+<element type="TEXTBOX" titleId="" bodyId="ID_txt06" x="25" y="429" width="630" height="50" animated="1" subType="ROLLOVER" />
+<element type="TEXT" compId="ID_txt04" x="4" y="149" width="70" expand="down" align="center" />
+<element type="TEXT" compId="ID_txt01" x="281" y="383" width="136" expand="down" align="center" />
+<element type="TEXT" compId="ID_txt02" x="115" y="383" width="138" expand="down" align="center" />
+<element type="TEXT" compId="ID_txt08" x="332" y="140" width="34" expand="right" align="center" />
+<element type="TEXT" compId="ID_txt09" x="332" y="210" width="34" expand="right" align="center" />
+<element type="TEXT" compId="ID_txt10" x="332" y="284" width="34" expand="right" align="center" />
+<element type="TEXT" compId="ID_txt11" x="332" y="362" width="34" expand="right" align="center" />
+<element type="TEXT" compId="ID_txt03" x="128" y="171" width="110" expand="down" align="center" />
+<element type="TEXT" compId="ID_txt05" x="147" y="150" width="64" expand="down" align="center" />
+<element type="BUBBLE" compId="ID_bubble01" x="15" y="-33" width="186" height="128" align="left" tailPosition="5" tailFlip="0" />
+<element type="BUBBLE" compId="ID_bubble02" x="227" y="-32" width="223" height="126" align="left" tailPosition="6" tailFlip="0" />
+<element type="BUBBLE" compId="ID_bubble03" x="463" y="7" width="208" height="124" align="left" tailPosition="6" tailFlip="1" />
+	</slide>
+</data>

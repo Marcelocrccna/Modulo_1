@@ -1,0 +1,1 @@
+Figure is an animation showing a broadcast transmission.  A PC with the IP address 172.16.4.1 is sending a broadcast message to all the other devices.  The switch receives the frame and sends it out all other ports except for the port from which it received the frame. .

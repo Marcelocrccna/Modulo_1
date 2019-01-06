@@ -1,0 +1,15 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_s2_txt03{
+	padding: 5px 5px 5px 5px;
+}
+#ID_s1_txt01,#ID_s4_txt05
+{
+	background-color: #FFFFFF;
+padding-top: 5px !important;
+padding-bottom: 5px !important;
+box-shadow: 1px 1px 1px 1px #888888;
+}

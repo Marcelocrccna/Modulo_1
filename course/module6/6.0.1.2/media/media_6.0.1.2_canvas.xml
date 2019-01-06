@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_photo.jpg" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_6.0.1.2.png" />
+<element type="TEXT" compId="ID_box1" x="258" y="268" width="54.1" expand="up+down" align="center" size="10" />
+<element type="TEXT" compId="ID_box2" x="313" y="268" width="54.1" expand="up+down" align="center" size="10" />
+<element type="TEXT" compId="ID_box3" x="366.5" y="268" width="55.1" expand="up+down" align="center" size="10" />
+<element type="TEXT" compId="ID_txt05" x="290" y="83" width="87.95" expand="up" align="center" />
+<element type="TEXT" compId="ID_txt01" x="121" y="138" width="130" expand="down" align="left" size="10" class="orangeCallOut" />
+<element type="TEXT" compId="ID_txt02" x="383" y="103" width="170.95" expand="up" align="left" size="10" class="orangeCallOut" />
+<element type="TEXT" compId="ID_txt06" x="414" y="243" width="110.45" expand="up" align="center" size="10" />
+<element type="TEXTBOX" bodyId="ID_s1_txt06" x="110" y="327" width="453" height="132" animated="1" subType="ROLLOVER" />
+	</slide>
+</data>

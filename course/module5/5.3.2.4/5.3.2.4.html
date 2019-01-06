@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.3.2.4 Demostración en vídeo: Respuesta de ARP</title>
+    <!-- Activity / Other / Flash PnC -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.3.2.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Demostración en vídeo: Respuesta de ARP</h1>
+        <div>
+          <p>Solamente el dispositivo que tiene la dirección IPv4 asociada con la dirección IPv4 objetivo de la solicitud de ARP envía una respuesta de ARP. El mensaje de respuesta de ARP incluye lo siguiente:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección IPv4 del remitente:</b> esta es la dirección IPv4 del dispositivo cuya dirección MAC se solicitó. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección MAC del remitente:</b> esta es la dirección MAC que el remitente solicita por medio de la solicitud de ARP.</li>
+            </ul>
+          </p>
+          <p>La respuesta de ARP se encapsula en una trama de Ethernet con la siguiente información de encabezado:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección MAC de destino:</b> es la dirección MAC del remitente de la solicitud de ARP.  </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección MAC de origen:</b> este es el remitente de la dirección MAC de la respuesta de ARP.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Tipo:</b> los mensajes de ARP tienen un campo de tipo de 0x806. Esto informa a la NIC receptora que la porción de datos de la trama se debe enviar al proceso ARP.</li>
+            </ul>
+          </p>
+          <p>Solamente el dispositivo que envió inicialmente la solicitud de ARP recibe la respuesta de ARP de unidifusión. Una vez que recibe la respuesta de ARP, el dispositivo agrega la dirección IPv4 y la dirección MAC correspondiente a su tabla ARP. A partir de ese momento, los paquetes destinados para esa dirección IPv4 se pueden encapsular en las tramas con su dirección MAC correspondiente. </p>
+          <p>Haga clic en Reproducir en la ilustración para ver una demostración de una respuesta de ARP.</p>
+          <p>Haga clic <a href="../../files/5.3.2.4%20Video%20Slides%20-%20ARP%20Operation%20-%20ARP%20Reply.pdf" target="_blank">aquí</a> para descargar el vídeo de diapositivas de la demostración.</p>
+          <p>Si ningún dispositivo responde a la solicitud de ARP, el paquete se descarta porque no se puede crear una trama.</p>
+          <p>Las entradas de la tabla ARP tienen marcas de tiempo. Si un dispositivo no recibe una trama de un dispositivo determinado antes de que caduque la marca horaria, la entrada para este dispositivo se elimina de la tabla ARP.</p>
+          <p>Además, se pueden introducir entradas estáticas de asignaciones en una tabla ARP, pero esto no sucede con frecuencia. Las entradas estáticas de la tabla ARP no caducan con el tiempo y se deben eliminar de forma manual.</p>
+          <p>
+            <b>Nota:</b> IPv6 utiliza un proceso similar al ARP para IPv4 llamado “detección de vecinos (ND o NDP) ICMPv6”. IPv6 utiliza mensajes de solicitud de vecino y de anuncio de vecino similares a las solicitudes y respuestas de ARP de IPv4.</p>
+          <p>Haga clic <a href="../../files/5.3.2.4%20Video%20-%20ARP%20Operation%20-%20ARP%20Reply.pdf" target="_blank">aquí</a> para leer la transcripción de este vídeo.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" src="media/index.html" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a video with the title "ARP Reply".</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

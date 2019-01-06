@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide>
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+        <element type="IMAGE" x="0" y="0" width="680" height="490" src="media_11.2.1.2.png" />
+        <element type="TEXT" compId="ID_txt02" x="344" y="423" width="297.45" expand="down" align="center" />
+        <element type="TEXT" compId="ID_txt03" x="345" y="99" width="48.7" expand="down" align="center" />
+        <element type="TEXT" compId="ID_txt07" x="464" y="207" width="61.45" expand="left+right" align="center" />
+        <element type="TEXT" compId="ID_txt05" x="464" y="160" width="61.45" expand="up+down" align="center" />
+        <element type="TEXT" compId="ID_txt04" x="514" y="100" width="44.55" expand="left+right" align="center" />
+        <element type="TEXT" compId="ID_txt06" x="464" y="254" width="61.45" expand="left+right" align="center" />
+        <element type="TEXT" compId="ID_txt10" x="342" y="285" width="96.65" expand="right" align="center" />
+        <element type="TEXT" compId="ID_txt11" x="341" y="388" width="99.2" expand="up" align="center" />
+        <element type="TEXT" compId="ID_txt09" x="399" y="319" width="75.65" expand="down" align="center" />
+        <element type="TEXT" compId="ID_txt08" x="510" y="335" width="129.7" expand="up+down" align="left" size="10" />
+        <element type="TEXTBOX" titleId="ID_titleTxt01" bodyId="ID_bodyTxt01" x="32" y="75" width="263" height="329.5" animated="1" subType="ROLLOVER" />
+        <element type="TEXT" subType="TITLE" compId="ID_title" />
+    </slide>
+</data>

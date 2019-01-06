@@ -1,0 +1,44 @@
+<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Estructura de dirección IPv6 de unidifusión global</b>]]></text>
+	</component>
+	<component id="ID_s1_titleTxt01">
+		<text><![CDATA[Prefijo de routing global]]></text>
+	</component>
+	<component id="ID_s1_titleTxt02">
+		<text><![CDATA[ID de subred]]></text>
+	</component>
+	<component id="ID_s1_titleTxt03">
+		<text><![CDATA[ID de interfaz]]></text>
+	</component>
+	<component id="ID_s1_txt04">
+		<text><![CDATA[48 bits]]></text>
+	</component>
+	<component id="ID_s1_txt05">
+		<text><![CDATA[16 bits]]></text>
+	</component>
+	<component id="ID_s1_txt06">
+		<text><![CDATA[64 bits]]></text>
+	</component>
+	<component id="ID_s1_txt07">
+		<text><![CDATA[Un prefijo de routing /48 + ID de subred de 16 bits = prefijo /64.]]></text>
+	</component>
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Prefijo de<br>routing global]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[El proveedor asigna esta porción de prefijo, o de red, de la dirección. En general, los registros regionales de Internet (RIR) asignan un prefijo de routing global /48 a los ISP y a los clientes.]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[ID de subred]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt02">
+		<text><![CDATA[Utilizada por organizaciones para identificar subredes dentro de su ubicación.]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[ID de interfaz]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt03">
+		<text><![CDATA[Equivale a la porción de host de una dirección IPv4. Se utiliza el término “ID de interfaz” debido a que un único host puede tener varias interfaces, cada una con una o más direcciones IPv6.]]></text>
+	</component>
+</textcomponents>

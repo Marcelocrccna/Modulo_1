@@ -1,0 +1,1 @@
+Figure shows a NIC and a stack of fixed configuration switches.

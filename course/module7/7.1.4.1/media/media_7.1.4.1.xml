@@ -1,0 +1,27 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Las direcciones privadas no se pueden enrutar a través de Internet</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Internet]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Red 1]]></text>
+</component>
+
+
+<component id="ID_txt03">
+<text><![CDATA[Red 2]]></text>
+</component>
+
+
+<component id="ID_txt04">
+<text><![CDATA[Red 3]]></text>
+</component>
+
+
+
+</textcomponents>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.4.4 Configuración dinámica: DHCPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.4.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configuración dinámica: DHCPv6</h1>
+        <div>
+          <p>De manera predeterminada, el mensaje RA es la opción 1, solo SLAAC. La interfaz del router puede configurarse para enviar un anuncio de router mediante SLAAC y un DHCPv6 sin información de estado, o solo DHCPv6 con información de estado.</p>
+          <p>
+            <b>Opción 2 de RA: SLAAC y DHCPv6 sin información de estado</b>
+          </p>
+          <p>Con esta opción, el mensaje RA sugiere que el dispositivo use lo siguiente:</p>
+          <p>
+            <ul>
+              <li>SLAAC para crear su propia dirección IPv6 de unidifusión global.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>La dirección link-local del router, la dirección IPv6 de origen del RA para la dirección de gateway predeterminado</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Un servidor DHCPv6 sin información de estado que obtendrá otra información como la dirección del servidor DNS y el nombre de dominio</li>
+            </ul>
+          </p>
+          <p>Un servidor DHCPv6 sin información de estado distribuye las direcciones del servidor DNS y los nombres de dominio. No asigna direcciones de unidifusión globales. </p>
+          <p>
+            <b>Opción 3 de RA: DHCPv6 con información de estado</b>
+          </p>
+          <p>DHCPv6 con información de estado es similar a DHCP para IPv4. Un dispositivo puede recibir automáticamente la información de direccionamiento, que incluye una dirección de unidifusión global, la longitud de prefijo y las direcciones de los servidores DNS que usan los servicios de un servidor DHCPv6 con información de estado. </p>
+          <p>Con esta opción, el mensaje RA sugiere que el dispositivo use lo siguiente:</p>
+          <p>
+            <ul>
+              <li>La dirección link-local del router, la dirección IPv6 de origen del RA para la dirección de gateway predeterminado</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Un servidor DHCPv6 con información de estado para obtener una dirección de unidifusión global, una dirección del servidor DNS, un nombre de dominio y toda la información restante.</li>
+            </ul>
+          </p>
+          <p>Un servidor DHCPv6 con información de estado asigna y mantiene una lista de qué dispositivo recibe cuál dirección IPv6. DHCP para IPv4 tiene información de estado. </p>
+          <p>
+            <b>Nota:</b> la dirección de gateway predeterminado solo puede obtenerse de manera dinámica del mensaje RA. El servidor DHCPv6 con información de estado o sin ella no brinda la dirección de gateway predeterminado.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows a router advertisement message being sent by a router in response to a router solicitation message.  The router advertisement in the figure is using option two and it is telling the computer the prefix, prefix-length, and the default gateway to use.  It is also using Stateless Address Auto-configuration and tells the computer that a DHCPv6 server is needed for DNS information.  The computer then sends out a DHCPv6 solicit request looking for DNS information.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

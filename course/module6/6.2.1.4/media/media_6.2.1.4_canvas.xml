@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<slide>
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+		<element type="IMAGE" src="6_2_1_4_A.png" x="0" y="0" width="680" height="490"/>
+		<element type="ROUTER" textId="ID_router_txt1" color="#FFFFFF" x="40" y="162.55" width="600" height="300" size="11"/>
+		<text id="ID_router_txt1"><![CDATA[<pre>C:\Users\PC1> <b>netstat -r</b>
+
+IPv4 Route Table
+================================================================================
+Active Routes:
+Network Destination          Netmask        Gateway        Interface    Metric
+          0.0.0.0            0.0.0.0    192.168.10.1    192.168.10.10      25
+        127.0.0.0          255.0.0.0        On-link         127.0.0.1     306
+        127.0.0.1    255.255.255.255        On-link         127.0.0.1     306
+  127.255.255.255    255.255.255.255        On-link         127.0.0.1     306
+     192.168.10.0      255.255.255.0        On-link     192.168.10.10     281
+    192.168.10.10    255.255.255.255        On-link     192.168.10.10     281
+   192.168.10.255    255.255.255.255        On-link     192.168.10.10     281
+        224.0.0.0          240.0.0.0        On-link         127.0.0.1     306
+        224.0.0.0          240.0.0.0        On-link     192.168.10.10     281
+  255.255.255.255    255.255.255.255        On-link         127.0.0.1     306
+  255.255.255.255    255.255.255.255        On-link     192.168.10.10     281
+=================================================================================
+
+</pre>]]></text>
+		<element type="TEXT" compId="ID_txt05" x="54" y="186" width="104.5" expand="right" align="left" color="#ffffff" />
+		<element type="TEXT" compId="ID_txt06" x="54" y="432" width="104.5" expand="right" align="left" color="#ffffff" />
+		<element type="TEXT" id="ID_static_1" text="192.168.10.0/24" x="221.05" y="119.5" align="center" width="85" />
+		<element type="TEXT" id="ID_static_2" text=".10" x="164.85" y="84.05" align="center" width="21.15" />
+		<element type="TEXT" id="ID_static_3" text=".1" x="355.95" y="85.4" align="center" width="15.05" />
+		<element type="TEXT" subType="TITLE" compId="ID_title"/>
+	</slide>
+</data>
+

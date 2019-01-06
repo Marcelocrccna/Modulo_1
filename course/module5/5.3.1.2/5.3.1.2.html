@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.3.1.2 Red remota de destino</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.3.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Red remota de destino</h1>
+        <div>
+          <p>Cuando la dirección IP de destino está en una red remota, la dirección MAC de destino es la dirección del gateway predeterminado del host (la NIC del router) como se muestra en la ilustración. Si utilizamos una analogía de correo postal, esto sería similar a cuando una persona lleva una carta a la oficina postal local. Todo lo que debe hacer es llevar la carta a la oficina postal. A partir de ese momento, se vuelve responsabilidad de la oficina postal reenviar la carta al destino final.</p>
+          <p>En la ilustración, se muestran las direcciones MAC Ethernet y las direcciones IPv4 de la PC-A enviando un paquete IP al servidor web en una red remota. Los routers examinan la dirección IPv4 de destino para determinar la mejor ruta para reenviar el paquete IPv4. Esto es similar a la manera en que el servicio postal reenvía el correo según la dirección del destinatario. </p>
+          <p>Cuando el router recibe una trama de Ethernet, desencapsula la información de capa 2. Por medio de la dirección IP de destino, determina el dispositivo del siguiente salto y desencapsula el paquete IP en una nueva trama de enlace de datos para la interfaz de salida. Junto con cada enlace en una ruta, se encapsula un paquete IP en una trama específica para la tecnología de enlace de datos particular relacionada con ese enlace, como Ethernet. Si el dispositivo del siguiente salto es el destino final, la dirección MAC de destino es la de la NIC Ethernet del dispositivo.  </p>
+          <p>¿Cómo se asocian las direcciones IPv4 de los paquetes IPv4 en un flujo de datos con las direcciones MAC en cada enlace a lo largo de la ruta hacia el destino? Esto se realiza mediante un proceso llamado “protocolo de resolución de direcciones (ARP)”.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows PC A connected to router 1, which is connected to R2. R2 is connected to a file server. PC A is sending data to the file server. PC A builds a packet with its own IP address as the source and the destination IP address of the file server. PC A then builds a frame with its own MAC address as the source and the MAC address for R1 as the destination.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

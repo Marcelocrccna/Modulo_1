@@ -1,0 +1,1 @@
+Figure shows three PCs connected to a switch. The switch is connected to router 1. Router 1 is connected to a cloud labeled “network”. PC A is sending an ARP request for the MAC address of the default gateway. PC C intercepts the request and sends back an ARP reply, pretending to be the default gateway, router 1.

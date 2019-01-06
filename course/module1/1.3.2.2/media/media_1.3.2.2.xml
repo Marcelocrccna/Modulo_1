@@ -1,0 +1,12 @@
+﻿<textcomponents><!-- slide 1 --><component id="ID_title">
+<text><![CDATA[<b>Tolerancia a fallas</b>]]></text> 
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Internet]]></text> 
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Las conexiones redundantes permiten usar rutas alternativas cuando falla un dispositivo o un enlace.  La experiencia del usuario no se ve afectada.]]></text> 
+</component>
+</textcomponents>

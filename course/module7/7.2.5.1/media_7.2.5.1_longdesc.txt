@@ -1,0 +1,1 @@
+Figure shows a router with a switch connected to one gigabit Ethernet port. There are 2 computers, a server, and a printer connected to the switch.  The router is sending an IPv6 all-nodes multicast message to destination address FF02::1.  The message is sent out to all the IPv6 enabled devices that are connected to the switch.  

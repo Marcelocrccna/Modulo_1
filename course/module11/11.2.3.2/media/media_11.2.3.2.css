@@ -1,0 +1,8 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_txt_01, #ID_txt_02, #ID_txt_03 {
+	color: #393536 !important;
+}

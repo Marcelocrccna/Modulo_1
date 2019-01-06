@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.4.1 División en subredes basada en necesidad de hosts</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.4.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>División en subredes basada en necesidad de hosts</h1>
+        <div>
+          <p>Existen dos factores que se deben tener en cuenta al planificar las subredes: </p>
+          <p>
+            <ul>
+              <li>El número de direcciones de host que se requieren para cada red </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>El número de subredes individuales necesarias </li>
+            </ul>
+          </p>
+          <p>En la tabla de la ilustración, se muestran las especificaciones para una división en subredes de una red /24. Observe que existe una relación inversa entre la cantidad de subredes y la cantidad de hosts. Cuantos más bits se toman prestados para crear subredes, menor es la cantidad de bits de host disponibles. Si se necesitan más direcciones de host, se requieren más bits de host, lo que tiene como resultado menos subredes.</p>
+          <p>La cantidad de direcciones de host que se requieren en la subred más grande determina cuántos bits se deben dejar en la porción de host. Recuerde que dos de las direcciones no se pueden utilizar, de modo que la cantidad utilizable de direcciones se puede calcular mediante la fórmula 2^n - 2. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a table. The first column lists the six prefix lengths from /25 to /30. The second column lists the six subnet masks from 255.255.255.128 to 255.255.255.252. The third column shows the subnet mask in binary with the letter “n” above one bits and the letter “h” above zero bits. The effect is to show the borrowing of bits into the fourth octet from borrowing one bit in the first row (/25) to borrowing six bits in the last row (/30). The fourth and fifth columns show the number of subnets and hosts respectively. For example, borrowing 3 bits gets you 8 subnets with 30 hosts per subnet.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

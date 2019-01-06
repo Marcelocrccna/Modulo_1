@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.1.4.4 Encabezado de paquetes IPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.1.4.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Encabezado de paquetes IPv6</h1>
+        <div>
+          <p>Los campos del encabezado de paquetes IPv6 incluyen lo siguiente:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Versión:</b> Este campo contiene un valor binario de 4 bits establecido en 0110 que lo identifica como un paquete IP versión 6.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Clase de tráfico:</b> Este campo de 8 bits es el equivalente al campo DS de IPv4 </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Etiqueta de flujo:</b> Este campo de 20 bits sugiere que todos los paquetes con la misma etiqueta de flujo reciben el mismo tipo de manejo de los routers.<b></b></li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Longitud de contenido:</b> Este campo de 16 bits indica la longitud de la porción de datos o la longitud de contenido del paquete IPv6. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Encabezado siguiente:</b> Este campo de 8 bits es el equivalente al campo protocolo de IPv4. Es un valor que indica el tipo de contenido de datos que lleva el paquete, lo que permite que la capa de red transmita la información al protocolo de capa superior apropiado. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Límite de saltos:</b> Este campo de 8 bits reemplaza al campo TTL de IPv4. Cada router que reenvía el paquete reduce este valor en 1. Cuando llega a cero, se descarta el paquete y se envía un mensaje de tiempo superado de ICMPv6 al host de origen que indica que el paquete no llegó a destino porque excedió el límite de saltos.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección IPv6 de origen</b>: es un campo de 128 bits que identifica la dirección IPv6 del host emisor. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección IPv6 de destino</b>: es un campo de 128 bits que identifica la dirección IPv6 del host receptor.</li>
+            </ul>
+          </p>
+          <p>Un paquete IPv6 también puede contener encabezados de extensión (EH), que proveen información optativa de la capa de red. Los encabezados de extensión son opcionales y están ubicados entre el encabezado de IPv6 y el contenido. Los EH se usan para fragmentar, dar seguridad, admitir la movilidad y otras acciones.</p>
+          <p>A diferencia de IPv4, los routers no fragmentan de los paquetes IPv6 enrutados.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the IPv6 header with the following fields: Version, Traffic Class, Flow Label, Payload Length, Next Header, Hop Limit, Source Address and Destination Address.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

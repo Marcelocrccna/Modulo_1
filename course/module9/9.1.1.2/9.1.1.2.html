@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.1.1.2 Responsabilidades de la capa de transporte</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.1.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Responsabilidades de la capa de transporte</h1>
+        <div>
+          <p>
+            <b>Seguimiento de conversaciones individuales</b>
+          </p>
+          <p>En la capa de transporte, cada conjunto de datos que fluye entre una aplicación de origen y una de destino se conoce como “conversación” (figura 1). Un host puede tener varias aplicaciones que se comunican a través de la red de forma simultánea. Cada una de estas aplicaciones se comunica con una o más aplicaciones en uno o más hosts remotos. Es responsabilidad de la capa de transporte mantener y hacer un seguimiento de todas estas conversaciones.</p>
+          <p>
+            <b>Segmentación de datos y rearmado de segmentos</b>
+          </p>
+          <p>Se deben preparar los datos para el envío a través de los medios en partes manejables. La mayoría de las redes tienen un límite de la cantidad de datos que se puede incluir en un solo paquete. Los protocolos de la capa de transporte tienen servicios que segmentan los datos de aplicación en bloques de un tamaño apropiado (figura 2). Estos servicios incluyen el encapsulamiento necesario en cada porción de datos. Se agrega un encabezado a cada bloque de datos para el rearmado. Este encabezado se utiliza para hacer un seguimiento del flujo de datos.</p>
+          <p>En el destino, la capa de transporte debe poder reconstruir las porciones de datos en un flujo de datos completo que sea útil para la capa de aplicación. Los protocolos en la capa de transporte describen cómo se utiliza la información del encabezado de dicha capa para rearmar las porciones de datos en flujos y transmitirlos a la capa de aplicación.</p>
+          <p>
+            <b>Identificación de las aplicaciones </b>
+          </p>
+          <p>Para pasar flujos de datos a las aplicaciones adecuadas, la capa de transporte debe identificar la aplicación objetivo (figura 3). Para lograrlo, la capa de transporte asigna un identificador a cada aplicación, llamado número de puerto. A todos los procesos de software que requieran acceso a la red se les asigna un número de puerto exclusivo para ese host.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a single computer that has multiple web pages open along with an instant messaging window, an e-mail application, a streaming video application and a VoIP phone application running.  This represents that a computer typically has more than one process running any one time and it is the transport layer that tracks each individual conversation flowing between a source application and a destination application separately. Figure 2 shows a series of data blocks being transmitted to the computer.  The data blocks are of varying colors which correspond to different services. Figure 3 shows the computer sending the packages to the proper application, the web browser, the e-mail client, the streaming video application or the VoIP phone.  Each application has a specific data block color.  This represents the computer sorting the data based on application. Figure four shows the setup and termination of a data transfer session between a host and a server.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

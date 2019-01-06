@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.3.1.1 ICMPv4 e ICMPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.3.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>ICMPv4 e ICMPv6</h1>
+        <div>
+          <p>Si bien IP es solo un protocolo de máximo esfuerzo, el paquete TCP/IP permite que los mensajes se envíen en caso de que se produzcan determinados errores. Estos mensajes se envían mediante los servicios de ICMP. El objetivo de estos mensajes es proporcionar respuestas acerca de temas relacionados con el procesamiento de paquetes IP en determinadas condiciones, no es hacer que IP sea confiable. Los mensajes de ICMP no son obligatorios y, a menudo, no se permiten dentro de una red por razones de seguridad.</p>
+          <p>El protocolo ICMP está disponible tanto para IPv4 como para IPv6. El protocolo de mensajes para IPv4 es ICMPv4. ICMPv6 proporciona estos mismos servicios para IPv6, pero incluye funcionalidad adicional. En este curso, el término ICMP se utilizará para referirse tanto a ICMPv4 como a ICMPv6.</p>
+          <p>Existe una gran variedad de tipos de mensajes de ICMP y de razones para enviarlos. Analizaremos algunos de los mensajes más comunes.</p>
+          <p>Los mensajes ICMP comunes a ICMPv4 y a ICMPv6 incluyen lo siguiente:</p>
+          <p>
+            <ul>
+              <li>Confirmación de host</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Destino o servicio inaccesible</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Tiempo superado</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Redireccionamiento de ruta</li>
+            </ul>
+          </p>
+          <p>
+            <b>Confirmación de host</b>
+          </p>
+          <p>Se puede utilizar un mensaje de eco ICMP para determinar si un host funciona. El host local envía una solicitud de eco ICMP a un host. Si el host se encuentra disponible, el host de destino responde con una respuesta de eco. En la ilustración, haga clic en el botón Reproducir para ver una animación de la solicitud de eco/respuesta de eco ICMP. Este uso de los mensajes de eco ICMP es la base de la utilidad ping. </p>
+          <p>
+            <b>Destino o servicio inaccesible</b>
+          </p>
+          <p>Cuando un host o gateway recibe un paquete que no puede entregar, puede utilizar un mensaje ICMP de destino inalcanzable para notificar al origen que el destino o el servicio son inalcanzables. El mensaje incluye un código que indica el motivo por el cual no se pudo entregar el paquete.</p>
+          <p>Algunos de los códigos de destino inalcanzable para ICMPv4 son los siguientes:</p>
+          <p>
+            <ul>
+              <li>0: red inalcanzable</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>1: host inalcanzable</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>2: protocolo inalcanzable</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>3: puerto inalcanzable</li>
+            </ul>
+          </p>
+          <p>
+            <b>Nota:</b> ICMPv6 tiene códigos similares, pero levemente diferentes para los mensajes de destino inalcanzable.</p>
+          <p>
+            <b>Tiempo superado</b>
+          </p>
+          <p>Los routers utilizan los mensajes de tiempo superado de ICMPv4 para indicar que un paquete no puede reenviarse debido a que el campo de tiempo de duración (TTL) del paquete se disminuyó a 0. Si un router recibe un paquete y disminuye el campo TTL en el paquete IPV4 a cero, descarta el paquete y envía un mensaje de tiempo superado al host de origen.</p>
+          <p>ICMPv6 también envía un mensaje de tiempo superado si el router no puede reenviar un paquete IPv6 debido a que el paquete caducó. IPv6 no tiene un campo TTL, por lo que utiliza el campo de límite de saltos para determinar si el paquete caducó.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is an animation that shows a computer with an IPv4 address of 192.168.10.1 sending an ICMP echo request to a computer with an IPv4 address of 192.168.30.1.  The message travels from the sending computer through a switch to a router.  That router sends the request to another router, then to a switch, and finally to the destination computer.  The receiving computer sends back an ICMP echo reply.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

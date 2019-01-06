@@ -1,0 +1,1 @@
+Figure shows the IP header portion of a packet. Clicking buttons for “connectionless”, “best effort”, and “media independent” provide additional information.

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.3.2.1 Configuración manual de dirección IP para terminales</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.3.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configuración manual de dirección IP para terminales</h1>
+        <div>
+          <p>Para que un terminal se comunique a través de la red, se debe configurar con una dirección IPv4 y una máscara de subred únicas. La información de dirección IP se puede introducir en los terminales en forma manual o automáticamente mediante el Protocolo de configuración dinámica de host (DHCP). </p>
+          <p></p>
+          <p>Para configurar una dirección IPv4 de forma manual en un host de Windows, abra <b>Panel de Control > Centro de redes y recursos compartidos > Cambiar configuración del adaptador</b> y seleccione el adaptador. Luego, haga clic con el botón secundario y seleccione <b>Propiedades</b> para que aparezcan las <b>Propiedades de conexión de área local</b>, como se muestra en la figura 1. </p>
+          <p></p>
+          <p>Resalte el protocolo de Internet versión 4 (TCP/IPv4) y haga clic en <b>Propiedades</b> para abrir la ventana de <b>Propiedades del protocolo de Internet versión 4 (TCP/IPv4)</b>, como se muestra en la figura 2. Configure la información de la dirección IPv4 y la máscara de subred, y el gateway predeterminado. </p>
+          <p></p>
+          <p>
+            <b>Nota</b>: La dirección del servidor DNS es la dirección IPv4 del servidor del sistema de nombres de dominio (DNS), que se utiliza para traducir direcciones IP a direcciones web, como <a href="http://www.cisco.com/" target="_blank">www.cisco.com</a>.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the Windows Local Area Connection Properties window with “Internet Protocol Version 4 (TCP/IPv4)” selected. Figure 2 shows the Windows TCP/IPv4 Properties window with IP address information statically configured</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

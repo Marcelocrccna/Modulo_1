@@ -1,0 +1,1 @@
+Figure shows a graphic labeled with the four characteristics of reliable networks: fault tolerance, scalability, QoS, and security.

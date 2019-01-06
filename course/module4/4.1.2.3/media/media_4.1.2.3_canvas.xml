@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data> 
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_4.1.2.3.png" />
+<element type="TEXT" compId="ID_s1_txt02" x="293" y="350" width="338.85" expand="up+down" align="left" class="orangeCallOut" />
+<element type="TEXT" compId="ID_s1_txt01" x="293" y="192" width="338.85" expand="up+down" align="left" class="orangeCallOut" />
+<element type="TEXT" compId="ID_osi_txt07" x="78" y="96" width="153.7" expand="left+right" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt06" x="78" y="141" width="153.7" expand="left+right" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt05" x="78" y="186" width="153.7" expand="left+right" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt04" x="78" y="231" width="153.7" expand="left+right" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt03" x="78" y="276" width="153.7" expand="left+right" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt02" x="78" y="321" width="153.7" expand="left+right" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_osi_txt01" x="78" y="366" width="153.7" expand="left+right" align="center" color="#ffffff" />
+</slide>
+
+</data>

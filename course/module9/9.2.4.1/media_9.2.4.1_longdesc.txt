@@ -1,0 +1,1 @@
+Figure shows common applications that use TCP including HTTP, FTP, SMTP, and Telnet.

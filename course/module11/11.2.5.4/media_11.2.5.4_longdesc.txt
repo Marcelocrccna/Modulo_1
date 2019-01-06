@@ -1,0 +1,1 @@
+The figure shows the output of the copy running-config tftp command on a router.  This will allow the user to make a backup of the current configuration to a TFTP server on the network.

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide type="MBAR">	 
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF"/>
+<element type="ROUTER" textId="ID_router_txt1" x="40" y="93.9" width="600" height="320" />
+<text id="ID_router_txt1"><![CDATA[<pre>C:\><b>ipconfig/all</b>
+
+Ethernet adapter Local Area Connection:
+
+   Connection-specific DNS Suffix  . : example.com
+   Description . . . . . . . . . . . : Intel(R) Gigabit Network Connection
+   <span class="textOrange">Physical Address. . . . . . . . . : 00-18-DE-DD-A7-B2</span>
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::449f:c2:de06:ebad%10(Preferred)
+   IPv4 Address. . . . . . . . . . . : 10.10.10.2(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Monday, June 01, 2015 11:19:48 AM
+   Lease Expires . . . . . . . . . . : Thursday, June 04, 2015 11:19:49 PM
+   Default Gateway . . . . . . . . . : 10.10.10.1
+   DHCP Server . . . . . . . . . . . : 10.10.10.1
+   DNS Servers . . . . . . . . . . . : 10.10.10.1
+</pre>]]></text>
+</slide>
+
+
+
+<slide>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_5.1.2.4_s2.png" />
+<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+<element type="TEXT" compId="ID_s2_txt01" x="208" y="166" width="266.25" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s2_txt02" x="208" y="236" width="266.25" expand="up+down" align="center" color="#ffffff" />
+<element type="TEXT" compId="ID_s2_txt03" x="208" y="309" width="266.25" expand="up+down" align="center" color="#ffffff" />
+</slide>
+
+
+</slide>
+
+
+
+
+
+</data>
+
+
+
+
+
+
+
+<!-- <text id="ID_router_txt1"><![CDATA[<pre>C:\><b>ipconfig/all</b>
+
+Ethernet adapter Local Area Connection:
+
+   Connection-specific DNS Suffix  . : example.com
+   Description . . . . . . . . . . . : Intel(R) Gigabit Network Connection
+   <span class="textOrange">Physical Address. . . . . . . . . : 00-18-DE-DD-A7-B2</span>
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::449f:c2:de06:ebad%10(Preferred)
+   IPv4 Address. . . . . . . . . . . : 10.10.10.2(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Monday, June 01, 2015 11:19:48 AM
+   Lease Expires . . . . . . . . . . : Thursday, June 04, 2015 11:19:49 PM
+   Default Gateway . . . . . . . . . : 10.10.10.1
+   DHCP Server . . . . . . . . . . . : 10.10.10.1
+   DNS Servers . . . . . . . . . . . : 10.10.10.1
+</pre>]]></text> -->

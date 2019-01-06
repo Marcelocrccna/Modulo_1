@@ -1,0 +1,29 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Aplicaciones que utilizan TCP</b>]]></text>
+</component>
+
+<component id="ID_text01">
+<text><![CDATA[HTTP]]></text>
+</component>
+
+<component id="ID_text02">
+<text><![CDATA[FTP]]></text>
+</component>
+
+<component id="ID_text03">
+<text><![CDATA[SMTP]]></text>
+</component>
+
+<component id="ID_text04">
+<text><![CDATA[Telnet]]></text>
+</component>
+
+<component id="ID_text05">
+<text><![CDATA[TCP]]></text>
+</component>
+
+<component id="ID_text06">
+<text><![CDATA[IP]]></text>
+</component>
+</textcomponents>

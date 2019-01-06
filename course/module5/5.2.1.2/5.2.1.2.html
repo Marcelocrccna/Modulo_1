@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.1.2 Obtención de direcciones MAC</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Obtención de direcciones MAC</h1>
+        <div>
+          <p>El switch arma la tabla de direcciones MAC de manera dinámica después de examinar la dirección MAC de origen de las tramas recibidas en un puerto. El switch reenvía las tramas después de buscar una coincidencia entre la dirección MAC de destino de la trama y una entrada de la tabla de direcciones MAC. </p>
+          <p>El siguiente proceso se realiza para cada trama de Ethernet que ingresa a un switch.</p>
+          <p>
+            <b>Aprendizaje: Examinar la dirección MAC de origen</b>
+          </p>
+          <p>Se revisa cada trama que ingresa a un switch para obtener información nueva. Esto se realiza examinando la dirección MAC de origen de la trama y el número de puerto por el que ingresó al switch.</p>
+          <p>
+            <ul>
+              <li>Si la dirección MAC de origen no existe, se la agrega a la tabla, junto con el número de puerto de entrada. En la figura 1, la PC-A está enviando una trama de Ethernet a la PC-D. El switch agrega a la tabla la dirección MAC de la PC-A.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Si la dirección MAC de origen existe, el switch actualiza el temporizador de actualización para esa entrada. De manera predeterminada, la mayoría de los switches Ethernet guardan una entrada en la tabla durante cinco minutos. </li>
+            </ul>
+          </p>
+          <p>
+            <b>Nota:</b> si la dirección MAC de origen existe en la tabla, pero en un puerto diferente, el switch la trata como una entrada nueva. La entrada se reemplaza con la misma dirección MAC, pero con el número de puerto más actual. </p>
+          <p>
+            <b>Reenvío: Examinar la dirección MAC de destino</b>
+          </p>
+          <p>A continuación, si la dirección MAC de destino es una dirección de unidifusión, el switch busca una coincidencia entre la dirección MAC de destino de la trama y una entrada de la tabla de direcciones MAC. </p>
+          <p>
+            <ul>
+              <li>Si la dirección MAC de destino está en la tabla, reenvía la trama por el puerto especificado.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Si la dirección MAC de destino no está en la tabla, el switch reenvía la trama por todos los puertos, excepto el de entrada. Esto se conoce como “unidifusión desconocida”. Como se muestra en la figura 2, el switch no tiene la dirección MAC de destino de la PC-D en la tabla, por lo que envía la trama por todos los puertos, excepto el 1. </li>
+            </ul>
+          </p>
+          <p>
+            <b>Nota:</b> si la dirección MAC de destino es de difusión o de multidifusión, la trama también se envía por todos los puertos, excepto el de entrada. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a four port switch with four PCs attached one to each port. The PCs are named A, B, C, and D. The abbreviated MAC addresses are 00-0A, 00-0B, 00-0C, and 00-0D. The switch MAC address table is also shown. A is sending a frame to D. The switch enters the source MAC address for A in the MAC address table. In Figure 2, the switch doesn’t have the MAC address for D in the MAC address table, so it forwards the frame from A out all other ports (2, 3, and 4).</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

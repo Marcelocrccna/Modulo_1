@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+ <slide>
+<element type="IMAGE" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" x="0" y="0" width="680" height="490" />
+<element type="TEXT" subType="TITLE" compId="ID_title"/>
+<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_7.1.4.6.png"/>
+
+
+<element type="TEXT" compId="ID_txt01" x="128.45" y="124.6" width="100" expand="up+down" align="center"  color="#ffffff" size="12" />
+<element type="TEXT" compId="ID_txt02" x="271.95" y="245.45" width="100" expand="up+down" align="center"  color="#ffffff" size="12" />
+<element type="TEXT" compId="ID_txt03" x="110" y="318.45" width="100" expand="up+down" align="center"  color="#ffffff" size="12" />
+<element type="TEXT" compId="ID_txt04" x="73" y="205.45" width="100" expand="up+down" align="center"  color="#ffffff" size="12" />
+
+<element type="TEXT" compId="ID_txt05" x="462" y="107" width="100" expand="up+down" align="left"  color="#ffffff" size="14" />
+<element type="TEXT" compId="ID_txt06" x="462" y="142.6" width="170" expand="up+down" align="left"  color="#ffffff" size="11" />
+
+
+<element type="TEXT" compId="ID_txt08" x="462" y="205.6" width="100" expand="up+down" align="left"  color="#ffffff" size="14" />
+<element type="TEXT" compId="ID_txt09" x="462" y="241.2" width="170" expand="up+down" align="left"  color="#ffffff" size="11" />
+
+
+<element type="TEXT" compId="ID_txt11" x="462" y="307.6" width="100" expand="up+down" align="left"  color="#ffffff" size="14" />
+<element type="TEXT" compId="ID_txt12" x="462" y="343.2" width="170" expand="up+down" align="left"  color="#ffffff" size="11" />
+
+
+</slide>
+</data>

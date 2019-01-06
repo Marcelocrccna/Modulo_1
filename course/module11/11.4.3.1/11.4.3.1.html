@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.4.3.1 Problemas de asignación de direcciones IP en dispositivos IOS</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.4.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Problemas de asignación de direcciones IP en dispositivos IOS</h1>
+        <div>
+          <p>Los problemas relacionados con la dirección IP probablemente evitarán la comunicación de los dispositivos de redes remotas. Debido a que las direcciones IP son jerárquicas, cualquier dirección IP asignada a un dispositivo de red debe adaptarse al rango de direcciones de esa red. Las direcciones IP asignadas incorrectamente crean una variedad de problemas, incluso conflictos de direcciones IP y problemas de routing.</p>
+          <p></p>
+          <p>Dos causas comunes de asignación incorrecta de IPv4 son los errores manuales de asignación o los problemas relacionados con DHCP.</p>
+          <p></p>
+          <p>Los administradores de redes tienen que asignar a menudo las direcciones IP manualmente a los dispositivos como servidores y routers. Si se genera un error durante la asignación, es muy probable que ocurran problemas de comunicación con el dispositivo.</p>
+          <p></p>
+          <p>En un dispositivo IOS, utilice los comandos <b>show ip interface</b> o <b>show ip interface brief</b> para comprobar qué direcciones IPv4 se asignan a las interfaces de red. En la ilustración, se muestra el resultado del comando <b>show ip interface</b> emitido en R1. Observe que el resultado muestra la información de IPv4 (capa 3 de OSI), mientras que el comando <b>show interfaces</b> mencionado anteriormente muestra los detalles físicos y del enlace de datos de una interfaz.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description"> Figure shows a topology with a PC, a switch, and three routers. The PC is connected to the switch, which is connected to router R1, which is connected to router R2, which is connected to router R3. Below the topology is the command output for ‘show ip interface gigabitethernet0/0’ with the IP address highlighted. </div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

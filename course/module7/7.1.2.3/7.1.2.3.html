@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.2.3 AND lógico</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>AND lógico</h1>
+        <div>
+          <p>El AND lógico es una de las tres operaciones binarias básicas que se utilizan en la lógica digital. Las otras dos son OR y NOT. Si bien en las redes de datos se usan las tres, solo AND se usa para determinar la dirección de red. Por lo tanto, nuestro debate en este punto se limita a la operación lógica AND. </p>
+          <p>La operación lógica AND es la comparación de dos bits que producen los resultados que se muestran en la figura 1. Observe que solo mediante 1 AND 1 se obtiene 1.</p>
+          <p>Para identificar la dirección de red de un host IPv4, se recurre a la operación lógica AND para la dirección IPv4, bit por bit, con la máscara de subred. El uso de la operación AND entre la dirección y la máscara de subred produce la dirección de red. </p>
+          <p>Para demostrar cómo se usa AND para detectar una dirección de red, piense en un host con la dirección IPv4 192.168.10.10 y la máscara de subred 255.255.255.0. En la figura 2, se muestra la dirección de host IPv4 y la conversión a dirección binaria. En la figura 3, se agrega la dirección binaria de la máscara de subred del host. </p>
+          <p>En las secciones resaltadas en amarillo de la figura 4, se identifican los bits AND que produjeron un 1 binario en la fila de Resultados AND. Todas las demás comparaciones de bits producen 0 binarios. Observe cómo el último octeto ya no tiene bits 1 binarios. </p>
+          <p>Por último, en la figura 5, se muestra la dirección de red resultante 192.168.10.0 255.255.255.0. Por lo tanto, el host 192.168.10.10 está en la red 192.168.10.0 255.255.255.0.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the logical AND operation where 1 and 1 equal 1 and all other possibilities equal zero. Figure 2 shows the dotted decimal and binary formats for the IP address 192.168.10.10. Figure 3 adds the dotted decimal and binary formats for the subnet mask 255.255.255.0 to Figure 2. Figure 4 shows the ANDing operation between the binary format of the IP address and the binary format of the subnet mask. Figure 5 shows the result of the ANDing operation is the network address, 192.168.10.0</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

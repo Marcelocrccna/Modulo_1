@@ -1,0 +1,1 @@
+The figure shows router output for configuring encrypted line passwords and setting restrictions on password length or failed attempts. Commands entered include “security password-encryption”, “security password min-length 8”, login block-for 120 attempts 3 within 60”, and “exec-timeout 10” on the VTY lines.

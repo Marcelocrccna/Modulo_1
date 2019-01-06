@@ -1,0 +1,12 @@
+@import url('../../../common/styles/media2.css');
+#ID_txt13_02 {
+	line-height: 10px;
+	margin-top: 13px;
+	letter-spacing: 0px;
+	margin-left: -2px;
+	font-size: 9px !important;
+}
+#ID_txt_09_03,#ID_txt_09_02,#ID_txt08_04,#ID_txt08_03
+{
+	color: #FFFFFF !important;
+}

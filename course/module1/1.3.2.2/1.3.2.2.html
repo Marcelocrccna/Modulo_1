@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>1.3.2.2 Tolerancia a fallas</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_1.3.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Tolerancia a fallas</h1>
+        <div>
+          <p>Se espera que Internet esté siempre disponible para los millones de usuarios que confían en ese servicio. Para lograrlo, se requiere una arquitectura de red desarrollada para tener tolerancia a fallas.  Una red con tolerancia a fallas es aquella que limita el impacto de las fallas, de modo que la cantidad de dispositivos afectados sea la menor posible.  Además, se arma de forma tal que permita una recuperación rápida cuando se produce una falla.  Estas redes dependen de varias rutas entre el origen y el destino del mensaje. Si falla una ruta, los mensajes se pueden enviar inmediatamente por otro enlace. El hecho de que haya varias rutas que conducen a un destino se denomina “redundancia”.  </p>
+          <p></p>
+          <p>Una de las formas en la que las redes confiables proporcionan redundancia es mediante la implementación de una red conmutada por paquetes.  La conmutación por paquetes divide el tráfico en paquetes que se enrutan a través de una red compartida.  Un solo mensaje, como un correo electrónico o una transmisión de vídeo, se divide en múltiples bloques de mensajes, llamados paquetes. Cada paquete tiene la información de dirección necesaria del origen y el destino del mensaje. Los routers dentro de la red conmutan los paquetes según la condición de la red en ese momento. Esto significa que todos los paquetes en un mismo mensaje pueden tomar distintas rutas para llegar a destino. En la figura, el usuario no se da cuenta y no se ve afectado por el cambio dinámico de rutas que hace el router cuando falla un enlace.</p>
+          <p></p>
+          <p>Esto no sucede en las redes de conmutación de circuitos que, tradicionalmente, se utilizan para las comunicaciones de voz. Una red de conmutación de circuitos es aquella que establece un circuito dedicado entre el origen y el destino antes de que los usuarios se puedan comunicar. Si la llamada se termina de forma inesperada, los usuarios deben iniciar una conexión nueva. </p>
+          <p></p>
+                 </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows redundant links between routers which allow for alternate paths providing fault tolerance.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

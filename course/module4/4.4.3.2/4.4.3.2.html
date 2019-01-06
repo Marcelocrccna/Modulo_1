@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.4.3.2 Half duplex y Full duplex</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.4.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Half duplex y Full duplex</h1>
+        <div>
+          <p>Las comunicaciones dúplex refieren a la dirección en la que se transmiten los datos entre dos dispositivos. Las comunicaciones half-duplex limitan el intercambio de datos a una dirección a la vez, mientras que el dúplex completo permite el envío y recepción de datos simultáneo.</p>
+          <p>
+            <ul>
+              <li>
+                <b>Comunicación half-duplex:</b> los dos dispositivos pueden transmitir y recibir en los medios pero no pueden hacerlo simultáneamente. El modo half-duplex se utiliza en topologías de bus antiguas y en directorios externos. Las redes WLAN también operan en half-duplex. Half-duplex también permite que solo un dispositivo envíe o reciba a la ve en el medio compartido, y se utiliza con métodos de acceso por contención. En la figura 1, se muestra la comunicación half-duplex.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Comunicación de dúplex completo:</b> los dos dispositivos pueden transmitir y recibir en los medios al mismo tiempo. La capa de enlace de datos supone que los medios están disponibles para transmitir para ambos nodos en cualquier momento. Los switches Ethernet operan en el modo de dúplex completo de forma predeterminada, pero pueden funcionar en half-duplex si se conectan a un dispositivo como un dispositivo externo. En la figura 2, se muestra la comunicación de dúplex completo.</li>
+            </ul>
+          </p>
+          <p>Es importante que dos interfaces interconectadas, como la NIC de un host y una interfaz en un switch Ethernet, operen con el mismo modo dúplex. De lo contrario, habrá incompatibilidad de dúplex y se generará ineficiencia y latencia en el enlace. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 is a video that shows a switch and server connected.  This video demonstrates half duplex connections where data can only flow in one direction at a time. Figure 2 is a video that shows a switch and server connected.  This video demonstrates full duplex connections where data can flow in both directions at the same time.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

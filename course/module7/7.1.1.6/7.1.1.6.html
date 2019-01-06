@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.1.6 Conversión de sistema decimal a binario</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.1.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Conversión de sistema decimal a binario</h1>
+        <div>
+          <p>También es necesario comprender cómo convertir una dirección IPv4 decimal punteada a una binaria. La tabla de valores de posición binarios es una herramienta útil. A continuación, se muestra cómo usar la tabla para convertir de sistema decimal a binario:</p>
+          <p>
+            <ul>
+              <li>En la figura 1, se pregunta si el número decimal del octeto (<i>n</i>) es igual o superior al bit más significativo (128). Si no es así, introduzca un valor binario 0 en el valor de posición 128. Si es así, agregue un valor binario 1 al valor de posición 128 y reste 128 del número decimal. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>En la figura 2, se pregunta si el resto (<i>n</i>) es igual o superior al siguiente bit más significativo (64). Si no es así, agregue un valor binario 0 al valor de posición 64, de lo contrario, agregue el valor binario 1 y reste 64 del número decimal. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>En la figura 3, se pregunta si el resto (<i>n</i>) es igual o superior al siguiente bit más significativo (32). Si no es así, agregue un valor binario 0 al valor de posición 32, de lo contrario, agregue el valor binario 1 y reste 32 del número decimal. </li>
+            </ul>
+          </p>
+          <p>En las figuras 4 a 8, continúe evaluando el número decimal hasta que se hayan introducido todos los valores de posición y se obtenga el valor binario equivalente.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figures 1 through 8 are a series of graphics highlighting the positional value of an octet starting with the highest order 128 bit in Figure 1 and ending with the lowest order 1 bit in Figure 8.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

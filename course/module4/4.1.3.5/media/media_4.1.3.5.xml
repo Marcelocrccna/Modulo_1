@@ -1,0 +1,103 @@
+﻿<textcomponents>
+
+	<component id='ID_s1_inst'>
+        <text>
+            <![CDATA[<b>Actividad: Terminología de la capa física</b>]]></text>
+    </component>
+    <component id='ID_s1_instr_title'>
+        <text>
+            <![CDATA[Instructions]]>
+        </text>
+    </component>
+    <component id='ID_s1_instr_body'>
+        <text>
+            <![CDATA[En la tabla, se proporcionan descripciones de la capa física. Arrastre cada término de capa física para unir con su descripción.]]>
+        </text>
+    </component>
+    
+    <component id='ID_s1_txt01'>
+        <text>
+            <![CDATA[Dispositivos de hardware, medios y conectores que transmiten y transportan señales de bits.]]>
+        </text>
+    </component>
+    <component id='ID_s1_txt02'>
+        <text>
+            <![CDATA[Forma en que se representan los 1 y 0 en los medios. Varía según el esquema de codificación.]]>
+        </text>
+    </component>
+    <component id='ID_s1_txt03'>
+        <text>
+            <![CDATA[Duración espaciada de manera uniforme para las señales.]]>
+        </text>
+    </component>
+    <component id='ID_s1_txt04'>
+        <text>
+            <![CDATA[Método para convertir las transmisiones de bits de datos en agrupaciones de bits; predefinido.]]>
+        </text>
+    </component>
+    <component id='ID_s1_txt05'>
+        <text>
+            <![CDATA[Duración espaciada de manera arbitraria para las señales.]]>
+        </text>
+    </component>
+    <component id='ID_s1_txt06'>
+        <text>
+            <![CDATA[Término]]></text>
+    </component>
+    <component id='ID_s1_txt07'>
+        <text>
+            <![CDATA[Descripción de capa física]]></text>
+    </component>
+    <!--Drag and Drop-->
+    <component id='ID_s1_traget01'>
+        <text>
+            <![CDATA[<font color="#393536">Síncrono</font>]]>
+        </text>
+    </component>
+    <component id='ID_s1_traget02'>
+        <text>
+            <![CDATA[<font color="#393536">Método de señalización</font>]]>
+        </text>
+    </component>
+    <component id='ID_s1_traget03'>
+        <text>
+            <![CDATA[<font color="#393536">Codificación de la trama</font>]]>
+        </text>
+    </component>
+    <component id='ID_s1_traget04'>
+        <text>
+            <![CDATA[<font color="#393536">Asíncrono</font>]]>
+        </text>
+    </component>
+    <component id='ID_s1_traget05'>
+        <text>
+            <![CDATA[<font color="#393536">Componentes físicos</font>]]>
+        </text>
+    </component>
+    <component id='ID_s1_CORRECT_TITLE'>
+        <text>
+            <![CDATA[Correcto]]></text>
+    </component>
+    <component id='ID_s1_CORRECT_BODY'>
+        <text>
+            <![CDATA[Ha unido correctamente cada término de capa física con la descripción.]]>
+        </text>
+    </component>
+    <component id='ID_s1_INCORRECT_TITLE'>
+        <text>
+            <![CDATA[Incorrecto]]></text>
+    </component>
+    <component id='ID_s1_INCORRECT_BODY'>
+        <text>
+            <![CDATA[No ha unido correctamente cada término de capa física con la descripción. Haga clic en Restablecer y vuelva a intentarlo.]]>
+        </text>
+    </component>
+    <component id='ID_s1_CHECK'>
+        <text>
+            <![CDATA[Verificar]]></text>
+    </component>
+    <component id='ID_s1_RESET'>
+        <text>
+            <![CDATA[Restablecer]]></text>
+    </component>
+</textcomponents>

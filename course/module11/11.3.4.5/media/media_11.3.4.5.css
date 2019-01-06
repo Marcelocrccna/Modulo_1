@@ -1,0 +1,11 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+#ID_txt08,#ID_txt07,#ID_txt06,#ID_txt05,#ID_txt04,#ID_txt03{line-height:12px;}
+
+#dnd_1_drag_1_0 div,#dnd_1_drag_2_0 div,#dnd_1_drag_5_0 div{
+	line-height: 12px!important;
+}

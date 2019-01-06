@@ -1,0 +1,15 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<b>Tareas de configuración de un switch</b>]]></text>
+    </component>
+    <component id="ID_s1_txt01">
+        <text>
+            <![CDATA[<textformat blockindent='-20'><ul><b>Configurar el nombre del dispositivo</b></textformat></ul><textformat blockindent='1'><ul><li id="space"><b>hostname</b><i>nombre</i></li></ul></textformat><br><textformat blockindent='-20'><ul><b>Proteger el modo EXEC del usuario</b></textformat></ul><textformat blockindent='1'><ul><li id="space"><b>line console 0</b></li><li id="space"><b>password</b> <i>contraseña</i></li><li id="space"><b>login</b></li></ul></textformat><br><textformat blockindent='-20'><ul><b>Proteger el acceso remoto por Telnet y SSH</b></textformat></ul><textformat blockindent='1'><ul><li id="space"><b>line vty 0 15</b></li><li id="space"><b>password</b> <i>contraseña</i></li><li id="space"><b>login</b></li></ul></textformat><br><textformat blockindent='-20'><ul><b>Proteger el modo EXEC privilegiado</b></textformat></ul><textformat blockindent='1'><ul><li id="space"><b>enable secret</b> <i>contraseña</i></li></ul></textformat><br><textformat blockindent='-20'><ul><b>Proteger todas las contraseñas en el archivo de configuración</b></textformat></ul><textformat blockindent='1'><ul><li id="space"><b>service password-encryption</b></li></ul></textformat><br><textformat blockindent='-20'><ul><b>Proporcionar la notificación legal</b></textformat></ul><textformat blockindent='1'><ul><li id="space"><b>banner motd</b> <i>delimitador mensaje delimitador</i></li></ul></textformat><br><textformat blockindent='-20'><ul><b>Configurar la SVI de administración</b></textformat></ul><textformat blockindent='1'><ul><li id="space"><b>interface vlan 1</b></li><li id="space"><b>ip address</b><i>dirección IP máscara de subred</i></li><li id="space"><b>no shutdown</b></li></ul></textformat><br><textformat blockindent='-20'><ul><b>Guardar la configuración</b></textformat></ul><textformat blockindent='1'><ul><li id="space"><b>copy running-config startup-config</b></li></ul></textformat>]]>
+        </text>
+    </component>
+    <component id="ID_s2_title">
+        <text>
+            <![CDATA[<b>Configuración de switch de ejemplo</b>]]></text>
+    </component>
+</textcomponents>

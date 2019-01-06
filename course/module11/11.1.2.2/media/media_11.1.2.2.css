@@ -1,0 +1,10 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+@media only screen and (device-width: 768px) {
+.span1{
+	margin-left: 15px !important;
+}
+}

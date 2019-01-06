@@ -1,0 +1,19 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+#ID_router_txt1{
+margin-left:4px !important;
+
+color:#FFFFFF !important;
+}
+#ID_router_txt1 span{
+color:#f26200;
+font-weight:bold;
+
+}
+#ID_static_6,#ID_static_7,#ID_static_8,#ID_static_15,#ID_static_16,#ID_static_17{
+	font-weight: bold;
+}

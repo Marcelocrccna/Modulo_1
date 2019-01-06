@@ -1,0 +1,56 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+#ID_s1_txt01{
+	border: 2px solid #077A77;
+	border-radius: 5px;
+	background-color: #98D3D1;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+
+#ID_s1_txt02{
+	border: 2px solid #652C8A;
+	border-radius: 5px;
+	background-color: #E0D5E6;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+#ID_s1_txt03{
+	border: 2px solid #7C6D34;
+	border-radius: 5px;
+	background-color: #DAE17A;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+/*.darkGreenCallOut{
+border:2px solid #7C6D34;
+border-radius:5px;
+-moz-border-radius:5px; 
+/*-khtml-border-radius:5px;
+padding:2px 0 3px 3px;
+background:#A2AA23;
+}
+.redCallOut{
+border:2px solid #821729;
+border-radius:5px;
+-moz-border-radius:5px; 
+-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+padding:2px 0 3px 3px;
+background:#DC7183;
+}
+#ID_static_1{letter-spacing:1.3px !important;}
+#ID_static_3{letter-spacing:1.5px !important;}
+#ID_static_6{letter-spacing:1.6px !important;}
+#ID_static_4{letter-spacing:1.3px !important;}
+#ID_static_2{letter-spacing:1px !important;padding-left:3px !important;}*/

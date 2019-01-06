@@ -1,0 +1,60 @@
+﻿<textcomponents>
+
+
+<component id="ID_s1_title">
+		<text><![CDATA[<b>Actividad: Identificación de tipos de direcciones IPv6</b>]]></text>
+	</component>
+
+	<component id="ID_s1_instr_title">
+		<text><![CDATA[Instrucciones]]></text>
+	</component>
+
+	<component id="ID_s1_instr_body">
+		<text><![CDATA[Arrastre el tipo de dirección IPv6 a la descripción que corresponda. ]]></text>
+	</component>
+
+
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Dirección IPv6 única y enrutable de Internet (dinámica o estática)]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[FE80::1]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[2001:db8:ACAD::1/64]]></text>
+	</component>
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Prefijo IPv6 típico que se usa para indicar la porción de red de la dirección]]></text>
+	</component>
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Utilizado para comunicarse con otros dispositivos en la misma subred IPv6]]></text>
+	</component>
+<!--Drag and Drop-->
+	<component id="ID_s1_drag01">
+		<text><![CDATA[<font color="#393536">Unidifusión global</font>]]></text>
+	</component>
+	<component id="ID_s1_drag02">
+		<text><![CDATA[<font color="#393536">Link-local</font>]]></text>
+	</component>
+	<component id="ID_s1_drag03">
+		<text><![CDATA[<font color="#393536">/64</font>]]></text>
+	</component>
+	<component id="ID_s1_CORRECT_TITLE">
+		<text><![CDATA[<b>Correcto</b>]]></text>
+	</component>
+	<component id="ID_s1_CORRECT_BODY">
+		<text><![CDATA[Unió correctamente los tipos de direcciones IPv6 con sus descripciones.]]></text>
+	</component>
+	<component id="ID_s1_INCORRECT_TITLE">
+		<text><![CDATA[<b>Incorrecto</b>]]></text>
+	</component>
+	<component id="ID_s1_INCORRECT_BODY">
+		<text><![CDATA[No unió correctamente los tipos de direcciones IPv6 con sus descripciones. Haga clic en Restablecer y vuelva a intentarlo.]]></text>
+	</component>
+	<component id="ID_s1_CHECK">
+		<text><![CDATA[<b>Verificar</b>]]></text>
+	</component>
+	<component id="ID_s1_RESET">
+		<text><![CDATA[<b>Restablecer</b>]]></text>
+	</component>
+</textcomponents>

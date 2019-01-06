@@ -1,0 +1,14 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+.purpleCallOut1{
+border-radius:5px;
+-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+padding:7px 0px 7px 0px;
+background:#c1abd1;
+}

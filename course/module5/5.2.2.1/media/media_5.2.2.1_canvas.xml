@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide type="MBAR">	
+	<element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_topolgy_multislide.jpg" />
+	<slide>	
+		<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+		<element type="IMAGE" x="0" y="0" width="680" height="490" src="media_5.2.2.1.png" />
+		<element type="TEXT" compId="ID_s1_txt01" x="340.55" y="97.5" width="104.5" expand="up" align="center" />
+		<element type="TEXT" compId="ID_s1_txt02" x="340.55" y="296.5" width="104.5" expand="up" align="center" />
+		<element type="TEXTBOX" bodyId="ID_s1_txt03" x="90" y="142" width="500" height="100"/>
+		<element type="TEXTBOX" bodyId="ID_s1_txt04" x="90" y="342" width="500" height="100"/>
+	</slide>
+	<slide>
+		<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+		<element type="ACTIVITY" subType="ANIMATION" movieClipId="anim02" totalFrames="480"/>
+		<element type="TEXT" compId="ID_s2_txt01" x="126.65" y="244.5" width="91.15" expand="down" align="center" />
+		<element type="TEXT" compId="ID_s2_txt02" x="441" y="244.5" width="91.15" expand="down" align="center" />
+		<element type="TEXT" compId="ID_s2_txt03" x="85.05" y="309.5" width="505.15" expand="down" align="center" class="orangeCallOut" />
+	</slide>
+	</slide>
+</data>

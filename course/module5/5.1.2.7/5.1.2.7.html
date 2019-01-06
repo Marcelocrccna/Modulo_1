@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.1.2.7 Dirección MAC de multidifusión</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.1.2.7_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Dirección MAC de multidifusión</h1>
+        <div>
+          <p>Las direcciones de multidifusión le permiten a un dispositivo de origen enviar un paquete a un grupo de dispositivos. Una dirección IP de grupo de multidifusión se asigna a los dispositivos que pertenecen a un grupo de multidifusión. El intervalo de direcciones IPv4 de multidifusión va de 224.0.0.0 a 239.255.255.255. El rango de direcciones de multidifusión IPv6 comienza con FF00::/8. Debido a que las direcciones de multidifusión representan un grupo de direcciones (a veces denominado “grupo de hosts”), solo se pueden utilizar como el destino de un paquete. El origen siempre tiene una dirección de unidifusión. </p>
+          <p>Las direcciones de multidifusión se pueden usar en juegos remotos, donde muchos jugadores se conectan de manera remota para jugar al mismo juego. Otro uso de las direcciones de multidifusión es el aprendizaje a distancia mediante videoconferencias, donde muchos alumnos están conectados a la misma clase. </p>
+          <p>Al igual que con las direcciones de unidifusión y de difusión, la dirección IP de multidifusión requiere una dirección MAC de multidifusión correspondiente para poder enviar tramas en una red local. La dirección de multidifusión MAC relacionada con una dirección de multidifusión IPv4 es un valor especial que comienza con 01-00-5E en formato hexadecimal. La porción restante de la dirección MAC de multidifusión se crea convirtiendo en seis caracteres hexadecimales los 23 bits inferiores de la dirección IP del grupo de multidifusión. Para una dirección IPv6, la dirección de multidifusión MAC comienza con 33-33.</p>
+          <p>Un ejemplo, como se muestra en la animación, es la dirección hexadecimal de multidifusión 01-00-5E-00-00-C8. El último byte (u 8 bits) de la dirección IPv4 224.0.0.200 es el valor decimal 200. La forma más fácil de ver el equivalente hexadecimal es convertirlo en binario con un espacio cada 4 bits: 200 (decimal) = 1100 1000 (binario). Con la tabla de conversión que se presentó antes, podemos convertirlo en hexadecimal: 1100 1000 (binario) = 0xC8 (hexadecimal). </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">This animation shows several computers connected to a switch.  Host one wants to send a packet to a group of computers (a multicast).  The diagram shows the MAC address and IP address of host 1.  The graphic also shows the frame with source and destination MAC address and the encapsulated packet with source and destination IP address.  The destination IP address is a multicast address (224.0.0.200) and the destination MAC address is special.  It starts with 01-00-5E and ends with the hexadecimal equivalent of the last three octets of the IP multicast address, 00-00-C8.  When the animation plays, the frame travels from host 1 to the selected hosts that are listening to the multicast address.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

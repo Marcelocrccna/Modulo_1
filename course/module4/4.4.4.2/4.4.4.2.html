@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.4.4.2 Campos de trama</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.4.4.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Campos de trama</h1>
+        <div>
+          <p>El tramado rompe la transmisión en agrupaciones descifrables, con la información de control insertada en el encabezado y tráiler como valores en campos diferentes. Este formato brinda a las señales físicas una estructura que pueden recibir los nodos y que se puede decodificar en paquetes en el destino.</p>
+          <p>Como se muestra en la figura, los tipos de campos de trama genéricos incluyen lo siguiente: </p>
+          <p>
+            <ul>
+              <li>
+                <b>Indicadores de arranque y detención de trama:</b> se utilizan para identificar los límites de comienzo y finalización de la trama.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Direccionamiento:</b> indica los nodos de origen y destino en los medios.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Tipo:</b> identifica el protocolo de capa 3 en el campo de datos.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Control</b>: identifica los servicios especiales de control de flujo, como calidad de servicio (QoS). QoS se utiliza para dar prioridad de reenvío a ciertos tipos de mensajes. Las tramas de enlace de datos que llevan paquetes de voz sobre IP (VoIP) suelen recibir prioridad porque son sensibles a demoras. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Datos:</b> incluye el contenido de la trama (es decir, el encabezado del paquete, el encabezado del segmento y los datos).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Detección de errores:</b> estos campos de trama se utilizan para la detección de errores y se incluyen después de los datos para formar el tráiler. </li>
+            </ul>
+          </p>
+          <p>No todos los protocolos incluyen todos estos campos. Los estándares para un protocolo específico de enlace de datos definen el formato real de la trama. </p>
+          <p>Los protocolos de la capa de enlace de datos agregan un tráiler en el extremo de cada trama. El tráiler se utiliza para determinar si la trama llegó sin errores. Este proceso se denomina “detección de errores” y se logra mediante la colocación en el tráiler de un resumen lógico o matemático de los bits que componen la trama. La detección de errores se agrega a la capa de enlace de datos porque las señales en los medios pueden sufrir interferencias, distorsiones o pérdidas que cambien considerablemente los valores de bits que representan esas señales.</p>
+          <p>Un nodo de transmisión crea un resumen lógico del contenido de la trama, conocido como el valor de comprobación de redundancia cíclica (CRC). Este valor se coloca en el campo Secuencia de verificación de la trama (FCS) para representar el contenido de la trama. En el tráiler Ethernet, el FCS proporciona un método para que el nodo receptor determine si la trama experimentó errores de transmisión. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a frame with header, data and trailer.  The header is expanded to show the header fields: Frame start, addressing, type and control.  The trailer is expanded to show the trailer fields: Error detection and frame stop.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

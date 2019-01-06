@@ -1,0 +1,1 @@
+Figure shows a world map labeled with the Regional Internet Registries (RIRs) responsible for assigning IP addresses including: ARIN in North America; LACNIC in South America; RIPE in Europe; APNIC in Asia, Pacific Islands, New Zealand, and Australia; and AfriNIC in Africa. Clicking each label opens a textbox with more information.

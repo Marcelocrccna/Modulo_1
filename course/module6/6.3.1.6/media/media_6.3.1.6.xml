@@ -1,0 +1,36 @@
+<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Interfaces y puertos de administración</b>]]></text>
+	</component>
+	<component id="ID_s1_titleTxt01">
+		<text><![CDATA[<b>interfaces de router en banda</b>]]></text>
+	</component>
+
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[Las son las interfaces de la red LAN (es decir, Gigabit Ethernet) y WAN (es decir, tarjetas de interfaz WAN de alta velocidad mejorada) configuradas con la asignación de direcciones IP para transportar el tráfico de usuarios. Las interfaces Ethernet son las conexiones LAN más frecuentes, mientras que las conexiones WAN comunes incluyen las interfaces seriales y DSL.]]></text>
+	</component>
+	<component id="ID_s1_titleTxt02">
+		<text><![CDATA[<b>puertos de administración</b>]]></text>
+	</component>
+
+	<component id="ID_s1_bodyTxt02">
+		<text><![CDATA[Los incluyen los puertos de consola y auxiliares que se usan para configurar, administrar y solucionar problemas del router. A diferencia de las interfaces de la red LAN y WAN, los puertos de administración no se utilizan para el envío de paquetes de tráfico de usuarios.]]></text>
+	</component>
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Interfaces de router en banda</b>]]></text>
+	</component>
+	<component id="ID_s2_titleTxt01">
+		<text><![CDATA[<b>Interfaces WAN seriales</b>]]></text>
+	</component>
+
+	<component id="ID_s2_bodyTxt01">
+		<text><![CDATA[que se agregan a las eHWIC0 y tienen los rótulos Serial 0 (es decir, S0/0/0) y Serial 1 (es decir, S0/0/1). Las interfaces seriales se usan para conectar los routers a una red WAN externa. Cada interfaz WAN serial tiene su propia dirección IP y su máscara de subred, que la identifican como miembro de una red específica.]]></text>
+	</component>
+	<component id="ID_s2_titleTxt02">
+		<text><![CDATA[<b>Interfaces de la red LAN Ethernet</b>]]></text>
+	</component>
+
+	<component id="ID_s2_bodyTxt02">
+		<text><![CDATA[con los rótulos GE 0/0 (es decir, G0/0) y GE 0/1 (es decir, G0/1). Las interfaces Ethernet se usan para conectarse a otros dispositivos con de Ethernet habilitado, lo que incluye switches, routers, firewalls, etc. Cada interfaz de la red LAN tiene su propia dirección IPv4 y su máscara de subred, o una dirección IPv6 y un prefijo, que la identifican como miembro de una red específica.]]></text>
+	</component>
+</textcomponents>

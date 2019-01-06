@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+    <slide type="MBAR">
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+            <element type="TEXT" subType="TABLE" compId="ID_table" x="40" y="40" width="600" height="400" />
+            <element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF" />
+        </slide>
+        <slide>
+            <element type="IMAGE" x="0" y="0" width="680" height="490" src="../../../common/images/page_backgrounds/bg_tables.jpg" />
+            <element type="ROUTER" textId="ID_router_txt1" x="40" y="84" width="588.95" height="231.5" />
+            <text id="ID_router_txt1">
+                <![CDATA[<pre>C:\> <span class="color"><b>tracert</b></span>
+Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout]
+               [-R] [-S srcaddr] [-4] [-6] target_name
+Options:
+    -d                 Do not resolve addresses to hostnames.
+    -h maximum_hops    Maximum number of hops to search for target.
+    -j host-list       Loose source route along host-list (IPv4-only).
+    -w timeout         Wait timeout milliseconds for each reply.
+    -R                 Trace round-trip path (IPv6-only).
+    -S srcaddr         Source address to use (IPv6-only).
+    -4                 Force using IPv4.
+    -6                 Force using IPv6.
+C:\>
+</pre>]]></text>
+            <element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#FFFFFF" />
+        </slide>
+    </slide>
+</data>

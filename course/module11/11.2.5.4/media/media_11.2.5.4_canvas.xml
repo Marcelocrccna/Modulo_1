@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+<slide type="MBAR">
+    <element type="IMAGE" x="0" y="0" width="680" height="490" src="bg.jpg" />
+	<slide>	
+		
+		<element type="TEXT" subType="TITLE" compId="ID_s1_title" color="#FFFFFF"/>
+		<element type="ROUTER" textId="ID_router_txt1" x="25" y="50" width="626.25" height="420" />
+		
+	</slide>
+	
+	<slide>
+		<element type="TEXT" subType="TITLE" compId="ID_s2_title" color="#FFFFFF"/>
+		
+		
+		<element type="ROUTER" textId="ID_router_txt2" x="40" y="50" width="611.25" height="194.7" />
+		<text id="ID_router_txt2">
+		<![CDATA[<pre>C:\> ping www.cisco.com
+
+Pinging e144.dscb.akamaiedge.net [23.200.16.170] with 32 bytes of data:
+Reply from 23.200.16.170: bytes=32 time=25ms TTL=54
+Reply from 23.200.16.170: bytes=32 time=26ms TTL=54
+Reply from 23.200.16.170: bytes=32 time=25ms TTL=54
+Reply from 23.200.16.170: bytes=32 time=25ms TTL=54
+
+Ping statistics for 23.200.16.170:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 25ms, Maximum = 26ms, Average = 25ms
+
+C:\></pre>]]></text>		
+	</slide>
+
+	
+</slide>
+
+<text id="ID_router_txt1">
+    <![CDATA[<pre><b>C:\> ping /?</b>
+
+Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
+            [-r count] [-s count] [[-j host-list] | [-k host-list]]
+            [-w timeout] [-R] [-S srcaddr] [-4] [-6] target_name
+
+Options:
+    -t             Ping the specified host until stopped.
+                   To see statistics and continue - type Control-Break;
+                   To stop - type Control-C.
+    -a             Resolve addresses to hostnames.
+    -n count       Number of echo requests to send.
+    -l size        Send buffer size.
+    -f             Set Don't Fragment flag in packet (IPv4-only).
+    -i TTL         Time To Live.
+    -v TOS         Type Of Service (IPv4-only. This setting has been deprecated
+                   and has no effect on the type of service field in the IP Header).
+    -r count       Record route for count hops (IPv4-only).
+    -s count       Timestamp for count hops (IPv4-only).
+    -j host-list   Loose source route along host-list (IPv4-only).
+    -k host-list   Strict source route along host-list (IPv4-only).
+    -w timeout     Timeout in milliseconds to wait for each reply.
+    -R             Use routing header to test reverse route also (IPv6-only).
+    -S srcaddr     Source address to use.
+    -4             Force using IPv4.
+    -6             Force using IPv6.
+
+C:\></pre>]]></text>
+	</data>

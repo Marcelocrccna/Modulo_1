@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.4.2.1 Operación en dúplex</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.4.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Operación en dúplex</h1>
+        <div>
+          <p>Cuando se trata de comunicación de datos, dúplex se refiere a la dirección de la transmisión de datos entre dos dispositivos.  Si las comunicaciones se limitan al intercambio de datos en una dirección por vez, esta conexión se denomina semidúplex. El dúplex completo permite el envío y la recepción de datos simultáneamente.</p>
+          <p></p>
+          <p>Para un mejor rendimiento de la comunicación, dos interfaces de red Ethernet conectadas deben funcionar en el mismo modo dúplex para evitar la ineficiencia y la latencia en el enlace.</p>
+          <p></p>
+          <p>La negociación automática de Ethernet se diseñó para facilitar la configuración, para minimizar problemas y maximizar el rendimiento del enlace. Los dispositivos conectados primero anuncian sus capacidades utilizadas y luego eligen el modo de mayor rendimiento soportado por ambos extremos. Por ejemplo, el switch y el router en la ilustración negociaron de manera automática y correcta el modo dúplex completo.</p>
+          <p></p>
+          <p>Surge una discordancia si uno de los dos dispositivos conectados funciona en modo dúplex completo y el otro funciona en modo semidúplex. Si bien la comunicación de datos se realizará a través de un enlace con una discordancia de dúplex, el rendimiento del enlace será muy deficiente. La discordancia de dúplex puede deberse a la configuración manual incorrecta, que configura manualmente los dos dispositivos conectados a diferentes modos dúplex. La discordancia de dúplex también puede producirse cuando se conecta un dispositivo que realiza la negociación automática con otro que está configurado manualmente en dúplex completo. Si bien no es común, la discordancia de dúplex también puede ocurrir debido a la falla de la negociación automática.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a switch connected to a router. The devices have autonegotiated full-duplex.</div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

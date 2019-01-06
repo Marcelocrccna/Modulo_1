@@ -1,0 +1,90 @@
+<textcomponents>
+    <component id="ID_title">
+        <text>
+            <![CDATA[<b>Campos de trama de Ethernet II</b>]]></text>
+    </component>
+    <component id="ID_txt01">
+        <text>
+            <![CDATA[Preámbulo]]>
+        </text>
+    </component>
+    <component id="ID_txt02">
+        <text>
+            <![CDATA[Dirección MAC de destino]]>
+        </text>
+    </component>
+    <component id="ID_txt03">
+        <text>
+            <![CDATA[Dirección MAC de origen]]>
+        </text>
+    </component>
+    <component id="ID_txt04">
+        <text>
+            <![CDATA[EtherType]]>
+        </text>
+    </component>
+    <component id="ID_txt05">
+        <text>
+            <![CDATA[Datos]]>
+        </text>
+    </component>
+    <component id="ID_txt06">
+        <text>
+            <![CDATA[FCS]]>
+        </text>
+    </component>
+    <component id="ID_titleTxt01">
+        <text>
+            <![CDATA[Campos “Preámbulo” y “Delimitador de inicio de trama”]]></text>
+    </component>
+    <component id="ID_bodyTxt01">
+        <text>
+            <![CDATA[Los campos Preámbulo (7 bytes) y Delimitador de inicio de trama (SFD), también llamado “inicio de trama” (1 byte), se utilizan para la sincronización entre los dispositivos emisores y receptores. Estos ocho primeros bytes de la trama se utilizan para captar la atención de los nodos receptores. Básicamente, los primeros bytes le indican al receptor que se prepare para recibir una trama nueva.]]>
+        </text>
+    </component>
+    <component id="ID_titleTxt02">
+        <text>
+            <![CDATA[Campo Dirección MAC de destino]]></text>
+    </component>
+    <component id="ID_bodyTxt02">
+        <text>
+            <![CDATA[Este campo de 6 bytes es el identificador del destinatario deseado. Como recordará, la capa 2 utiliza esta dirección para ayudar a los dispositivos a determinar si la trama está dirigida a ellos. La dirección de la trama se compara con la dirección MAC del dispositivo. Si coinciden, el dispositivo acepta la trama. Puede ser una dirección de unidifusión, de multidifusión o de difusión.]]>
+        </text>
+    </component>
+    <component id="ID_titleTxt03">
+        <text>
+            <![CDATA[Campo Dirección MAC de origen]]></text>
+    </component>
+    <component id="ID_bodyTxt03">
+        <text>
+            <![CDATA[Este campo de 6 bytes identifica la NIC o la interfaz de origen de la trama. Debe ser una dirección de unidifusión.]]>
+        </text>
+    </component>
+    <component id="ID_titleTxt04">
+        <text>
+            <![CDATA[Campo EtherType]]></text>
+    </component>
+    <component id="ID_bodyTxt04">
+        <text>
+            <![CDATA[Este campo de 2 bytes identifica el protocolo de capa superior encapsulado en la trama de Ethernet. Los valores comunes son, en hexadecimal, “0x800” para IPv4, “0x86DD” para IPv6 y “0x806” para ARP.]]>
+        </text>
+    </component>
+    <component id="ID_titleTxt05">
+        <text>
+            <![CDATA[Campo de datos]]></text>
+    </component>
+    <component id="ID_bodyTxt05">
+        <text>
+            <![CDATA[Este campo (de 46 a 1500 bytes) contiene los datos encapsulados de una capa superior, que es una PDU de capa 3 o, más comúnmente, un paquete IPv4. Todas las tramas deben tener, al menos, 64 bytes de longitud. Si se encapsula un paquete pequeño, se utilizan bits adicionales (llamados “relleno”) para aumentar el tamaño de la trama al tamaño mínimo.]]>
+        </text>
+    </component>
+    <component id="ID_titleTxt06">
+        <text>
+            <![CDATA[Campo Secuencia de verificación de trama]]></text>
+    </component>
+    <component id="ID_bodyTxt06">
+        <text>
+            <![CDATA[El campo Secuencia de verificación de trama (FCS) (4 bytes) se utiliza para detectar errores en la trama. Utiliza una comprobación cíclica de redundancia (CRC). El dispositivo emisor incluye los resultados de una CRC en el campo FCS de la trama. El dispositivo receptor recibe la trama y genera una CRC para buscar errores. Si los cálculos coinciden, significa que no se produjo ningún error. Los cálculos que no coinciden indican que los datos cambiaron y, por consiguiente, se descarta la trama. Un cambio en los datos podría ser consecuencia de una interrupción de las señales eléctricas que representan los bits.]]>
+        </text>
+    </component>
+</textcomponents>

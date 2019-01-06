@@ -1,0 +1,52 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Ping a un host remoto</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[<font color="#FFFFFF">¿Se puede alcanzar H2?</font>]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[<b>ping 192.168.30.1</b>]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[<b>Solicitud de eco</b>]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[<font color="#FFFFFF">Sí, aquí estoy.</font>]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[<b>Respuesta de eco</b>]]></text>
+</component>
+
+<!-- controller -->
+
+<component id="end">
+<text><![CDATA[Fin]]></text>
+</component>
+
+<component id="fforward">
+<text><![CDATA[Adelantar]]></text>
+</component>
+
+<component id="pause">
+<text><![CDATA[Pausa]]></text>
+</component>
+
+<component id="play">
+<text><![CDATA[Reproducir]]></text>
+</component>
+
+<component id="rewind">
+<text><![CDATA[Regresar]]></text>
+</component>
+
+<component id="start">
+<text><![CDATA[Inicio]]></text>
+</component>
+
+</textcomponents>

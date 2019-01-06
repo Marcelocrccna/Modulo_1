@@ -1,0 +1,300 @@
+<textcomponents>
+    <!-- slide 1 -->
+    <component id="ID_title">
+        <text>
+            <![CDATA[<b>Cronología de la evolución de Ethernet</b>]]></text>
+    </component>
+    <component id="ID_inst">
+        <text>
+            <![CDATA[Arrastre la barra deslizante por la línea de tiempo para ver la forma en que los estándares de Ethernet se desarrollaron con el tiempo.]]>
+        </text>
+    </component>
+    <component id="ID_year">
+        <text>
+            <![CDATA[Año]]>
+        </text>
+    </component>
+    <component id="ID_standard">
+        <text>
+            <![CDATA[Estándar]]>
+        </text>
+    </component>
+    <component id="ID_description">
+        <text>
+            <![CDATA[Descripción]]>
+        </text>
+    </component>
+    <component id="ID_C1R1">
+        <text>
+            <![CDATA[Ethernet]]>
+        </text>
+    </component>
+    <component id="ID_C1R2">
+        <text>
+            <![CDATA[Estándar DIX<br>Ethernet II]]>
+        </text>
+    </component>
+    <component id="ID_C1R3">
+        <text>
+            <![CDATA[IEEE 802.3<br>10 BASE-5]]>
+        </text>
+    </component>
+    <component id="ID_C1R4">
+        <text>
+            <![CDATA[IEEE 802.3a<br>10 BASE-2]]>
+        </text>
+    </component>
+    <component id="ID_C1R5">
+        <text>
+            <![CDATA[IEEE 802.3i<br>10 BASE-T]]>
+        </text>
+    </component>
+    <component id="ID_C1R6">
+        <text>
+            <![CDATA[IEEE 802.3j<br>10 BASE-F]]>
+        </text>
+    </component>
+    <component id="ID_C1R7">
+        <text>
+            <![CDATA[IEEE 802.3u<br>100 BASE-xx]]>
+        </text>
+    </component>
+    <component id="ID_C1R8">
+        <text>
+            <![CDATA[IEEE 802.3z<br>1000 BASE-X]]>
+        </text>
+    </component>
+    <component id="ID_C1R9">
+        <text>
+            <![CDATA[IEEE 802.3ab<br>1000 BASE-T]]>
+        </text>
+    </component>
+    <component id="ID_C1R10">
+        <text>
+            <![CDATA[IEEE 802.3ae<br>10G BASE-xx]]>
+        </text>
+    </component>
+    <component id="ID_C1R11">
+        <text>
+            <![CDATA[IEEE 802.3an<br>10G BASE-T]]>
+        </text>
+    </component>
+    <component id="ID_C1R12">
+        <text>
+            <![CDATA[El Dr. Robert Metcalf, de Xerox Corp., inventa Ethernet.]]>
+        </text>
+    </component>
+    <component id="ID_C1R13">
+        <text>
+            <![CDATA[Digital Equipment Corp., Intel y Xerox (DIX) lanzan un estándar para Ethernet de 10 Mb/s por cable coaxial.]]>
+        </text>
+    </component>
+    <component id="ID_C1R14">
+        <text>
+            <![CDATA[Ethernet de 10 Mb/s por cable coaxial grueso]]>
+        </text>
+    </component>
+    <component id="ID_C1R15">
+        <text>
+            <![CDATA[Ethernet de 10 Mb/s por cable coaxial delgado]]>
+        </text>
+    </component>
+    <component id="ID_C1R16">
+        <text>
+            <![CDATA[Ethernet de 10 Mb/s por par trenzado (TP)]]>
+        </text>
+    </component>
+    <component id="ID_C1R17">
+        <text>
+            <![CDATA[Ethernet de 10 Mb/s por fibra óptica]]>
+        </text>
+    </component>
+    <component id="ID_C1R18">
+        <text>
+            <![CDATA[Fast Ethernet: Ethernet de 100 Mb/s por par trenzado (TP) y fibra óptica (varios estándares)]]>
+        </text>
+    </component>
+    <component id="ID_C1R19">
+        <text>
+            <![CDATA[Gigabit Ethernet por fibra óptica]]>
+        </text>
+    </component>
+    <component id="ID_C1R20">
+        <text>
+            <![CDATA[Gigabit Ethernet por par trenzado]]>
+        </text>
+    </component>
+    <component id="ID_C1R21">
+        <text>
+            <![CDATA[10 Gigabit Ethernet por fibra óptica (varios estándares)]]>
+        </text>
+    </component>
+    <component id="ID_C1R22">
+        <text>
+            <![CDATA[10 Gigabit Ethernet por par trenzado (TP)]]>
+        </text>
+    </component>
+    <component id="ID_C1R23">
+<text><![CDATA[802.3at (POE)]]></text>
+</component>
+
+<component id="ID_C1R24">
+<text><![CDATA[Power over Ethernet enhancements]]></text>
+</component>
+
+<component id="ID_C1R25">
+<text><![CDATA[100GbE and 40GbE]]></text>
+</component>
+
+<component id="ID_C1R26">
+<text><![CDATA[100G/40G for Optical Fiber]]></text>
+</component>
+
+<component id="ID_C1R27">
+<text><![CDATA[2.5GBASE-T and 5GBASE-T]]></text>
+</component>
+
+<component id="ID_C1R28">
+<text><![CDATA[2.5 Gigabit and 5 Gigabit Ethernet over twisted pair]]></text>
+</component>
+
+    <component id="yr1">
+        <text>
+            <![CDATA[1973]]>
+        </text>
+    </component>
+    <component id="yr2">
+        <text>
+            <![CDATA[1980]]>
+        </text>
+    </component>
+    <component id="yr3">
+        <text>
+            <![CDATA[1983]]>
+        </text>
+    </component>
+    <component id="yr4">
+        <text>
+            <![CDATA[1985]]>
+        </text>
+    </component>
+    <component id="yr5">
+        <text>
+            <![CDATA[1990]]>
+        </text>
+    </component>
+    <component id="yr6">
+        <text>
+            <![CDATA[1993]]>
+        </text>
+    </component>
+    <component id="yr7">
+        <text>
+            <![CDATA[1995]]>
+        </text>
+    </component>
+    <component id="yr8">
+        <text>
+            <![CDATA[1998]]>
+        </text>
+    </component>
+    <component id="yr9">
+        <text>
+            <![CDATA[1999]]>
+        </text>
+    </component>
+    <component id="yr10">
+        <text>
+            <![CDATA[2002]]>
+        </text>
+    </component>
+    <component id="yr11">
+        <text>
+            <![CDATA[2006]]>
+        </text>
+    </component>
+    <component id="yr12">
+<text><![CDATA[2009]]></text>
+</component>
+<component id="yr13">
+<text><![CDATA[2015]]></text>
+</component>
+<component id="yr14">
+<text><![CDATA[2016]]></text>
+</component>
+    <!-- slide 2 -->
+    <component id="ID_s2_title">
+        <text>
+            <![CDATA[<b>Estructura de trama y tamaño de campo de Ethernet II</b>]]></text>
+    </component>
+    <component id="ID_s2_txt01">
+        <text>
+            <![CDATA[Tamaño de campo en bytes]]>
+        </text>
+    </component>
+    <component id='ID_s2_table01'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr>
+			<td colspan='7' bgcolor='#98D3D1' class="mtitle"><font size='11' color="#1C3635"><b >IEEE 802.3</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='7' bgcolor='#0E6360' class="mtable_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+		</tr>		 
+		<tr>
+			<td bgcolor='#077A77'><font color='#FFFFFF'>7</font></td>
+			<td bgcolor='#077A77'><font color='#FFFFFF'>1</font></td>
+			<td bgcolor='#077A77' width="65"><font color='#FFFFFF'>6</font></td>
+			<td bgcolor='#077A77'><font color='#FFFFFF'>6</font></td>
+			<td bgcolor='#077A77'><font color='#FFFFFF'>2</font></td>
+			<td bgcolor='#077A77' width="60"><font color='#FFFFFF'>46 a 1500</font></td>
+			<td bgcolor='#077A77'><font color='#FFFFFF'>4</font></td>
+		</tr>
+		<tr>
+		<td bgcolor='#EFF8F7'>Preámbulo</td>
+		<td bgcolor='#EFF8F7'>Delimitador de inicio de trama</td>
+		<td bgcolor='#EFF8F7'>Dirección de destino</td>
+		<td bgcolor='#EFF8F7'>Dirección de origen</td>
+		<td bgcolor='#EFF8F7'>Longitud</td>
+		<td bgcolor='#EFF8F7'>Encabezado y datos 802.2</td>
+		<td bgcolor='#EFF8F7'>Secuencia de verificación de trama</td>
+	</tr>
+	</table>]]>
+        </text>
+    </component>
+    <component id='ID_table'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+				<tr class="mtable_title">
+					<td colspan="6" bgcolor='#FFFFFF'><font size="14"><b>Ethernet II</b></font></td>
+				</tr>
+
+				<tr class="mtable_top">
+					<td colspan='6' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+				</tr>
+							  
+				<tr>
+					 
+					<td width='auto'  bgcolor='#666263' valign="top" class="mtitle"><font  color='#ffffff'><b>8 Bytes</b></font></td>
+					<td width='auto'  bgcolor='#666263' valign="top" class="mtitle"><font  color='#ffffff'><b>6 Bytes</b></font></td>
+					<td width='auto'  bgcolor='#666263' valign="top" class="mtitle"><font  color='#ffffff'><b>6 Bytes</b></font></td>
+					<td width='auto'  bgcolor='#666263' valign="top" class="mtitle"><font  color='#ffffff'><b>2 Bytes</b></font></td>
+					<td width='auto'  bgcolor='#666263' valign="top" class="mtitle"><font  color='#ffffff'><b>46 a 1500 bytes</b></font></td>
+					<td width='auto'  bgcolor='#666263' valign="top" class="mtitle"><font  color='#ffffff'><b>4 Bytes</b></font></td>
+				</tr>
+				<tr>
+
+					<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Preámbulo</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Dirección de destino</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Dirección de origen</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Tipo</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Datos</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Secuencia <br/>de verificación de trama</font></td>
+				</tr>
+				
+				
+			</table>
+			]]>
+        </text>
+    </component>
+</textcomponents>

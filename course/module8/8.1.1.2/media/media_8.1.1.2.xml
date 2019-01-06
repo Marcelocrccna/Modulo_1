@@ -1,0 +1,23 @@
+<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Un dominio de difusión amplio</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[<b>LAN 1: 172.16.0.0/16</b><br/>(400 usuarios)]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Internet]]></text>
+	</component>
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Comunicación entre redes</b>]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[<b>LAN 1: 172.16.<font color="#941D23">0</font>.0/24</b><br/>(200 usuarios)]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[Internet]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[<b>LAN 2: 172.16.<font color="#941D23">1</font>.0/24</b><br/>(200 usuarios)]]></text>
+	</component>
+</textcomponents>

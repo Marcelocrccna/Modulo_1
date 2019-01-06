@@ -1,0 +1,1 @@
+Figure 1 is output from the ‘debug ip icmp’ command. Figure 2 is a syntax checker activity.

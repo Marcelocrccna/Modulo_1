@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.3.2.2 Comando extended traceroute</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.3.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Comando extended traceroute</h1>
+        <div>
+          <p>Diseñado como variante del comando <b>traceroute</b>, el comando <b>traceroute</b> extendido permite que el administrador ajuste los parámetros relacionados con el funcionamiento del comando. Esto es útil para solucionar problemas de bucles de routing, determinar el router de siguiente salto, o ayudar a determinar dónde los paquetes son descartados por un router o denegados por un firewall. Si bien el comando <b>ping</b> extendido se puede utilizar para determinar el tipo de problema de conectividad, el comando <b>traceroute</b> extendido es útil para localizar el problema.</p>
+          <p></p>
+          <p>El mensaje de error de tiempo superado de ICMP indica que un router en la ruta ha visto y ha descartado el paquete. El mensaje de error de destino inalcanzable de ICMP indica que un router recibió el paquete, pero lo descartó porque no podía enviarse. Al igual que ping, traceroute utiliza solicitudes de eco ICMP y respuestas de eco. Si expira el temporizador ICMP antes de que se reciba una respuesta de eco ICMP, el resultado del comando <b>traceroute</b> muestra un asterisco (*).</p>
+          <p></p>
+          <p>En IOS, el comando traceroute extendido finaliza en cualquiera de los siguientes casos:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>El destino responde con una respuesta de eco ICMP</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>El usuario interrumpe el seguimiento con la secuencia de escape</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>
+            <b>Nota</b>: En IOS, puede invocar esta secuencia de escape presionando <b>Ctrl+Shift+6</b>. En Windows, la secuencia de escape se invoca presionando <b>Ctrl+C.</b></p>
+          <p></p>
+          <p>Para utilizar el comando traceroute <b>extendido</b>, solo debe escribir <b>traceroute</b>, sin introducir ningún parámetro, y presionar <b>ENTER</b>. IOS lo guiará en las opciones de comando presentando varios indicadores relacionados con la configuración de todos los parámetros diferentes. En la Figura 1, se muestran las opciones de <b>traceroute</b> extendido y sus respectivas descripciones.</p>
+          <p></p>
+          <p>Aunque el comando <b>tracert</b> de Windows permite introducir varios parámetros, no es guiado y se debe ejecutar a través de opciones en la línea de comandos. En la Figura 2, se muestran las opciones disponibles para <b>tracert</b> en Windows.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 is a table describing each of IOS traceroute options. Figure 2 shows the tracert options on a Windows machine </div>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>
